@@ -10,7 +10,7 @@ url: /cli-labyrinth/
 image : "/img/cli-labyrinth.png"
 #Description  : "The Markdown Guide is a free and open-source reference guide that explains how to use Markdown, the simple and easy-to-use..."
 ---
-![](/img/cli-labyrinth.png)
+![](/images/cli-labyrinth.png)
 
 One of the very first games I ever played on a home computer was a maze game called Labyrinth on the Sinclair ZX81. So when I wanted to learn Golang and delve a little deeper into terminal development I decided to start with a simple maze game that could be run in a shell on the Linux command line.
 

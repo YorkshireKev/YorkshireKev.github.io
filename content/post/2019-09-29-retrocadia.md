@@ -2,7 +2,8 @@
 author: Kev
 categories:
 - Games
-date: "2019-09-29T00:00:00Z"
+date: "2019-09-29"
+lastmod: "2019-10-10"
 tags:
 - godot
 title: Godot Experiment no. 1, Retrocadia
