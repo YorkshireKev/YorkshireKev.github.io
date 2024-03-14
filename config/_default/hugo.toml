@@ -1,0 +1,83 @@
+theme = 'lightbi-hugo'
+title = "Kev's Site"
+baseURL = 'http://www.kevssite.com'
+languageCode = 'en-us'
+
+[Params]
+#selfHosted = true
+mainSections = ["post","posts"]
+#dateFormat = "January 2 2000"
+comments = false
+readingTime = false
+wordCount = false
+useHLJS = true
+socialShare = false
+delayDisqus = true
+showRelatedPosts = true
+summaryLength  = "9"
+lunrSearch = true
+gcse = false
+lastmod = true
+rss = false
+pagination = "10"
+hideAuthor = false
+#authorInfo = "I'm Kev, From Yorkshire, England."
+description="Programming experiments, useful snippets and the odd devlog."
+previewCardImagePlacement = "middle"
+author.name = "Kevin Ellis"
+since = "2009"
+
+[author]
+website = "https://www.kevssite.com/"
+#email = "sample@gmail.com"
+#facebook = "username"
+#instagram = "username"
+youtube = "@kevschannel" # user/username or channel/channelname
+twitter = "YorkshireKev"
+#threads = "username"
+linkedin = "elliskevin"
+github = "YorkshireKev"
+#gitlab = "username"
+#bitbucket = "username"
+#reddit = "username"
+#xing = "username"
+#stackoverflow = "users/XXXXXXX/username"
+#snapchat = "username"
+#soundcloud = "username"
+#spotify = "username"
+#bandcamp = "username"
+#itchio = "username"
+#vk = "username"
+#paypal = "username"
+#telegram = "username"
+#500px = "username"
+#codepen = "username"
+#mastodon = "url"
+#kaggle = "username"
+#weibo = "username"
+#slack = "username"
+
+[[menu.main]]
+    name = "Posts"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Games"
+    url = "/categories/games/"
+    weight = 2
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
+[[menu.main]]
+    name = "Categories"
+    url = "/Categories/"
+    weight = 4
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 5
