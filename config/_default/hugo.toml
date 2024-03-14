@@ -2,6 +2,7 @@ theme = 'lightbi-hugo'
 title = "Kev's Site"
 baseURL = 'http://www.kevssite.com'
 languageCode = 'en-us'
+publishDir = "docs"
 
 [Params]
 #selfHosted = true
