@@ -26,3 +26,5 @@ When pushing a change to the published site, run:
   git commit -m ...
   git push origin main
   
+If you do want to push the source changes at the same time as the published site, then remember to run ./build.sh
+BEFORE git status and git add -A else you'll end up with loads of temp files in /docs !!

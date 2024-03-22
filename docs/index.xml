@@ -435,5 +435,12 @@
       <guid>http://www.kevssite.com/about/</guid>
       <description>Welcome to my humble corner of the web. This site originally began as a sort of world readable note pad of my Linux and IT related tinkering. I figured that some of it might be useful to other Linux enthusiasts, so I made the site public.&#xA;I make no apologies for the obvious bias towards Linux and open source software. I believe freedom in software is a truly great thing.</description>
     </item>
+    <item>
+      <title>bloxed</title>
+      <link>http://www.kevssite.com/bloxed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/bloxed/</guid>
+      <description>Placeholder for sitemap generation</description>
+    </item>
   </channel>
 </rss>
