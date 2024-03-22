@@ -1,7 +1,7 @@
 ---
 author: Kev
 categories:
-- Xen virtualization
+- Xen
 date: "2010-10-27T00:00:00Z"
 dsq_needs_sync:
 - 1

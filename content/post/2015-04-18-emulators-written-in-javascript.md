@@ -3,6 +3,11 @@ author: Kev
 date: "2015-04-18T00:00:00Z"
 dsq_needs_sync:
 - 1
+categories:
+- Programming
+- Retro
+tags:
+- javascript
 redirect_from: /2015/04/18/emulators-written-in-javascript/
 title: Emulators written in JavaScript
 url: /emulators-written-in-javascript/

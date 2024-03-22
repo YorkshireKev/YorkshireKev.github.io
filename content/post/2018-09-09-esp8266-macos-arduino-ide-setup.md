@@ -4,6 +4,12 @@ date: "2018-09-09T00:00:00Z"
 description: ESP8266 MacOS Arduino IDE Setup
 dsq_needs_sync:
 - 1
+categories:
+- Programming
+- Electronics
+tags:
+- arduino
+- esp8266
 title: ESP8266 MacOS Arduino IDE Setup
 url: /esp8266-macos-arduino-ide-setup
 ---

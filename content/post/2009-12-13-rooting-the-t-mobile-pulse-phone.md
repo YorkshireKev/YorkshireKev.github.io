@@ -12,7 +12,7 @@ tags:
 - Android
 - phone
 - rooting
-- t mobile
+- t-mobile
 title: Rooting the T Mobile Pulse phone
 url: /rooting-the-t-mobile-pulse-phone/
 ---

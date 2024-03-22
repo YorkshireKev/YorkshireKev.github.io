@@ -9,9 +9,8 @@ redirect_from: /2010/11/02/mini-itx-mythtv-frontend/
 syntaxhighlighter_encoded:
 - 1
 tags:
-- ion
-- mini atx
-- mythtv frontend
+- mini-atx
+- mythtv
 title: Mini ITX MythTV Frontend
 url: /mini-itx-mythtv-frontend/
 ---

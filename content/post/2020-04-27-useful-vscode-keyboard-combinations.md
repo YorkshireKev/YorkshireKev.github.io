@@ -3,6 +3,11 @@ author: YorkshireKev
 date: "2020-04-27T00:00:00Z"
 dsq_needs_sync:
 - 1
+categories:
+- Programming
+tags:
+- vscode
+- ide
 title: Useful VS Code Keyboard Combinations
 url: /useful-vscode-keyboard-combinations/
 ---

@@ -3,6 +3,11 @@ author: YorkshireKev
 date: "2016-12-02T00:00:00Z"
 dsq_needs_sync:
 - 1
+categories:
+- Docker
+- Programming
+tags:
+- docker
 redirect_from: /2016/12/02/useful-docker-commands/
 title: Useful Docker Commands
 url: /useful-docker-commands/

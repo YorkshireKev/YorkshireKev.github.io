@@ -1,12 +1,12 @@
 ---
 author: Kev
 categories:
-- Retro Computing
+- Retro
 date: "2010-05-18"
 redirect_from: /2010/05/18/matthew-smith-interview/
 tags:
-- jet set willy
-- manic miner
+- jet-set-willy
+- manic-miner
 - spectrum
 - styx
 title: Matthew Smith Interview

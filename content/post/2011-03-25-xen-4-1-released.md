@@ -1,7 +1,7 @@
 ---
 author: Kev
 categories:
-- Xen virtualization
+- Xen
 date: "2011-03-25T00:00:00Z"
 dsq_needs_sync:
 - 1
@@ -9,7 +9,7 @@ redirect_from: /2011/03/25/xen-4-1-released/
 syntaxhighlighter_encoded:
 - 1
 tags:
-- Xen virtualization
+- Xen
 title: Xen 4.1 released
 url: /xen-4-1-released/
 ---

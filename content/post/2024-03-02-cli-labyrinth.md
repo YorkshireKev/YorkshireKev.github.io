@@ -5,10 +5,11 @@ categories:
 date: "2024-03-02"
 tags:
 - linux
+- cli
+- ssh
 title: CLI-Labyrinth
 url: /cli-labyrinth/
 image : "/img/cli-labyrinth.png"
-#Description  : "The Markdown Guide is a free and open-source reference guide that explains how to use Markdown, the simple and easy-to-use..."
 ---
 ![](/images/cli-labyrinth.png)
 

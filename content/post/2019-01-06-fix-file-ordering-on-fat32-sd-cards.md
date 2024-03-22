@@ -4,6 +4,10 @@ date: "2019-01-06T00:00:00Z"
 description: How to fix the file listing order on fat32 sd cards
 dsq_needs_sync:
 - 1
+categories:
+- Linux
+tags:
+- sd-card
 title: Fix file ordering on fat32 sd cards
 url: /fix-file-ordering-on-fat32-sd-cards/
 ---

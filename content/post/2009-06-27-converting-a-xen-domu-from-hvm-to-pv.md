@@ -1,7 +1,7 @@
 ---
 author: Kev
 categories:
-- Xen virtualization
+- Xen
 date: "2009-06-27T00:00:00Z"
 dsq_needs_sync:
 - 1
@@ -10,7 +10,7 @@ tags:
 - hvm
 - paravirtual
 - pv
-- Xen virtualization
+- Xen
 title: Converting a XEN DOMU from HVM to PV
 url: /converting-a-xen-domu-from-hvm-to-pv/
 ---

@@ -4,6 +4,8 @@ date: "2016-01-09T00:00:00Z"
 dsq_needs_sync:
 - 1
 redirect_from: /2016/02/09/mac-os-maximize-window/
+categories:
+- Mac
 title: Maximizing a window on a MacBook
 url: /mac-os-maximize-window/
 ---

@@ -2,7 +2,7 @@
 author: Kev
 categories:
 - Linux
-- Xen virtualization
+- Xen
 date: "2009-06-14T00:00:00Z"
 dsq_needs_sync:
 - 1
@@ -12,7 +12,7 @@ syntaxhighlighter_encoded:
 tags:
 - domu
 - hvm
-- Xen virtualization
+- Xen
 title: Installing a XEN hvm DOMU
 url: /installing-a-xen-hvm-domu/
 ---

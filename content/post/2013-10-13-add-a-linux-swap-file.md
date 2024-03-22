@@ -9,7 +9,7 @@ dsq_needs_sync:
 - 1
 redirect_from: /2013/10/13/add-a-linux-swap-file/
 tags:
-- swapfile
+- swap
 title: Add a Linux swap file
 url: /add-a-linux-swap-file/
 ---

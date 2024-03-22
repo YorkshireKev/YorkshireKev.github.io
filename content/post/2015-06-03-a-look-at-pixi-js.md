@@ -3,6 +3,8 @@ author: Kev
 date: "2015-06-03T00:00:00Z"
 categories:
 - Games
+tags:
+- javascript
 dsq_needs_sync:
 - 1
 redirect_from: /2015/06/03/a-look-at-pixi-js/

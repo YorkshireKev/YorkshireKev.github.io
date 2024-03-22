@@ -9,11 +9,10 @@ redirect_from: /2011/09/23/extracting-ssh-keys-from-a-java-keystore-jks-file/
 syntaxhighlighter_encoded:
 - 1
 tags:
-- java keystore
-- private key
-- public key
+- keystore
 - ssh
 - ssl
+- java
 title: Extracting SSH keys from a Java keystore (jks) file
 url: /extracting-ssh-keys-from-a-java-keystore-jks-file/
 ---

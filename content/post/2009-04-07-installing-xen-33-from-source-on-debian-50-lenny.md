@@ -1,7 +1,7 @@
 ---
 author: Kev
 categories:
-- Xen virtualization
+- Xen
 date: "2009-04-07T00:00:00Z"
 dsq_needs_sync:
 - 1
@@ -10,10 +10,8 @@ syntaxhighlighter_encoded:
 - 1
 tags:
 - debian
-- lenny
-- xen 3.3.1
-- xen compile
-- Xen virtualization
+- xen
+- virtualization
 title: Installing Xen 3.3.1 from source on Debian 5.0 (Lenny)
 url: /installing-xen-33-from-source-on-debian-50-lenny/
 ---

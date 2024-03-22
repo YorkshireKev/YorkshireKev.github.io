@@ -8,8 +8,8 @@ dsq_needs_sync:
 redirect_from: /2009/04/28/how-to-set-up-a-linux-raid-mirror/
 tags:
 - raid
-- raid 1
-- software raid
+- raid-1
+- raid
 title: How to set up a Linux RAID mirror
 url: /how-to-set-up-a-linux-raid-mirror/
 ---

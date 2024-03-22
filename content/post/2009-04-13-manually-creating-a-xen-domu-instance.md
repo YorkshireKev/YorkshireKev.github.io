@@ -2,14 +2,14 @@
 author: Kev
 categories:
 - Linux
-- Xen virtualization
+- Xen
 date: "2009-04-13T00:00:00Z"
 redirect_from: /2009/04/13/manually-creating-a-xen-domu-instance/
 syntaxhighlighter_encoded:
 - 1
 tags:
 - domu
-- Xen virtualization
+- Xen
 title: Manually creating a Xen DOMU instance
 url: /manually-creating-a-xen-domu-instance/
 ---

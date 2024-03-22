@@ -3,6 +3,12 @@ author: YorkshireKev
 date: "2016-12-06T00:00:00Z"
 dsq_needs_sync:
 - 1
+categories:
+- Docker
+- Programming
+- Electronics
+tags:
+- arduino
 redirect_from: /2016/12/06/macos-sierra-driver-for-arduino-clones-ch340g/
 title: Using cheap arduino clones with macOS Sierra
 url: /macos-sierra-driver-for-arduino-clones-ch340g/

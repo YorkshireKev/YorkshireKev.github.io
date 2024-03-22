@@ -3,7 +3,7 @@ author: Kev
 categories:
 - Linux
 - Programming
-- Viewpoint
+- Commentry
 date: "2013-10-08T00:00:00Z"
 dsq_needs_sync:
 - 1
@@ -14,7 +14,7 @@ tags:
 - Bitbucket
 - Git
 - Github
-- source code
+- source-code
 - Subversion
 title: Github vs Bitbucket
 url: /github-vs-bitbucket/

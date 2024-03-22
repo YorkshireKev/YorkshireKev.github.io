@@ -9,7 +9,7 @@ redirect_from: /2014/01/04/connect-to-postgresql-using-an-ssh-tunnel/
 tags:
 - postgres
 - postgresql
-- ssh tunnel
+- ssh
 title: Connect to PostgreSQL using an SSH tunnel
 url: /connect-to-postgresql-using-an-ssh-tunnel/
 ---

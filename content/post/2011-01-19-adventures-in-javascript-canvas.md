@@ -2,7 +2,7 @@
 author: Kev
 categories:
 - Programming
-- Retro Computing
+- Retro
 date: "2011-01-19T00:00:00Z"
 description: Very simple Jumping Jack zx Spectrum remake written in JavaScript. Written
   as a programming learning exercise.

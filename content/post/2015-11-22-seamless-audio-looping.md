@@ -3,6 +3,10 @@ author: YorkshireKev
 date: "2015-11-22T00:00:00Z"
 dsq_needs_sync:
 - 1
+categories:
+- Programming
+tags:
+- javascript
 redirect_from: /2015/11/22/seamless-audio-looping/
 title: Seamless audio looping in html5 JavaScript
 url: /seamless-audio-looping/

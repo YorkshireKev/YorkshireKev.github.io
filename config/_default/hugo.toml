@@ -59,7 +59,7 @@ github = "YorkshireKev"
 #slack = "username"
 
 [[menu.main]]
-    name = "Posts"
+    name = "Home"
     url = "/"
     weight = 1
 

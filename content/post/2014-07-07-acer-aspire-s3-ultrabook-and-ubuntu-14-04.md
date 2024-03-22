@@ -2,13 +2,13 @@
 author: Kev
 categories:
 - Linux
-- Viewpoint
+- Commentry
 date: "2014-07-07T00:00:00Z"
 dsq_needs_sync:
 - 1
 redirect_from: /2014/07/07/acer-aspire-s3-ultrabook-and-ubuntu-14-04/
 tags:
-- acer s3
+- acer
 - aspire
 - laptop
 - ubuntu

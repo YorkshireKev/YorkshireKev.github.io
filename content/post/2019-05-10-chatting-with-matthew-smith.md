@@ -1,14 +1,15 @@
 ---
 author: Kev
 categories:
-- Retro Computing
+- Retro
+- Commentry
 date: "2019-05-10T00:00:00Z"
 tags:
-- jet set willy
-- manic miner
+- jet-set-willy
+- manic-miner
 - spectrum
 - styx
-- matthew smith
+- matthew-smith
 title: Chatting with Matthew Smith
 url: /chatting-with-matthew-smith/
 ---

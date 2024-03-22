@@ -1,7 +1,7 @@
 ---
 author: Kev
 categories:
-- linux
+- Linux
 date: "2022-02-26T00:00:00Z"
 tags:
 - fxhome

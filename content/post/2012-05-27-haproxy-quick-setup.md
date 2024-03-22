@@ -10,7 +10,7 @@ syntaxhighlighter_encoded:
 - 1
 tags:
 - haproxy
-- reverse proxy
+- proxy
 - router
 title: HAPROXY quick setup
 url: /haproxy-quick-setup/

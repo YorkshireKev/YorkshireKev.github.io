@@ -8,7 +8,7 @@ dsq_needs_sync:
 redirect_from: /2012/08/25/dv-firewire-1394-camcorder-with-dvgrab/
 tags:
 - 1394
-- Camcorder
+- camcorder
 - dvgrab
 - firewire
 title: Downloading from DV firewire 1394 camcorder with dvgrab

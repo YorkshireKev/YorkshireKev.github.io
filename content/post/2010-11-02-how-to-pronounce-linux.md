@@ -9,7 +9,7 @@ redirect_from: /2010/11/02/how-to-pronounce-linux/
 syntaxhighlighter_encoded:
 - 1
 tags:
-- Linus Torvalds
+- Linus-Torvalds
 title: How to pronounce Linux
 url: /how-to-pronounce-linux/
 ---
