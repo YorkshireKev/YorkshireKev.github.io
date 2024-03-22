@@ -5,6 +5,9 @@
     <loc>http://www.kevssite.com/categories/</loc>
     <lastmod>2024-03-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://www.kevssite.com/tags/cli/</loc>
+    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://www.kevssite.com/cli-labyrinth/</loc>
     <lastmod>2024-03-02T00:00:00+00:00</lastmod>
   </url><url>
@@ -18,6 +21,9 @@
     <lastmod>2024-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/post/</loc>
+    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.kevssite.com/tags/ssh/</loc>
     <lastmod>2024-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/tags/</loc>
@@ -44,13 +50,28 @@
     <loc>http://www.kevssite.com/central-cavern/</loc>
     <lastmod>2020-08-21T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://www.kevssite.com/tags/ide/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.kevssite.com/categories/programming/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://www.kevssite.com/useful-vscode-keyboard-combinations/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.kevssite.com/tags/vscode/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/retrocadia/</loc>
     <lastmod>2019-10-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://www.kevssite.com/tags/javascript/</loc>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://www.kevssite.com/chatting-with-matthew-smith/</loc>
+    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.kevssite.com/categories/commentry/</loc>
     <lastmod>2019-05-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/tags/jet-set-willy/</loc>
@@ -62,7 +83,7 @@
     <loc>http://www.kevssite.com/tags/matthew-smith/</loc>
     <lastmod>2019-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.kevssite.com/categories/retro-computing/</loc>
+    <loc>http://www.kevssite.com/categories/retro/</loc>
     <lastmod>2019-05-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/tags/spectrum/</loc>
@@ -74,17 +95,38 @@
     <loc>http://www.kevssite.com/fix-file-ordering-on-fat32-sd-cards/</loc>
     <lastmod>2019-01-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://www.kevssite.com/tags/sd-card/</loc>
+    <lastmod>2019-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.kevssite.com/tags/arduino/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.kevssite.com/categories/electronics/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.kevssite.com/tags/esp8266/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://www.kevssite.com/esp8266-macos-arduino-ide-setup/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/arduino-power-consumption-delay-vs-sleep/</loc>
     <lastmod>2017-01-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://www.kevssite.com/categories/docker/</loc>
+    <lastmod>2016-12-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://www.kevssite.com/macos-sierra-driver-for-arduino-clones-ch340g/</loc>
     <lastmod>2016-12-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://www.kevssite.com/tags/docker/</loc>
+    <lastmod>2016-12-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://www.kevssite.com/useful-docker-commands/</loc>
     <lastmod>2016-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.kevssite.com/categories/mac/</loc>
+    <lastmod>2016-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/mac-os-maximize-window/</loc>
     <lastmod>2016-01-09T00:00:00+00:00</lastmod>
@@ -110,22 +152,16 @@
     <loc>http://www.kevssite.com/console-access-into-a-running-docker-container/</loc>
     <lastmod>2014-08-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.kevssite.com/tags/docker/</loc>
-    <lastmod>2014-08-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://www.kevssite.com/categories/docker/</loc>
-    <lastmod>2014-08-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://www.kevssite.com/install-nsenter-from-source/</loc>
     <lastmod>2014-08-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/tags/nsenter/</loc>
     <lastmod>2014-08-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.kevssite.com/acer-aspire-s3-ultrabook-and-ubuntu-14-04/</loc>
+    <loc>http://www.kevssite.com/tags/acer/</loc>
     <lastmod>2014-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.kevssite.com/tags/acer-s3/</loc>
+    <loc>http://www.kevssite.com/acer-aspire-s3-ultrabook-and-ubuntu-14-04/</loc>
     <lastmod>2014-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/tags/aspire/</loc>
@@ -137,9 +173,6 @@
     <loc>http://www.kevssite.com/tags/ubuntu/</loc>
     <lastmod>2014-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.kevssite.com/categories/viewpoint/</loc>
-    <lastmod>2014-07-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://www.kevssite.com/connect-to-postgresql-using-an-ssh-tunnel/</loc>
     <lastmod>2014-01-04T00:00:00+00:00</lastmod>
   </url><url>
@@ -147,9 +180,6 @@
     <lastmod>2014-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/tags/postgresql/</loc>
-    <lastmod>2014-01-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://www.kevssite.com/tags/ssh-tunnel/</loc>
     <lastmod>2014-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/how-to-stop-ssh-from-adding-a-server-to-known_hosts-file/</loc>
@@ -167,7 +197,7 @@
     <loc>http://www.kevssite.com/add-a-linux-swap-file/</loc>
     <lastmod>2013-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.kevssite.com/tags/swapfile/</loc>
+    <loc>http://www.kevssite.com/tags/swap/</loc>
     <lastmod>2013-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/tags/centos/</loc>
@@ -185,16 +215,10 @@
     <loc>http://www.kevssite.com/tags/server/</loc>
     <lastmod>2013-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.kevssite.com/tags/ssh/</loc>
-    <lastmod>2013-10-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://www.kevssite.com/tags/github/</loc>
     <lastmod>2013-10-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/github-vs-bitbucket/</loc>
-    <lastmod>2013-10-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://www.kevssite.com/categories/programming/</loc>
     <lastmod>2013-10-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/tags/source-code/</loc>
@@ -236,7 +260,7 @@
     <loc>http://www.kevssite.com/haproxy-quick-setup/</loc>
     <lastmod>2012-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.kevssite.com/tags/reverse-proxy/</loc>
+    <loc>http://www.kevssite.com/tags/proxy/</loc>
     <lastmod>2012-05-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/tags/router/</loc>
@@ -266,13 +290,10 @@
     <loc>http://www.kevssite.com/extracting-ssh-keys-from-a-java-keystore-jks-file/</loc>
     <lastmod>2011-09-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.kevssite.com/tags/java-keystore/</loc>
+    <loc>http://www.kevssite.com/tags/java/</loc>
     <lastmod>2011-09-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.kevssite.com/tags/private-key/</loc>
-    <lastmod>2011-09-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://www.kevssite.com/tags/public-key/</loc>
+    <loc>http://www.kevssite.com/tags/keystore/</loc>
     <lastmod>2011-09-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/tags/ssl/</loc>
@@ -290,13 +311,13 @@
     <loc>http://www.kevssite.com/k9copy-crashing-on-ubuntu-10-10/</loc>
     <lastmod>2011-03-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://www.kevssite.com/tags/xen/</loc>
+    <lastmod>2011-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.kevssite.com/categories/xen/</loc>
+    <lastmod>2011-03-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://www.kevssite.com/xen-4-1-released/</loc>
-    <lastmod>2011-03-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://www.kevssite.com/tags/xen-virtualization/</loc>
-    <lastmod>2011-03-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://www.kevssite.com/categories/xen-virtualization/</loc>
     <lastmod>2011-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/tags/ffmpeg/</loc>
@@ -312,9 +333,6 @@
     <lastmod>2011-01-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/tags/html5/</loc>
-    <lastmod>2011-01-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://www.kevssite.com/tags/javascript/</loc>
     <lastmod>2011-01-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/categories/android/</loc>
@@ -335,22 +353,19 @@
     <loc>http://www.kevssite.com/how-to-pronounce-linux/</loc>
     <lastmod>2010-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.kevssite.com/tags/ion/</loc>
-    <lastmod>2010-11-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://www.kevssite.com/tags/linus-torvalds/</loc>
-    <lastmod>2010-11-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://www.kevssite.com/tags/mini-atx/</loc>
     <lastmod>2010-11-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/mini-itx-mythtv-frontend/</loc>
     <lastmod>2010-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.kevssite.com/categories/mythtv/</loc>
+    <loc>http://www.kevssite.com/tags/mini-atx/</loc>
     <lastmod>2010-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.kevssite.com/tags/mythtv-frontend/</loc>
+    <loc>http://www.kevssite.com/tags/mythtv/</loc>
+    <lastmod>2010-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.kevssite.com/categories/mythtv/</loc>
     <lastmod>2010-11-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/tags/dom0/</loc>
@@ -363,6 +378,9 @@
     <lastmod>2010-10-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/mounting-lvm-backed-xen-disk-partitions-in-dom0/</loc>
+    <lastmod>2010-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.kevssite.com/tags/xen-virtualization/</loc>
     <lastmod>2010-10-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/matthew-smith-interview/</loc>
@@ -413,9 +431,6 @@
     <loc>http://www.kevssite.com/tags/raid-1/</loc>
     <lastmod>2009-04-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.kevssite.com/tags/software-raid/</loc>
-    <lastmod>2009-04-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://www.kevssite.com/tags/hex/</loc>
     <lastmod>2009-04-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -428,16 +443,7 @@
     <loc>http://www.kevssite.com/manually-creating-a-xen-domu-instance/</loc>
     <lastmod>2009-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.kevssite.com/tags/create-volume/</loc>
-    <lastmod>2009-04-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://www.kevssite.com/installing-xen-33-from-source-on-debian-50-lenny/</loc>
-    <lastmod>2009-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://www.kevssite.com/tags/lenny/</loc>
-    <lastmod>2009-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://www.kevssite.com/tags/logical-volume-manager/</loc>
     <lastmod>2009-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/lvm-how-to/</loc>
@@ -446,19 +452,10 @@
     <loc>http://www.kevssite.com/tags/lvm2/</loc>
     <lastmod>2009-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.kevssite.com/tags/xen-3.3.1/</loc>
-    <lastmod>2009-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://www.kevssite.com/tags/xen-compile/</loc>
+    <loc>http://www.kevssite.com/tags/virtualization/</loc>
     <lastmod>2009-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/copying-jvc-everio-hdd-camcorder-recordings-with-linux/</loc>
-    <lastmod>2009-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://www.kevssite.com/tags/everio/</loc>
-    <lastmod>2009-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://www.kevssite.com/tags/jvc-everio/</loc>
     <lastmod>2009-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.kevssite.com/tags/convert/</loc>

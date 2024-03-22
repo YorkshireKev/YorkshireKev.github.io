@@ -65,7 +65,7 @@ This article will start off where my previous “Installing a XEN hvm DOMU” le
   "datePublished" : "2009-06-27T00:00:00",
   "dateModified" : "2009-06-27T00:00:00",
   "image" : "http:\/\/www.kevssite.com\/",
-  "keywords" : [ "hvm, paravirtual, pv, Xen virtualization" ],
+  "keywords" : [ "hvm, paravirtual, pv, Xen" ],
   "mainEntityOfPage" : "http:\/\/www.kevssite.com\/converting-a-xen-domu-from-hvm-to-pv\/",
   "publisher" : {
     "@type": "Organization",
@@ -131,8 +131,8 @@ This article will start off where my previous “Installing a XEN hvm DOMU” le
                 
                 
 
-                <a class="nav-link " title="Posts"
-                  href="/"> Posts</a>
+                <a class="nav-link " title="Home"
+                  href="/"> Home</a>
               </li>
 
               
@@ -405,7 +405,7 @@ extra = &quot;(hd0,0)/boot/grub/menu.lst&quot;
         
         <a href="http://www.kevssite.com/tags/pv/">pv</a>
         
-        <a href="http://www.kevssite.com/tags/xen-virtualization/">Xen virtualization</a>
+        <a href="http://www.kevssite.com/tags/xen/">Xen</a>
         
       </div>
       
@@ -541,59 +541,6 @@ extra = &quot;(hd0,0)/boot/grub/menu.lst&quot;
 
       
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
-    <a href="http://www.kevssite.com/mounting-lvm-backed-xen-disk-partitions-in-dom0/">
-        <div class="card single-post-card h-100 shadow-effect border">
-
-            <h3 class="fw-bold post-title">Mounting LVM backed XEN disk partitions in DOM0</h3>
-            
-            <p class="post-meta">
-                <span class="post-meta text-muted">
-  
-  
-
-  October 27, 2010
-
-  
-
-  
-
-  
-
-  
-</span>
-
-            </p>
-
-            
-
-            
-            <div class="card-body">
-
-
-
-                
-                
-                <div class="post-entry">
-
-                    
-                    <p>Sometimes you might need to mount a DOMU’s disk in DOM0, so that you can edit files, or even recover them in the event that your DOMU is broken and fails to boot.</p>
-                    
-                </div>
-
-                <div class="read-more-section">
-                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
-                </div>
-            </div>
-        </div>
-    </a>
-</div>
-
-
-
-      
-
-      
-<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
     <a href="http://www.kevssite.com/installing-a-xen-hvm-domu/">
         <div class="card single-post-card h-100 shadow-effect border">
 
@@ -633,6 +580,64 @@ extra = &quot;(hd0,0)/boot/grub/menu.lst&quot;
 <p>If you’re doing this from your DOM0 then these flags may not actually show up. Instead type <code>xm info</code> and look for ‘hvm’ on the virt_caps line.</p>
 <p>For my hvm install, i’ll be installing Ubuntu 9.04 Desktop Linux.<br>
 I have copied the live CD ISO onto my XEN DOM0 and will be installing directly from the iso rather than burning the CD. I have also created a 10GB LVM logical volume to act as the disk for my new DOMU.</p>
+                    
+                </div>
+
+                <div class="read-more-section">
+                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
+    <a href="http://www.kevssite.com/manually-creating-a-xen-domu-instance/">
+        <div class="card single-post-card h-100 shadow-effect border">
+
+            <h3 class="fw-bold post-title">Manually creating a Xen DOMU instance</h3>
+            
+            <p class="post-meta">
+                <span class="post-meta text-muted">
+  
+  
+
+  April 13, 2009
+
+  
+
+  
+
+  
+
+  
+</span>
+
+            </p>
+
+            
+
+            
+            <div class="card-body">
+
+
+
+                
+                
+                <div class="post-entry">
+
+                    
+                    <p>If you’ve followed my guide to installing xen from source then you might now be wondering how to create your first VM.<br>
+This guide will show you how to manually create and install a VM (known as a DOMU instance in Xen) without any additional tools such as virt-manager, virt-install or virsh. These tools can help the novice, but are quite limiting when it comes to the advance features of xen.</p>
+<p>For this example I’ll be installing CentOS5, but this should work for any red-hat based distro (please note there is a bug in fedora10 that stops it booting under xen). This example also uses the paravirtual kernel so it will work even if your CPU does not support AMD-V or intel-VT.</p>
+<p>Right, down to business. The first thing we need to do is create a file to user as the hard disk for the DOMU. There are other options for providing hard disks to a DOMU, and I’ll cover some of them in a later guide but for this install I’ll be using a file.</p>
+<p>The command below will create an 8GB file that will be used as an 8GB drive. The whole file will be written to disk in one go so may take a short while to complete.<br>
+<code>dd if=/dev/zero of=/xenimages/test01/disk1.img oflag=direct bs=1M count=8192</code></p>
                     
                 </div>
 

@@ -16,6 +16,13 @@
       <description>While tidying the loft I came across my old JVC Mini DV Camcorder that I purchased in about 2001. I was looking to recycle an old, unused PC that was also in the loft when it occurred to me that the old PC had a firewire card installed. A quick check confirmed that the firewire card would not fit into my regular PC, so hanging on to this old PC for a while longer was my best chance of getting the footage off the old mini dv tapes.</description>
     </item>
     <item>
+      <title>Fix file ordering on fat32 sd cards</title>
+      <link>http://www.kevssite.com/fix-file-ordering-on-fat32-sd-cards/</link>
+      <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/fix-file-ordering-on-fat32-sd-cards/</guid>
+      <description>I recently started using cassette tape emulators to load games on my retro zx Spectrum and C64 (search casduino and tapduino if you’re interested in these). Basically these work by holding the tape images as files on an SD or Micro SD card and the casduino then plays them as audio into the old computers as though a tape deck was connected. They work great but one issue I found was that the files did not list in the expected order when viewing through the casduino menu.</description>
+    </item>
+    <item>
       <title>Console access into a running Docker container</title>
       <link>http://www.kevssite.com/console-access-into-a-running-docker-container/</link>
       <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>

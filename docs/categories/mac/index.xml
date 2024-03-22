@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac on Kev&#39;s Site</title>
+    <link>http://www.kevssite.com/categories/mac/</link>
+    <description>Recent content in Mac on Kev&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.kevssite.com/categories/mac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maximizing a window on a MacBook</title>
+      <link>http://www.kevssite.com/mac-os-maximize-window/</link>
+      <pubDate>Sat, 09 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/mac-os-maximize-window/</guid>
+      <description>I have recently switched to a MacBook Pro as my daily driver. One of the first things I noticed was that there was no maximise button on application windows, only a fullscreen option that hides the top status-bar. A quick google search told me that double clicking the title-bar or holing down ALT while clicking in the Green Icon would maximise the window instead of making it go fullscreen. Which is great!</description>
+    </item>
+  </channel>
+</rss>

@@ -1,13 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>JavaScript on Kev&#39;s Site</title>
+    <title>Javascript on Kev&#39;s Site</title>
     <link>http://www.kevssite.com/tags/javascript/</link>
-    <description>Recent content in JavaScript on Kev&#39;s Site</description>
+    <description>Recent content in Javascript on Kev&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Jan 2011 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://www.kevssite.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Godot Experiment no. 1, Retrocadia</title>
+      <link>http://www.kevssite.com/retrocadia/</link>
+      <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/retrocadia/</guid>
+      <description>Most of my recent (and not so recent) programming efforts have been in JavaScript that runs in the browser. I believed that with WebGL, the browser would become more relevant in gaming and graphics applications. Fast forward a few years and it&amp;rsquo;s clear that the vast majority of PC games are still downloaded and installed, just as they were decades ago.&#xA;I decided to return to creating native games for the PC.</description>
+    </item>
+    <item>
+      <title>Seamless audio looping in html5 JavaScript</title>
+      <link>http://www.kevssite.com/seamless-audio-looping/</link>
+      <pubDate>Sun, 22 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/seamless-audio-looping/</guid>
+      <description>For my latest javascript/threejs experiment I created a retro 1980&amp;rsquo;s inspired demo, which renders hundreds of sprites in a pseudo 3D style that was common in the Atari ST and Amiga demos of the late 80&amp;rsquo;s.&#xA;Of course, no retro demo would be complete without a retro soundtrack. For my Retro Particle Demo this would be a short track that loops continuously.&#xA;My initial attempt used the html5 audio tag: &amp;lt;audio id=&amp;#34;demomusic&amp;#34; src=&amp;#34;audio/music.</description>
+    </item>
+    <item>
+      <title>A look at Pixi.js</title>
+      <link>http://www.kevssite.com/a-look-at-pixi-js/</link>
+      <pubDate>Wed, 03 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/a-look-at-pixi-js/</guid>
+      <description>I&amp;rsquo;ve been experimenting with the html canvas element recently by writing some simple 2D games. One challenge is making a canvas based game fit nicely on the screen given the vast variety in browser resolutions. 2D games tend to be made up of images and I found that scaling these images so that they fill the browser window was both slow and ugly.&#xA;This got me thinking about WebGL. Is it possible to use a 3D WebGL library to render a 2D game and gain the scaling and performance advantages of the GPU?</description>
+    </item>
+    <item>
+      <title>JavaScript KeyCodes</title>
+      <link>http://www.kevssite.com/javascript-keycodes/</link>
+      <pubDate>Fri, 29 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/javascript-keycodes/</guid>
+      <description>This is a simple JavaScript keycode lookup page. Just press a key and the JavaScript Key Code will be displayed in the box below.&#xA;If you want to stop your browser scrolling when you press space or arrows etc then click in this input field to take the focus away from the whole page. The text equivalent of the key being pressed is only displayed in browsers that support event.key. Rather surprisingly this does not include Chrome!</description>
+    </item>
+    <item>
+      <title>Emulators written in JavaScript</title>
+      <link>http://www.kevssite.com/emulators-written-in-javascript/</link>
+      <pubDate>Sat, 18 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/emulators-written-in-javascript/</guid>
+      <description>A list of machine emulators completely written in JavaScript that I find to be both impressive and interesting. Writing an emulator in any language is difficult and requires some serious programming chops. But to do it in JavaScript must surely require a level of programming genius (or maybe madness - I hear it&amp;rsquo;s a fine line!) that us mere mortals can only dream of aspiring to.&#xA;These are my favourites that I’ve stumbled across, catalogued here so I can easily find them again whenever I feel the need for a retro computing fix&amp;hellip;</description>
+    </item>
+    <item>
+      <title>More adventures in JavaScript</title>
+      <link>http://www.kevssite.com/more-adventures-in-javascript/</link>
+      <pubDate>Sat, 27 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/more-adventures-in-javascript/</guid>
+      <description>Having not written much client side JavaScript for at least a couple of years I thought I&amp;rsquo;d re-introduce myself to the language, and to the html5 canvas element.&#xA;I decided to spend a few hours building a html5 version of the old ZX Spectrum Classic, Lightcycles (1983), which itself was based on Tron. This isn&amp;rsquo;t exactly a faithful reproduction, it&amp;rsquo;s more inspired by my memory of the game than it is a conversion of it.</description>
+    </item>
     <item>
       <title>Adventures in JavaScript Canvas</title>
       <link>http://www.kevssite.com/adventures-in-javascript-canvas/</link>

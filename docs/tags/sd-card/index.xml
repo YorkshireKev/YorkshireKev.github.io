@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sd-Card on Kev&#39;s Site</title>
+    <link>http://www.kevssite.com/tags/sd-card/</link>
+    <description>Recent content in Sd-Card on Kev&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.kevssite.com/tags/sd-card/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fix file ordering on fat32 sd cards</title>
+      <link>http://www.kevssite.com/fix-file-ordering-on-fat32-sd-cards/</link>
+      <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/fix-file-ordering-on-fat32-sd-cards/</guid>
+      <description>I recently started using cassette tape emulators to load games on my retro zx Spectrum and C64 (search casduino and tapduino if you’re interested in these). Basically these work by holding the tape images as files on an SD or Micro SD card and the casduino then plays them as audio into the old computers as though a tape deck was connected. They work great but one issue I found was that the files did not list in the expected order when viewing through the casduino menu.</description>
+    </item>
+  </channel>
+</rss>

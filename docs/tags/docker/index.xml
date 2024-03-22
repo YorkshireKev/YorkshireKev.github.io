@@ -6,8 +6,15 @@
     <description>Recent content in Docker on Kev&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Aug 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Dec 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://www.kevssite.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Useful Docker Commands</title>
+      <link>http://www.kevssite.com/useful-docker-commands/</link>
+      <pubDate>Fri, 02 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/useful-docker-commands/</guid>
+      <description>These are a bunch of docker commands that I find useful for keeping things tidy.&#xA;Remove all orphaned images. These are the images tagged as &amp;lt;none&amp;gt;. docker images -q --filter &amp;#34;dangling=true&amp;#34; | xargs docker rmi&#xA;Delete/remove all stopped containers. Note that -v option; it will also delete any persistent volumes that belong to the stopped containers. docker ps -aq --filter &amp;#34;status=exited&amp;#34; | xargs docker rm -v &amp;amp;&amp;amp; docker ps -aq --filter &amp;#34;status=created&amp;#34;</description>
+    </item>
     <item>
       <title>Console access into a running Docker container</title>
       <link>http://www.kevssite.com/console-access-into-a-running-docker-container/</link>

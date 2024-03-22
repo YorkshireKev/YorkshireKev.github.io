@@ -9,10 +9,24 @@
     <lastBuildDate>Sat, 02 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://www.kevssite.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Cli</title>
+      <link>http://www.kevssite.com/tags/cli/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/tags/cli/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Linux</title>
       <link>http://www.kevssite.com/tags/linux/</link>
       <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://www.kevssite.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ssh</title>
+      <link>http://www.kevssite.com/tags/ssh/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/tags/ssh/</guid>
       <description></description>
     </item>
     <item>
@@ -44,21 +58,42 @@
       <description></description>
     </item>
     <item>
-      <title>Jet Set Willy</title>
+      <title>Ide</title>
+      <link>http://www.kevssite.com/tags/ide/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/tags/ide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vscode</title>
+      <link>http://www.kevssite.com/tags/vscode/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/tags/vscode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Javascript</title>
+      <link>http://www.kevssite.com/tags/javascript/</link>
+      <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jet-Set-Willy</title>
       <link>http://www.kevssite.com/tags/jet-set-willy/</link>
       <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
       <guid>http://www.kevssite.com/tags/jet-set-willy/</guid>
       <description></description>
     </item>
     <item>
-      <title>Manic Miner</title>
+      <title>Manic-Miner</title>
       <link>http://www.kevssite.com/tags/manic-miner/</link>
       <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
       <guid>http://www.kevssite.com/tags/manic-miner/</guid>
       <description></description>
     </item>
     <item>
-      <title>Matthew Smith</title>
+      <title>Matthew-Smith</title>
       <link>http://www.kevssite.com/tags/matthew-smith/</link>
       <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
       <guid>http://www.kevssite.com/tags/matthew-smith/</guid>
@@ -79,9 +114,30 @@
       <description></description>
     </item>
     <item>
+      <title>Sd-Card</title>
+      <link>http://www.kevssite.com/tags/sd-card/</link>
+      <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/tags/sd-card/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arduino</title>
+      <link>http://www.kevssite.com/tags/arduino/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/tags/arduino/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Esp8266</title>
+      <link>http://www.kevssite.com/tags/esp8266/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/tags/esp8266/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Docker</title>
       <link>http://www.kevssite.com/tags/docker/</link>
-      <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 02 Dec 2016 00:00:00 +0000</pubDate>
       <guid>http://www.kevssite.com/tags/docker/</guid>
       <description></description>
     </item>
@@ -93,10 +149,10 @@
       <description></description>
     </item>
     <item>
-      <title>Acer S3</title>
-      <link>http://www.kevssite.com/tags/acer-s3/</link>
+      <title>Acer</title>
+      <link>http://www.kevssite.com/tags/acer/</link>
       <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/tags/acer-s3/</guid>
+      <guid>http://www.kevssite.com/tags/acer/</guid>
       <description></description>
     </item>
     <item>
@@ -135,13 +191,6 @@
       <description></description>
     </item>
     <item>
-      <title>Ssh Tunnel</title>
-      <link>http://www.kevssite.com/tags/ssh-tunnel/</link>
-      <pubDate>Sat, 04 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/tags/ssh-tunnel/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Bitbucket</title>
       <link>http://www.kevssite.com/tags/bitbucket/</link>
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
@@ -156,10 +205,10 @@
       <description></description>
     </item>
     <item>
-      <title>Swapfile</title>
-      <link>http://www.kevssite.com/tags/swapfile/</link>
+      <title>Swap</title>
+      <link>http://www.kevssite.com/tags/swap/</link>
       <pubDate>Sun, 13 Oct 2013 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/tags/swapfile/</guid>
+      <guid>http://www.kevssite.com/tags/swap/</guid>
       <description></description>
     </item>
     <item>
@@ -184,13 +233,6 @@
       <description></description>
     </item>
     <item>
-      <title>Ssh</title>
-      <link>http://www.kevssite.com/tags/ssh/</link>
-      <pubDate>Thu, 10 Oct 2013 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/tags/ssh/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Github</title>
       <link>http://www.kevssite.com/tags/github/</link>
       <pubDate>Tue, 08 Oct 2013 00:00:00 +0000</pubDate>
@@ -198,7 +240,7 @@
       <description></description>
     </item>
     <item>
-      <title>Source Code</title>
+      <title>Source-Code</title>
       <link>http://www.kevssite.com/tags/source-code/</link>
       <pubDate>Tue, 08 Oct 2013 00:00:00 +0000</pubDate>
       <guid>http://www.kevssite.com/tags/source-code/</guid>
@@ -261,10 +303,10 @@
       <description></description>
     </item>
     <item>
-      <title>Reverse Proxy</title>
-      <link>http://www.kevssite.com/tags/reverse-proxy/</link>
+      <title>Proxy</title>
+      <link>http://www.kevssite.com/tags/proxy/</link>
       <pubDate>Sun, 27 May 2012 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/tags/reverse-proxy/</guid>
+      <guid>http://www.kevssite.com/tags/proxy/</guid>
       <description></description>
     </item>
     <item>
@@ -303,24 +345,17 @@
       <description></description>
     </item>
     <item>
-      <title>Java Keystore</title>
-      <link>http://www.kevssite.com/tags/java-keystore/</link>
+      <title>Java</title>
+      <link>http://www.kevssite.com/tags/java/</link>
       <pubDate>Fri, 23 Sep 2011 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/tags/java-keystore/</guid>
+      <guid>http://www.kevssite.com/tags/java/</guid>
       <description></description>
     </item>
     <item>
-      <title>Private Key</title>
-      <link>http://www.kevssite.com/tags/private-key/</link>
+      <title>Keystore</title>
+      <link>http://www.kevssite.com/tags/keystore/</link>
       <pubDate>Fri, 23 Sep 2011 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/tags/private-key/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Public Key</title>
-      <link>http://www.kevssite.com/tags/public-key/</link>
-      <pubDate>Fri, 23 Sep 2011 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/tags/public-key/</guid>
+      <guid>http://www.kevssite.com/tags/keystore/</guid>
       <description></description>
     </item>
     <item>
@@ -345,10 +380,10 @@
       <description></description>
     </item>
     <item>
-      <title>Xen Virtualization</title>
-      <link>http://www.kevssite.com/tags/xen-virtualization/</link>
+      <title>Xen</title>
+      <link>http://www.kevssite.com/tags/xen/</link>
       <pubDate>Fri, 25 Mar 2011 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/tags/xen-virtualization/</guid>
+      <guid>http://www.kevssite.com/tags/xen/</guid>
       <description></description>
     </item>
     <item>
@@ -366,13 +401,6 @@
       <description></description>
     </item>
     <item>
-      <title>JavaScript</title>
-      <link>http://www.kevssite.com/tags/javascript/</link>
-      <pubDate>Wed, 19 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/tags/javascript/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Lame</title>
       <link>http://www.kevssite.com/tags/lame/</link>
       <pubDate>Sun, 07 Nov 2010 00:00:00 +0000</pubDate>
@@ -387,31 +415,24 @@
       <description></description>
     </item>
     <item>
-      <title>Ion</title>
-      <link>http://www.kevssite.com/tags/ion/</link>
-      <pubDate>Tue, 02 Nov 2010 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/tags/ion/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linus Torvalds</title>
+      <title>Linus-Torvalds</title>
       <link>http://www.kevssite.com/tags/linus-torvalds/</link>
       <pubDate>Tue, 02 Nov 2010 00:00:00 +0000</pubDate>
       <guid>http://www.kevssite.com/tags/linus-torvalds/</guid>
       <description></description>
     </item>
     <item>
-      <title>Mini Atx</title>
+      <title>Mini-Atx</title>
       <link>http://www.kevssite.com/tags/mini-atx/</link>
       <pubDate>Tue, 02 Nov 2010 00:00:00 +0000</pubDate>
       <guid>http://www.kevssite.com/tags/mini-atx/</guid>
       <description></description>
     </item>
     <item>
-      <title>Mythtv Frontend</title>
-      <link>http://www.kevssite.com/tags/mythtv-frontend/</link>
+      <title>Mythtv</title>
+      <link>http://www.kevssite.com/tags/mythtv/</link>
       <pubDate>Tue, 02 Nov 2010 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/tags/mythtv-frontend/</guid>
+      <guid>http://www.kevssite.com/tags/mythtv/</guid>
       <description></description>
     </item>
     <item>
@@ -436,6 +457,13 @@
       <description></description>
     </item>
     <item>
+      <title>Xen Virtualization</title>
+      <link>http://www.kevssite.com/tags/xen-virtualization/</link>
+      <pubDate>Wed, 27 Oct 2010 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/tags/xen-virtualization/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Android</title>
       <link>http://www.kevssite.com/tags/android/</link>
       <pubDate>Sun, 13 Dec 2009 00:00:00 +0000</pubDate>
@@ -457,7 +485,7 @@
       <description></description>
     </item>
     <item>
-      <title>T Mobile</title>
+      <title>T-Mobile</title>
       <link>http://www.kevssite.com/tags/t-mobile/</link>
       <pubDate>Sun, 13 Dec 2009 00:00:00 +0000</pubDate>
       <guid>http://www.kevssite.com/tags/t-mobile/</guid>
@@ -492,17 +520,10 @@
       <description></description>
     </item>
     <item>
-      <title>Raid 1</title>
+      <title>Raid-1</title>
       <link>http://www.kevssite.com/tags/raid-1/</link>
       <pubDate>Tue, 28 Apr 2009 00:00:00 +0000</pubDate>
       <guid>http://www.kevssite.com/tags/raid-1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software Raid</title>
-      <link>http://www.kevssite.com/tags/software-raid/</link>
-      <pubDate>Tue, 28 Apr 2009 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/tags/software-raid/</guid>
       <description></description>
     </item>
     <item>
@@ -520,27 +541,6 @@
       <description></description>
     </item>
     <item>
-      <title>Create Volume</title>
-      <link>http://www.kevssite.com/tags/create-volume/</link>
-      <pubDate>Tue, 07 Apr 2009 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/tags/create-volume/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Lenny</title>
-      <link>http://www.kevssite.com/tags/lenny/</link>
-      <pubDate>Tue, 07 Apr 2009 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/tags/lenny/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Logical Volume Manager</title>
-      <link>http://www.kevssite.com/tags/logical-volume-manager/</link>
-      <pubDate>Tue, 07 Apr 2009 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/tags/logical-volume-manager/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>LVM2</title>
       <link>http://www.kevssite.com/tags/lvm2/</link>
       <pubDate>Tue, 07 Apr 2009 00:00:00 +0000</pubDate>
@@ -548,31 +548,10 @@
       <description></description>
     </item>
     <item>
-      <title>Xen 3.3.1</title>
-      <link>http://www.kevssite.com/tags/xen-3.3.1/</link>
+      <title>Virtualization</title>
+      <link>http://www.kevssite.com/tags/virtualization/</link>
       <pubDate>Tue, 07 Apr 2009 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/tags/xen-3.3.1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Xen Compile</title>
-      <link>http://www.kevssite.com/tags/xen-compile/</link>
-      <pubDate>Tue, 07 Apr 2009 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/tags/xen-compile/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Everio</title>
-      <link>http://www.kevssite.com/tags/everio/</link>
-      <pubDate>Sun, 01 Mar 2009 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/tags/everio/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>JVC Everio</title>
-      <link>http://www.kevssite.com/tags/jvc-everio/</link>
-      <pubDate>Sun, 01 Mar 2009 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/tags/jvc-everio/</guid>
+      <guid>http://www.kevssite.com/tags/virtualization/</guid>
       <description></description>
     </item>
     <item>

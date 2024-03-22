@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vscode on Kev&#39;s Site</title>
+    <link>http://www.kevssite.com/tags/vscode/</link>
+    <description>Recent content in Vscode on Kev&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.kevssite.com/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Useful VS Code Keyboard Combinations</title>
+      <link>http://www.kevssite.com/useful-vscode-keyboard-combinations/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/useful-vscode-keyboard-combinations/</guid>
+      <description>These are a bunch of VS Code editing keyboard combinations that I find useful, but often struggle to recall. I&amp;rsquo;ll add more as I discover (and need) more editing features&amp;hellip;&#xA;Multi line select and edit. Highlight some text then use the keyboard combination below to select for simultaneous editing.&#xA;Select cursor on mutliple lines Select a block of multiple lines. Then use the key combination below to put cursors at the end of every line.</description>
+    </item>
+  </channel>
+</rss>
