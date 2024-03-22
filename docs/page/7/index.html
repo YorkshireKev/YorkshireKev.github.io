@@ -231,6 +231,118 @@
     
     
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
+    <a href="http://www.kevssite.com/using-vi-as-a-hex-editor/">
+        <div class="card single-post-card h-100 shadow-effect border">
+
+            <h3 class="fw-bold post-title">Using vi as a hex editor</h3>
+            
+            <p class="post-meta">
+                <span class="post-meta text-muted">
+  
+  
+
+  April 21, 2009
+
+  
+
+  
+
+  
+
+  
+</span>
+
+            </p>
+
+            
+
+            
+            <div class="card-body">
+
+
+
+                
+                
+                <div class="post-entry">
+
+                    
+                    Sometimes I find it useful to switch to hex mode when editing a file in vi. The command for switching is not very obvious so thought I&rsquo;d share&hellip;
+So, open a file in vi as usual. To switch into hex mode hit escape and type: :%!xxd
+And when your done and want to exit from hex mode hit escape again and type: :%!xxd -r
+Okay, so this isn&rsquo;t actaully switching to vi&rsquo;s &lsquo;hex mode&rsquo;; vi doesn&rsquo;t have one.
+                    
+                </div>
+
+                <div class="read-more-section">
+                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+
+    
+    
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
+    <a href="http://www.kevssite.com/manually-creating-a-xen-domu-instance/">
+        <div class="card single-post-card h-100 shadow-effect border">
+
+            <h3 class="fw-bold post-title">Manually creating a Xen DOMU instance</h3>
+            
+            <p class="post-meta">
+                <span class="post-meta text-muted">
+  
+  
+
+  April 13, 2009
+
+  
+
+  
+
+  
+
+  
+</span>
+
+            </p>
+
+            
+
+            
+            <div class="card-body">
+
+
+
+                
+                
+                <div class="post-entry">
+
+                    
+                    <p>If you’ve followed my guide to installing xen from source then you might now be wondering how to create your first VM.<br>
+This guide will show you how to manually create and install a VM (known as a DOMU instance in Xen) without any additional tools such as virt-manager, virt-install or virsh. These tools can help the novice, but are quite limiting when it comes to the advance features of xen.</p>
+<p>For this example I’ll be installing CentOS5, but this should work for any red-hat based distro (please note there is a bug in fedora10 that stops it booting under xen). This example also uses the paravirtual kernel so it will work even if your CPU does not support AMD-V or intel-VT.</p>
+<p>Right, down to business. The first thing we need to do is create a file to user as the hard disk for the DOMU. There are other options for providing hard disks to a DOMU, and I’ll cover some of them in a later guide but for this install I’ll be using a file.</p>
+<p>The command below will create an 8GB file that will be used as an 8GB drive. The whole file will be written to disk in one go so may take a short while to complete.<br>
+<code>dd if=/dev/zero of=/xenimages/test01/disk1.img oflag=direct bs=1M count=8192</code></p>
+                    
+                </div>
+
+                <div class="read-more-section">
+                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+
+    
+    
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
     <a href="http://www.kevssite.com/installing-xen-33-from-source-on-debian-50-lenny/">
         <div class="card single-post-card h-100 shadow-effect border">
 

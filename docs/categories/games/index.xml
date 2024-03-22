@@ -30,6 +30,20 @@
       <description>Most of my recent (and not so recent) programming efforts have been in JavaScript that runs in the browser. I believed that with WebGL, the browser would become more relevant in gaming and graphics applications. Fast forward a few years and it&amp;rsquo;s clear that the vast majority of PC games are still downloaded and installed, just as they were decades ago.&#xA;I decided to return to creating native games for the PC.</description>
     </item>
     <item>
+      <title>Retro Particle Demo</title>
+      <link>http://www.kevssite.com/retro-particle-demo/</link>
+      <pubDate>Sat, 21 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/retro-particle-demo/</guid>
+      <description>External page loaded from seperate github pages repo.</description>
+    </item>
+    <item>
+      <title>Virtual Slot Machine</title>
+      <link>http://www.kevssite.com/virtual-slot-machine/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/virtual-slot-machine/</guid>
+      <description>External page loaded from seperate github pages repo.</description>
+    </item>
+    <item>
       <title>A look at Pixi.js</title>
       <link>http://www.kevssite.com/a-look-at-pixi-js/</link>
       <pubDate>Wed, 03 Jun 2015 00:00:00 +0000</pubDate>

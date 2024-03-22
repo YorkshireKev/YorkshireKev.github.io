@@ -100,6 +100,20 @@
       <description>For my latest javascript/threejs experiment I created a retro 1980&amp;rsquo;s inspired demo, which renders hundreds of sprites in a pseudo 3D style that was common in the Atari ST and Amiga demos of the late 80&amp;rsquo;s.&#xA;Of course, no retro demo would be complete without a retro soundtrack. For my Retro Particle Demo this would be a short track that loops continuously.&#xA;My initial attempt used the html5 audio tag: &amp;lt;audio id=&amp;#34;demomusic&amp;#34; src=&amp;#34;audio/music.</description>
     </item>
     <item>
+      <title>Retro Particle Demo</title>
+      <link>http://www.kevssite.com/retro-particle-demo/</link>
+      <pubDate>Sat, 21 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/retro-particle-demo/</guid>
+      <description>External page loaded from seperate github pages repo.</description>
+    </item>
+    <item>
+      <title>Virtual Slot Machine</title>
+      <link>http://www.kevssite.com/virtual-slot-machine/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/virtual-slot-machine/</guid>
+      <description>External page loaded from seperate github pages repo.</description>
+    </item>
+    <item>
       <title>A look at Pixi.js</title>
       <link>http://www.kevssite.com/a-look-at-pixi-js/</link>
       <pubDate>Wed, 03 Jun 2015 00:00:00 +0000</pubDate>
