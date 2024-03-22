@@ -14,8 +14,6 @@ What that actually does is make the window wide enough for it's content, but tha
 
 I eventually discovered that holding down SHIFT + ALT while clicking on the Green Icon does make the window fill the screen width and height.
 
-{{< highlight bash >}}
-ALT + SHIFT + Green Icon = Maximise (as you'd expect if on Windows/Linux).
-{{< / highlight >}}
+`ALT` + `SHIFT` + `Green Icon` = Maximise (as you'd expect if on Windows/Linux).
 
 Now I've got that sorted, I'm starting to wonder if the fullscreen option is a better way of working anyway...

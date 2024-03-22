@@ -14,3 +14,15 @@ You can test the staged site locally after the hugo command by running:
   http-server -c-1
   browser: http://localhost:8080
 
+NOTE:
+When commiting page changes to Git, don't just run git add -A as this will add all of the temporary files too!
+Only add the files that have changed e.g.
+  git add content/post
+  git add assets
+
+When pushing a change to the published site, run:
+  ./build.sh
+  git add /docs
+  git commit -m ...
+  git push origin main
+  

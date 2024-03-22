@@ -15,17 +15,11 @@ These are a bunch of VS Code editing keyboard combinations that I find useful, b
 
 ### Multi line select and edit. ###
 Highlight some text then use the keyboard combination below to select for simultaneous editing.
-<p>MacOS: <code class="highlight">Shift</code> +
-<code class="highlight">Cmd</code> +
-<code class="highlight">L</code></p>
 
-<p>Windows / Linux:  <code class="highlight">Shift</code> +
-<code class="highlight">Ctrl</code> +
-<code class="highlight">L</code></p>
+MacOS: `Shift` + `Cmd` + `L`
+
+Windows / Linux: `Shift` + `Ctrl` + `L`
 
 ### Select cursor on mutliple lines ###
 Select a block of multiple lines. Then use the key combination below to put cursors at the end of every line.
-<p>MacOS: <code class="highlight">Shift</code> +
-<code class="highlight">Alt</code> +
-<code class="highlight">I</code></p>
-<br>
+MacOS: `Shift` + `Alt` + `I`
