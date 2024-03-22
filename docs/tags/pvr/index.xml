@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pvr on Kev&#39;s Site</title>
-    <link>http://localhost:1313/tags/pvr/</link>
+    <link>http://www.kevssite.com/tags/pvr/</link>
     <description>Recent content in Pvr on Kev&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 31 Dec 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/pvr/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.kevssite.com/tags/pvr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Copy Humax HDR-FOX T2 HD recording to USB</title>
-      <link>http://localhost:1313/humax-fox-t2-hd-copy/</link>
+      <link>http://www.kevssite.com/humax-fox-t2-hd-copy/</link>
       <pubDate>Mon, 31 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/humax-fox-t2-hd-copy/</guid>
+      <guid>http://www.kevssite.com/humax-fox-t2-hd-copy/</guid>
       <description>&lt;p&gt;My Humax freeview recorder (a HDR-FOX T2 with 1tb drive) has recently started to show signs that it might be about to fail. The Hard drive is getting louder when recording and my most recent recordings pause periodically, often with the screen going blank and displaying the message ‘encrypted video cannot be show’ (or something to that effect). At first the pauses were infrequent and short, but more recently they’ve been getting much worse often missing a minute or more of the recording per ‘glitch’. The hard drive test found in the setting menu is also failing now too.&lt;/p&gt;</description>
     </item>
   </channel>

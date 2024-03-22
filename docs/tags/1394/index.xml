@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1394 on Kev&#39;s Site</title>
-    <link>http://localhost:1313/tags/1394/</link>
+    <link>http://www.kevssite.com/tags/1394/</link>
     <description>Recent content in 1394 on Kev&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 25 Aug 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/1394/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.kevssite.com/tags/1394/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Downloading from DV firewire 1394 camcorder with dvgrab</title>
-      <link>http://localhost:1313/dv-firewire-1394-camcorder-with-dvgrab/</link>
+      <link>http://www.kevssite.com/dv-firewire-1394-camcorder-with-dvgrab/</link>
       <pubDate>Sat, 25 Aug 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dv-firewire-1394-camcorder-with-dvgrab/</guid>
+      <guid>http://www.kevssite.com/dv-firewire-1394-camcorder-with-dvgrab/</guid>
       <description>&lt;p&gt;I’ve always had trouble downloading footage from my old DV camcorder using desktop tools like Kino, with it often locking up when I leave it to download a full tape.&lt;/p&gt;&#xA;&lt;p&gt;I prefer to use OpenShot for editing, so all I really need is a simple tool to allow me to download footage from the camcorder. I’ve recently discovered the command line tool dvgrab, and it works wonderfully!&lt;/p&gt;</description>
     </item>
   </channel>

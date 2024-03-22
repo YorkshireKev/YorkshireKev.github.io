@@ -1,0 +1,16 @@
+Test the site locally:
+  hugo server
+  browser http://localhost:1313
+  Note that changes are automatically reloaded into the browser when testing this way.
+
+Stage the site ready to be published live:
+  ./build.sh
+  The above clears the docs folder and runs hugo to rebuild the site. This is done because the
+  hugo commend does not delete file from the docs folder, so will not clear any dead wood.
+
+The above will build the site into the /docs folder, which is what github will use to publish the site.
+You can test the staged site locally after the hugo command by running:
+  cd docs
+  http-server -c-1
+  browser: http://localhost:8080
+

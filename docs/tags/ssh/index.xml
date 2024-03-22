@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ssh on Kev&#39;s Site</title>
-    <link>http://localhost:1313/tags/ssh/</link>
+    <link>http://www.kevssite.com/tags/ssh/</link>
     <description>Recent content in Ssh on Kev&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 10 Oct 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.kevssite.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to speed up a slow SSH login</title>
-      <link>http://localhost:1313/how-to-speed-up-a-slow-ssh-login/</link>
+      <link>http://www.kevssite.com/how-to-speed-up-a-slow-ssh-login/</link>
       <pubDate>Thu, 10 Oct 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/how-to-speed-up-a-slow-ssh-login/</guid>
+      <guid>http://www.kevssite.com/how-to-speed-up-a-slow-ssh-login/</guid>
       <description>&lt;p&gt;I recently started using the excellent digital ocean for some of my cloud server hosting. When logging into my servers there was quite a delay, often a minute or more, before the password prompt appeared. I was getting the same delay when I use SSH keys for authentication too.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Extracting SSH keys from a Java keystore (jks) file</title>
-      <link>http://localhost:1313/extracting-ssh-keys-from-a-java-keystore-jks-file/</link>
+      <link>http://www.kevssite.com/extracting-ssh-keys-from-a-java-keystore-jks-file/</link>
       <pubDate>Fri, 23 Sep 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/extracting-ssh-keys-from-a-java-keystore-jks-file/</guid>
+      <guid>http://www.kevssite.com/extracting-ssh-keys-from-a-java-keystore-jks-file/</guid>
       <description>&lt;p&gt;I needed to extract/generate a public ssh key from a java keystore so that the Java application could SFTP some files using public key authentication.&lt;/p&gt;&#xA;&lt;p&gt;The problem was that I couldn’t find any way of converting an ssl public key to an ssh public key. It seems that although ssl and ssh private keys are compatible, the public keys are not.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xen Virtualization on Kev&#39;s Site</title>
-    <link>http://localhost:1313/tags/xen-virtualization/</link>
+    <link>http://www.kevssite.com/tags/xen-virtualization/</link>
     <description>Recent content in Xen Virtualization on Kev&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 25 Mar 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/xen-virtualization/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.kevssite.com/tags/xen-virtualization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Xen 4.1 released</title>
-      <link>http://localhost:1313/xen-4-1-released/</link>
+      <link>http://www.kevssite.com/xen-4-1-released/</link>
       <pubDate>Fri, 25 Mar 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/xen-4-1-released/</guid>
+      <guid>http://www.kevssite.com/xen-4-1-released/</guid>
       <description>&lt;p&gt;Today saw the release of Xen 4.1. Major changes include support for greater than 255 CPUs, a new credit scheduler and CPU pools.&lt;/p&gt;&#xA;&lt;p&gt;However, the most significant change to those that use Xen will be the new XL toolstack which replaces XM/XEND and will ultimately replace xcp’s xapi and libvirt.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mounting LVM backed XEN disk partitions in DOM0</title>
-      <link>http://localhost:1313/mounting-lvm-backed-xen-disk-partitions-in-dom0/</link>
+      <link>http://www.kevssite.com/mounting-lvm-backed-xen-disk-partitions-in-dom0/</link>
       <pubDate>Wed, 27 Oct 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mounting-lvm-backed-xen-disk-partitions-in-dom0/</guid>
+      <guid>http://www.kevssite.com/mounting-lvm-backed-xen-disk-partitions-in-dom0/</guid>
       <description>&lt;p&gt;Sometimes you might need to mount a DOMU’s disk in DOM0, so that you can edit files, or even recover them in the event that your DOMU is broken and fails to boot.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Converting a XEN DOMU from HVM to PV</title>
-      <link>http://localhost:1313/converting-a-xen-domu-from-hvm-to-pv/</link>
+      <link>http://www.kevssite.com/converting-a-xen-domu-from-hvm-to-pv/</link>
       <pubDate>Sat, 27 Jun 2009 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/converting-a-xen-domu-from-hvm-to-pv/</guid>
+      <guid>http://www.kevssite.com/converting-a-xen-domu-from-hvm-to-pv/</guid>
       <description>&lt;p&gt;For distros that don’t support XEN compatible installers the easiest way to create a PV (ParaVirtual) DOMU is to install as a HVM (see my other article entry for this) ad then once installed, convert it to a PV DOMU.&lt;/p&gt;&#xA;&lt;p&gt;There are several reasons why you might want to go with PV instead of HVM. The main two that spring to mind are PV’s offer better performance/lower overhead and PV DOMU’s allow PCI passthrough. Although apparently XEN 3.4 can now do PCI passthrough with HVM, as long as you have an Intel chip with vt-d.&lt;/p&gt;&#xA;&lt;p&gt;This article will start off where my previous “Installing a XEN hvm DOMU” left off…&lt;/p&gt;</description>
     </item>
     <item>
       <title>Installing a XEN hvm DOMU</title>
-      <link>http://localhost:1313/installing-a-xen-hvm-domu/</link>
+      <link>http://www.kevssite.com/installing-a-xen-hvm-domu/</link>
       <pubDate>Sun, 14 Jun 2009 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/installing-a-xen-hvm-domu/</guid>
+      <guid>http://www.kevssite.com/installing-a-xen-hvm-domu/</guid>
       <description>&lt;p&gt;For this to work your CPU and motherboard needs to support vt (intel) or amd-v. You can check this by looking at the flags in /proc/cpuinfo. Your looking for either vmx or svm on the flags line.&lt;/p&gt;&#xA;&lt;p&gt;If you’re doing this from your DOM0 then these flags may not actually show up. Instead type &lt;code&gt;xm info&lt;/code&gt; and look for ‘hvm’ on the virt_caps line.&lt;/p&gt;&#xA;&lt;p&gt;For my hvm install, i’ll be installing Ubuntu 9.04 Desktop Linux.&lt;br&gt;&#xA;I have copied the live CD ISO onto my XEN DOM0 and will be installing directly from the iso rather than burning the CD. I have also created a 10GB LVM logical volume to act as the disk for my new DOMU.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Manually creating a Xen DOMU instance</title>
-      <link>http://localhost:1313/manually-creating-a-xen-domu-instance/</link>
+      <link>http://www.kevssite.com/manually-creating-a-xen-domu-instance/</link>
       <pubDate>Mon, 13 Apr 2009 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/manually-creating-a-xen-domu-instance/</guid>
+      <guid>http://www.kevssite.com/manually-creating-a-xen-domu-instance/</guid>
       <description>&lt;p&gt;If you’ve followed my guide to installing xen from source then you might now be wondering how to create your first VM.&lt;br&gt;&#xA;This guide will show you how to manually create and install a VM (known as a DOMU instance in Xen) without any additional tools such as virt-manager, virt-install or virsh. These tools can help the novice, but are quite limiting when it comes to the advance features of xen.&lt;/p&gt;&#xA;&lt;p&gt;For this example I’ll be installing CentOS5, but this should work for any red-hat based distro (please note there is a bug in fedora10 that stops it booting under xen). This example also uses the paravirtual kernel so it will work even if your CPU does not support AMD-V or intel-VT.&lt;/p&gt;&#xA;&lt;p&gt;Right, down to business. The first thing we need to do is create a file to user as the hard disk for the DOMU. There are other options for providing hard disks to a DOMU, and I’ll cover some of them in a later guide but for this install I’ll be using a file.&lt;/p&gt;&#xA;&lt;p&gt;The command below will create an 8GB file that will be used as an 8GB drive. The whole file will be written to disk in one go so may take a short while to complete.&lt;br&gt;&#xA;&lt;code&gt;dd if=/dev/zero of=/xenimages/test01/disk1.img oflag=direct bs=1M count=8192&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Installing Xen 3.3.1 from source on Debian 5.0 (Lenny)</title>
-      <link>http://localhost:1313/installing-xen-33-from-source-on-debian-50-lenny/</link>
+      <link>http://www.kevssite.com/installing-xen-33-from-source-on-debian-50-lenny/</link>
       <pubDate>Tue, 07 Apr 2009 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/installing-xen-33-from-source-on-debian-50-lenny/</guid>
+      <guid>http://www.kevssite.com/installing-xen-33-from-source-on-debian-50-lenny/</guid>
       <description>&lt;p&gt;This is how I built my Xen server.&lt;/p&gt;&#xA;&lt;p&gt;First install Debian 5.0 (Lenny). This should also work on 4 (Etch) too.&lt;/p&gt;&#xA;&lt;p&gt;Everything is done on the command line as root.&lt;/p&gt;&#xA;&lt;p&gt;To build Xen from source you’ll need as fair number of dependencies. The easiest way to install them is by using the apt-get install command as below:&lt;br&gt;&#xA;&lt;code&gt;apt-get install bcc bin86 gawk bridge-utils iproute libcurl3 libcurl4-openssl-dev bzip2 module-init-tools transfig tgif texinfo pciutils-dev mercurial build-essential make gcc libc6-dev zlib1g-dev python python-dev python-twisted libncurses5-dev patch libvncserver-dev libsdl-dev libjpeg62-dev&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you installed the 64bit version of Debian then you’ll also need gcc-multilib for the compile to work:&lt;br&gt;&#xA;&lt;code&gt;apt-get install gcc-multilib&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>

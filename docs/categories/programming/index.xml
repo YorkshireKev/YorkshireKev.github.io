@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on Kev&#39;s Site</title>
-    <link>http://localhost:1313/categories/programming/</link>
+    <link>http://www.kevssite.com/categories/programming/</link>
     <description>Recent content in Programming on Kev&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Oct 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.kevssite.com/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Github vs Bitbucket</title>
-      <link>http://localhost:1313/github-vs-bitbucket/</link>
+      <link>http://www.kevssite.com/github-vs-bitbucket/</link>
       <pubDate>Tue, 08 Oct 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/github-vs-bitbucket/</guid>
+      <guid>http://www.kevssite.com/github-vs-bitbucket/</guid>
       <description>&lt;p&gt;By far the most popular source control system in use today is &lt;!-- raw HTML omitted --&gt;Git&lt;!-- raw HTML omitted --&gt;. It was only about 6 months ago I made the switch from subversion for my personal code projects, and the only regret I have is that I didn’t do it earlier!&lt;/p&gt;&#xA;&lt;p&gt;I’m lucky enough to experience code management at both ends of the spectrum. In my spare time I tinker with personal projects (some public but mostly private stuff). At work ‘enterprise’ would definitely be an appropriate description of our source code management.&lt;/p&gt;&#xA;&lt;p&gt;With the advent of cloud computing, source control can no longer be kept neatly behind corporate firewalls.Of course you could stick a Subversion server or Git repository in your DMZ, but really, the correct answer is hosting.&lt;img src=&#34;http://www.kevssite.com/wp-includes/js/tinymce/plugins/wordpress/img/trans.gif&#34; alt=&#34;&#34; title=&#34;More...&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;There are many source-code hosting providers to choose from, but in this post I’m going to look at the two most popular Git hosting solutions: &lt;!-- raw HTML omitted --&gt;Github&lt;!-- raw HTML omitted --&gt; and &lt;!-- raw HTML omitted --&gt;Bitbucket&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Adventures in JavaScript Canvas</title>
-      <link>http://localhost:1313/adventures-in-javascript-canvas/</link>
+      <link>http://www.kevssite.com/adventures-in-javascript-canvas/</link>
       <pubDate>Wed, 19 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/adventures-in-javascript-canvas/</guid>
+      <guid>http://www.kevssite.com/adventures-in-javascript-canvas/</guid>
       <description>I&amp;rsquo;ve been reading a lot about HTML5 recently and it looks like the browser could soon become the dominant application platform. So, I thought I&amp;rsquo;d have a look at the new canvas element and delve into some JavaScript.&#xA;To get me started I&amp;rsquo;ve decided to write a (very) simple version of an old classic zx Spectrum game: Jumping Jack.&#xA;At the time of writing this only works in browsers that support the new canvas html element.</description>
     </item>
   </channel>

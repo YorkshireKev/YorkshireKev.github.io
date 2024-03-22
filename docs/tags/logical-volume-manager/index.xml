@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Logical Volume Manager on Kev&#39;s Site</title>
-    <link>http://localhost:1313/tags/logical-volume-manager/</link>
+    <link>http://www.kevssite.com/tags/logical-volume-manager/</link>
     <description>Recent content in Logical Volume Manager on Kev&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 07 Apr 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/logical-volume-manager/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.kevssite.com/tags/logical-volume-manager/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LVM how to</title>
-      <link>http://localhost:1313/lvm-how-to/</link>
+      <link>http://www.kevssite.com/lvm-how-to/</link>
       <pubDate>Tue, 07 Apr 2009 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lvm-how-to/</guid>
+      <guid>http://www.kevssite.com/lvm-how-to/</guid>
       <description>&lt;p&gt;This is a quick and dirty guide to setting up an LVM based filesystem.&lt;/p&gt;&#xA;&lt;p&gt;First create some disk partitions. In this example I’ve got two identical unformatted partitions on a couple of hard drives. These appear in /dev as sda4 and sdb4. Please note your partition number will most likely be different.&lt;br&gt;&#xA;Also note that it’s easy to break your system with some of these commands. &lt;strong&gt;You have been warned, so don’t blame me if you wipe your system out!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;First make the partitions available to LVM:&lt;br&gt;&#xA;&lt;code&gt;pvcreate /dev/sda4&lt;/code&gt;&lt;br&gt;&#xA;Physical volume “/dev/sda4″ successfully created&lt;/p&gt;</description>
     </item>
   </channel>

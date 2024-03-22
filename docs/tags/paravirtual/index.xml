@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paravirtual on Kev&#39;s Site</title>
-    <link>http://localhost:1313/tags/paravirtual/</link>
+    <link>http://www.kevssite.com/tags/paravirtual/</link>
     <description>Recent content in Paravirtual on Kev&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 27 Jun 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/paravirtual/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.kevssite.com/tags/paravirtual/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Converting a XEN DOMU from HVM to PV</title>
-      <link>http://localhost:1313/converting-a-xen-domu-from-hvm-to-pv/</link>
+      <link>http://www.kevssite.com/converting-a-xen-domu-from-hvm-to-pv/</link>
       <pubDate>Sat, 27 Jun 2009 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/converting-a-xen-domu-from-hvm-to-pv/</guid>
+      <guid>http://www.kevssite.com/converting-a-xen-domu-from-hvm-to-pv/</guid>
       <description>&lt;p&gt;For distros that don’t support XEN compatible installers the easiest way to create a PV (ParaVirtual) DOMU is to install as a HVM (see my other article entry for this) ad then once installed, convert it to a PV DOMU.&lt;/p&gt;&#xA;&lt;p&gt;There are several reasons why you might want to go with PV instead of HVM. The main two that spring to mind are PV’s offer better performance/lower overhead and PV DOMU’s allow PCI passthrough. Although apparently XEN 3.4 can now do PCI passthrough with HVM, as long as you have an Intel chip with vt-d.&lt;/p&gt;&#xA;&lt;p&gt;This article will start off where my previous “Installing a XEN hvm DOMU” left off…&lt;/p&gt;</description>
     </item>
   </channel>

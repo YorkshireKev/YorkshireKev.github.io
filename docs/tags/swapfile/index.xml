@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Swapfile on Kev&#39;s Site</title>
-    <link>http://localhost:1313/tags/swapfile/</link>
+    <link>http://www.kevssite.com/tags/swapfile/</link>
     <description>Recent content in Swapfile on Kev&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 13 Oct 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/swapfile/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.kevssite.com/tags/swapfile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Add a Linux swap file</title>
-      <link>http://localhost:1313/add-a-linux-swap-file/</link>
+      <link>http://www.kevssite.com/add-a-linux-swap-file/</link>
       <pubDate>Sun, 13 Oct 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/add-a-linux-swap-file/</guid>
+      <guid>http://www.kevssite.com/add-a-linux-swap-file/</guid>
       <description>I notice that not all cloud hosted Linux servers have a swap enabled. When I spin up a new Centos based server on Digital Ocean for example, there is no swap space.&#xA;Usually you&amp;rsquo;d use a dedicated disk partition for swap, but when you only have the one disk allocated to your cloud server this is not an option. A good alternative is to create and use a file for your swap space.</description>
     </item>
   </channel>

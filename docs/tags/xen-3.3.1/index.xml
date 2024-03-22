@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xen 3.3.1 on Kev&#39;s Site</title>
-    <link>http://localhost:1313/tags/xen-3.3.1/</link>
+    <link>http://www.kevssite.com/tags/xen-3.3.1/</link>
     <description>Recent content in Xen 3.3.1 on Kev&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 07 Apr 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/xen-3.3.1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.kevssite.com/tags/xen-3.3.1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installing Xen 3.3.1 from source on Debian 5.0 (Lenny)</title>
-      <link>http://localhost:1313/installing-xen-33-from-source-on-debian-50-lenny/</link>
+      <link>http://www.kevssite.com/installing-xen-33-from-source-on-debian-50-lenny/</link>
       <pubDate>Tue, 07 Apr 2009 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/installing-xen-33-from-source-on-debian-50-lenny/</guid>
+      <guid>http://www.kevssite.com/installing-xen-33-from-source-on-debian-50-lenny/</guid>
       <description>&lt;p&gt;This is how I built my Xen server.&lt;/p&gt;&#xA;&lt;p&gt;First install Debian 5.0 (Lenny). This should also work on 4 (Etch) too.&lt;/p&gt;&#xA;&lt;p&gt;Everything is done on the command line as root.&lt;/p&gt;&#xA;&lt;p&gt;To build Xen from source you’ll need as fair number of dependencies. The easiest way to install them is by using the apt-get install command as below:&lt;br&gt;&#xA;&lt;code&gt;apt-get install bcc bin86 gawk bridge-utils iproute libcurl3 libcurl4-openssl-dev bzip2 module-init-tools transfig tgif texinfo pciutils-dev mercurial build-essential make gcc libc6-dev zlib1g-dev python python-dev python-twisted libncurses5-dev patch libvncserver-dev libsdl-dev libjpeg62-dev&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you installed the 64bit version of Debian then you’ll also need gcc-multilib for the compile to work:&lt;br&gt;&#xA;&lt;code&gt;apt-get install gcc-multilib&lt;/code&gt;&lt;/p&gt;</description>
     </item>
   </channel>

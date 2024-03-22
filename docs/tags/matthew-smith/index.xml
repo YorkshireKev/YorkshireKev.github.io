@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Matthew Smith on Kev&#39;s Site</title>
-    <link>http://localhost:1313/tags/matthew-smith/</link>
+    <link>http://www.kevssite.com/tags/matthew-smith/</link>
     <description>Recent content in Matthew Smith on Kev&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 10 May 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/matthew-smith/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.kevssite.com/tags/matthew-smith/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chatting with Matthew Smith</title>
-      <link>http://localhost:1313/chatting-with-matthew-smith/</link>
+      <link>http://www.kevssite.com/chatting-with-matthew-smith/</link>
       <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/chatting-with-matthew-smith/</guid>
+      <guid>http://www.kevssite.com/chatting-with-matthew-smith/</guid>
       <description>Matthew Smith, the author of the classic ZX Spectrum games Manic Miner and Jet Set Willy was at the Play Expo 2019 retro gaming event in Manchester to do a talk marking the 35th anniversary of Jet Set Willy. I was lucky enough to attend this event and had taken some of my old cassette covers with me, just in case Matthew was up for doing some signing after his talk.</description>
     </item>
   </channel>

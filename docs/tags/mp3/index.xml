@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mp3 on Kev&#39;s Site</title>
-    <link>http://localhost:1313/tags/mp3/</link>
+    <link>http://www.kevssite.com/tags/mp3/</link>
     <description>Recent content in Mp3 on Kev&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Nov 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/mp3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.kevssite.com/tags/mp3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reducing the size of mp3 files</title>
-      <link>http://localhost:1313/reducing-the-size-of-mp3-files/</link>
+      <link>http://www.kevssite.com/reducing-the-size-of-mp3-files/</link>
       <pubDate>Sun, 07 Nov 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/reducing-the-size-of-mp3-files/</guid>
+      <guid>http://www.kevssite.com/reducing-the-size-of-mp3-files/</guid>
       <description>&lt;p&gt;If you’ve ever had a collection of mp3 files that you want to burn to CD for playback in the car or archiving etc, you’ll likely know how annoying it can be when the collection of mp3 files is just a bit too big to fit on a CD. You end up having to remove a couple of tracks… While this is probably OK for music (there’s always a couple of tracks I’d skip anyway), it’s not so good for audio books and the like.&lt;/p&gt;&#xA;&lt;p&gt;One answer to the problem is to reduce the size of the mp3 files themselves. Be warned though that&lt;/p&gt;</description>
     </item>
   </channel>

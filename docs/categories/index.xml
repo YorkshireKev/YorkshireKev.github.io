@@ -2,87 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Kev&#39;s Site</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>http://www.kevssite.com/categories/</link>
     <description>Recent content in Categories on Kev&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.kevssite.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Games</title>
-      <link>http://localhost:1313/categories/games/</link>
+      <link>http://www.kevssite.com/categories/games/</link>
       <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/games/</guid>
+      <guid>http://www.kevssite.com/categories/games/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>http://localhost:1313/categories/linux/</link>
+      <link>http://www.kevssite.com/categories/linux/</link>
       <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/linux/</guid>
+      <guid>http://www.kevssite.com/categories/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Retro Computing</title>
-      <link>http://localhost:1313/categories/retro-computing/</link>
+      <link>http://www.kevssite.com/categories/retro-computing/</link>
       <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/retro-computing/</guid>
+      <guid>http://www.kevssite.com/categories/retro-computing/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud</title>
-      <link>http://localhost:1313/categories/cloud/</link>
+      <link>http://www.kevssite.com/categories/cloud/</link>
       <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/cloud/</guid>
+      <guid>http://www.kevssite.com/categories/cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>http://localhost:1313/categories/docker/</link>
+      <link>http://www.kevssite.com/categories/docker/</link>
       <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/docker/</guid>
+      <guid>http://www.kevssite.com/categories/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>Viewpoint</title>
-      <link>http://localhost:1313/categories/viewpoint/</link>
+      <link>http://www.kevssite.com/categories/viewpoint/</link>
       <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/viewpoint/</guid>
+      <guid>http://www.kevssite.com/categories/viewpoint/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>http://localhost:1313/categories/programming/</link>
+      <link>http://www.kevssite.com/categories/programming/</link>
       <pubDate>Tue, 08 Oct 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/programming/</guid>
+      <guid>http://www.kevssite.com/categories/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Node.js</title>
-      <link>http://localhost:1313/categories/node.js/</link>
+      <link>http://www.kevssite.com/categories/node.js/</link>
       <pubDate>Sat, 26 May 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/node.js/</guid>
+      <guid>http://www.kevssite.com/categories/node.js/</guid>
       <description></description>
     </item>
     <item>
       <title>Xen Virtualization</title>
-      <link>http://localhost:1313/categories/xen-virtualization/</link>
+      <link>http://www.kevssite.com/categories/xen-virtualization/</link>
       <pubDate>Fri, 25 Mar 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/xen-virtualization/</guid>
+      <guid>http://www.kevssite.com/categories/xen-virtualization/</guid>
       <description></description>
     </item>
     <item>
       <title>Android</title>
-      <link>http://localhost:1313/categories/android/</link>
+      <link>http://www.kevssite.com/categories/android/</link>
       <pubDate>Sat, 20 Nov 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/android/</guid>
+      <guid>http://www.kevssite.com/categories/android/</guid>
       <description></description>
     </item>
     <item>
       <title>MythTV</title>
-      <link>http://localhost:1313/categories/mythtv/</link>
+      <link>http://www.kevssite.com/categories/mythtv/</link>
       <pubDate>Tue, 02 Nov 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/mythtv/</guid>
+      <guid>http://www.kevssite.com/categories/mythtv/</guid>
       <description></description>
     </item>
   </channel>
