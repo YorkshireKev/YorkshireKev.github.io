@@ -1,5 +1,6 @@
 theme = 'lightbi-hugo'
 title = "Kev's Site"
+show_logo = true
 baseURL = 'http://www.kevssite.com'
 languageCode = 'en-us'
 publishDir = "docs"
@@ -23,7 +24,7 @@ rss = false
 pagination = "10"
 hideAuthor = false
 #authorInfo = "I'm Kev, From Yorkshire, England."
-description="Programming experiments, useful snippets and the odd devlog."
+description = "Programming experiments, useful snippets and the odd devlog."
 previewCardImagePlacement = "middle"
 author.name = "Kevin Ellis"
 since = "2009"

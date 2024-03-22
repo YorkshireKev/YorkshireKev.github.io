@@ -13,7 +13,7 @@
       <link>http://www.kevssite.com/useful-vscode-keyboard-combinations/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
       <guid>http://www.kevssite.com/useful-vscode-keyboard-combinations/</guid>
-      <description>These are a bunch of VS Code editing keyboard combinations that I find useful, but often struggle to recall. I&amp;rsquo;ll add more as I discover (and need) more editing features&amp;hellip;&#xA;Multi line select and edit. Highlight some text then use the keyboard combination below to select for simultaneous editing.&#xA;Select cursor on mutliple lines Select a block of multiple lines. Then use the key combination below to put cursors at the end of every line.</description>
+      <description>These are a bunch of VS Code editing keyboard combinations that I find useful, but often struggle to recall. I&amp;rsquo;ll add more as I discover (and need) more editing features&amp;hellip;&#xA;Multi line select and edit. Highlight some text then use the keyboard combination below to select for simultaneous editing.&#xA;MacOS: Shift + Cmd + L&#xA;Windows / Linux: Shift + Ctrl + L&#xA;Select cursor on mutliple lines Select a block of multiple lines.</description>
     </item>
     <item>
       <title>ESP8266 MacOS Arduino IDE Setup</title>

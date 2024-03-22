@@ -43,5 +43,12 @@
       <guid>http://www.kevssite.com/more-adventures-in-javascript/</guid>
       <description>Having not written much client side JavaScript for at least a couple of years I thought I&amp;rsquo;d re-introduce myself to the language, and to the html5 canvas element.&#xA;I decided to spend a few hours building a html5 version of the old ZX Spectrum Classic, Lightcycles (1983), which itself was based on Tron. This isn&amp;rsquo;t exactly a faithful reproduction, it&amp;rsquo;s more inspired by my memory of the game than it is a conversion of it.</description>
     </item>
+    <item>
+      <title>Adventures in JavaScript Canvas</title>
+      <link>http://www.kevssite.com/adventures-in-javascript-canvas/</link>
+      <pubDate>Wed, 19 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/adventures-in-javascript-canvas/</guid>
+      <description>I&amp;rsquo;ve been reading a lot about HTML5 recently and it looks like the browser could soon become the dominant application platform. So, I thought I&amp;rsquo;d have a look at the new canvas element and delve into some JavaScript.&#xA;To get me started I&amp;rsquo;ve decided to write a (very) simple version of an old classic zx Spectrum game: Jumping Jack.&#xA;At the time of writing this only works in browsers that support the new canvas html element.</description>
+    </item>
   </channel>
 </rss>
