@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Retro Computing on Kev&#39;s Site</title>
+    <link>http://localhost:1313/categories/retro-computing/</link>
+    <description>Recent content in Retro Computing on Kev&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 May 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/retro-computing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chatting with Matthew Smith</title>
+      <link>http://localhost:1313/chatting-with-matthew-smith/</link>
+      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/chatting-with-matthew-smith/</guid>
+      <description>Matthew Smith, the author of the classic ZX Spectrum games Manic Miner and Jet Set Willy was at the Play Expo 2019 retro gaming event in Manchester to do a talk marking the 35th anniversary of Jet Set Willy. I was lucky enough to attend this event and had taken some of my old cassette covers with me, just in case Matthew was up for doing some signing after his talk.</description>
+    </item>
+    <item>
+      <title>Adventures in JavaScript Canvas</title>
+      <link>http://localhost:1313/adventures-in-javascript-canvas/</link>
+      <pubDate>Wed, 19 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/adventures-in-javascript-canvas/</guid>
+      <description>I&amp;rsquo;ve been reading a lot about HTML5 recently and it looks like the browser could soon become the dominant application platform. So, I thought I&amp;rsquo;d have a look at the new canvas element and delve into some JavaScript.&#xA;To get me started I&amp;rsquo;ve decided to write a (very) simple version of an old classic zx Spectrum game: Jumping Jack.&#xA;At the time of writing this only works in browsers that support the new canvas html element.</description>
+    </item>
+    <item>
+      <title>Matthew Smith Interview</title>
+      <link>http://localhost:1313/matthew-smith-interview/</link>
+      <pubDate>Tue, 18 May 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/matthew-smith-interview/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+  </channel>
+</rss>

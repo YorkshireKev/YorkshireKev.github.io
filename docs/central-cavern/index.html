@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>Godot Experiment no. 2, Central Cavern - Kev&#39;s Site</title>
+<meta name="description" content="One of my all-time favourite games is Manic Miner on the ZX Spectrum. When Bug-Byte released Matthew Smith&rsquo;s masterpiece in 1983 the bar was raised for quality gaming on the Speccy. Sure there were many, many excellent games released on the Spectrum (I&rsquo;m looking at you Ultimate) but Manic Miner is still my go-to game when I need a retro gaming fix.
+Ever since I saw Mario64 on the N64 I wondered what a 3D version of Manic Miner or Jet Set Willy would look and play like.">
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Kev\u0027s Site",
+    
+    "url": "http:\/\/localhost:1313\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "http:\/\/localhost:1313\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/central-cavern\/",
+          "name": "Godot experiment no. 2, central cavern"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Kev"
+  },
+  "headline": "Godot Experiment no. 2, Central Cavern",
+  "description" : "One of my all-time favourite games is Manic Miner on the ZX Spectrum. When Bug-Byte released Matthew Smith\u0026rsquo;s masterpiece in 1983 the bar was raised for quality gaming on the Speccy. Sure there were many, many excellent games released on the Spectrum (I\u0026rsquo;m looking at you Ultimate) but Manic Miner is still my go-to game when I need a retro gaming fix.\nEver since I saw Mario64 on the N64 I wondered what a 3D version of Manic Miner or Jet Set Willy would look and play like.",
+  "inLanguage" : "en",
+  "wordCount":  1026 ,
+  "datePublished" : "2020-05-06T00:00:00",
+  "dateModified" : "2020-05-06T00:00:00",
+  "image" : "http:\/\/localhost:1313\/",
+  "keywords" : [ "godot" ],
+  "mainEntityOfPage" : "http:\/\/localhost:1313\/central-cavern\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "http:\/\/localhost:1313\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "http:\/\/localhost:1313\/",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Godot Experiment no. 2, Central Cavern" />
+<meta property="og:description" content="One of my all-time favourite games is Manic Miner on the ZX Spectrum. When Bug-Byte released Matthew Smith&rsquo;s masterpiece in 1983 the bar was raised for quality gaming on the Speccy. Sure there were many, many excellent games released on the Spectrum (I&rsquo;m looking at you Ultimate) but Manic Miner is still my go-to game when I need a retro gaming fix.
+Ever since I saw Mario64 on the N64 I wondered what a 3D version of Manic Miner or Jet Set Willy would look and play like.">
+<meta property="og:image" content="http://localhost:1313/img/central-cavern.png" />
+<meta property="og:url" content="http://localhost:1313/central-cavern/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Kev&#39;s Site" />
+<link rel="apple-touch-icon" sizes="180x180" href=" http://localhost:1313/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon/favicon-16x16.png">
+
+
+<meta name="generator" content="Hugo 0.123.3">
+<link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="Kev&#39;s Site">
+<script src="http://localhost:1313/js/dark-mode.js"></script><script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli" crossorigin="anonymous"></script><script src="http://localhost:1313/js/lunr-search.js" data-index="/search.json"></script><link rel="stylesheet" href="/style.min.css">
+
+
+
+
+
+
+
+  </head>
+  <body>
+    
+<div class="container fixed-top mw-100">
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10">
+
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top p-0">
+        <div class="container">
+
+          <a class="navbar-brand fw-bold" href="http://localhost:1313/">Kev&#39;s Site</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav mb-2 mb-lg-0 align-items-baseline">
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Posts"
+                  href="/"> Posts</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Games"
+                  href="/categories/games/"> Games</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Categories"
+                  href="/categories/"> Categories</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Tags"
+                  href="/tags/"> Tags</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="About"
+                  href="/about/"> About</a>
+              </li>
+
+              
+              
+
+              <li class="nav-item nav-link">
+                <a id="dark-mode-toggle" class="bi bi-moon-stars" role="button"></a>
+              </li>
+
+              
+              <li class="nav-item search-item">
+                <form id="search" class="search" role="search">
+                  <label for="search-input" class="bi bi-search search-icon"></label>
+                  <input type="search" id="search-input" class="search-input">
+                </form>
+              </li>
+              
+            </ul>
+
+            
+            <template id="search-heading" hidden
+                data-results-none="No results found for “{}”"
+                data-results-one="Found one result for “{}”"
+                data-results-many="Found 13579 results for “{}”"
+            >
+              <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+                  <h1 id="search-title" class="search-title"></h1>
+                </div>
+              </div>
+            </template>
+
+            <template id="search-result" hidden>
+              <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+                  <article class="content post">
+                    <h2><a class="summary-title-link"></a></h2>
+                    <div class="post-entry"></div>
+                    <div class="read-more-section">
+                      <h6 class="text-muted link-underline">
+                        <a class="read-more-link">
+                          Read More
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </h6>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </template>
+            
+          </div>
+        </div>
+      </nav>
+
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+<header class="header-section ">
+
+  <div class="intro-header no-img mt-10">
+    <div class="container">
+      <div class="row justify-content-center">
+        
+        <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+          
+
+          
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            
+
+            <div class="post-heading">
+              
+
+              
+
+              
+              <h1 class="fw-semibold display-5 lh-1 mb-3"> 
+                Godot Experiment no. 2, Central Cavern
+                
+              </h1>
+              
+              
+
+              
+
+              
+              
+              <span class="post-meta">
+  
+  
+  &nbsp;May 6, 2020
+
+  
+
+  
+
+  
+</span>
+
+
+              
+              
+            </div>
+          </div>
+          
+        </div>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</header>
+
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      <article role="main" class="blog-post">
+        <p><img src="/images/central-cavern/screenshot1.png" alt=""></p>
+<p>One of my all-time favourite games is Manic Miner on the ZX Spectrum. When Bug-Byte released Matthew Smith&rsquo;s masterpiece in 1983 the bar was raised for quality gaming on the Speccy. Sure there were many, many excellent games released on the Spectrum (I&rsquo;m looking at you Ultimate) but Manic Miner is still my go-to game when I need a retro gaming fix.</p>
+<p>Ever since I saw Mario64 on the N64 I wondered what a 3D version of Manic Miner or Jet Set Willy would look and play like. After all, if Mario could make the jump to 3D, why not Willy?</p>
+<p>So with Covid19 removing most of my excuses for not doing a spot of coding in the evenings I thought I&rsquo;d try making a 3D version of Manic Miner. Well, not the whole game, just the first level to try and get a flavour of what a 3D manic miner might look like.</p>
+<p>Having cut my teeth with the Godot game engine on my 2D shooter Retrocadia, I&rsquo;m feeling confident I can get something working&hellip; I mean, writing a 3D game&hellip; how hard could it be right?</p>
+<p>This page is my mini-blog/development diary. I&rsquo;ll add sections at the bottom of the page as I make progress with the game.</p>
+<blockquote>
+<p>Update - I&rsquo;ve now completed making the game.</p>
+<p>Central Cavern has been released for Windows, Mac and Linux.</p>
+<p><strong>Download it from itch.io: <a href="https://yorkshirekev.itch.io/central-cavern">yorkshirekev.itch.io/central-cavern</a></strong></p>
+<p><strong>Download it from gamejolt: <a href="https://gamejolt.com/games/central-cavern/532409">gamejolt.com/games/central-cavern/532409</a></strong></p>
+</blockquote>
+<p>Here are some screenshots of the finished version:</p>
+<p><img src="/images/central-cavern/screenshot3.png" alt="">
+<img src="/images/central-cavern/screenshot2.png" alt="">
+<img src="/images/central-cavern/screenshot4.png" alt=""></p>
+<p>&hellip;and a short video of the game:</p>
+<!-- raw HTML omitted -->
+<h1 id="faq">FAQ</h1>
+<p><strong>Is this going to be a full 3D version of Manic Miner?</strong>
+<em>No, I&rsquo;m only going to do the first level, Central Cavern. Hence the name of this project is called Central Cavern.
+I don&rsquo;t think I&rsquo;m up for the slog of doing more than that :/</em></p>
+<p><strong>When do you expect the game to be released for download?</strong>
+<em>The game is available for download from itch.io: <a href="https://yorkshirekev.itch.io/central-cavern">yorkshirekev.itch.io/central-cavern</a></em> or from gamejolt: <a href="https://gamejolt.com/games/central-cavern/532409">gamejolt.com/games/central-cavern/532409</a></p>
+<p><strong>What software are you using to make the game?</strong>
+<em>Well, the main game logic etc will be written using the Godot game engine, with GD Script for the programming language.
+For the graphics, I&rsquo;m using Blender. For sound, I&rsquo;ll probably use audacity to edit sound files etc, and for any 2D graphics, Gimp is my go-to choice of editor.</em></p>
+<h1 id="6-jun-2020---the-first-update">6-Jun-2020 - The First Update!</h1>
+<p>Off to a flying start! Okay, so I&rsquo;ve been working on for a few weeks and not posted anything yet!. Over the last few weeks, I&rsquo;ve managed to make the basic level structure in Blender and modelled the characters for the Guardian and Miner Willy. Actually, I&rsquo;d done the Guardian a year or two ago do I just dug it out, imported it into the latest version of blender and added the rigging for animation. I&rsquo;ll probably redo Miner Willy at some point as I&rsquo;m not happy with how he&rsquo;s turned out.</p>
+<p>Anyway, I&rsquo;ve now got a very basic working program. Obviously, there is loads more work to do before it becomes anything like a working game, but I&rsquo;m quite pleased with the progress so far and I&rsquo;ve really enjoyed making it.</p>
+<p>Here&rsquo;s a short video of my progress so far&hellip;</p>
+<!-- raw HTML omitted -->
+<h1 id="25-jun-2020---collapsing-platforms-keys-and-more">25-Jun-2020 - Collapsing Platforms, Keys and More</h1>
+<p>Over the last 3 weeks, I&rsquo;ve made a fair amount of progress on and off. I&rsquo;ve got the basic game working, with collapsing platforms, keys. Willy can now be killed by hitting the guardian or a spikey plant etc, or even by falling too far.</p>
+<p>I&rsquo;ve had to adjust some of the platforms to make the game possible to complete.</p>
+<p>One of the trickiest things I&rsquo;ve been trying to sort is the camera. I&rsquo;ve added a second camera view that gets toggled to when the main camera view gets blocked. You can select between them manually too. This is much better than before, but still not quite an good as I want it to be.</p>
+<p>I&rsquo;ve still got a fair bit to add yet. There&rsquo;s more sound effects and, of course, some music. Not to mention a title screen and the game over boot scene. Hopefully, I&rsquo;ll have another update in a couple of weeks. Thanks for looking!</p>
+<p>Here is an updated video showing the progress so far&hellip;</p>
+<!-- raw HTML omitted -->
+<h1 id="update-4-jul-2020---music-and-sound-and-a-title-screen">Update 4-Jul-2020 - Music and Sound and a Title Screen!</h1>
+<p>I&rsquo;ve now added a simple title screen to the game with music taken from a 1936 recording of Johann Strauss&rsquo;s Blue Danub played by Finnish orchestra Rytmi-Pojat, directed by Eugen Malmstén. I&rsquo;ve also managed to find a free version of Hall of the mountain King recorded by Kevin MacLeod, which I&rsquo;ve trimmed to use as the in game tune.</p>
+<p>I had to resort to doing a spot of coding on the ZX spectrum to get an authentic jumping sound.
+<img src="/images/central-cavern/jump-code-zxbasic.png" alt="">
+It must have been 30+ years since I&rsquo;ve written anything in zx basic!</p>
+<p>There have been a few other tweaks here and there, and I&rsquo;m starting to see light at the end of the tunnel. I still need to add a game over screen, something for when the player completes the game and I&rsquo;ll probably faff with the lighting to try and give it a more underground feel if I can.</p>
+<h1 id="update-12-jul-2020---just-about-finished-it">Update 12-Jul-2020 - Just about finished it</h1>
+<p>After a final flurry of activity, I&rsquo;ve just about completed writing the game. There&rsquo;s probably a little bit of polish to add, but it&rsquo;s now a complete and playable game! Okay, so it&rsquo;s only got one level but as I always said, that&rsquo;s all I was ever going to write. I&rsquo;ve added a game over screen, and a nice surprise if the player ever manages to complete the level.</p>
+<p>My next task is to add some screenshots and make a short video of the gameplay. I then plan to seek permission from the copyright owners of Manic Miner (if I can find them) to see if I can release the game as a free download. Wish me luck!</p>
+<h1 id="update-21-aug-2020---out-in-the-wild">Update 21-Aug-2020 - Out in the wild!</h1>
+<p>I have finally decided to make central-cavern available for download. I&rsquo;ve uploaded the game to itch.io and I will also upload to gamejolt once their site comes back online.</p>
+
+      </article>
+    </div>
+  </div>
+
+  
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+      <hr class="m-0"/>
+    </div>
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-2">
+      
+      <div class="blog-tags">
+        
+        <a href="http://localhost:1313/tags/godot/">godot</a>
+        
+      </div>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      
+    </div>
+
+    
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 mt-3">
+      <div class="card">
+        <div class="row no-gutters">
+          <div class="col-md-10">
+            <div class="card-body p-1.1">
+              <p class="p-0 m-0"><small class="text-muted">Written By</small></p>
+              <p class="card-text fs-5 m-0">
+
+                
+                Kev
+                
+
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="col-lg-8 offset-lg-2 col-md-12 offset-md-1 pt-4">
+      
+      <ul class="list-group list-group-horizontal" style="flex-direction: row">
+        
+        <li class="list-group-item b-0 p-0">
+
+          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/useful-vscode-keyboard-combinations/"
+            data-toggle="tooltip" data-placement="top" title="Useful VS Code Keyboard Combinations">&larr;
+            Previous Post</a>
+        </li>
+        
+
+
+        
+        <li class="list-group-item ms-auto b-0 p-0">
+          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/dvgrab-with-hitfilm-express/"
+            data-toggle="tooltip" data-placement="top" title="Exporting footage with dvgrab to edit with fxhome HitFilm Express">Next Post
+            &rarr;</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+    </div>
+  </div>
+  
+</div>
+
+<div class="">
+  
+  
+  
+  
+  
+
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 mt-3">
+        <h3>Related Posts</h3>
+        <hr />
+      </div>
+
+      
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
+    <a href="http://localhost:1313/retrocadia/">
+        <div class="card single-post-card h-100 shadow-effect border">
+
+            <h3 class="fw-bold post-title">Godot Experiment no. 1, Retrocadia</h3>
+            
+            <p class="post-meta">
+                <span class="post-meta text-muted">
+  
+  
+
+  September 29, 2019
+
+  
+  (Last modified on October 10, 2019)
+  
+
+  
+
+  
+
+  
+</span>
+
+            </p>
+
+            
+            <img src="/img/retrocadia_hub167c2b46925ba82c6e21f1e78c238dc_24327_500x0_resize_box_3.png" alt="/img/retrocadia.png"
+                class="card-img-top img-fluid lazyload">
+            
+
+            
+            <div class="card-body">
+
+
+
+                
+                
+                <div class="post-entry">
+
+                    
+                    Most of my recent (and not so recent) programming efforts have been in JavaScript that runs in the browser. I believed that with WebGL, the browser would become more relevant in gaming and graphics applications. Fast forward a few years and it&rsquo;s clear that the vast majority of PC games are still downloaded and installed, just as they were decades ago.
+I decided to return to creating native games for the PC.
+                    
+                </div>
+
+                <div class="read-more-section">
+                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+
+      
+    </div>
+  </div>
+  
+  
+
+  
+
+</div>
+
+    
+
+
+<footer>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul
+          class="list-inline list-group list-group-horizontal text-center footer-links d-flex justify-content-center flex-row">
+
+          
+          <li>
+            <a href="https://github.com/YorkshireKev" title="GitHub" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-github"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/YorkshireKev" title="Twitter" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-twitter"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/elliskevin" title="LinkedIn" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-linkedin"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@kevschannel" title="Youtube" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-youtube"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p class="credits copyright text-muted">
+          
+          &nbsp;&copy;
+          
+          2009 - 2024
+          
+          Kevin Ellis
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="http://localhost:1313/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function () { $("pre.chroma").css("padding", "0"); }); </script>
+    
+  </body>
+</html>
+

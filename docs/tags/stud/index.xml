@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stud on Kev&#39;s Site</title>
+    <link>http://localhost:1313/tags/stud/</link>
+    <description>Recent content in Stud on Kev&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Mar 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/stud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compiling bumptech Stud on Centos 6</title>
+      <link>http://localhost:1313/compiling-bumptech-stud-on-centos-6/</link>
+      <pubDate>Sun, 17 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/compiling-bumptech-stud-on-centos-6/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Stud&lt;!-- raw HTML omitted --&gt; is the “Scalable TLS Unwrapping Daemon” written by bumptech and used by 85million bump users. I use it to offload SSL connections in front of haproxy for really scalable websites. It’s not so much that I need to scale massively, but it does allow me to run on really small (i.e. cheap) servers. I’m aware that the development branch of HAproxy now supports SSL directly, but as yet I have not seen any performance tests so for now I will stick with stud.&lt;/p&gt;&#xA;&lt;p&gt;I have previously built stud on Debian Linux and the build process is really simple; make and then make install (once openssl-devel in installed and or course the utilities gcc and make too!)&lt;/p&gt;&#xA;&lt;p&gt;But I&amp;rsquo;ve recently moved over to Centos as my server OS of choice and ran into some problems whilst building stud. The error reported when I ran make was file ev.h not found.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

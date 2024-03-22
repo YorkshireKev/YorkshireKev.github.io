@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raid 1 on Kev&#39;s Site</title>
+    <link>http://localhost:1313/tags/raid-1/</link>
+    <description>Recent content in Raid 1 on Kev&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Apr 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/raid-1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to set up a Linux RAID mirror</title>
+      <link>http://localhost:1313/how-to-set-up-a-linux-raid-mirror/</link>
+      <pubDate>Tue, 28 Apr 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/how-to-set-up-a-linux-raid-mirror/</guid>
+      <description>&lt;p&gt;This is a quick guide to setting up a Linux software RAID mirror (aka RAID 1).&lt;/p&gt;&#xA;&lt;p&gt;There are a couple of toolsets for managing raid on Linux, raidtools and mdadm. This guide will use mdadm because imho it has better commands and features for monitoring.&lt;/p&gt;&#xA;&lt;p&gt;Right, first you’ll need a couple of disk partitions of about the same size. These should be on separate disks or you’ll be defeating the point of raid mirroring &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

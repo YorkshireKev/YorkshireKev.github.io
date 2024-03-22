@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Convert on Kev&#39;s Site</title>
+    <link>http://localhost:1313/tags/convert/</link>
+    <description>Recent content in Convert on Kev&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Feb 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/convert/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Converting a video file to DVD with ffmpeg</title>
+      <link>http://localhost:1313/converting-a-video-file-to-dvd-with-ffmpeg/</link>
+      <pubDate>Sun, 22 Feb 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/converting-a-video-file-to-dvd-with-ffmpeg/</guid>
+      <description>&lt;p&gt;There are many GUI programs that allow you to convert avi/divx/xvid files into DVD format, such as DeVeDe, but I somehow prefer to use command line tools. I know, I’m just weird like that!&lt;/p&gt;&#xA;&lt;p&gt;There are 3 basic steps in creating a simple DVD:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Convert the video files&lt;/li&gt;&#xA;&lt;li&gt;create the DVD structure&lt;/li&gt;&#xA;&lt;li&gt;Burn the DVD&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;So, to convert a file to a DVD compatible format use something like:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;ffmpeg -i &amp;quot;non dvd format input video.avi&amp;quot; -y -target pal-dvd -sameq -aspect 16:9 output.mpg&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Next we need to create the DVD structure. We’ll use dvdauthor for this.&lt;br&gt;&#xA;Rather than pass eveything into dvdauthor via the command line, it’s easier to put the settings into an xml file.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

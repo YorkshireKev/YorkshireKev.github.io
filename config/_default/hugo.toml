@@ -69,13 +69,13 @@ github = "YorkshireKev"
     weight = 2
 
 [[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 3
-
-[[menu.main]]
     name = "Categories"
     url = "/Categories/"
+    weight = 3
+
+    [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
     weight = 4
 
 [[menu.main]]

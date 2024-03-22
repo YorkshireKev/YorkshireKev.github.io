@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Viewpoint on Kev&#39;s Site</title>
+    <link>http://localhost:1313/categories/viewpoint/</link>
+    <description>Recent content in Viewpoint on Kev&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Jul 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/viewpoint/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Acer Aspire S3 UltraBook and Ubuntu 14.04</title>
+      <link>http://localhost:1313/acer-aspire-s3-ultrabook-and-ubuntu-14-04/</link>
+      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/acer-aspire-s3-ultrabook-and-ubuntu-14-04/</guid>
+      <description>Like most Linux users, I appreciate the power and flexibility of open source and like that my development PC runs the same software as my servers. While building a desktop PC and installing Ubuntu on it is great n&amp;rsquo; all, I wanted my next Linux desktop to be a little more portable. Coding in the garden anyone? yes please!&#xA;Now, I really like the look of Apple&amp;rsquo;s macbook air. But apple&amp;rsquo;s wonder machine is out of my budget and I&amp;rsquo;d also have had to switch from Linux to MacOX.</description>
+    </item>
+    <item>
+      <title>Github vs Bitbucket</title>
+      <link>http://localhost:1313/github-vs-bitbucket/</link>
+      <pubDate>Tue, 08 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/github-vs-bitbucket/</guid>
+      <description>&lt;p&gt;By far the most popular source control system in use today is &lt;!-- raw HTML omitted --&gt;Git&lt;!-- raw HTML omitted --&gt;. It was only about 6 months ago I made the switch from subversion for my personal code projects, and the only regret I have is that I didn’t do it earlier!&lt;/p&gt;&#xA;&lt;p&gt;I’m lucky enough to experience code management at both ends of the spectrum. In my spare time I tinker with personal projects (some public but mostly private stuff). At work ‘enterprise’ would definitely be an appropriate description of our source code management.&lt;/p&gt;&#xA;&lt;p&gt;With the advent of cloud computing, source control can no longer be kept neatly behind corporate firewalls.Of course you could stick a Subversion server or Git repository in your DMZ, but really, the correct answer is hosting.&lt;img src=&#34;http://www.kevssite.com/wp-includes/js/tinymce/plugins/wordpress/img/trans.gif&#34; alt=&#34;&#34; title=&#34;More...&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;There are many source-code hosting providers to choose from, but in this post I’m going to look at the two most popular Git hosting solutions: &lt;!-- raw HTML omitted --&gt;Github&lt;!-- raw HTML omitted --&gt; and &lt;!-- raw HTML omitted --&gt;Bitbucket&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Copy Humax HDR-FOX T2 HD recording to USB</title>
+      <link>http://localhost:1313/humax-fox-t2-hd-copy/</link>
+      <pubDate>Mon, 31 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/humax-fox-t2-hd-copy/</guid>
+      <description>&lt;p&gt;My Humax freeview recorder (a HDR-FOX T2 with 1tb drive) has recently started to show signs that it might be about to fail. The Hard drive is getting louder when recording and my most recent recordings pause periodically, often with the screen going blank and displaying the message ‘encrypted video cannot be show’ (or something to that effect). At first the pauses were infrequent and short, but more recently they’ve been getting much worse often missing a minute or more of the recording per ‘glitch’. The hard drive test found in the setting menu is also failing now too.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

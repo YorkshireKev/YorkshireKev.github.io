@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Games on Kev&#39;s Site</title>
+    <link>http://localhost:1313/categories/games/</link>
+    <description>Recent content in Games on Kev&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/games/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CLI-Labyrinth</title>
+      <link>http://localhost:1313/cli-labyrinth/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cli-labyrinth/</guid>
+      <description>One of the very first games I ever played on a home computer was a maze game called Labyrinth on the Sinclair ZX81. So when I wanted to learn Golang and delve a little deeper into terminal development I decided to start with a simple maze game that could be run in a shell on the Linux command line.&#xA;As you can see from the screenshot, the graphics are, at best, very basic.</description>
+    </item>
+    <item>
+      <title>Godot Experiment no. 2, Central Cavern</title>
+      <link>http://localhost:1313/central-cavern/</link>
+      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/central-cavern/</guid>
+      <description>One of my all-time favourite games is Manic Miner on the ZX Spectrum. When Bug-Byte released Matthew Smith&amp;rsquo;s masterpiece in 1983 the bar was raised for quality gaming on the Speccy. Sure there were many, many excellent games released on the Spectrum (I&amp;rsquo;m looking at you Ultimate) but Manic Miner is still my go-to game when I need a retro gaming fix.&#xA;Ever since I saw Mario64 on the N64 I wondered what a 3D version of Manic Miner or Jet Set Willy would look and play like.</description>
+    </item>
+    <item>
+      <title>Godot Experiment no. 1, Retrocadia</title>
+      <link>http://localhost:1313/retrocadia/</link>
+      <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/retrocadia/</guid>
+      <description>Most of my recent (and not so recent) programming efforts have been in JavaScript that runs in the browser. I believed that with WebGL, the browser would become more relevant in gaming and graphics applications. Fast forward a few years and it&amp;rsquo;s clear that the vast majority of PC games are still downloaded and installed, just as they were decades ago.&#xA;I decided to return to creating native games for the PC.</description>
+    </item>
+    <item>
+      <title>A look at Pixi.js</title>
+      <link>http://localhost:1313/a-look-at-pixi-js/</link>
+      <pubDate>Wed, 03 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/a-look-at-pixi-js/</guid>
+      <description>I&amp;rsquo;ve been experimenting with the html canvas element recently by writing some simple 2D games. One challenge is making a canvas based game fit nicely on the screen given the vast variety in browser resolutions. 2D games tend to be made up of images and I found that scaling these images so that they fill the browser window was both slow and ugly.&#xA;This got me thinking about WebGL. Is it possible to use a 3D WebGL library to render a 2D game and gain the scaling and performance advantages of the GPU?</description>
+    </item>
+  </channel>
+</rss>

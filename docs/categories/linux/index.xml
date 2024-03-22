@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Kev&#39;s Site</title>
+    <link>http://localhost:1313/categories/linux/</link>
+    <description>Recent content in Linux on Kev&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exporting footage with dvgrab to edit with fxhome HitFilm Express</title>
+      <link>http://localhost:1313/dvgrab-with-hitfilm-express/</link>
+      <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dvgrab-with-hitfilm-express/</guid>
+      <description>While tidying the loft I came across my old JVC Mini DV Camcorder that I purchased in about 2001. I was looking to recycle an old, unused PC that was also in the loft when it occurred to me that the old PC had a firewire card installed. A quick check confirmed that the firewire card would not fit into my regular PC, so hanging on to this old PC for a while longer was my best chance of getting the footage off the old mini dv tapes.</description>
+    </item>
+    <item>
+      <title>Console access into a running Docker container</title>
+      <link>http://localhost:1313/console-access-into-a-running-docker-container/</link>
+      <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/console-access-into-a-running-docker-container/</guid>
+      <description>Sometimes, when setting up and debugging a container it is extremely useful to be able to &amp;lsquo;shell into&amp;rsquo; the container to get a closer look at what&amp;rsquo;s going on.&#xA;This is a quick guide on how to get shell console access into a running Docker container.&#xA;UPDATE. If you are running docker version 1.3 or greater then you should use docker exec instead (see docker man pages for more info). The only use case that still requires the use of nsenter is where the user assigned to the container prevents you from doing tasks inside.</description>
+    </item>
+    <item>
+      <title>Install nsenter from source</title>
+      <link>http://localhost:1313/install-nsenter-from-source/</link>
+      <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/install-nsenter-from-source/</guid>
+      <description>nsenter is a great command line tool for accessing docker containers. Unfortunately it isn’t available in Ubuntu 14.04 at the time of writing. Fortunately building it from source is quite simple.&#xA;Get the latest version of util-linux from kernel.org https://www.kernel.org/pub/linux/utils/util-linux/&#xA;At the time of writing the latest version was v2.25, which is the version used in the examples here.&#xA;Install the build dependencies sudo apt-get install build-essential libncurses5-dev libslang2-dev gettext zlib1g-dev \ libselinux1-dev debhelper lsb-release pkg-config po-debconf autoconf \ automake autopoint libtool python2.</description>
+    </item>
+    <item>
+      <title>Acer Aspire S3 UltraBook and Ubuntu 14.04</title>
+      <link>http://localhost:1313/acer-aspire-s3-ultrabook-and-ubuntu-14-04/</link>
+      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/acer-aspire-s3-ultrabook-and-ubuntu-14-04/</guid>
+      <description>Like most Linux users, I appreciate the power and flexibility of open source and like that my development PC runs the same software as my servers. While building a desktop PC and installing Ubuntu on it is great n&amp;rsquo; all, I wanted my next Linux desktop to be a little more portable. Coding in the garden anyone? yes please!&#xA;Now, I really like the look of Apple&amp;rsquo;s macbook air. But apple&amp;rsquo;s wonder machine is out of my budget and I&amp;rsquo;d also have had to switch from Linux to MacOX.</description>
+    </item>
+    <item>
+      <title>Connect to PostgreSQL using an SSH tunnel</title>
+      <link>http://localhost:1313/connect-to-postgresql-using-an-ssh-tunnel/</link>
+      <pubDate>Sat, 04 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/connect-to-postgresql-using-an-ssh-tunnel/</guid>
+      <description>Using an SSH tunnel is a great way to administer remote services without having to directly expose them to the internet. You basically forward a port from your local machine (e.g. your Linux desktop) to a port on the remote server. You can then connect to the port on localhost and the magic of ssh will forward the port securely to the remote machine. To the remote server you&amp;rsquo;ve connected locally on localhost!</description>
+    </item>
+    <item>
+      <title>How to stop ssh from adding a server to known_hosts file</title>
+      <link>http://localhost:1313/how-to-stop-ssh-from-adding-a-server-to-known_hosts-file/</link>
+      <pubDate>Fri, 03 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/how-to-stop-ssh-from-adding-a-server-to-known_hosts-file/</guid>
+      <description>&lt;p&gt;If you do a fair amount of tinkering on cloud servers, such as EC2 or Digital Ocean, then you&amp;rsquo;ll have noticed that each time you start a server it gets a new IP address allocated. Then when you next log on to the server via ssh the server gets added to your known_hosts file.&lt;/p&gt;&#xA;&lt;p&gt;Before long your known_host file has dozens, if not hundreds of entries for servers that you&amp;rsquo;ve long shut down and discarded.&lt;/p&gt;&#xA;&lt;p&gt;At first I would edit the known host file and remove the server entry once I&amp;rsquo;d done with the server, but this got tiresome after a while.  So, I decided that for the servers I&amp;rsquo;m just messing about on I&amp;rsquo;d rather not add the server into the known_hosts file at all.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Add a GIT remote as https instead of ssh</title>
+      <link>http://localhost:1313/add-a-git-remote-as-https-instead-of-ssh/</link>
+      <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/add-a-git-remote-as-https-instead-of-ssh/</guid>
+      <description>Using Bitbucket from a network that does not allow ssh (port 22) connections means that doing a git push or pull using the standard git ssh remote won&amp;rsquo;t work. git remote add origin https://USERNAME@bitbucket.org/USERNAME/REPOSITORY.git&#xA;Where USERNAME is your user/login name and REPOSITORY is the name of the repository you want to access.&#xA;If you don&amp;rsquo;t want to enter your password every time you connect to the remote you can include the password in the remote url: git remote add origin https://USERNAME:PASSWORD@bitbucket.</description>
+    </item>
+    <item>
+      <title>Add a Linux swap file</title>
+      <link>http://localhost:1313/add-a-linux-swap-file/</link>
+      <pubDate>Sun, 13 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/add-a-linux-swap-file/</guid>
+      <description>I notice that not all cloud hosted Linux servers have a swap enabled. When I spin up a new Centos based server on Digital Ocean for example, there is no swap space.&#xA;Usually you&amp;rsquo;d use a dedicated disk partition for swap, but when you only have the one disk allocated to your cloud server this is not an option. A good alternative is to create and use a file for your swap space.</description>
+    </item>
+    <item>
+      <title>How to set Centos to UK timezone</title>
+      <link>http://localhost:1313/how-to-set-centos-to-uk-timezone/</link>
+      <pubDate>Sat, 12 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/how-to-set-centos-to-uk-timezone/</guid>
+      <description>A quick&amp;rsquo; cut and paste&amp;rsquo; tip for setting the timezone on Centos / Red Hat Linux.&#xA;To set it for the UK, as the root user, enter the following: ln -sf /usr/share/zoneinfo/Europe/London /etc/localtime All of the different timezones can be found in /usr/share/zoneinfo under various subdirectories, e.g. Europe, Africa etc. To set the appropriate timezone just replace the symbolic link at /etc/localtime to point the the relevant timezone file. In the example above the symbolic link, /etc/localtime is updated to point to the London timezone file.</description>
+    </item>
+    <item>
+      <title>How to speed up a slow SSH login</title>
+      <link>http://localhost:1313/how-to-speed-up-a-slow-ssh-login/</link>
+      <pubDate>Thu, 10 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/how-to-speed-up-a-slow-ssh-login/</guid>
+      <description>&lt;p&gt;I recently started using the excellent digital ocean for some of my cloud server hosting. When logging into my servers there was quite a delay, often a minute or more, before the password prompt appeared. I was getting the same delay when I use SSH keys for authentication too.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Github vs Bitbucket</title>
+      <link>http://localhost:1313/github-vs-bitbucket/</link>
+      <pubDate>Tue, 08 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/github-vs-bitbucket/</guid>
+      <description>&lt;p&gt;By far the most popular source control system in use today is &lt;!-- raw HTML omitted --&gt;Git&lt;!-- raw HTML omitted --&gt;. It was only about 6 months ago I made the switch from subversion for my personal code projects, and the only regret I have is that I didn’t do it earlier!&lt;/p&gt;&#xA;&lt;p&gt;I’m lucky enough to experience code management at both ends of the spectrum. In my spare time I tinker with personal projects (some public but mostly private stuff). At work ‘enterprise’ would definitely be an appropriate description of our source code management.&lt;/p&gt;&#xA;&lt;p&gt;With the advent of cloud computing, source control can no longer be kept neatly behind corporate firewalls.Of course you could stick a Subversion server or Git repository in your DMZ, but really, the correct answer is hosting.&lt;img src=&#34;http://www.kevssite.com/wp-includes/js/tinymce/plugins/wordpress/img/trans.gif&#34; alt=&#34;&#34; title=&#34;More...&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;There are many source-code hosting providers to choose from, but in this post I’m going to look at the two most popular Git hosting solutions: &lt;!-- raw HTML omitted --&gt;Github&lt;!-- raw HTML omitted --&gt; and &lt;!-- raw HTML omitted --&gt;Bitbucket&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Compiling bumptech Stud on Centos 6</title>
+      <link>http://localhost:1313/compiling-bumptech-stud-on-centos-6/</link>
+      <pubDate>Sun, 17 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/compiling-bumptech-stud-on-centos-6/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Stud&lt;!-- raw HTML omitted --&gt; is the “Scalable TLS Unwrapping Daemon” written by bumptech and used by 85million bump users. I use it to offload SSL connections in front of haproxy for really scalable websites. It’s not so much that I need to scale massively, but it does allow me to run on really small (i.e. cheap) servers. I’m aware that the development branch of HAproxy now supports SSL directly, but as yet I have not seen any performance tests so for now I will stick with stud.&lt;/p&gt;&#xA;&lt;p&gt;I have previously built stud on Debian Linux and the build process is really simple; make and then make install (once openssl-devel in installed and or course the utilities gcc and make too!)&lt;/p&gt;&#xA;&lt;p&gt;But I&amp;rsquo;ve recently moved over to Centos as my server OS of choice and ran into some problems whilst building stud. The error reported when I ran make was file ev.h not found.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Copy Humax HDR-FOX T2 HD recording to USB</title>
+      <link>http://localhost:1313/humax-fox-t2-hd-copy/</link>
+      <pubDate>Mon, 31 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/humax-fox-t2-hd-copy/</guid>
+      <description>&lt;p&gt;My Humax freeview recorder (a HDR-FOX T2 with 1tb drive) has recently started to show signs that it might be about to fail. The Hard drive is getting louder when recording and my most recent recordings pause periodically, often with the screen going blank and displaying the message ‘encrypted video cannot be show’ (or something to that effect). At first the pauses were infrequent and short, but more recently they’ve been getting much worse often missing a minute or more of the recording per ‘glitch’. The hard drive test found in the setting menu is also failing now too.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Downloading from DV firewire 1394 camcorder with dvgrab</title>
+      <link>http://localhost:1313/dv-firewire-1394-camcorder-with-dvgrab/</link>
+      <pubDate>Sat, 25 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dv-firewire-1394-camcorder-with-dvgrab/</guid>
+      <description>&lt;p&gt;I’ve always had trouble downloading footage from my old DV camcorder using desktop tools like Kino, with it often locking up when I leave it to download a full tape.&lt;/p&gt;&#xA;&lt;p&gt;I prefer to use OpenShot for editing, so all I really need is a simple tool to allow me to download footage from the camcorder. I’ve recently discovered the command line tool dvgrab, and it works wonderfully!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HAPROXY quick setup</title>
+      <link>http://localhost:1313/haproxy-quick-setup/</link>
+      <pubDate>Sun, 27 May 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/haproxy-quick-setup/</guid>
+      <description>&lt;p&gt;I recently set up HA proxy on one of my Debian 6 (squeeze) servers.&lt;/p&gt;&#xA;&lt;p&gt;There were a few rather annoying ‘gotchas’ that took a while to figure out, so I’m documenting them in case I ever have to set up HAproxy again.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Compile node.js on Centos Linux</title>
+      <link>http://localhost:1313/compile-node-js-on-centos-linux/</link>
+      <pubDate>Sat, 26 May 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/compile-node-js-on-centos-linux/</guid>
+      <description>&lt;p&gt;This is a quick how to with the steps used to compile Node.js on Centos Linux.&lt;/p&gt;&#xA;&lt;p&gt;These steps were successfully executed on Centos 6.2 x86 with node 0.6.18&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Compile Node.js on Debian and Ubuntu Linux</title>
+      <link>http://localhost:1313/compile-node-js-on-debian-linux/</link>
+      <pubDate>Sun, 29 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/compile-node-js-on-debian-linux/</guid>
+      <description>&lt;p&gt;Building Node.js on Linux is fairly simple, as there are few dependencies. This is how I did it on Debain 6 (Squeeze). At the time of writing the current release of Node.js was 0.6.15. You’ll need to adjust the intructions below to reflect the version you’re building.&lt;/p&gt;&#xA;&lt;p&gt;Update: I have also successfully tested these instructions with node.js 0.6.17 on Ubuntu 12.04.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Extracting SSH keys from a Java keystore (jks) file</title>
+      <link>http://localhost:1313/extracting-ssh-keys-from-a-java-keystore-jks-file/</link>
+      <pubDate>Fri, 23 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/extracting-ssh-keys-from-a-java-keystore-jks-file/</guid>
+      <description>&lt;p&gt;I needed to extract/generate a public ssh key from a java keystore so that the Java application could SFTP some files using public key authentication.&lt;/p&gt;&#xA;&lt;p&gt;The problem was that I couldn’t find any way of converting an ssl public key to an ssh public key. It seems that although ssl and ssh private keys are compatible, the public keys are not.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deleted root@localhost account in MySQL</title>
+      <link>http://localhost:1313/deleted-rootlocalhost-account-in-mysql/</link>
+      <pubDate>Sat, 02 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/deleted-rootlocalhost-account-in-mysql/</guid>
+      <description>&lt;p&gt;Like the fool I am, whilst messing about with user privileges in phpMyAdmin I managed to delete the root account. Suddenly I found myself with no access to any of my databases &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;It took a while to figure out how to re-create the root@localhost user, so here’s how I did it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>K9COPY crashing on Ubuntu 10.10</title>
+      <link>http://localhost:1313/k9copy-crashing-on-ubuntu-10-10/</link>
+      <pubDate>Sun, 27 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/k9copy-crashing-on-ubuntu-10-10/</guid>
+      <description>&lt;p&gt;I recently gave K9COPY a try, it’s supposed to be the Linux equivalent of DVDshrink for Windows. It certainly looked the part, but when I ran it with a disk I wanted to back up it ran for a short while and then crashed &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;Looking at the output of dmesg revealed that the disk was having trouble reading the encrypted disk:&lt;br&gt;&#xA;`[235.097347] sr 5:0:0:0: [sr0] Add. Sense: Read of scrambled sector without authentication&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ffmpeg freeview to pal-dvd audio fix</title>
+      <link>http://localhost:1313/ffmpeg-freeview-to-pal-dvd-audio-fix/</link>
+      <pubDate>Sat, 12 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ffmpeg-freeview-to-pal-dvd-audio-fix/</guid>
+      <description>&lt;p&gt;I was converting a TV show I’d  to DVD format using ffmpeg, but the resulting file had the wrong audio channel. At first I thought it had no audio at all, but then I noticed it had a voice over occasionally explaining what was happening; “so-n-so has just entered the room…”.&lt;/p&gt;&#xA;&lt;p&gt;It appears that ffmpeg had selected the wrong audio stream. For some reason, it had had selected the second audio stream instead of the first. The fix is simple enough, you can manually set the streams to use with the -map option. The command below works well for UK freeview.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>XEN DOM0 support in mainline kernel at last!</title>
+      <link>http://localhost:1313/xen-dom0-in-mainline-kernel/</link>
+      <pubDate>Thu, 03 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/xen-dom0-in-mainline-kernel/</guid>
+      <description>&lt;p&gt;The XEN developers ad community have been trying fr years to get DOM0 support into the Linux mainline kernel. On January 5th 2011 it finally happened when Linux kernel 2.6.37 was released.&lt;/p&gt;&#xA;&lt;p&gt;Okay, so it’s only basic support at this stage, but it does represent a significant milestone in the hypervisors history.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reducing the size of mp3 files</title>
+      <link>http://localhost:1313/reducing-the-size-of-mp3-files/</link>
+      <pubDate>Sun, 07 Nov 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/reducing-the-size-of-mp3-files/</guid>
+      <description>&lt;p&gt;If you’ve ever had a collection of mp3 files that you want to burn to CD for playback in the car or archiving etc, you’ll likely know how annoying it can be when the collection of mp3 files is just a bit too big to fit on a CD. You end up having to remove a couple of tracks… While this is probably OK for music (there’s always a couple of tracks I’d skip anyway), it’s not so good for audio books and the like.&lt;/p&gt;&#xA;&lt;p&gt;One answer to the problem is to reduce the size of the mp3 files themselves. Be warned though that&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to pronounce Linux</title>
+      <link>http://localhost:1313/how-to-pronounce-linux/</link>
+      <pubDate>Tue, 02 Nov 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/how-to-pronounce-linux/</guid>
+      <description>Okay, so I often hear people (mainly at work) pronouncing Linux incorrectly, with an emphasis on the letter ‘I’, as you would in the word ‘light’ for example.&#xA;Although this may sound more professional it really isn&amp;rsquo;t. I don&amp;rsquo;t know why it winds me up, but I do have to bite my tongue to stop myself from correcting people and sounding like the office nerd (which, now I think about it I probably am!</description>
+    </item>
+    <item>
+      <title>Convert video files to DVD format using mencoder</title>
+      <link>http://localhost:1313/convert-video-files-to-dvd-format-using-mencoder/</link>
+      <pubDate>Sat, 27 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/convert-video-files-to-dvd-format-using-mencoder/</guid>
+      <description>&lt;p&gt;To convert most video files into DVD compatible mpg files, mencoder is a good option.&lt;/p&gt;&#xA;&lt;p&gt;The following will convert to PAL widescreen format.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HP Deskjet F2180 stops after printing half of a page</title>
+      <link>http://localhost:1313/hp-deskjet-f2180-stops-after-half-page-print/</link>
+      <pubDate>Sun, 30 Aug 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hp-deskjet-f2180-stops-after-half-page-print/</guid>
+      <description>&lt;p&gt;I’ve just installed the 64bit version of Ubuntu 9.04 onto my main desktop PC. Everything was going well until I wanted to print a document.&lt;br&gt;&#xA;No, my printer was correctly detected and when I clicked ‘print’ the printer burst into life as expected. But after printing about half of the first page the printer just stopped. My printer is a HP Deskjet F2100 series (F2180 to be precise).&lt;/p&gt;&#xA;&lt;p&gt;I tried everything, google didn’t throw up anything useful, I installed later HP drivers but noting fixed it.&lt;/p&gt;&#xA;&lt;p&gt;After a lot of head scratching ad experimenting I did notice something odd. The USB device as owned by a user I did not have permissions for. I wasn’t expecting this to be the cause of the problem because if it was due to permissions then surely the printer would not print at all?!?&lt;/p&gt;&#xA;&lt;p&gt;I was wrong, and adding myself to the group that owned the USB device has fixed it. As this seemed quite off the wall I thought I’d share…&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Installing a XEN hvm DOMU</title>
+      <link>http://localhost:1313/installing-a-xen-hvm-domu/</link>
+      <pubDate>Sun, 14 Jun 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/installing-a-xen-hvm-domu/</guid>
+      <description>&lt;p&gt;For this to work your CPU and motherboard needs to support vt (intel) or amd-v. You can check this by looking at the flags in /proc/cpuinfo. Your looking for either vmx or svm on the flags line.&lt;/p&gt;&#xA;&lt;p&gt;If you’re doing this from your DOM0 then these flags may not actually show up. Instead type &lt;code&gt;xm info&lt;/code&gt; and look for ‘hvm’ on the virt_caps line.&lt;/p&gt;&#xA;&lt;p&gt;For my hvm install, i’ll be installing Ubuntu 9.04 Desktop Linux.&lt;br&gt;&#xA;I have copied the live CD ISO onto my XEN DOM0 and will be installing directly from the iso rather than burning the CD. I have also created a 10GB LVM logical volume to act as the disk for my new DOMU.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to set up a Linux RAID mirror</title>
+      <link>http://localhost:1313/how-to-set-up-a-linux-raid-mirror/</link>
+      <pubDate>Tue, 28 Apr 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/how-to-set-up-a-linux-raid-mirror/</guid>
+      <description>&lt;p&gt;This is a quick guide to setting up a Linux software RAID mirror (aka RAID 1).&lt;/p&gt;&#xA;&lt;p&gt;There are a couple of toolsets for managing raid on Linux, raidtools and mdadm. This guide will use mdadm because imho it has better commands and features for monitoring.&lt;/p&gt;&#xA;&lt;p&gt;Right, first you’ll need a couple of disk partitions of about the same size. These should be on separate disks or you’ll be defeating the point of raid mirroring &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Using vi as a hex editor</title>
+      <link>http://localhost:1313/using-vi-as-a-hex-editor/</link>
+      <pubDate>Tue, 21 Apr 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/using-vi-as-a-hex-editor/</guid>
+      <description>Sometimes I find it useful to switch to hex mode when editing a file in vi. The command for switching is not very obvious so thought I&amp;rsquo;d share&amp;hellip;&#xA;So, open a file in vi as usual. To switch into hex mode hit escape and type: :%!xxd&#xA;And when your done and want to exit from hex mode hit escape again and type: :%!xxd -r&#xA;Okay, so this isn&amp;rsquo;t actaully switching to vi&amp;rsquo;s &amp;lsquo;hex mode&amp;rsquo;; vi doesn&amp;rsquo;t have one.</description>
+    </item>
+    <item>
+      <title>Manually creating a Xen DOMU instance</title>
+      <link>http://localhost:1313/manually-creating-a-xen-domu-instance/</link>
+      <pubDate>Mon, 13 Apr 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/manually-creating-a-xen-domu-instance/</guid>
+      <description>&lt;p&gt;If you’ve followed my guide to installing xen from source then you might now be wondering how to create your first VM.&lt;br&gt;&#xA;This guide will show you how to manually create and install a VM (known as a DOMU instance in Xen) without any additional tools such as virt-manager, virt-install or virsh. These tools can help the novice, but are quite limiting when it comes to the advance features of xen.&lt;/p&gt;&#xA;&lt;p&gt;For this example I’ll be installing CentOS5, but this should work for any red-hat based distro (please note there is a bug in fedora10 that stops it booting under xen). This example also uses the paravirtual kernel so it will work even if your CPU does not support AMD-V or intel-VT.&lt;/p&gt;&#xA;&lt;p&gt;Right, down to business. The first thing we need to do is create a file to user as the hard disk for the DOMU. There are other options for providing hard disks to a DOMU, and I’ll cover some of them in a later guide but for this install I’ll be using a file.&lt;/p&gt;&#xA;&lt;p&gt;The command below will create an 8GB file that will be used as an 8GB drive. The whole file will be written to disk in one go so may take a short while to complete.&lt;br&gt;&#xA;&lt;code&gt;dd if=/dev/zero of=/xenimages/test01/disk1.img oflag=direct bs=1M count=8192&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LVM how to</title>
+      <link>http://localhost:1313/lvm-how-to/</link>
+      <pubDate>Tue, 07 Apr 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/lvm-how-to/</guid>
+      <description>&lt;p&gt;This is a quick and dirty guide to setting up an LVM based filesystem.&lt;/p&gt;&#xA;&lt;p&gt;First create some disk partitions. In this example I’ve got two identical unformatted partitions on a couple of hard drives. These appear in /dev as sda4 and sdb4. Please note your partition number will most likely be different.&lt;br&gt;&#xA;Also note that it’s easy to break your system with some of these commands. &lt;strong&gt;You have been warned, so don’t blame me if you wipe your system out!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;First make the partitions available to LVM:&lt;br&gt;&#xA;&lt;code&gt;pvcreate /dev/sda4&lt;/code&gt;&lt;br&gt;&#xA;Physical volume “/dev/sda4″ successfully created&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Copying JVC Everio HDD camcorder recordings with Linux</title>
+      <link>http://localhost:1313/copying-jvc-everio-hdd-camcorder-recordings-with-linux/</link>
+      <pubDate>Sun, 01 Mar 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/copying-jvc-everio-hdd-camcorder-recordings-with-linux/</guid>
+      <description>&lt;p&gt;As you might expect, the software that accompanied my Everio HDD camcorder when I bought it was not compatible with Linux. Just as well we don’t actually need any special software to download recordings onto your favourite OS (yes I &lt;em&gt;do&lt;/em&gt; mean Linux!)&lt;/p&gt;&#xA;&lt;p&gt;Plug everything in, USB and the power adapter then switch the camera into PLAY mode.&lt;/p&gt;&#xA;&lt;p&gt;At this point you should be presented with the usual KDE or GNOME window and be able to view/copy the files in the same way as you would a USB memory stick.&lt;/p&gt;&#xA;&lt;p&gt;However, there are a couple of drawbacks with this. First, just dragging the files will create a copy on your PC with timestamps of when you copied the videos, not actually filmed them. Second, the video files on your camcorder end in .mod and not .mpg which would be preferable for compatible playback.&lt;/p&gt;&#xA;&lt;p&gt;So we’ll be using the command line to copy recording and rename them. There’s not much to it really…&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Converting a video file to DVD with ffmpeg</title>
+      <link>http://localhost:1313/converting-a-video-file-to-dvd-with-ffmpeg/</link>
+      <pubDate>Sun, 22 Feb 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/converting-a-video-file-to-dvd-with-ffmpeg/</guid>
+      <description>&lt;p&gt;There are many GUI programs that allow you to convert avi/divx/xvid files into DVD format, such as DeVeDe, but I somehow prefer to use command line tools. I know, I’m just weird like that!&lt;/p&gt;&#xA;&lt;p&gt;There are 3 basic steps in creating a simple DVD:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Convert the video files&lt;/li&gt;&#xA;&lt;li&gt;create the DVD structure&lt;/li&gt;&#xA;&lt;li&gt;Burn the DVD&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;So, to convert a file to a DVD compatible format use something like:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;ffmpeg -i &amp;quot;non dvd format input video.avi&amp;quot; -y -target pal-dvd -sameq -aspect 16:9 output.mpg&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Next we need to create the DVD structure. We’ll use dvdauthor for this.&lt;br&gt;&#xA;Rather than pass eveything into dvdauthor via the command line, it’s easier to put the settings into an xml file.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

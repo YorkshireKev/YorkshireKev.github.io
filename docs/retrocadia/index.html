@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>Godot Experiment no. 1, Retrocadia - Kev&#39;s Site</title>
+<meta name="description" content="Most of my recent (and not so recent) programming efforts have been in JavaScript that runs in the browser. I believed that with WebGL, the browser would become more relevant in gaming and graphics applications. Fast forward a few years and it&rsquo;s clear that the vast majority of PC games are still downloaded and installed, just as they were decades ago.
+I decided to return to creating native games for the PC.">
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Kev\u0027s Site",
+    
+    "url": "http:\/\/localhost:1313\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "http:\/\/localhost:1313\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/retrocadia\/",
+          "name": "Godot experiment no. 1, retrocadia"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Kev"
+  },
+  "headline": "Godot Experiment no. 1, Retrocadia",
+  "description" : "Most of my recent (and not so recent) programming efforts have been in JavaScript that runs in the browser. I believed that with WebGL, the browser would become more relevant in gaming and graphics applications. Fast forward a few years and it\u0026rsquo;s clear that the vast majority of PC games are still downloaded and installed, just as they were decades ago.\nI decided to return to creating native games for the PC.",
+  "inLanguage" : "en",
+  "wordCount":  867 ,
+  "datePublished" : "2019-09-29T00:00:00",
+  "dateModified" : "2019-09-29T00:00:00",
+  "image" : "http:\/\/localhost:1313\/",
+  "keywords" : [ "godot" ],
+  "mainEntityOfPage" : "http:\/\/localhost:1313\/retrocadia\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "http:\/\/localhost:1313\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "http:\/\/localhost:1313\/",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Godot Experiment no. 1, Retrocadia" />
+<meta property="og:description" content="Most of my recent (and not so recent) programming efforts have been in JavaScript that runs in the browser. I believed that with WebGL, the browser would become more relevant in gaming and graphics applications. Fast forward a few years and it&rsquo;s clear that the vast majority of PC games are still downloaded and installed, just as they were decades ago.
+I decided to return to creating native games for the PC.">
+<meta property="og:image" content="http://localhost:1313/img/retrocadia.png" />
+<meta property="og:url" content="http://localhost:1313/retrocadia/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Kev&#39;s Site" />
+<link rel="apple-touch-icon" sizes="180x180" href=" http://localhost:1313/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon/favicon-16x16.png">
+
+
+<meta name="generator" content="Hugo 0.123.3">
+<link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="Kev&#39;s Site">
+<script src="http://localhost:1313/js/dark-mode.js"></script><script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli" crossorigin="anonymous"></script><script src="http://localhost:1313/js/lunr-search.js" data-index="/search.json"></script><link rel="stylesheet" href="/style.min.css">
+
+
+
+
+
+
+
+  </head>
+  <body>
+    
+<div class="container fixed-top mw-100">
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10">
+
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top p-0">
+        <div class="container">
+
+          <a class="navbar-brand fw-bold" href="http://localhost:1313/">Kev&#39;s Site</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav mb-2 mb-lg-0 align-items-baseline">
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Posts"
+                  href="/"> Posts</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Games"
+                  href="/categories/games/"> Games</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Categories"
+                  href="/categories/"> Categories</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Tags"
+                  href="/tags/"> Tags</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="About"
+                  href="/about/"> About</a>
+              </li>
+
+              
+              
+
+              <li class="nav-item nav-link">
+                <a id="dark-mode-toggle" class="bi bi-moon-stars" role="button"></a>
+              </li>
+
+              
+              <li class="nav-item search-item">
+                <form id="search" class="search" role="search">
+                  <label for="search-input" class="bi bi-search search-icon"></label>
+                  <input type="search" id="search-input" class="search-input">
+                </form>
+              </li>
+              
+            </ul>
+
+            
+            <template id="search-heading" hidden
+                data-results-none="No results found for “{}”"
+                data-results-one="Found one result for “{}”"
+                data-results-many="Found 13579 results for “{}”"
+            >
+              <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+                  <h1 id="search-title" class="search-title"></h1>
+                </div>
+              </div>
+            </template>
+
+            <template id="search-result" hidden>
+              <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+                  <article class="content post">
+                    <h2><a class="summary-title-link"></a></h2>
+                    <div class="post-entry"></div>
+                    <div class="read-more-section">
+                      <h6 class="text-muted link-underline">
+                        <a class="read-more-link">
+                          Read More
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </h6>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </template>
+            
+          </div>
+        </div>
+      </nav>
+
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+<header class="header-section ">
+
+  <div class="intro-header no-img mt-10">
+    <div class="container">
+      <div class="row justify-content-center">
+        
+        <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+          
+
+          
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            
+
+            <div class="post-heading">
+              
+
+              
+
+              
+              <h1 class="fw-semibold display-5 lh-1 mb-3"> 
+                Godot Experiment no. 1, Retrocadia
+                
+              </h1>
+              
+              
+
+              
+
+              
+              
+              <span class="post-meta">
+  
+  
+  &nbsp;September 29, 2019
+
+  
+
+  
+
+  
+</span>
+
+
+              
+              
+            </div>
+          </div>
+          
+        </div>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</header>
+
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      <article role="main" class="blog-post">
+        <p><img src="/images/retrocadia/retrocadia-title.png" alt=""></p>
+<p>Most of my recent (and not so recent) programming efforts have been in JavaScript that runs in the browser. I believed that with WebGL, the browser would become more relevant in gaming and graphics applications. Fast forward a few years and it&rsquo;s clear that the vast majority of PC games are still downloaded and installed, just as they were decades ago.</p>
+<p>I decided to return to creating native games for the PC. It&rsquo;s been almost 20 years since I last wrote a native PC game, so I thought I&rsquo;d start with something simple to get my eye in.</p>
+<p>The first thing I needed to do was figure out what tools I&rsquo;d use to create the game. Back in the 90s, I used to code in C and C++, using Open GL and Direct X for the graphics and sound. But these days a PC doesn&rsquo;t only mean Windows. Linux and Mac need to be supported too.</p>
+<p>Today the vast majority of games are created using a game engine. A game engine takes care of most of the boilerplate code allowing game creators to concentrate on the game&rsquo;s logic rather than worrying about graphics rendering, sound playback routines, and other framework features.</p>
+<p>Given my fond memory of C++, I decided to give <a href="https://www.unrealengine.com">Unreal Engine</a> a closer look. Much to my surprise, I found coding game logic in C++ to be quite time consuming and verbose. It turns out that going back to a fairly low-level language was not as much fun as I thought it was going to be. Another issue I have with unreal is that it&rsquo;s not open source. I don&rsquo;t currently plan to sell the games I write, so the Unreal license would be free of charge for me, but I can&rsquo;t quite get comfortable with using a commercial license. As fantastic as Unreal Engine is, I decided it wasn&rsquo;t the engine for me.</p>
+<p>Next up I gave <a href="https://godotengine.org/">Godot</a> a look. Godot is a full-featured 2D/3D game engine that is open source. The game logic is written in Godot&rsquo;s GD Script, though there is a growing number of languages supported by the GD Native extension. GDscript is quite Pythonesque, so it has a reasonably shallow learning curve. After running through the official tutorial: Dodge the Creeps! I decided to go with Godot for my return to native PC game programming.</p>
+<h2 id="introducing-godot-experiment-no-1-retorcadia">Introducing Godot Experiment no. 1, Retorcadia</h2>
+<blockquote>
+<p>Retrocadia has been released for Windows, Mac and Linux.</p>
+<p><strong>Download it from itch.io: <a href="https://yorkshirekev.itch.io/retrocadia">yorkshirekev.itch.io/retrocadia</a></strong></p>
+</blockquote>
+<p>Retrocadia is a simple 2D shoot &rsquo;em up. It is very loosely inspired by the ZX Spectrum classic: Arcadia.</p>
+<p><img src="/images/retrocadia/arcadia.png" alt=""><!-- raw HTML omitted -->
+(Arcadia - ZX Spectrum Screenshot)</p>
+<p>I&rsquo;ve had a few challenges using the Godot engine. But these were nothing too major and typical of learning something new. An example of this was getting the enemy&rsquo;s path to loop seamlessly. The followpath2d provided by the engine is intended to follow the path from one end to the other. When looped it just jumps back to the starting screen position. I got past this by monitoring for when the sprite was at the end of the path, then adjusting the start position of the path as it looped.</p>
+<p><img src="/images/retrocadia/retrocadia.png" alt=""><!-- raw HTML omitted -->
+(Retrocadia PC Screenshot)</p>
+<p>The game is now almost complete. I&rsquo;ve still got to add a few finishing touches such as explosions when the player is hit. It&rsquo;s also only got 4 levels, so I need to add a few more I think!</p>
+<h2 id="update-02102019">Update 02/10/2019</h2>
+<p>I&rsquo;ve added a naff explosion effect when the player gets hit and made the enemy bullets get faster after every level completed (well, up to a limit!).
+The game is about as complete as I&rsquo;m going to make it, apart from adding a few more levels. I&rsquo;ll then need to figure out the best way to release the game. I&rsquo;ll probably put it on itch.io for download.</p>
+<h2 id="update-06102019">Update 06/10/2019</h2>
+<p>Added one more level and tidied up a few loose ends. I&rsquo;ve also added a check that will inform users if there is a newer version of the game available to download. This allows me to release it as beta and let users know when I update it e.g. when I get round to adding more levels as well as fixing any bugs that might come to light.<!-- raw HTML omitted -->
+<strong>Retrocadia v0.1 released for Mac and Linux</strong>. A Windows version will follow when I find a windows PC to build and test it on!<!-- raw HTML omitted -->
+You can download it from itch.io: <a href="https://yorkshirekev.itch.io/retrocadia">https://yorkshirekev.itch.io/retrocadia</a></p>
+<h2 id="update-10102019">Update 10/10/2019</h2>
+<p>The Windows version is now also available for download from itch.io alongside the Mac and Linux versions.<!-- raw HTML omitted --></p>
+<p>I have also built a web version so the game can be played in a modern desktop browser. At the time of writing the game worked in the latest versions of Chrome and Firefox, but sadly didn&rsquo;t load in Safari. I&rsquo;d say the web version should be considered experimental and loading can be a little hit and miss. In chrome on my Mac, for example, loading seemed to hang but then ran just fine when I hit refresh! I guess this sort of thing is to be expected as Web-Assembly and Godot&rsquo;s ability to generate it are both cutting edge experimental features.
+<a href="https://www.kevssite.com/retrocadia-web">Click here to play Retrocadia in the browser</a></p>
+
+      </article>
+    </div>
+  </div>
+
+  
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+      <hr class="m-0"/>
+    </div>
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-2">
+      
+      <div class="blog-tags">
+        
+        <a href="http://localhost:1313/tags/godot/">godot</a>
+        
+      </div>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      
+    </div>
+
+    
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 mt-3">
+      <div class="card">
+        <div class="row no-gutters">
+          <div class="col-md-10">
+            <div class="card-body p-1.1">
+              <p class="p-0 m-0"><small class="text-muted">Written By</small></p>
+              <p class="card-text fs-5 m-0">
+
+                
+                Kev
+                
+
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="col-lg-8 offset-lg-2 col-md-12 offset-md-1 pt-4">
+      
+      <ul class="list-group list-group-horizontal" style="flex-direction: row">
+        
+        <li class="list-group-item b-0 p-0">
+
+          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/chatting-with-matthew-smith/"
+            data-toggle="tooltip" data-placement="top" title="Chatting with Matthew Smith">&larr;
+            Previous Post</a>
+        </li>
+        
+
+
+        
+        <li class="list-group-item ms-auto b-0 p-0">
+          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/useful-vscode-keyboard-combinations/"
+            data-toggle="tooltip" data-placement="top" title="Useful VS Code Keyboard Combinations">Next Post
+            &rarr;</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+    </div>
+  </div>
+  
+</div>
+
+<div class="">
+  
+  
+  
+  
+  
+
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 mt-3">
+        <h3>Related Posts</h3>
+        <hr />
+      </div>
+
+      
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
+    <a href="http://localhost:1313/central-cavern/">
+        <div class="card single-post-card h-100 shadow-effect border">
+
+            <h3 class="fw-bold post-title">Godot Experiment no. 2, Central Cavern</h3>
+            
+            <p class="post-meta">
+                <span class="post-meta text-muted">
+  
+  
+
+  May 6, 2020
+
+  
+  (Last modified on August 21, 2020)
+  
+
+  
+
+  
+
+  
+</span>
+
+            </p>
+
+            
+            <img src="/img/central-cavern_hudf24533c5d58a1d5d8139457b2134aa3_69264_500x0_resize_box_3.png" alt="/img/central-cavern.png"
+                class="card-img-top img-fluid lazyload">
+            
+
+            
+            <div class="card-body">
+
+
+
+                
+                
+                <div class="post-entry">
+
+                    
+                    One of my all-time favourite games is Manic Miner on the ZX Spectrum. When Bug-Byte released Matthew Smith&rsquo;s masterpiece in 1983 the bar was raised for quality gaming on the Speccy. Sure there were many, many excellent games released on the Spectrum (I&rsquo;m looking at you Ultimate) but Manic Miner is still my go-to game when I need a retro gaming fix.
+Ever since I saw Mario64 on the N64 I wondered what a 3D version of Manic Miner or Jet Set Willy would look and play like.
+                    
+                </div>
+
+                <div class="read-more-section">
+                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+
+      
+    </div>
+  </div>
+  
+  
+
+  
+
+</div>
+
+    
+
+
+<footer>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul
+          class="list-inline list-group list-group-horizontal text-center footer-links d-flex justify-content-center flex-row">
+
+          
+          <li>
+            <a href="https://github.com/YorkshireKev" title="GitHub" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-github"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/YorkshireKev" title="Twitter" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-twitter"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/elliskevin" title="LinkedIn" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-linkedin"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@kevschannel" title="Youtube" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-youtube"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p class="credits copyright text-muted">
+          
+          &nbsp;&copy;
+          
+          2009 - 2024
+          
+          Kevin Ellis
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="http://localhost:1313/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function () { $("pre.chroma").css("padding", "0"); }); </script>
+    
+  </body>
+</html>
+

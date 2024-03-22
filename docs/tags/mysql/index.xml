@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mysql on Kev&#39;s Site</title>
+    <link>http://localhost:1313/tags/mysql/</link>
+    <description>Recent content in Mysql on Kev&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Jul 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deleted root@localhost account in MySQL</title>
+      <link>http://localhost:1313/deleted-rootlocalhost-account-in-mysql/</link>
+      <pubDate>Sat, 02 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/deleted-rootlocalhost-account-in-mysql/</guid>
+      <description>&lt;p&gt;Like the fool I am, whilst messing about with user privileges in phpMyAdmin I managed to delete the root account. Suddenly I found myself with no access to any of my databases &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;It took a while to figure out how to re-create the root@localhost user, so here’s how I did it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

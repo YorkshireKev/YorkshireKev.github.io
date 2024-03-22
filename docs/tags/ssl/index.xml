@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ssl on Kev&#39;s Site</title>
+    <link>http://localhost:1313/tags/ssl/</link>
+    <description>Recent content in Ssl on Kev&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Sep 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ssl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Extracting SSH keys from a Java keystore (jks) file</title>
+      <link>http://localhost:1313/extracting-ssh-keys-from-a-java-keystore-jks-file/</link>
+      <pubDate>Fri, 23 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/extracting-ssh-keys-from-a-java-keystore-jks-file/</guid>
+      <description>&lt;p&gt;I needed to extract/generate a public ssh key from a java keystore so that the Java application could SFTP some files using public key authentication.&lt;/p&gt;&#xA;&lt;p&gt;The problem was that I couldn’t find any way of converting an ssl public key to an ssh public key. It seems that although ssl and ssh private keys are compatible, the public keys are not.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

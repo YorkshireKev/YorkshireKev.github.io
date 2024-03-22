@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>LVM how to - Kev&#39;s Site</title>
+<meta name="description" content="This is a quick and dirty guide to setting up an LVM based filesystem.
+First create some disk partitions. In this example I’ve got two identical unformatted partitions on a couple of hard drives. These appear in /dev as sda4 and sdb4. Please note your partition number will most likely be different.
+Also note that it’s easy to break your system with some of these commands. You have been warned, so don’t blame me if you wipe your system out!
+First make the partitions available to LVM:
+pvcreate /dev/sda4
+Physical volume “/dev/sda4″ successfully created">
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Kev\u0027s Site",
+    
+    "url": "http:\/\/localhost:1313\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "http:\/\/localhost:1313\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/lvm-how-to\/",
+          "name": "Lvm how to"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Kev"
+  },
+  "headline": "LVM how to",
+  "description" : "This is a quick and dirty guide to setting up an LVM based filesystem.\nFirst create some disk partitions. In this example I’ve got two identical unformatted partitions on a couple of hard drives. These appear in \/dev as sda4 and sdb4. Please note your partition number will most likely be different.\nAlso note that it’s easy to break your system with some of these commands. You have been warned, so don’t blame me if you wipe your system out!\nFirst make the partitions available to LVM:\npvcreate \/dev\/sda4\nPhysical volume “\/dev\/sda4″ successfully created\n",
+  "inLanguage" : "en",
+  "wordCount":  496 ,
+  "datePublished" : "2009-04-07T00:00:00",
+  "dateModified" : "2009-04-07T00:00:00",
+  "image" : "http:\/\/localhost:1313\/",
+  "keywords" : [ "create volume, logical volume manager, LVM, LVM2" ],
+  "mainEntityOfPage" : "http:\/\/localhost:1313\/lvm-how-to\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "http:\/\/localhost:1313\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "http:\/\/localhost:1313\/",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="LVM how to" />
+<meta property="og:description" content="This is a quick and dirty guide to setting up an LVM based filesystem.
+First create some disk partitions. In this example I’ve got two identical unformatted partitions on a couple of hard drives. These appear in /dev as sda4 and sdb4. Please note your partition number will most likely be different.
+Also note that it’s easy to break your system with some of these commands. You have been warned, so don’t blame me if you wipe your system out!
+First make the partitions available to LVM:
+pvcreate /dev/sda4
+Physical volume “/dev/sda4″ successfully created">
+<meta property="og:url" content="http://localhost:1313/lvm-how-to/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Kev&#39;s Site" />
+<link rel="apple-touch-icon" sizes="180x180" href=" http://localhost:1313/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon/favicon-16x16.png">
+
+
+<meta name="generator" content="Hugo 0.123.3">
+<link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="Kev&#39;s Site">
+<script src="http://localhost:1313/js/dark-mode.js"></script><script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli" crossorigin="anonymous"></script><script src="http://localhost:1313/js/lunr-search.js" data-index="/search.json"></script><link rel="stylesheet" href="/style.min.css">
+
+
+
+
+
+
+
+  </head>
+  <body>
+    
+<div class="container fixed-top mw-100">
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10">
+
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top p-0">
+        <div class="container">
+
+          <a class="navbar-brand fw-bold" href="http://localhost:1313/">Kev&#39;s Site</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav mb-2 mb-lg-0 align-items-baseline">
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Posts"
+                  href="/"> Posts</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Games"
+                  href="/categories/games/"> Games</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Categories"
+                  href="/categories/"> Categories</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Tags"
+                  href="/tags/"> Tags</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="About"
+                  href="/about/"> About</a>
+              </li>
+
+              
+              
+
+              <li class="nav-item nav-link">
+                <a id="dark-mode-toggle" class="bi bi-moon-stars" role="button"></a>
+              </li>
+
+              
+              <li class="nav-item search-item">
+                <form id="search" class="search" role="search">
+                  <label for="search-input" class="bi bi-search search-icon"></label>
+                  <input type="search" id="search-input" class="search-input">
+                </form>
+              </li>
+              
+            </ul>
+
+            
+            <template id="search-heading" hidden
+                data-results-none="No results found for “{}”"
+                data-results-one="Found one result for “{}”"
+                data-results-many="Found 13579 results for “{}”"
+            >
+              <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+                  <h1 id="search-title" class="search-title"></h1>
+                </div>
+              </div>
+            </template>
+
+            <template id="search-result" hidden>
+              <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+                  <article class="content post">
+                    <h2><a class="summary-title-link"></a></h2>
+                    <div class="post-entry"></div>
+                    <div class="read-more-section">
+                      <h6 class="text-muted link-underline">
+                        <a class="read-more-link">
+                          Read More
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </h6>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </template>
+            
+          </div>
+        </div>
+      </nav>
+
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+<header class="header-section ">
+
+  <div class="intro-header no-img mt-10">
+    <div class="container">
+      <div class="row justify-content-center">
+        
+        <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+          
+
+          
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            
+
+            <div class="post-heading">
+              
+
+              
+
+              
+              <h1 class="fw-semibold display-5 lh-1 mb-3"> 
+                LVM how to
+                
+              </h1>
+              
+              
+
+              
+
+              
+              
+              <span class="post-meta">
+  
+  
+  &nbsp;April 7, 2009
+
+  
+
+  
+
+  
+</span>
+
+
+              
+              
+            </div>
+          </div>
+          
+        </div>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</header>
+
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      <article role="main" class="blog-post">
+        <p>This is a quick and dirty guide to setting up an LVM based filesystem.</p>
+<p>First create some disk partitions. In this example I’ve got two identical unformatted partitions on a couple of hard drives. These appear in /dev as sda4 and sdb4. Please note your partition number will most likely be different.<br>
+Also note that it’s easy to break your system with some of these commands. <strong>You have been warned, so don’t blame me if you wipe your system out!</strong></p>
+<p>First make the partitions available to LVM:<br>
+<code>pvcreate /dev/sda4</code><br>
+Physical volume “/dev/sda4″ successfully created</p>
+<p><code>pvcreate /dev/sdb4</code><br>
+Physical volume “/dev/sdb4″ successfully created</p>
+<p>Next create a volume group:<br>
+<code>vgcreate xenimagesvg /dev/sda4 /dev/sdb4</code><br>
+Volume group “xenimagesvg” successfully created</p>
+<p>We can check the size etc of the new volume group with vgdisplay:</p>
+<p><code>vgdisplay xenimagesvg</code><br>
+— Volume group —<br>
+VG Name xenimagesvg<br>
+System ID<br>
+Format lvm2<br>
+Metadata Areas 2<br>
+Metadata Sequence No 1<br>
+VG Access read/write<br>
+VG Status resizable<br>
+MAX LV 0<br>
+Cur LV 0<br>
+Open LV 0<br>
+Max PV 0<br>
+Cur PV 2<br>
+Act PV 2<br>
+VG Size 289.52 GB<br>
+PE Size 4.00 MB<br>
+Total PE 74116<br>
+Alloc PE / Size 0 / 0<br>
+Free PE / Size 74116 / 289.52 GB<br>
+VG UUID m408F0-77d6-WXwU-ykD9-5OCB-pIkG-cSbIDP</p>
+<p>Next, we need to create a logical volume in our new volume group:<br>
+<code>lvcreate -n xenimageslv -L 250G xenimagesvg</code></p>
+<p>The above will create a logical volume called xenimages<strong>lv</strong> in volume group xenimages<strong>vg</strong></p>
+<p>Now we need to format the logical volume so that it can be used as a filesystem.<br>
+I’m going to format to ext3 using mke2fs with -j (for journalling, aka ext3):<br>
+<code>mke2fs -j /dev/mapper/xenimagesvg-xenimageslv</code><br>
+mke2fs 1.41.3 (12-Oct-2008)<br>
+Filesystem label=<br>
+OS type: Linux<br>
+Block size=4096 (log=2)<br>
+Fragment size=4096 (log=2)<br>
+16384000 inodes, 65536000 blocks<br>
+3276800 blocks (5.00%) reserved for the super user<br>
+First data block=0<br>
+Maximum filesystem blocks=4294967296<br>
+2000 block groups<br>
+32768 blocks per group, 32768 fragments per group<br>
+8192 inodes per group<br>
+Superblock backups stored on blocks:<br>
+32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208,<br>
+4096000, 7962624, 11239424, 20480000, 23887872</p>
+<p>Writing inode tables: done<br>
+Creating journal (32768 blocks): done<br>
+Writing superblocks and filesystem accounting information: done</p>
+<p>This filesystem will be automatically checked every 32 mounts or<br>
+180 days, whichever comes first. Use tune2fs -c or -i to override.</p>
+<p>And finally we need to mount our new filesystem so that we can actually use it. Here I’ll add the entry into fstab so that it mounts on system startup.</p>
+<p>Create a folder to mount the filesystem into:<br>
+<code>mkdir xenimages</code></p>
+<p>edit fstab and add the following line to mount our new lvm filesystem at system startup…<br>
+<code>/dev/mapper/xenimagesvg-xenimageslv /xenimages   ext3    errors=remount-ro 0       0</code></p>
+<p>Now run <code>mount-a</code> to re-run fstab mounts and mount the new filesystem</p>
+<p>Check it’s mounted with df -h:<br>
+<code>df -h</code><br>
+Filesystem Size Used Avail Use% Mounted on<br>
+/dev/mapper/rootvg-rootlv<br>
+21G 4.5G 15G 24% /<br>
+tmpfs 1.9G 0 1.9G 0% /lib/init/rw<br>
+udev 10M 124K 9.9M 2% /dev<br>
+tmpfs 1.9G 0 1.9G 0% /dev/shm<br>
+/dev/md1 92M 51M 36M 59% /boot<br>
+/dev/mapper/xenimagesvg-xenimageslv<br>
+247G 188M 234G 1% /xenimages</p>
+      </article>
+    </div>
+  </div>
+
+  
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+      <hr class="m-0"/>
+    </div>
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-2">
+      
+      <div class="blog-tags">
+        
+        <a href="http://localhost:1313/tags/create-volume/">create volume</a>
+        
+        <a href="http://localhost:1313/tags/logical-volume-manager/">logical volume manager</a>
+        
+        <a href="http://localhost:1313/tags/lvm/">LVM</a>
+        
+        <a href="http://localhost:1313/tags/lvm2/">LVM2</a>
+        
+      </div>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      
+    </div>
+
+    
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 mt-3">
+      <div class="card">
+        <div class="row no-gutters">
+          <div class="col-md-10">
+            <div class="card-body p-1.1">
+              <p class="p-0 m-0"><small class="text-muted">Written By</small></p>
+              <p class="card-text fs-5 m-0">
+
+                
+                Kev
+                
+
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="col-lg-8 offset-lg-2 col-md-12 offset-md-1 pt-4">
+      
+      <ul class="list-group list-group-horizontal" style="flex-direction: row">
+        
+        <li class="list-group-item b-0 p-0">
+
+          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/copying-jvc-everio-hdd-camcorder-recordings-with-linux/"
+            data-toggle="tooltip" data-placement="top" title="Copying JVC Everio HDD camcorder recordings with Linux">&larr;
+            Previous Post</a>
+        </li>
+        
+
+
+        
+        <li class="list-group-item ms-auto b-0 p-0">
+          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/installing-xen-33-from-source-on-debian-50-lenny/"
+            data-toggle="tooltip" data-placement="top" title="Installing Xen 3.3.1 from source on Debian 5.0 (Lenny)">Next Post
+            &rarr;</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+    </div>
+  </div>
+  
+</div>
+
+<div class="">
+  
+  
+  
+  
+  
+
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 mt-3">
+        <h3>Related Posts</h3>
+        <hr />
+      </div>
+
+      
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
+    <a href="http://localhost:1313/mounting-lvm-backed-xen-disk-partitions-in-dom0/">
+        <div class="card single-post-card h-100 shadow-effect border">
+
+            <h3 class="fw-bold post-title">Mounting LVM backed XEN disk partitions in DOM0</h3>
+            
+            <p class="post-meta">
+                <span class="post-meta text-muted">
+  
+  
+
+  October 27, 2010
+
+  
+
+  
+
+  
+
+  
+</span>
+
+            </p>
+
+            
+
+            
+            <div class="card-body">
+
+
+
+                
+                
+                <div class="post-entry">
+
+                    
+                    <p>Sometimes you might need to mount a DOMU’s disk in DOM0, so that you can edit files, or even recover them in the event that your DOMU is broken and fails to boot.</p>
+                    
+                </div>
+
+                <div class="read-more-section">
+                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+
+      
+    </div>
+  </div>
+  
+  
+
+  
+
+</div>
+
+    
+
+
+<footer>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul
+          class="list-inline list-group list-group-horizontal text-center footer-links d-flex justify-content-center flex-row">
+
+          
+          <li>
+            <a href="https://github.com/YorkshireKev" title="GitHub" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-github"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/YorkshireKev" title="Twitter" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-twitter"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/elliskevin" title="LinkedIn" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-linkedin"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@kevschannel" title="Youtube" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-youtube"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p class="credits copyright text-muted">
+          
+          &nbsp;&copy;
+          
+          2009 - 2024
+          
+          Kevin Ellis
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="http://localhost:1313/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function () { $("pre.chroma").css("padding", "0"); }); </script>
+    
+  </body>
+</html>
+

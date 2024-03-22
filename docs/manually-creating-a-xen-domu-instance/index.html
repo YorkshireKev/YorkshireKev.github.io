@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>Manually creating a Xen DOMU instance - Kev&#39;s Site</title>
+<meta name="description" content="If you’ve followed my guide to installing xen from source then you might now be wondering how to create your first VM.
+This guide will show you how to manually create and install a VM (known as a DOMU instance in Xen) without any additional tools such as virt-manager, virt-install or virsh. These tools can help the novice, but are quite limiting when it comes to the advance features of xen.
+For this example I’ll be installing CentOS5, but this should work for any red-hat based distro (please note there is a bug in fedora10 that stops it booting under xen). This example also uses the paravirtual kernel so it will work even if your CPU does not support AMD-V or intel-VT.
+Right, down to business. The first thing we need to do is create a file to user as the hard disk for the DOMU. There are other options for providing hard disks to a DOMU, and I’ll cover some of them in a later guide but for this install I’ll be using a file.
+The command below will create an 8GB file that will be used as an 8GB drive. The whole file will be written to disk in one go so may take a short while to complete.
+dd if=/dev/zero of=/xenimages/test01/disk1.img oflag=direct bs=1M count=8192">
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Kev\u0027s Site",
+    
+    "url": "http:\/\/localhost:1313\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "http:\/\/localhost:1313\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/manually-creating-a-xen-domu-instance\/",
+          "name": "Manually creating a xen domu instance"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Kev"
+  },
+  "headline": "Manually creating a Xen DOMU instance",
+  "description" : "If you’ve followed my guide to installing xen from source then you might now be wondering how to create your first VM.\nThis guide will show you how to manually create and install a VM (known as a DOMU instance in Xen) without any additional tools such as virt-manager, virt-install or virsh. These tools can help the novice, but are quite limiting when it comes to the advance features of xen.\nFor this example I’ll be installing CentOS5, but this should work for any red-hat based distro (please note there is a bug in fedora10 that stops it booting under xen). This example also uses the paravirtual kernel so it will work even if your CPU does not support AMD-V or intel-VT.\nRight, down to business. The first thing we need to do is create a file to user as the hard disk for the DOMU. There are other options for providing hard disks to a DOMU, and I’ll cover some of them in a later guide but for this install I’ll be using a file.\nThe command below will create an 8GB file that will be used as an 8GB drive. The whole file will be written to disk in one go so may take a short while to complete.\ndd if=\/dev\/zero of=\/xenimages\/test01\/disk1.img oflag=direct bs=1M count=8192\n",
+  "inLanguage" : "en",
+  "wordCount":  907 ,
+  "datePublished" : "2009-04-13T00:00:00",
+  "dateModified" : "2009-04-13T00:00:00",
+  "image" : "http:\/\/localhost:1313\/",
+  "keywords" : [ "domu, Xen virtualization" ],
+  "mainEntityOfPage" : "http:\/\/localhost:1313\/manually-creating-a-xen-domu-instance\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "http:\/\/localhost:1313\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "http:\/\/localhost:1313\/",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Manually creating a Xen DOMU instance" />
+<meta property="og:description" content="If you’ve followed my guide to installing xen from source then you might now be wondering how to create your first VM.
+This guide will show you how to manually create and install a VM (known as a DOMU instance in Xen) without any additional tools such as virt-manager, virt-install or virsh. These tools can help the novice, but are quite limiting when it comes to the advance features of xen.
+For this example I’ll be installing CentOS5, but this should work for any red-hat based distro (please note there is a bug in fedora10 that stops it booting under xen). This example also uses the paravirtual kernel so it will work even if your CPU does not support AMD-V or intel-VT.
+Right, down to business. The first thing we need to do is create a file to user as the hard disk for the DOMU. There are other options for providing hard disks to a DOMU, and I’ll cover some of them in a later guide but for this install I’ll be using a file.
+The command below will create an 8GB file that will be used as an 8GB drive. The whole file will be written to disk in one go so may take a short while to complete.
+dd if=/dev/zero of=/xenimages/test01/disk1.img oflag=direct bs=1M count=8192">
+<meta property="og:url" content="http://localhost:1313/manually-creating-a-xen-domu-instance/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Kev&#39;s Site" />
+<link rel="apple-touch-icon" sizes="180x180" href=" http://localhost:1313/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon/favicon-16x16.png">
+
+
+<meta name="generator" content="Hugo 0.123.3">
+<link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="Kev&#39;s Site">
+<script src="http://localhost:1313/js/dark-mode.js"></script><script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli" crossorigin="anonymous"></script><script src="http://localhost:1313/js/lunr-search.js" data-index="/search.json"></script><link rel="stylesheet" href="/style.min.css">
+
+
+
+
+
+
+
+  </head>
+  <body>
+    
+<div class="container fixed-top mw-100">
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10">
+
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top p-0">
+        <div class="container">
+
+          <a class="navbar-brand fw-bold" href="http://localhost:1313/">Kev&#39;s Site</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav mb-2 mb-lg-0 align-items-baseline">
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Posts"
+                  href="/"> Posts</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Games"
+                  href="/categories/games/"> Games</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Categories"
+                  href="/categories/"> Categories</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Tags"
+                  href="/tags/"> Tags</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="About"
+                  href="/about/"> About</a>
+              </li>
+
+              
+              
+
+              <li class="nav-item nav-link">
+                <a id="dark-mode-toggle" class="bi bi-moon-stars" role="button"></a>
+              </li>
+
+              
+              <li class="nav-item search-item">
+                <form id="search" class="search" role="search">
+                  <label for="search-input" class="bi bi-search search-icon"></label>
+                  <input type="search" id="search-input" class="search-input">
+                </form>
+              </li>
+              
+            </ul>
+
+            
+            <template id="search-heading" hidden
+                data-results-none="No results found for “{}”"
+                data-results-one="Found one result for “{}”"
+                data-results-many="Found 13579 results for “{}”"
+            >
+              <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+                  <h1 id="search-title" class="search-title"></h1>
+                </div>
+              </div>
+            </template>
+
+            <template id="search-result" hidden>
+              <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+                  <article class="content post">
+                    <h2><a class="summary-title-link"></a></h2>
+                    <div class="post-entry"></div>
+                    <div class="read-more-section">
+                      <h6 class="text-muted link-underline">
+                        <a class="read-more-link">
+                          Read More
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </h6>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </template>
+            
+          </div>
+        </div>
+      </nav>
+
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+<header class="header-section ">
+
+  <div class="intro-header no-img mt-10">
+    <div class="container">
+      <div class="row justify-content-center">
+        
+        <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+          
+
+          
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            
+
+            <div class="post-heading">
+              
+
+              
+
+              
+              <h1 class="fw-semibold display-5 lh-1 mb-3"> 
+                Manually creating a Xen DOMU instance
+                
+              </h1>
+              
+              
+
+              
+
+              
+              
+              <span class="post-meta">
+  
+  
+  &nbsp;April 13, 2009
+
+  
+
+  
+
+  
+</span>
+
+
+              
+              
+            </div>
+          </div>
+          
+        </div>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</header>
+
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      <article role="main" class="blog-post">
+        <p>If you’ve followed my guide to installing xen from source then you might now be wondering how to create your first VM.<br>
+This guide will show you how to manually create and install a VM (known as a DOMU instance in Xen) without any additional tools such as virt-manager, virt-install or virsh. These tools can help the novice, but are quite limiting when it comes to the advance features of xen.</p>
+<p>For this example I’ll be installing CentOS5, but this should work for any red-hat based distro (please note there is a bug in fedora10 that stops it booting under xen). This example also uses the paravirtual kernel so it will work even if your CPU does not support AMD-V or intel-VT.</p>
+<p>Right, down to business. The first thing we need to do is create a file to user as the hard disk for the DOMU. There are other options for providing hard disks to a DOMU, and I’ll cover some of them in a later guide but for this install I’ll be using a file.</p>
+<p>The command below will create an 8GB file that will be used as an 8GB drive. The whole file will be written to disk in one go so may take a short while to complete.<br>
+<code>dd if=/dev/zero of=/xenimages/test01/disk1.img oflag=direct bs=1M count=8192</code></p>
+<p>Alternatively, you can use the command below to create the same size file as a sparse file. What this does is create the file, but only take up disk space as the file is used. In this case the file will only really take about 1mb of disk initially and grow as you use it.<br>
+<code>dd if=/dev/zero of=/xenimages/test01/disk1.img oflag=direct bs=1M seek=8191 count=1</code><br>
+There are pros and cons of using sparse files. On one hand they only take as much disk as is actually used, on the other hand the file can become fragmented and you could run out of real disk if you overcommit space.</p>
+<p>Next up we’ll mount the install CD and export it over nfs so that xen can use it as a network install.<br>
+<code>mkdir /tmp/centos52&lt;br /&gt; mount /dev/hda /tmp/centos52 -o loop,ro</code><br>
+Just to check the mount went OK: <code>ls /tmp/centos52</code> should show the files.<br>
+Now run the export:<br>
+<code>exportfs *:/tmp/centos5</code></p>
+<p>Now we’ll create the xen config file for our new instance. The default location for xen config files is /var/xen so that’s where ours will go.<br>
+I’m going to call my VM test01, so I’ll create a file /var/xen/test01 that contains the following initial configuration:</p>
+<pre><code>kernel = &quot;/tmp/centos52/images/xen/vmlinuz&quot;
+ramdisk = &quot;/tmp/centos52/images/xen/initrd.img&quot;
+name = &quot;test01&quot;
+memory = &quot;256&quot;
+## disk = [ 'tap:aio:/xenimages/test01/disk1.img,xvda,w', ]
+disk = [ 'file:/xenimages/test01/disk1.img,xvda,w', ]
+vif = [ 'bridge=eth0', ]
+vcpus=1
+on_reboot = &quot;destroy&quot;
+on_crash = &quot;destroy&quot;
+</code></pre>
+<p>Note that if you are installing from a different machine from your xen machine the you will need to nfs mount the install disk in order for the above config to kick off the installer. e.g.<br>
+<code>mount IP address:/tmp/centos52 /tmp/centos52</code></p>
+<p>So, lets boot the new instance and start the installer.<br>
+<code>xm create test01</code><br>
+After a moment or two the console should return with something like “Started domain test01″.</p>
+<p>Now lets connect to the console and proceed with the install:<br>
+<code>xm console test01</code></p>
+<p>Or if you prefer the previous two commands can be combined into one: <code>xm create test01 -c</code>.</p>
+<p>From here on you should work through the standard text mode installer.<br>
+The points to note are:</p>
+<ul>
+<li>** For installation image select “NFS image”.** Then in the later nfs panel enter your PC’s IP address for the servername and /tmp/centos52 (or wherever you mounted the cd) as the directory.</li>
+<li>I also specified a manual IP address for my VM. I selected my routers IP for the gateway and dns server, so that I can access the internet from the VM later.</li>
+<li>The hard drive is named <strong>xvda</strong>, as specified in the config file. This will need to be partitioned and formatted by the installer.</li>
+</ul>
+<p>The rest of the install is fairly straight forward. If in doubt just go with the defaults, although it’s probably a good idea to set a manual IP address in your subnet range so that you can easily ssh onto the VM.<br>
+Note that to release the console from your VM hold down <strong>Ctlr</strong> and press the <strong>]</strong> key.</p>
+<p>When the install is complete the new domain will need to be shut down (you’ll be prompted to ‘restart’ by the installer, this will in fact shut down the VM because we set the on_reboot option to destroy), and then the xen config file must be modified to allow the new VM to boot.<br>
+So, edit the config file that we created earlier and comment out the kernel and ramdisk lines. You should also change the on_crash and on_reboot actions to restart.<br>
+So the edited config file now looks like this:</p>
+<pre><code>&lt;strong&gt;## kernel = &quot;/tmp/centos52/images/xen/vmlinuz&quot;
+## ramdisk = &quot;/tmp/centos52/images/xen/initrd.img&quot;&lt;/strong&gt;
+name = &quot;test01&quot;
+memory = &quot;256&quot;
+## disk = [ 'tap:aio:/xenimages/test01/disk1.img,xvda,w', ]
+disk = [ 'file:/xenimages/test01/disk1.img,xvda,w', ]
+vif = [ 'bridge=eth0', ]
+vcpus=1
+&lt;strong&gt;on_reboot = &quot;restart&quot;
+on_crash = &quot;restart&quot;&lt;/strong&gt;
+</code></pre>
+<p>Finally we can boot the new VM instance:<br>
+<code>xm create test01 -c</code><br>
+and log in as root. You should also be able to ssh onto it from your network.</p>
+<p>And that’s about it!<br>
+One last note. If you want the VM to start and stop with your xen server, just move the config file into the auto sub folder (or create a symbolic link to it).</p>
+      </article>
+    </div>
+  </div>
+
+  
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+      <hr class="m-0"/>
+    </div>
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-2">
+      
+      <div class="blog-tags">
+        
+        <a href="http://localhost:1313/tags/domu/">domu</a>
+        
+        <a href="http://localhost:1313/tags/xen-virtualization/">Xen virtualization</a>
+        
+      </div>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      
+    </div>
+
+    
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 mt-3">
+      <div class="card">
+        <div class="row no-gutters">
+          <div class="col-md-10">
+            <div class="card-body p-1.1">
+              <p class="p-0 m-0"><small class="text-muted">Written By</small></p>
+              <p class="card-text fs-5 m-0">
+
+                
+                Kev
+                
+
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="col-lg-8 offset-lg-2 col-md-12 offset-md-1 pt-4">
+      
+      <ul class="list-group list-group-horizontal" style="flex-direction: row">
+        
+        <li class="list-group-item b-0 p-0">
+
+          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/installing-xen-33-from-source-on-debian-50-lenny/"
+            data-toggle="tooltip" data-placement="top" title="Installing Xen 3.3.1 from source on Debian 5.0 (Lenny)">&larr;
+            Previous Post</a>
+        </li>
+        
+
+
+        
+        <li class="list-group-item ms-auto b-0 p-0">
+          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/using-vi-as-a-hex-editor/"
+            data-toggle="tooltip" data-placement="top" title="Using vi as a hex editor">Next Post
+            &rarr;</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+    </div>
+  </div>
+  
+</div>
+
+<div class="">
+  
+  
+  
+  
+  
+
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 mt-3">
+        <h3>Related Posts</h3>
+        <hr />
+      </div>
+
+      
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
+    <a href="http://localhost:1313/xen-4-1-released/">
+        <div class="card single-post-card h-100 shadow-effect border">
+
+            <h3 class="fw-bold post-title">Xen 4.1 released</h3>
+            
+            <p class="post-meta">
+                <span class="post-meta text-muted">
+  
+  
+
+  March 25, 2011
+
+  
+
+  
+
+  
+
+  
+</span>
+
+            </p>
+
+            
+
+            
+            <div class="card-body">
+
+
+
+                
+                
+                <div class="post-entry">
+
+                    
+                    <p>Today saw the release of Xen 4.1. Major changes include support for greater than 255 CPUs, a new credit scheduler and CPU pools.</p>
+<p>However, the most significant change to those that use Xen will be the new XL toolstack which replaces XM/XEND and will ultimately replace xcp’s xapi and libvirt.</p>
+                    
+                </div>
+
+                <div class="read-more-section">
+                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
+    <a href="http://localhost:1313/mounting-lvm-backed-xen-disk-partitions-in-dom0/">
+        <div class="card single-post-card h-100 shadow-effect border">
+
+            <h3 class="fw-bold post-title">Mounting LVM backed XEN disk partitions in DOM0</h3>
+            
+            <p class="post-meta">
+                <span class="post-meta text-muted">
+  
+  
+
+  October 27, 2010
+
+  
+
+  
+
+  
+
+  
+</span>
+
+            </p>
+
+            
+
+            
+            <div class="card-body">
+
+
+
+                
+                
+                <div class="post-entry">
+
+                    
+                    <p>Sometimes you might need to mount a DOMU’s disk in DOM0, so that you can edit files, or even recover them in the event that your DOMU is broken and fails to boot.</p>
+                    
+                </div>
+
+                <div class="read-more-section">
+                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
+    <a href="http://localhost:1313/converting-a-xen-domu-from-hvm-to-pv/">
+        <div class="card single-post-card h-100 shadow-effect border">
+
+            <h3 class="fw-bold post-title">Converting a XEN DOMU from HVM to PV</h3>
+            
+            <p class="post-meta">
+                <span class="post-meta text-muted">
+  
+  
+
+  June 27, 2009
+
+  
+
+  
+
+  
+
+  
+</span>
+
+            </p>
+
+            
+
+            
+            <div class="card-body">
+
+
+
+                
+                
+                <div class="post-entry">
+
+                    
+                    <p>For distros that don’t support XEN compatible installers the easiest way to create a PV (ParaVirtual) DOMU is to install as a HVM (see my other article entry for this) ad then once installed, convert it to a PV DOMU.</p>
+<p>There are several reasons why you might want to go with PV instead of HVM. The main two that spring to mind are PV’s offer better performance/lower overhead and PV DOMU’s allow PCI passthrough. Although apparently XEN 3.4 can now do PCI passthrough with HVM, as long as you have an Intel chip with vt-d.</p>
+<p>This article will start off where my previous “Installing a XEN hvm DOMU” left off…</p>
+                    
+                </div>
+
+                <div class="read-more-section">
+                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+
+      
+    </div>
+  </div>
+  
+  
+
+  
+
+</div>
+
+    
+
+
+<footer>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul
+          class="list-inline list-group list-group-horizontal text-center footer-links d-flex justify-content-center flex-row">
+
+          
+          <li>
+            <a href="https://github.com/YorkshireKev" title="GitHub" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-github"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/YorkshireKev" title="Twitter" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-twitter"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/elliskevin" title="LinkedIn" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-linkedin"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@kevschannel" title="Youtube" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-youtube"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p class="credits copyright text-muted">
+          
+          &nbsp;&copy;
+          
+          2009 - 2024
+          
+          Kevin Ellis
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="http://localhost:1313/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function () { $("pre.chroma").css("padding", "0"); }); </script>
+    
+  </body>
+</html>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bitbucket on Kev&#39;s Site</title>
+    <link>http://localhost:1313/tags/bitbucket/</link>
+    <description>Recent content in Bitbucket on Kev&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Nov 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/bitbucket/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add a GIT remote as https instead of ssh</title>
+      <link>http://localhost:1313/add-a-git-remote-as-https-instead-of-ssh/</link>
+      <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/add-a-git-remote-as-https-instead-of-ssh/</guid>
+      <description>Using Bitbucket from a network that does not allow ssh (port 22) connections means that doing a git push or pull using the standard git ssh remote won&amp;rsquo;t work. git remote add origin https://USERNAME@bitbucket.org/USERNAME/REPOSITORY.git&#xA;Where USERNAME is your user/login name and REPOSITORY is the name of the repository you want to access.&#xA;If you don&amp;rsquo;t want to enter your password every time you connect to the remote you can include the password in the remote url: git remote add origin https://USERNAME:PASSWORD@bitbucket.</description>
+    </item>
+    <item>
+      <title>Github vs Bitbucket</title>
+      <link>http://localhost:1313/github-vs-bitbucket/</link>
+      <pubDate>Tue, 08 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/github-vs-bitbucket/</guid>
+      <description>&lt;p&gt;By far the most popular source control system in use today is &lt;!-- raw HTML omitted --&gt;Git&lt;!-- raw HTML omitted --&gt;. It was only about 6 months ago I made the switch from subversion for my personal code projects, and the only regret I have is that I didn’t do it earlier!&lt;/p&gt;&#xA;&lt;p&gt;I’m lucky enough to experience code management at both ends of the spectrum. In my spare time I tinker with personal projects (some public but mostly private stuff). At work ‘enterprise’ would definitely be an appropriate description of our source code management.&lt;/p&gt;&#xA;&lt;p&gt;With the advent of cloud computing, source control can no longer be kept neatly behind corporate firewalls.Of course you could stick a Subversion server or Git repository in your DMZ, but really, the correct answer is hosting.&lt;img src=&#34;http://www.kevssite.com/wp-includes/js/tinymce/plugins/wordpress/img/trans.gif&#34; alt=&#34;&#34; title=&#34;More...&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;There are many source-code hosting providers to choose from, but in this post I’m going to look at the two most popular Git hosting solutions: &lt;!-- raw HTML omitted --&gt;Github&lt;!-- raw HTML omitted --&gt; and &lt;!-- raw HTML omitted --&gt;Bitbucket&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

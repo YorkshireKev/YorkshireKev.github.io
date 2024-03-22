@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Kev&#39;s Site</title>
+    <link>http://localhost:1313/tags/linux/</link>
+    <description>Recent content in Linux on Kev&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CLI-Labyrinth</title>
+      <link>http://localhost:1313/cli-labyrinth/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cli-labyrinth/</guid>
+      <description>One of the very first games I ever played on a home computer was a maze game called Labyrinth on the Sinclair ZX81. So when I wanted to learn Golang and delve a little deeper into terminal development I decided to start with a simple maze game that could be run in a shell on the Linux command line.&#xA;As you can see from the screenshot, the graphics are, at best, very basic.</description>
+    </item>
+    <item>
+      <title>Copying JVC Everio HDD camcorder recordings with Linux</title>
+      <link>http://localhost:1313/copying-jvc-everio-hdd-camcorder-recordings-with-linux/</link>
+      <pubDate>Sun, 01 Mar 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/copying-jvc-everio-hdd-camcorder-recordings-with-linux/</guid>
+      <description>&lt;p&gt;As you might expect, the software that accompanied my Everio HDD camcorder when I bought it was not compatible with Linux. Just as well we don’t actually need any special software to download recordings onto your favourite OS (yes I &lt;em&gt;do&lt;/em&gt; mean Linux!)&lt;/p&gt;&#xA;&lt;p&gt;Plug everything in, USB and the power adapter then switch the camera into PLAY mode.&lt;/p&gt;&#xA;&lt;p&gt;At this point you should be presented with the usual KDE or GNOME window and be able to view/copy the files in the same way as you would a USB memory stick.&lt;/p&gt;&#xA;&lt;p&gt;However, there are a couple of drawbacks with this. First, just dragging the files will create a copy on your PC with timestamps of when you copied the videos, not actually filmed them. Second, the video files on your camcorder end in .mod and not .mpg which would be preferable for compatible playback.&lt;/p&gt;&#xA;&lt;p&gt;So we’ll be using the command line to copy recording and rename them. There’s not much to it really…&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vi on Kev&#39;s Site</title>
+    <link>http://localhost:1313/tags/vi/</link>
+    <description>Recent content in Vi on Kev&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Apr 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/vi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using vi as a hex editor</title>
+      <link>http://localhost:1313/using-vi-as-a-hex-editor/</link>
+      <pubDate>Tue, 21 Apr 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/using-vi-as-a-hex-editor/</guid>
+      <description>Sometimes I find it useful to switch to hex mode when editing a file in vi. The command for switching is not very obvious so thought I&amp;rsquo;d share&amp;hellip;&#xA;So, open a file in vi as usual. To switch into hex mode hit escape and type: :%!xxd&#xA;And when your done and want to exit from hex mode hit escape again and type: :%!xxd -r&#xA;Okay, so this isn&amp;rsquo;t actaully switching to vi&amp;rsquo;s &amp;lsquo;hex mode&amp;rsquo;; vi doesn&amp;rsquo;t have one.</description>
+    </item>
+  </channel>
+</rss>
