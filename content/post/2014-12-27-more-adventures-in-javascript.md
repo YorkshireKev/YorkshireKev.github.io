@@ -1,7 +1,7 @@
 ---
 author: Kev
 date: "2014-12-27T00:00:00Z"
-description: The classic zx spectrum game lightcycles recreated in JavaScript.
+description: The classic zx spectrum game lightcycles recreated in JavaScript that runs in the browser.
 categories:
 - Programming
 - Games
@@ -12,6 +12,7 @@ dsq_needs_sync:
 redirect_from: /2014/12/27/more-adventures-in-javascript/
 title: More adventures in JavaScript
 url: /more-adventures-in-javascript/
+image : "/img/lightcycles.png"
 ---
 Having not written much client side JavaScript for at least a couple of years I thought I'd re-introduce myself to the language, and to the html5 canvas element.
 

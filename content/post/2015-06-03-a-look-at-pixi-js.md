@@ -7,6 +7,7 @@ tags:
 - javascript
 dsq_needs_sync:
 - 1
+description: A simple 2D puzle game written in JavaScript with the Pixi.js framework that runs in the browser.
 redirect_from: /2015/06/03/a-look-at-pixi-js/
 title: A look at Pixi.js
 url: /a-look-at-pixi-js/
