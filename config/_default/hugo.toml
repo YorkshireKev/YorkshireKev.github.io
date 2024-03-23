@@ -4,6 +4,7 @@ show_logo = true
 baseURL = 'http://www.kevssite.com'
 languageCode = 'en-us'
 publishDir = "docs"
+googleAnalytics = "UA-17896232-1"
 
 [Params]
 #selfHosted = true
