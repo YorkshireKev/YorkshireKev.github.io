@@ -264,11 +264,11 @@
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
     <a href="http://www.kevssite.com/converting-a-xen-domu-from-hvm-to-pv/">
         <div class="card single-post-card h-100 shadow-effect border">
-
-            <h3 class="fw-bold post-title">Converting a XEN DOMU from HVM to PV</h3>
-            
-            <p class="post-meta">
-                <span class="post-meta text-muted">
+            <div class="card-body">
+                <h3 class="fw-bold post-title">Converting a XEN DOMU from HVM to PV</h3>
+                
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
   
   
 
@@ -283,19 +283,16 @@
   
 </span>
 
-            </p>
+                </p>
+            </div>
 
             
 
             
+
             <div class="card-body">
-
-
-
-                
                 
                 <div class="post-entry">
-
                     
                     <p>For distros that don’t support XEN compatible installers the easiest way to create a PV (ParaVirtual) DOMU is to install as a HVM (see my other article entry for this) ad then once installed, convert it to a PV DOMU.</p>
 <p>There are several reasons why you might want to go with PV instead of HVM. The main two that spring to mind are PV’s offer better performance/lower overhead and PV DOMU’s allow PCI passthrough. Although apparently XEN 3.4 can now do PCI passthrough with HVM, as long as you have an Intel chip with vt-d.</p>
@@ -312,17 +309,16 @@
 </div>
 
 
-
         
           
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
     <a href="http://www.kevssite.com/installing-a-xen-hvm-domu/">
         <div class="card single-post-card h-100 shadow-effect border">
-
-            <h3 class="fw-bold post-title">Installing a XEN hvm DOMU</h3>
-            
-            <p class="post-meta">
-                <span class="post-meta text-muted">
+            <div class="card-body">
+                <h3 class="fw-bold post-title">Installing a XEN hvm DOMU</h3>
+                
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
   
   
 
@@ -337,19 +333,16 @@
   
 </span>
 
-            </p>
+                </p>
+            </div>
 
             
 
             
+
             <div class="card-body">
-
-
-
-                
                 
                 <div class="post-entry">
-
                     
                     <p>For this to work your CPU and motherboard needs to support vt (intel) or amd-v. You can check this by looking at the flags in /proc/cpuinfo. Your looking for either vmx or svm on the flags line.</p>
 <p>If you’re doing this from your DOM0 then these flags may not actually show up. Instead type <code>xm info</code> and look for ‘hvm’ on the virt_caps line.</p>
@@ -365,7 +358,6 @@ I have copied the live CD ISO onto my XEN DOM0 and will be installing directly f
         </div>
     </a>
 </div>
-
 
 
         

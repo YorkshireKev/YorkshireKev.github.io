@@ -264,11 +264,11 @@
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
     <a href="http://www.kevssite.com/xen-4-1-released/">
         <div class="card single-post-card h-100 shadow-effect border">
-
-            <h3 class="fw-bold post-title">Xen 4.1 released</h3>
-            
-            <p class="post-meta">
-                <span class="post-meta text-muted">
+            <div class="card-body">
+                <h3 class="fw-bold post-title">Xen 4.1 released</h3>
+                
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
   
   
 
@@ -283,19 +283,16 @@
   
 </span>
 
-            </p>
+                </p>
+            </div>
 
             
 
             
+
             <div class="card-body">
-
-
-
-                
                 
                 <div class="post-entry">
-
                     
                     <p>Today saw the release of Xen 4.1. Major changes include support for greater than 255 CPUs, a new credit scheduler and CPU pools.</p>
 <p>However, the most significant change to those that use Xen will be the new XL toolstack which replaces XM/XEND and will ultimately replace xcp’s xapi and libvirt.</p>
@@ -311,17 +308,16 @@
 </div>
 
 
-
         
           
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
     <a href="http://www.kevssite.com/converting-a-xen-domu-from-hvm-to-pv/">
         <div class="card single-post-card h-100 shadow-effect border">
-
-            <h3 class="fw-bold post-title">Converting a XEN DOMU from HVM to PV</h3>
-            
-            <p class="post-meta">
-                <span class="post-meta text-muted">
+            <div class="card-body">
+                <h3 class="fw-bold post-title">Converting a XEN DOMU from HVM to PV</h3>
+                
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
   
   
 
@@ -336,19 +332,16 @@
   
 </span>
 
-            </p>
+                </p>
+            </div>
 
             
 
             
+
             <div class="card-body">
-
-
-
-                
                 
                 <div class="post-entry">
-
                     
                     <p>For distros that don’t support XEN compatible installers the easiest way to create a PV (ParaVirtual) DOMU is to install as a HVM (see my other article entry for this) ad then once installed, convert it to a PV DOMU.</p>
 <p>There are several reasons why you might want to go with PV instead of HVM. The main two that spring to mind are PV’s offer better performance/lower overhead and PV DOMU’s allow PCI passthrough. Although apparently XEN 3.4 can now do PCI passthrough with HVM, as long as you have an Intel chip with vt-d.</p>
@@ -365,17 +358,16 @@
 </div>
 
 
-
         
           
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
     <a href="http://www.kevssite.com/installing-a-xen-hvm-domu/">
         <div class="card single-post-card h-100 shadow-effect border">
-
-            <h3 class="fw-bold post-title">Installing a XEN hvm DOMU</h3>
-            
-            <p class="post-meta">
-                <span class="post-meta text-muted">
+            <div class="card-body">
+                <h3 class="fw-bold post-title">Installing a XEN hvm DOMU</h3>
+                
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
   
   
 
@@ -390,19 +382,16 @@
   
 </span>
 
-            </p>
+                </p>
+            </div>
 
             
 
             
+
             <div class="card-body">
-
-
-
-                
                 
                 <div class="post-entry">
-
                     
                     <p>For this to work your CPU and motherboard needs to support vt (intel) or amd-v. You can check this by looking at the flags in /proc/cpuinfo. Your looking for either vmx or svm on the flags line.</p>
 <p>If you’re doing this from your DOM0 then these flags may not actually show up. Instead type <code>xm info</code> and look for ‘hvm’ on the virt_caps line.</p>
@@ -420,17 +409,16 @@ I have copied the live CD ISO onto my XEN DOM0 and will be installing directly f
 </div>
 
 
-
         
           
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
     <a href="http://www.kevssite.com/manually-creating-a-xen-domu-instance/">
         <div class="card single-post-card h-100 shadow-effect border">
-
-            <h3 class="fw-bold post-title">Manually creating a Xen DOMU instance</h3>
-            
-            <p class="post-meta">
-                <span class="post-meta text-muted">
+            <div class="card-body">
+                <h3 class="fw-bold post-title">Manually creating a Xen DOMU instance</h3>
+                
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
   
   
 
@@ -445,19 +433,16 @@ I have copied the live CD ISO onto my XEN DOM0 and will be installing directly f
   
 </span>
 
-            </p>
+                </p>
+            </div>
 
             
 
             
+
             <div class="card-body">
-
-
-
-                
                 
                 <div class="post-entry">
-
                     
                     <p>If you’ve followed my guide to installing xen from source then you might now be wondering how to create your first VM.<br>
 This guide will show you how to manually create and install a VM (known as a DOMU instance in Xen) without any additional tools such as virt-manager, virt-install or virsh. These tools can help the novice, but are quite limiting when it comes to the advance features of xen.</p>
@@ -477,17 +462,16 @@ This guide will show you how to manually create and install a VM (known as a DOM
 </div>
 
 
-
         
           
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
     <a href="http://www.kevssite.com/installing-xen-33-from-source-on-debian-50-lenny/">
         <div class="card single-post-card h-100 shadow-effect border">
-
-            <h3 class="fw-bold post-title">Installing Xen 3.3.1 from source on Debian 5.0 (Lenny)</h3>
-            
-            <p class="post-meta">
-                <span class="post-meta text-muted">
+            <div class="card-body">
+                <h3 class="fw-bold post-title">Installing Xen 3.3.1 from source on Debian 5.0 (Lenny)</h3>
+                
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
   
   
 
@@ -502,19 +486,16 @@ This guide will show you how to manually create and install a VM (known as a DOM
   
 </span>
 
-            </p>
+                </p>
+            </div>
 
             
 
             
+
             <div class="card-body">
-
-
-
-                
                 
                 <div class="post-entry">
-
                     
                     <p>This is how I built my Xen server.</p>
 <p>First install Debian 5.0 (Lenny). This should also work on 4 (Etch) too.</p>
@@ -533,7 +514,6 @@ This guide will show you how to manually create and install a VM (known as a DOM
         </div>
     </a>
 </div>
-
 
 
         
