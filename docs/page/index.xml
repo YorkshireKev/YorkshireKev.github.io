@@ -14,5 +14,12 @@
       <guid>http://www.kevssite.com/bloxed/</guid>
       <description>Placeholder for sitemap generation</description>
     </item>
+    <item>
+      <title>bloxed</title>
+      <link>http://www.kevssite.com/retrocadia-web/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://www.kevssite.com/retrocadia-web/</guid>
+      <description>Placeholder for sitemap generation</description>
+    </item>
   </channel>
 </rss>
