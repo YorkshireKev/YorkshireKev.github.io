@@ -34,7 +34,7 @@
       <link>http://www.kevssite.com/javascript-keycodes/</link>
       <pubDate>Fri, 29 May 2015 00:00:00 +0000</pubDate>
       <guid>http://www.kevssite.com/javascript-keycodes/</guid>
-      <description>This is a simple JavaScript keycode lookup page. Just press a key and the JavaScript Key Code will be displayed in the box below.&#xA;If you want to stop your browser scrolling when you press space or arrows etc then click in this input field to take the focus away from the whole page. The text equivalent of the key being pressed is only displayed in browsers that support event.key. Rather surprisingly this does not include Chrome!</description>
+      <description>This is a simple JavaScript keycode lookup page. Just press a key and the JavaScript Key Code will be displayed in the box below.&#xA;If you want to stop your browser scrolling when you press space or arrows etc then click in the input field to take the focus away from the whole page.&#xA;The text equivalent of the key being pressed is only displayed in browsers that support event.key. Rather surprisingly this does not include Chrome!</description>
     </item>
     <item>
       <title>Emulators written in JavaScript</title>
