@@ -24,7 +24,7 @@ If you want to stop your browser scrolling when you press space or arrows etc th
     document.getElementById("code").innerHTML = event.keyCode;
     if (event.key) {
       if (event.keyCode > 47 && event.keyCode < 91) {
-        document.getElementById("char").innerHTML = " - " + event.key.toUpperCase();
+        document.getElementById("char").innerHTML = " - " + event.key
       } else {
         document.getElementById("char").innerHTML = " - " + event.key;
       }
