@@ -8,7 +8,7 @@ tags:
 - cli
 - ssh
 title: CLI-Labyrinth
-url: /cli-labyrinth/
+url: /cli-labyrinth-game/
 image : "/img/cli-labyrinth.png"
 ---
 ![](/images/cli-labyrinth.png)

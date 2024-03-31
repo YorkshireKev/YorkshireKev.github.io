@@ -10,9 +10,9 @@
     <atom:link href="http://www.kevssite.com/tags/cli/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CLI-Labyrinth</title>
-      <link>http://www.kevssite.com/cli-labyrinth/</link>
+      <link>http://www.kevssite.com/cli-labyrinth-game/</link>
       <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/cli-labyrinth/</guid>
+      <guid>http://www.kevssite.com/cli-labyrinth-game/</guid>
       <description>One of the very first games I ever played on a home computer was a maze game called Labyrinth on the Sinclair ZX81. So when I wanted to learn Golang and delve a little deeper into terminal cli development, I decided to start with a simple maze game that could be run in a shell on the Linux command line.&#xA;As you can see from the screenshot, the graphics could, at best, be describes as very basic.</description>
     </item>
   </channel>
