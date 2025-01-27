@@ -3,7 +3,7 @@ author: Kev
 categories:
 - Games
 date: "2020-05-06T00:00:00Z"
-lastmod: "2020-08-21"
+lastmod: "2025-01-27"
 tags:
 - godot
 title: Godot Experiment no. 2, Central Cavern
@@ -24,7 +24,9 @@ This page is my mini-blog/development diary. I'll add sections at the bottom of 
 >
 > Update - I've now completed making the game.
 >
-> Central Cavern has been released for Windows, Mac and Linux.
+> Central Cavern has been released for Windows, Mac, Linux and Desktop Web Browsers.
+>
+> **Play it directly in your Desktop Web Browser: [https://www.kevssite.com/central-cavern-web](https://www.kevssite.com/central-cavern-web)**
 > 
 > **Download it from itch.io: [yorkshirekev.itch.io/central-cavern](https://yorkshirekev.itch.io/central-cavern)**
 >
@@ -126,3 +128,16 @@ My next task is to add some screenshots and make a short video of the gameplay. 
 
 # Update 21-Aug-2020 - Out in the wild! #
 I have finally decided to make central-cavern available for download. I've uploaded the game to itch.io and I will also upload to gamejolt once their site comes back online.
+
+# Update 27-Jan-2025 - Experimental Web Version Released #
+I'm excited to announce a new web release of central cavern!
+
+I've exported the game to the HTML5/WebAssembly platform, allowing it to run on most modern browsers.
+
+**Important Note:** Due to the game's reliance on keyboard input, it's currently designed for desktop browsers. While it might load and run on mobile devices, there will be no way to play it without a physical keyboard.
+
+To help audio playback, I've added a new start screen specifically for the web version. Most browsers require some user interaction before allowing audio to play, and this screen addresses that requirement.
+
+There might be a few other minor audio glitches in the web version, but I plan to focus my attention on my next project instead of making further updates to this game.
+
+I hope you enjoy playing the web version, which you can try [by clicking here.](https://www.kevssite.com/central-cavern-web)
