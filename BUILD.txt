@@ -28,3 +28,9 @@ When pushing a change to the published site, run:
   
 If you do want to push the source changes at the same time as the published site, then remember to run ./build.sh
 BEFORE git status and git add -A else you'll end up with loads of temp files in /docs !!
+
+CLONING FRESH:
+  When cloning the site repo fresh, you'll need to re-install the theme for the site to function.
+  ##this might not be needed is .gitmodule exists##git submodule add https://github.com/binokochumolvarghese/lightbi-hugo
+  git submodule init
+  git submodule update --init --recursive

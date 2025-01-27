@@ -9,6 +9,6 @@ All files are licensed under the MIT license except for the contents of the foll
 
 /assets  
 /content  
-/docs (generated content pages, files and images)  
+/docs (generated cointent pages, files and images)  
 /static  
 /resources/_gen/images  
