@@ -27,7 +27,9 @@ Next up I gave [Godot](https://godotengine.org/) a look. Godot is a full-feature
 
 ## Introducing Godot Experiment no. 1, Retorcadia
 >
-> Retrocadia has been released for Windows, Mac and Linux.
+> Retrocadia has been released for Windows, Mac, Linux and is playable directly in the desktop browser.
+> 
+> **Play it directly in your Desktop Web Browser: [https://www.kevssite.com/retrocadia-web](https://www.kevssite.com/retrocadia-web)**
 > 
 > **Download it from itch.io: [yorkshirekev.itch.io/retrocadia](https://yorkshirekev.itch.io/retrocadia)**
 >
