@@ -2,108 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Kev&#39;s Site</title>
-    <link>http://www.kevssite.com/categories/</link>
+    <link>https://www.kevssite.com/categories/</link>
     <description>Recent content in Categories on Kev&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.kevssite.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kevssite.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Games</title>
-      <link>http://www.kevssite.com/categories/games/</link>
+      <link>https://www.kevssite.com/categories/games/</link>
       <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/categories/games/</guid>
+      <guid>https://www.kevssite.com/categories/games/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>http://www.kevssite.com/categories/linux/</link>
+      <link>https://www.kevssite.com/categories/linux/</link>
       <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/categories/linux/</guid>
+      <guid>https://www.kevssite.com/categories/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>http://www.kevssite.com/categories/programming/</link>
+      <link>https://www.kevssite.com/categories/programming/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/categories/programming/</guid>
+      <guid>https://www.kevssite.com/categories/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Commentry</title>
-      <link>http://www.kevssite.com/categories/commentry/</link>
+      <link>https://www.kevssite.com/categories/commentry/</link>
       <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/categories/commentry/</guid>
+      <guid>https://www.kevssite.com/categories/commentry/</guid>
       <description></description>
     </item>
     <item>
       <title>Retro</title>
-      <link>http://www.kevssite.com/categories/retro/</link>
+      <link>https://www.kevssite.com/categories/retro/</link>
       <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/categories/retro/</guid>
+      <guid>https://www.kevssite.com/categories/retro/</guid>
       <description></description>
     </item>
     <item>
       <title>Electronics</title>
-      <link>http://www.kevssite.com/categories/electronics/</link>
+      <link>https://www.kevssite.com/categories/electronics/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/categories/electronics/</guid>
+      <guid>https://www.kevssite.com/categories/electronics/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>http://www.kevssite.com/categories/docker/</link>
+      <link>https://www.kevssite.com/categories/docker/</link>
       <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/categories/docker/</guid>
+      <guid>https://www.kevssite.com/categories/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>Mac</title>
-      <link>http://www.kevssite.com/categories/mac/</link>
+      <link>https://www.kevssite.com/categories/mac/</link>
       <pubDate>Sat, 09 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/categories/mac/</guid>
+      <guid>https://www.kevssite.com/categories/mac/</guid>
       <description></description>
     </item>
     <item>
       <title>Demos</title>
-      <link>http://www.kevssite.com/categories/demos/</link>
+      <link>https://www.kevssite.com/categories/demos/</link>
       <pubDate>Sat, 21 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/categories/demos/</guid>
+      <guid>https://www.kevssite.com/categories/demos/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud</title>
-      <link>http://www.kevssite.com/categories/cloud/</link>
+      <link>https://www.kevssite.com/categories/cloud/</link>
       <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/categories/cloud/</guid>
+      <guid>https://www.kevssite.com/categories/cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Node.js</title>
-      <link>http://www.kevssite.com/categories/node.js/</link>
+      <link>https://www.kevssite.com/categories/node.js/</link>
       <pubDate>Sat, 26 May 2012 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/categories/node.js/</guid>
+      <guid>https://www.kevssite.com/categories/node.js/</guid>
       <description></description>
     </item>
     <item>
       <title>Xen</title>
-      <link>http://www.kevssite.com/categories/xen/</link>
+      <link>https://www.kevssite.com/categories/xen/</link>
       <pubDate>Fri, 25 Mar 2011 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/categories/xen/</guid>
+      <guid>https://www.kevssite.com/categories/xen/</guid>
       <description></description>
     </item>
     <item>
       <title>Android</title>
-      <link>http://www.kevssite.com/categories/android/</link>
+      <link>https://www.kevssite.com/categories/android/</link>
       <pubDate>Sat, 20 Nov 2010 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/categories/android/</guid>
+      <guid>https://www.kevssite.com/categories/android/</guid>
       <description></description>
     </item>
     <item>
       <title>MythTV</title>
-      <link>http://www.kevssite.com/categories/mythtv/</link>
+      <link>https://www.kevssite.com/categories/mythtv/</link>
       <pubDate>Tue, 02 Nov 2010 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/categories/mythtv/</guid>
+      <guid>https://www.kevssite.com/categories/mythtv/</guid>
       <description></description>
     </item>
   </channel>

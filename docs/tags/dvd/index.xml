@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dvd on Kev&#39;s Site</title>
-    <link>http://www.kevssite.com/tags/dvd/</link>
+    <link>https://www.kevssite.com/tags/dvd/</link>
     <description>Recent content in Dvd on Kev&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 27 Mar 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.kevssite.com/tags/dvd/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kevssite.com/tags/dvd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>K9COPY crashing on Ubuntu 10.10</title>
-      <link>http://www.kevssite.com/k9copy-crashing-on-ubuntu-10-10/</link>
+      <link>https://www.kevssite.com/k9copy-crashing-on-ubuntu-10-10/</link>
       <pubDate>Sun, 27 Mar 2011 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/k9copy-crashing-on-ubuntu-10-10/</guid>
+      <guid>https://www.kevssite.com/k9copy-crashing-on-ubuntu-10-10/</guid>
       <description>&lt;p&gt;I recently gave K9COPY a try, it’s supposed to be the Linux equivalent of DVDshrink for Windows. It certainly looked the part, but when I ran it with a disk I wanted to back up it ran for a short while and then crashed &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;Looking at the output of dmesg revealed that the disk was having trouble reading the encrypted disk:&lt;br&gt;&#xA;`[235.097347] sr 5:0:0:0: [sr0] Add. Sense: Read of scrambled sector without authentication&lt;/p&gt;</description>
     </item>
     <item>
       <title>ffmpeg freeview to pal-dvd audio fix</title>
-      <link>http://www.kevssite.com/ffmpeg-freeview-to-pal-dvd-audio-fix/</link>
+      <link>https://www.kevssite.com/ffmpeg-freeview-to-pal-dvd-audio-fix/</link>
       <pubDate>Sat, 12 Feb 2011 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/ffmpeg-freeview-to-pal-dvd-audio-fix/</guid>
+      <guid>https://www.kevssite.com/ffmpeg-freeview-to-pal-dvd-audio-fix/</guid>
       <description>&lt;p&gt;I was converting a TV show I’d  to DVD format using ffmpeg, but the resulting file had the wrong audio channel. At first I thought it had no audio at all, but then I noticed it had a voice over occasionally explaining what was happening; “so-n-so has just entered the room…”.&lt;/p&gt;&#xA;&lt;p&gt;It appears that ffmpeg had selected the wrong audio stream. For some reason, it had had selected the second audio stream instead of the first. The fix is simple enough, you can manually set the streams to use with the -map option. The command below works well for UK freeview.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Converting a video file to DVD with ffmpeg</title>
-      <link>http://www.kevssite.com/converting-a-video-file-to-dvd-with-ffmpeg/</link>
+      <link>https://www.kevssite.com/converting-a-video-file-to-dvd-with-ffmpeg/</link>
       <pubDate>Sun, 22 Feb 2009 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/converting-a-video-file-to-dvd-with-ffmpeg/</guid>
+      <guid>https://www.kevssite.com/converting-a-video-file-to-dvd-with-ffmpeg/</guid>
       <description>&lt;p&gt;There are many GUI programs that allow you to convert avi/divx/xvid files into DVD format, such as DeVeDe, but I somehow prefer to use command line tools. I know, I’m just weird like that!&lt;/p&gt;&#xA;&lt;p&gt;There are 3 basic steps in creating a simple DVD:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Convert the video files&lt;/li&gt;&#xA;&lt;li&gt;create the DVD structure&lt;/li&gt;&#xA;&lt;li&gt;Burn the DVD&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;So, to convert a file to a DVD compatible format use something like:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;ffmpeg -i &amp;quot;non dvd format input video.avi&amp;quot; -y -target pal-dvd -sameq -aspect 16:9 output.mpg&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Next we need to create the DVD structure. We’ll use dvdauthor for this.&lt;br&gt;&#xA;Rather than pass eveything into dvdauthor via the command line, it’s easier to put the settings into an xml file.&lt;/p&gt;</description>
     </item>
   </channel>

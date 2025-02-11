@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ssh on Kev&#39;s Site</title>
-    <link>http://www.kevssite.com/tags/ssh/</link>
+    <link>https://www.kevssite.com/tags/ssh/</link>
     <description>Recent content in Ssh on Kev&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.kevssite.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kevssite.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CLI-Labyrinth</title>
-      <link>http://www.kevssite.com/cli-labyrinth-game/</link>
+      <link>https://www.kevssite.com/cli-labyrinth-game/</link>
       <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/cli-labyrinth-game/</guid>
+      <guid>https://www.kevssite.com/cli-labyrinth-game/</guid>
       <description>One of the very first games I ever played on a home computer was a maze game called Labyrinth on the Sinclair ZX81. So when I wanted to learn Golang and delve a little deeper into terminal cli development, I decided to start with a simple maze game that could be run in a shell on the Linux command line.&#xA;As you can see from the screenshot, the graphics could, at best, be describes as very basic.</description>
     </item>
     <item>
       <title>Connect to PostgreSQL using an SSH tunnel</title>
-      <link>http://www.kevssite.com/connect-to-postgresql-using-an-ssh-tunnel/</link>
+      <link>https://www.kevssite.com/connect-to-postgresql-using-an-ssh-tunnel/</link>
       <pubDate>Sat, 04 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/connect-to-postgresql-using-an-ssh-tunnel/</guid>
+      <guid>https://www.kevssite.com/connect-to-postgresql-using-an-ssh-tunnel/</guid>
       <description>Using an SSH tunnel is a great way to administer remote services without having to directly expose them to the internet. You basically forward a port from your local machine (e.g. your Linux desktop) to a port on the remote server. You can then connect to the port on localhost and the magic of ssh will forward the port securely to the remote machine. To the remote server you&amp;rsquo;ve connected locally on localhost!</description>
     </item>
     <item>
       <title>How to speed up a slow SSH login</title>
-      <link>http://www.kevssite.com/how-to-speed-up-a-slow-ssh-login/</link>
+      <link>https://www.kevssite.com/how-to-speed-up-a-slow-ssh-login/</link>
       <pubDate>Thu, 10 Oct 2013 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/how-to-speed-up-a-slow-ssh-login/</guid>
+      <guid>https://www.kevssite.com/how-to-speed-up-a-slow-ssh-login/</guid>
       <description>&lt;p&gt;I recently started using the excellent digital ocean for some of my cloud server hosting. When logging into my servers there was quite a delay, often a minute or more, before the password prompt appeared. I was getting the same delay when I use SSH keys for authentication too.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Extracting SSH keys from a Java keystore (jks) file</title>
-      <link>http://www.kevssite.com/extracting-ssh-keys-from-a-java-keystore-jks-file/</link>
+      <link>https://www.kevssite.com/extracting-ssh-keys-from-a-java-keystore-jks-file/</link>
       <pubDate>Fri, 23 Sep 2011 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/extracting-ssh-keys-from-a-java-keystore-jks-file/</guid>
+      <guid>https://www.kevssite.com/extracting-ssh-keys-from-a-java-keystore-jks-file/</guid>
       <description>&lt;p&gt;I needed to extract/generate a public ssh key from a java keystore so that the Java application could SFTP some files using public key authentication.&lt;/p&gt;&#xA;&lt;p&gt;The problem was that I couldn’t find any way of converting an ssl public key to an ssh public key. It seems that although ssl and ssh private keys are compatible, the public keys are not.&lt;/p&gt;</description>
     </item>
   </channel>

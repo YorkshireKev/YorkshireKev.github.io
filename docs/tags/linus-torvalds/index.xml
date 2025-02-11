@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linus-Torvalds on Kev&#39;s Site</title>
-    <link>http://www.kevssite.com/tags/linus-torvalds/</link>
+    <link>https://www.kevssite.com/tags/linus-torvalds/</link>
     <description>Recent content in Linus-Torvalds on Kev&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Nov 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.kevssite.com/tags/linus-torvalds/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kevssite.com/tags/linus-torvalds/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to pronounce Linux</title>
-      <link>http://www.kevssite.com/how-to-pronounce-linux/</link>
+      <link>https://www.kevssite.com/how-to-pronounce-linux/</link>
       <pubDate>Tue, 02 Nov 2010 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/how-to-pronounce-linux/</guid>
+      <guid>https://www.kevssite.com/how-to-pronounce-linux/</guid>
       <description>Okay, so I often hear people (mainly at work) pronouncing Linux incorrectly, with an emphasis on the letter ‘I’, as you would in the word ‘light’ for example.&#xA;Although this may sound more professional it really isn&amp;rsquo;t. I don&amp;rsquo;t know why it winds me up, but I do have to bite my tongue to stop myself from correcting people and sounding like the office nerd (which, now I think about it I probably am!</description>
     </item>
   </channel>

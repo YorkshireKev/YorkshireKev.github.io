@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloud on Kev&#39;s Site</title>
-    <link>http://www.kevssite.com/categories/cloud/</link>
+    <link>https://www.kevssite.com/categories/cloud/</link>
     <description>Recent content in Cloud on Kev&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Aug 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.kevssite.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kevssite.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Console access into a running Docker container</title>
-      <link>http://www.kevssite.com/console-access-into-a-running-docker-container/</link>
+      <link>https://www.kevssite.com/console-access-into-a-running-docker-container/</link>
       <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/console-access-into-a-running-docker-container/</guid>
+      <guid>https://www.kevssite.com/console-access-into-a-running-docker-container/</guid>
       <description>Sometimes, when setting up and debugging a container it is extremely useful to be able to &amp;lsquo;shell into&amp;rsquo; the container to get a closer look at what&amp;rsquo;s going on.&#xA;This is a quick guide on how to get shell console access into a running Docker container.&#xA;UPDATE. If you are running docker version 1.3 or greater then you should use docker exec instead (see docker man pages for more info). The only use case that still requires the use of nsenter is where the user assigned to the container prevents you from doing tasks inside.</description>
     </item>
     <item>
       <title>How to stop ssh from adding a server to known_hosts file</title>
-      <link>http://www.kevssite.com/how-to-stop-ssh-from-adding-a-server-to-known_hosts-file/</link>
+      <link>https://www.kevssite.com/how-to-stop-ssh-from-adding-a-server-to-known_hosts-file/</link>
       <pubDate>Fri, 03 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/how-to-stop-ssh-from-adding-a-server-to-known_hosts-file/</guid>
+      <guid>https://www.kevssite.com/how-to-stop-ssh-from-adding-a-server-to-known_hosts-file/</guid>
       <description>&lt;p&gt;If you do a fair amount of tinkering on cloud servers, such as EC2 or Digital Ocean, then you&amp;rsquo;ll have noticed that each time you start a server it gets a new IP address allocated. Then when you next log on to the server via ssh the server gets added to your known_hosts file.&lt;/p&gt;&#xA;&lt;p&gt;Before long your known_host file has dozens, if not hundreds of entries for servers that you&amp;rsquo;ve long shut down and discarded.&lt;/p&gt;&#xA;&lt;p&gt;At first I would edit the known host file and remove the server entry once I&amp;rsquo;d done with the server, but this got tiresome after a while.  So, I decided that for the servers I&amp;rsquo;m just messing about on I&amp;rsquo;d rather not add the server into the known_hosts file at all.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Add a GIT remote as https instead of ssh</title>
-      <link>http://www.kevssite.com/add-a-git-remote-as-https-instead-of-ssh/</link>
+      <link>https://www.kevssite.com/add-a-git-remote-as-https-instead-of-ssh/</link>
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/add-a-git-remote-as-https-instead-of-ssh/</guid>
+      <guid>https://www.kevssite.com/add-a-git-remote-as-https-instead-of-ssh/</guid>
       <description>Using Bitbucket from a network that does not allow ssh (port 22) connections means that doing a git push or pull using the standard git ssh remote won&amp;rsquo;t work. git remote add origin https://USERNAME@bitbucket.org/USERNAME/REPOSITORY.git&#xA;Where USERNAME is your user/login name and REPOSITORY is the name of the repository you want to access.&#xA;If you don&amp;rsquo;t want to enter your password every time you connect to the remote you can include the password in the remote url: git remote add origin https://USERNAME:PASSWORD@bitbucket.</description>
     </item>
     <item>
       <title>Add a Linux swap file</title>
-      <link>http://www.kevssite.com/add-a-linux-swap-file/</link>
+      <link>https://www.kevssite.com/add-a-linux-swap-file/</link>
       <pubDate>Sun, 13 Oct 2013 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/add-a-linux-swap-file/</guid>
+      <guid>https://www.kevssite.com/add-a-linux-swap-file/</guid>
       <description>I notice that not all cloud hosted Linux servers have a swap enabled. When I spin up a new Centos based server on Digital Ocean for example, there is no swap space.&#xA;Usually you&amp;rsquo;d use a dedicated disk partition for swap, but when you only have the one disk allocated to your cloud server this is not an option. A good alternative is to create and use a file for your swap space.</description>
     </item>
     <item>
       <title>How to speed up a slow SSH login</title>
-      <link>http://www.kevssite.com/how-to-speed-up-a-slow-ssh-login/</link>
+      <link>https://www.kevssite.com/how-to-speed-up-a-slow-ssh-login/</link>
       <pubDate>Thu, 10 Oct 2013 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/how-to-speed-up-a-slow-ssh-login/</guid>
+      <guid>https://www.kevssite.com/how-to-speed-up-a-slow-ssh-login/</guid>
       <description>&lt;p&gt;I recently started using the excellent digital ocean for some of my cloud server hosting. When logging into my servers there was quite a delay, often a minute or more, before the password prompt appeared. I was getting the same delay when I use SSH keys for authentication too.&lt;/p&gt;</description>
     </item>
   </channel>

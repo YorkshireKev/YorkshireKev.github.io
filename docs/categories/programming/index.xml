@@ -2,87 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on Kev&#39;s Site</title>
-    <link>http://www.kevssite.com/categories/programming/</link>
+    <link>https://www.kevssite.com/categories/programming/</link>
     <description>Recent content in Programming on Kev&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.kevssite.com/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kevssite.com/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Useful VS Code Keyboard Combinations</title>
-      <link>http://www.kevssite.com/useful-vscode-keyboard-combinations/</link>
+      <link>https://www.kevssite.com/useful-vscode-keyboard-combinations/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/useful-vscode-keyboard-combinations/</guid>
+      <guid>https://www.kevssite.com/useful-vscode-keyboard-combinations/</guid>
       <description>These are a bunch of VS Code editing keyboard combinations that I find useful, but often struggle to recall. I&amp;rsquo;ll add more as I discover (and need) more editing features&amp;hellip;&#xA;Multi line select and edit. Highlight some text then use the keyboard combination below to select for simultaneous editing.&#xA;MacOS: Shift + Cmd + L&#xA;Windows / Linux: Shift + Ctrl + L&#xA;Select cursor on mutliple lines Select a block of multiple lines.</description>
     </item>
     <item>
       <title>ESP8266 MacOS Arduino IDE Setup</title>
-      <link>http://www.kevssite.com/esp8266-macos-arduino-ide-setup/</link>
+      <link>https://www.kevssite.com/esp8266-macos-arduino-ide-setup/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/esp8266-macos-arduino-ide-setup/</guid>
+      <guid>https://www.kevssite.com/esp8266-macos-arduino-ide-setup/</guid>
       <description>The ESP8266 isn’t an official Arduino, but the community has created a package so that it can be programmed from the Arduino IDE, and allow it to use the Arduino libraries.&#xA;This blog post describes how I set up my development environment on my Macbook Pro running High Sierra.&#xA;The first thing to do is to download and install the IDE. At the time of writing the latest version was 1.</description>
     </item>
     <item>
       <title>Arduino power consumption - Delay vs Sleep</title>
-      <link>http://www.kevssite.com/arduino-power-consumption-delay-vs-sleep/</link>
+      <link>https://www.kevssite.com/arduino-power-consumption-delay-vs-sleep/</link>
       <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/arduino-power-consumption-delay-vs-sleep/</guid>
+      <guid>https://www.kevssite.com/arduino-power-consumption-delay-vs-sleep/</guid>
       <description>I recently built a remote temperature sender based around an Arduino Nano. The coding is simple enough; read the temperature from the attached sensor, transmit the value over a 433mhz transmitter pause for a bit and repeat.&#xA;My first cut of code used the standard delay() command to pause before looping back for another reading. delay(8000); //Sleep(ish) until next temprature reading is required. Hooking up my multimeter I recorded the current draw at about 37-38 milliamps from 3xAA batteries - 4.</description>
     </item>
     <item>
       <title>Using cheap arduino clones with macOS Sierra</title>
-      <link>http://www.kevssite.com/macos-sierra-driver-for-arduino-clones-ch340g/</link>
+      <link>https://www.kevssite.com/macos-sierra-driver-for-arduino-clones-ch340g/</link>
       <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/macos-sierra-driver-for-arduino-clones-ch340g/</guid>
+      <guid>https://www.kevssite.com/macos-sierra-driver-for-arduino-clones-ch340g/</guid>
       <description>Update - Feb 2020 These instructions are no longer required for macOS Mojave 10.14 or later. Updating to the latest macOS version should be enough to make Nanos based on CH340G chipset work. In fact, installing these drivers on macOS Mojave 10.14 or later could cause OS issues!&#xA;Original Post I recently bought some really cheap Arduino Nanos. These were based on the CH340G chipset. Unfortunately, when I loaded the Arduino editor and tried to push code onto one of them, I discovered that there was no USB serial driver available to select.</description>
     </item>
     <item>
       <title>Useful Docker Commands</title>
-      <link>http://www.kevssite.com/useful-docker-commands/</link>
+      <link>https://www.kevssite.com/useful-docker-commands/</link>
       <pubDate>Fri, 02 Dec 2016 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/useful-docker-commands/</guid>
+      <guid>https://www.kevssite.com/useful-docker-commands/</guid>
       <description>These are a bunch of docker commands that I find useful for keeping things tidy.&#xA;Remove all orphaned images. These are the images tagged as &amp;lt;none&amp;gt;. docker images -q --filter &amp;#34;dangling=true&amp;#34; | xargs docker rmi&#xA;Delete/remove all stopped containers. Note that -v option; it will also delete any persistent volumes that belong to the stopped containers. docker ps -aq --filter &amp;#34;status=exited&amp;#34; | xargs docker rm -v &amp;amp;&amp;amp; docker ps -aq --filter &amp;#34;status=created&amp;#34;</description>
     </item>
     <item>
       <title>Seamless audio looping in html5 JavaScript</title>
-      <link>http://www.kevssite.com/seamless-audio-looping/</link>
+      <link>https://www.kevssite.com/seamless-audio-looping/</link>
       <pubDate>Sun, 22 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/seamless-audio-looping/</guid>
+      <guid>https://www.kevssite.com/seamless-audio-looping/</guid>
       <description>For my latest javascript/threejs experiment I created a retro 1980&amp;rsquo;s inspired demo, which renders hundreds of sprites in a pseudo 3D style that was common in the Atari ST and Amiga demos of the late 80&amp;rsquo;s.&#xA;Of course, no retro demo would be complete without a retro soundtrack. For my Retro Particle Demo this would be a short track that loops continuously.&#xA;My initial attempt used the html5 audio tag: &amp;lt;audio id=&amp;#34;demomusic&amp;#34; src=&amp;#34;audio/music.</description>
     </item>
     <item>
       <title>JavaScript KeyCodes</title>
-      <link>http://www.kevssite.com/javascript-keycodes/</link>
+      <link>https://www.kevssite.com/javascript-keycodes/</link>
       <pubDate>Fri, 29 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/javascript-keycodes/</guid>
+      <guid>https://www.kevssite.com/javascript-keycodes/</guid>
       <description>This is a simple JavaScript keycode lookup page. Just press a key and the JavaScript Key Code will be displayed in the box below.&#xA;If you want to stop your browser scrolling when you press space or arrows etc then click in the input field to take the focus away from the whole page.&#xA;The text equivalent of the key being pressed is only displayed in browsers that support event.key. Rather surprisingly this does not include Chrome!</description>
     </item>
     <item>
       <title>Emulators written in JavaScript</title>
-      <link>http://www.kevssite.com/emulators-written-in-javascript/</link>
+      <link>https://www.kevssite.com/emulators-written-in-javascript/</link>
       <pubDate>Sat, 18 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/emulators-written-in-javascript/</guid>
+      <guid>https://www.kevssite.com/emulators-written-in-javascript/</guid>
       <description>A list of machine emulators completely written in JavaScript that I find to be both impressive and interesting. Writing an emulator in any language is difficult and requires some serious programming chops. But to do it in JavaScript must surely require a level of programming genius (or maybe madness - I hear it&amp;rsquo;s a fine line!) that us mere mortals can only dream of aspiring to.&#xA;These are my favourites that I’ve stumbled across, catalogued here so I can easily find them again whenever I feel the need for a retro computing fix&amp;hellip;</description>
     </item>
     <item>
       <title>More adventures in JavaScript</title>
-      <link>http://www.kevssite.com/more-adventures-in-javascript/</link>
+      <link>https://www.kevssite.com/more-adventures-in-javascript/</link>
       <pubDate>Sat, 27 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/more-adventures-in-javascript/</guid>
+      <guid>https://www.kevssite.com/more-adventures-in-javascript/</guid>
       <description>Having not written much client side JavaScript for at least a couple of years I thought I&amp;rsquo;d re-introduce myself to the language, and to the html5 canvas element.&#xA;I decided to spend a few hours building a html5 version of the old ZX Spectrum Classic, Lightcycles (1983), which itself was based on Tron. This isn&amp;rsquo;t exactly a faithful reproduction, it&amp;rsquo;s more inspired by my memory of the game than it is a conversion of it.</description>
     </item>
     <item>
       <title>Github vs Bitbucket</title>
-      <link>http://www.kevssite.com/github-vs-bitbucket/</link>
+      <link>https://www.kevssite.com/github-vs-bitbucket/</link>
       <pubDate>Tue, 08 Oct 2013 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/github-vs-bitbucket/</guid>
+      <guid>https://www.kevssite.com/github-vs-bitbucket/</guid>
       <description>&lt;p&gt;By far the most popular source control system in use today is &lt;!-- raw HTML omitted --&gt;Git&lt;!-- raw HTML omitted --&gt;. It was only about 6 months ago I made the switch from subversion for my personal code projects, and the only regret I have is that I didn’t do it earlier!&lt;/p&gt;&#xA;&lt;p&gt;I’m lucky enough to experience code management at both ends of the spectrum. In my spare time I tinker with personal projects (some public but mostly private stuff). At work ‘enterprise’ would definitely be an appropriate description of our source code management.&lt;/p&gt;&#xA;&lt;p&gt;With the advent of cloud computing, source control can no longer be kept neatly behind corporate firewalls.Of course you could stick a Subversion server or Git repository in your DMZ, but really, the correct answer is hosting.&lt;img src=&#34;http://www.kevssite.com/wp-includes/js/tinymce/plugins/wordpress/img/trans.gif&#34; alt=&#34;&#34; title=&#34;More...&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;There are many source-code hosting providers to choose from, but in this post I’m going to look at the two most popular Git hosting solutions: &lt;!-- raw HTML omitted --&gt;Github&lt;!-- raw HTML omitted --&gt; and &lt;!-- raw HTML omitted --&gt;Bitbucket&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Adventures in JavaScript Canvas</title>
-      <link>http://www.kevssite.com/adventures-in-javascript-canvas/</link>
+      <link>https://www.kevssite.com/adventures-in-javascript-canvas/</link>
       <pubDate>Wed, 19 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/adventures-in-javascript-canvas/</guid>
+      <guid>https://www.kevssite.com/adventures-in-javascript-canvas/</guid>
       <description>I&amp;rsquo;ve been reading a lot about HTML5 recently and it looks like the browser could soon become the dominant application platform. So, I thought I&amp;rsquo;d have a look at the new canvas element and delve into some JavaScript.&#xA;To get me started I&amp;rsquo;ve decided to write a (very) simple version of an old classic zx Spectrum game: Jumping Jack.&#xA;At the time of writing this only works in browsers that support the new canvas html element.</description>
     </item>
   </channel>
