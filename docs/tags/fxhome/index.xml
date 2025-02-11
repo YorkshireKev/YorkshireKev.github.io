@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fxhome on Kev&#39;s Site</title>
-    <link>http://www.kevssite.com/tags/fxhome/</link>
+    <link>https://www.kevssite.com/tags/fxhome/</link>
     <description>Recent content in Fxhome on Kev&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 26 Feb 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.kevssite.com/tags/fxhome/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kevssite.com/tags/fxhome/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exporting footage with dvgrab to edit with fxhome HitFilm Express</title>
-      <link>http://www.kevssite.com/dvgrab-with-hitfilm-express/</link>
+      <link>https://www.kevssite.com/dvgrab-with-hitfilm-express/</link>
       <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/dvgrab-with-hitfilm-express/</guid>
+      <guid>https://www.kevssite.com/dvgrab-with-hitfilm-express/</guid>
       <description>While tidying the loft I came across my old JVC Mini DV Camcorder that I purchased in about 2001. I was looking to recycle an old, unused PC that was also in the loft when it occurred to me that the old PC had a firewire card installed. A quick check confirmed that the firewire card would not fit into my regular PC, so hanging on to this old PC for a while longer was my best chance of getting the footage off the old mini dv tapes.</description>
     </item>
   </channel>

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Centos on Kev&#39;s Site</title>
-    <link>http://www.kevssite.com/tags/centos/</link>
+    <link>https://www.kevssite.com/tags/centos/</link>
     <description>Recent content in Centos on Kev&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Oct 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.kevssite.com/tags/centos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.kevssite.com/tags/centos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to set Centos to UK timezone</title>
-      <link>http://www.kevssite.com/how-to-set-centos-to-uk-timezone/</link>
+      <link>https://www.kevssite.com/how-to-set-centos-to-uk-timezone/</link>
       <pubDate>Sat, 12 Oct 2013 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/how-to-set-centos-to-uk-timezone/</guid>
+      <guid>https://www.kevssite.com/how-to-set-centos-to-uk-timezone/</guid>
       <description>A quick&amp;rsquo; cut and paste&amp;rsquo; tip for setting the timezone on Centos / Red Hat Linux.&#xA;To set it for the UK, as the root user, enter the following: ln -sf /usr/share/zoneinfo/Europe/London /etc/localtime All of the different timezones can be found in /usr/share/zoneinfo under various subdirectories, e.g. Europe, Africa etc. To set the appropriate timezone just replace the symbolic link at /etc/localtime to point the the relevant timezone file. In the example above the symbolic link, /etc/localtime is updated to point to the London timezone file.</description>
     </item>
     <item>
       <title>Compiling bumptech Stud on Centos 6</title>
-      <link>http://www.kevssite.com/compiling-bumptech-stud-on-centos-6/</link>
+      <link>https://www.kevssite.com/compiling-bumptech-stud-on-centos-6/</link>
       <pubDate>Sun, 17 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/compiling-bumptech-stud-on-centos-6/</guid>
+      <guid>https://www.kevssite.com/compiling-bumptech-stud-on-centos-6/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Stud&lt;!-- raw HTML omitted --&gt; is the “Scalable TLS Unwrapping Daemon” written by bumptech and used by 85million bump users. I use it to offload SSL connections in front of haproxy for really scalable websites. It’s not so much that I need to scale massively, but it does allow me to run on really small (i.e. cheap) servers. I’m aware that the development branch of HAproxy now supports SSL directly, but as yet I have not seen any performance tests so for now I will stick with stud.&lt;/p&gt;&#xA;&lt;p&gt;I have previously built stud on Debian Linux and the build process is really simple; make and then make install (once openssl-devel in installed and or course the utilities gcc and make too!)&lt;/p&gt;&#xA;&lt;p&gt;But I&amp;rsquo;ve recently moved over to Centos as my server OS of choice and ran into some problems whilst building stud. The error reported when I ran make was file ev.h not found.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Compile node.js on Centos Linux</title>
-      <link>http://www.kevssite.com/compile-node-js-on-centos-linux/</link>
+      <link>https://www.kevssite.com/compile-node-js-on-centos-linux/</link>
       <pubDate>Sat, 26 May 2012 00:00:00 +0000</pubDate>
-      <guid>http://www.kevssite.com/compile-node-js-on-centos-linux/</guid>
+      <guid>https://www.kevssite.com/compile-node-js-on-centos-linux/</guid>
       <description>&lt;p&gt;This is a quick how to with the steps used to compile Node.js on Centos Linux.&lt;/p&gt;&#xA;&lt;p&gt;These steps were successfully executed on Centos 6.2 x86 with node 0.6.18&lt;/p&gt;</description>
     </item>
   </channel>
