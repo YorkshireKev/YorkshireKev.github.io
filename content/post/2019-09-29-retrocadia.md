@@ -62,4 +62,6 @@ I have also built a web version so the game can be played in a modern desktop br
 [Click here to play Retrocadia in the browser](https://www.kevssite.com/retrocadia-web)
 
 ## Update 13/02/2025
-I've updated the web export version with godot 3.6, which should make it more stable than the version from back in 2019. I have also updated the loader to show a loading progress bar for those with slower internet connections.
+The web version of the game has been updated! I've upgraded to Godot 3.6, which should make the game more reliable in the browser.
+I've also added a loading progress bar so you can see how the game is loading, especially helpful for those with slower internet. 
+If you have any trouble loading the game (like if the progress bar gets stuck), try clearing your browser's cache. This will ensure you have the latest files.
