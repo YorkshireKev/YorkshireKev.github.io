@@ -3,7 +3,7 @@ author: Kev
 categories:
 - Games
 date: "2019-09-29"
-lastmod: "2019-10-10"
+lastmod: "2025-02-13"
 tags:
 - godot
 - javascript
@@ -60,3 +60,6 @@ The Windows version is now also available for download from itch.io alongside th
 
 I have also built a web version so the game can be played in a modern desktop browser. At the time of writing the game worked in the latest versions of Chrome and Firefox, but sadly didn't load in Safari. I'd say the web version should be considered experimental and loading can be a little hit and miss. In chrome on my Mac, for example, loading seemed to hang but then ran just fine when I hit refresh! I guess this sort of thing is to be expected as Web-Assembly and Godot's ability to generate it are both cutting edge experimental features.
 [Click here to play Retrocadia in the browser](https://www.kevssite.com/retrocadia-web)
+
+## Update 13/02/2025
+I've updated the web export version with godot 3.6, which should make it more stable than the cersion from back in 2019. I have also updated the loader to show a loading progress bar for those with slower internet connections.
