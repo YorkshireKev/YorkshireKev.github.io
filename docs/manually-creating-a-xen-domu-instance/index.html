@@ -14,7 +14,8 @@ For this example I’ll be installing CentOS5, but this should work for any red-
 Right, down to business. The first thing we need to do is create a file to user as the hard disk for the DOMU. There are other options for providing hard disks to a DOMU, and I’ll cover some of them in a later guide but for this install I’ll be using a file.
 The command below will create an 8GB file that will be used as an 8GB drive. The whole file will be written to disk in one go so may take a short while to complete.
 dd if=/dev/zero of=/xenimages/test01/disk1.img oflag=direct bs=1M count=8192">
-<script type="application/ld+json">
+
+<meta name="author" content="Kevin Ellis"><script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
@@ -59,7 +60,7 @@ dd if=/dev/zero of=/xenimages/test01/disk1.img oflag=direct bs=1M count=8192">
   "@context": "http://schema.org",
   "@type": "Article",
   "author": {
-    "name" : "Kev"
+    "name" : "map[name:Kevin Ellis]"
   },
   "headline": "Manually creating a Xen DOMU instance",
   "description" : "If you’ve followed my guide to installing xen from source then you might now be wondering how to create your first VM.\nThis guide will show you how to manually create and install a VM (known as a DOMU instance in Xen) without any additional tools such as virt-manager, virt-install or virsh. These tools can help the novice, but are quite limiting when it comes to the advance features of xen.\nFor this example I’ll be installing CentOS5, but this should work for any red-hat based distro (please note there is a bug in fedora10 that stops it booting under xen). This example also uses the paravirtual kernel so it will work even if your CPU does not support AMD-V or intel-VT.\nRight, down to business. The first thing we need to do is create a file to user as the hard disk for the DOMU. There are other options for providing hard disks to a DOMU, and I’ll cover some of them in a later guide but for this install I’ll be using a file.\nThe command below will create an 8GB file that will be used as an 8GB drive. The whole file will be written to disk in one go so may take a short while to complete.\ndd if=\/dev\/zero of=\/xenimages\/test01\/disk1.img oflag=direct bs=1M count=8192\n",
@@ -120,6 +121,13 @@ if (!doNotTrack) {
 </script>
 
 
+ 
+
+<link href="/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+
+<script  src="https://www.kevssite.com/vendor/glightbox/js/glightbox.min.js"></script>
+ 
   </head>
   <body>
     
@@ -315,15 +323,29 @@ if (!doNotTrack) {
               
               
               <span class="post-meta">
+  <div class="row post-meta text-muted">
+    <div class="col-sm-12 col-md-6 px-0">
+      
+      
   
+      
+      
+      
+      Kevin Ellis |
+      
+      
   
-  &nbsp;April 13, 2009
+      &nbsp; April 13, 2009
+    </div>
+
+  <div class="col-sm-12 col-md-6 text-sm-start text-md-end px-0">
+  
 
   
+</div>
 
   
-
-  
+</div>
 </span>
 
 
@@ -514,7 +536,7 @@ One last note. If you want the VM to start and stop with your xen server, just m
     <a href="https://www.kevssite.com/xen-4-1-released/">
         <div class="card single-post-card h-100 shadow-effect border">
             <div class="card-body">
-                <h3 class="fw-bold post-title">Xen 4.1 released</h3>
+                <h3 class="fw-medium post-title">Xen 4.1 released</h3>
                 
                 <p class="post-meta">
                     <span class="post-meta text-muted">
@@ -564,7 +586,7 @@ One last note. If you want the VM to start and stop with your xen server, just m
     <a href="https://www.kevssite.com/mounting-lvm-backed-xen-disk-partitions-in-dom0/">
         <div class="card single-post-card h-100 shadow-effect border">
             <div class="card-body">
-                <h3 class="fw-bold post-title">Mounting LVM backed XEN disk partitions in DOM0</h3>
+                <h3 class="fw-medium post-title">Mounting LVM backed XEN disk partitions in DOM0</h3>
                 
                 <p class="post-meta">
                     <span class="post-meta text-muted">
@@ -613,7 +635,7 @@ One last note. If you want the VM to start and stop with your xen server, just m
     <a href="https://www.kevssite.com/converting-a-xen-domu-from-hvm-to-pv/">
         <div class="card single-post-card h-100 shadow-effect border">
             <div class="card-body">
-                <h3 class="fw-bold post-title">Converting a XEN DOMU from HVM to PV</h3>
+                <h3 class="fw-medium post-title">Converting a XEN DOMU from HVM to PV</h3>
                 
                 <p class="post-meta">
                     <span class="post-meta text-muted">
@@ -689,7 +711,7 @@ One last note. If you want the VM to start and stop with your xen server, just m
           <li>
             <a href="https://twitter.com/YorkshireKev" title="Twitter" target="_blank">
               <span class="mx-2">
-                <i class="bi bi-twitter"></i>
+                <i class="bi bi-twitter-x"></i>
               </span>
             </a>
           </li>
