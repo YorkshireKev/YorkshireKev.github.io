@@ -34,3 +34,7 @@ CLONING FRESH:
   ##this might not be needed is .gitmodule exists##git submodule add https://github.com/binokochumolvarghese/lightbi-hugo
   git submodule init
   git submodule update --init --recursive
+
+Updating submodules:
+  To pull in the latest commit of the hugo theme submodule run:
+  git submodule foreach git pull origin main

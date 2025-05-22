@@ -15,7 +15,8 @@ To build Xen from source you’ll need as fair number of dependencies. The easie
 apt-get install bcc bin86 gawk bridge-utils iproute libcurl3 libcurl4-openssl-dev bzip2 module-init-tools transfig tgif texinfo pciutils-dev mercurial build-essential make gcc libc6-dev zlib1g-dev python python-dev python-twisted libncurses5-dev patch libvncserver-dev libsdl-dev libjpeg62-dev
 If you installed the 64bit version of Debian then you’ll also need gcc-multilib for the compile to work:
 apt-get install gcc-multilib">
-<script type="application/ld+json">
+
+<meta name="author" content="Kevin Ellis"><script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
@@ -60,7 +61,7 @@ apt-get install gcc-multilib">
   "@context": "http://schema.org",
   "@type": "Article",
   "author": {
-    "name" : "Kev"
+    "name" : "map[name:Kevin Ellis]"
   },
   "headline": "Installing Xen 3.3.1 from source on Debian 5.0 (Lenny)",
   "description" : "This is how I built my Xen server.\nFirst install Debian 5.0 (Lenny). This should also work on 4 (Etch) too.\nEverything is done on the command line as root.\nTo build Xen from source you’ll need as fair number of dependencies. The easiest way to install them is by using the apt-get install command as below:\napt-get install bcc bin86 gawk bridge-utils iproute libcurl3 libcurl4-openssl-dev bzip2 module-init-tools transfig tgif texinfo pciutils-dev mercurial build-essential make gcc libc6-dev zlib1g-dev python python-dev python-twisted libncurses5-dev patch libvncserver-dev libsdl-dev libjpeg62-dev\nIf you installed the 64bit version of Debian then you’ll also need gcc-multilib for the compile to work:\napt-get install gcc-multilib\n",
@@ -122,6 +123,13 @@ if (!doNotTrack) {
 </script>
 
 
+ 
+
+<link href="/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+
+<script  src="https://www.kevssite.com/vendor/glightbox/js/glightbox.min.js"></script>
+ 
   </head>
   <body>
     
@@ -317,15 +325,29 @@ if (!doNotTrack) {
               
               
               <span class="post-meta">
+  <div class="row post-meta text-muted">
+    <div class="col-sm-12 col-md-6 px-0">
+      
+      
   
+      
+      
+      
+      Kevin Ellis |
+      
+      
   
-  &nbsp;April 7, 2009
+      &nbsp; April 7, 2009
+    </div>
+
+  <div class="col-sm-12 col-md-6 text-sm-start text-md-end px-0">
+  
 
   
+</div>
 
   
-
-  
+</div>
 </span>
 
 
@@ -495,7 +517,7 @@ This resolved the error and still leaves me with xen 3.3.1</p>
     <a href="https://www.kevssite.com/compile-node-js-on-debian-linux/">
         <div class="card single-post-card h-100 shadow-effect border">
             <div class="card-body">
-                <h3 class="fw-bold post-title">Compile Node.js on Debian and Ubuntu Linux</h3>
+                <h3 class="fw-medium post-title">Compile Node.js on Debian and Ubuntu Linux</h3>
                 
                 <p class="post-meta">
                     <span class="post-meta text-muted">
@@ -570,7 +592,7 @@ This resolved the error and still leaves me with xen 3.3.1</p>
           <li>
             <a href="https://twitter.com/YorkshireKev" title="Twitter" target="_blank">
               <span class="mx-2">
-                <i class="bi bi-twitter"></i>
+                <i class="bi bi-twitter-x"></i>
               </span>
             </a>
           </li>
