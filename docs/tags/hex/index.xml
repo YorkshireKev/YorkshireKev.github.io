@@ -4,7 +4,7 @@
     <title>Hex on Kev&#39;s Site</title>
     <link>https://www.kevssite.com/tags/hex/</link>
     <description>Recent content in Hex on Kev&#39;s Site</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 21 Apr 2009 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevssite.com/tags/hex/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://www.kevssite.com/using-vi-as-a-hex-editor/</link>
       <pubDate>Tue, 21 Apr 2009 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/using-vi-as-a-hex-editor/</guid>
-      <description>Sometimes I find it useful to switch to hex mode when editing a file in vi. The command for switching is not very obvious so thought I&amp;rsquo;d share&amp;hellip;&#xA;So, open a file in vi as usual. To switch into hex mode hit escape and type: :%!xxd&#xA;And when your done and want to exit from hex mode hit escape again and type: :%!xxd -r&#xA;Okay, so this isn&amp;rsquo;t actaully switching to vi&amp;rsquo;s &amp;lsquo;hex mode&amp;rsquo;; vi doesn&amp;rsquo;t have one.</description>
+      <description>&lt;p&gt;Sometimes I find it useful to switch to hex mode when editing a file in vi. The command for switching is not very obvious so thought I&amp;rsquo;d share&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;So, open a file in vi as usual. To switch into hex mode hit escape and type:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:%!xxd&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;&#xA;&lt;p&gt;And when your done and want to exit from hex mode hit escape again and type:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:%!xxd -r&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;&#xA;&lt;p&gt;Okay, so this isn&amp;rsquo;t actaully switching to vi&amp;rsquo;s &amp;lsquo;hex mode&amp;rsquo;; vi doesn&amp;rsquo;t have one. What the above actually does is to stream vi&amp;rsquo;s buffer through the external program &amp;lsquo;xxd&amp;rsquo;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

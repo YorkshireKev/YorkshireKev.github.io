@@ -4,7 +4,7 @@
     <title>Linux on Kev&#39;s Site</title>
     <link>https://www.kevssite.com/tags/linux/</link>
     <description>Recent content in Linux on Kev&#39;s Site</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevssite.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://www.kevssite.com/cli-labyrinth-game/</link>
       <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/cli-labyrinth-game/</guid>
-      <description>One of the very first games I ever played on a home computer was a maze game called Labyrinth on the Sinclair ZX81. So when I wanted to learn Golang and delve a little deeper into terminal cli development, I decided to start with a simple maze game that could be run in a shell on the Linux command line.&#xA;As you can see from the screenshot, the graphics could, at best, be describes as very basic.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.kevssite.com/images/cli-labyrinth.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;One of the very first games I ever played on a home computer was a maze game called Labyrinth on the Sinclair ZX81. So when I wanted to learn Golang and delve a little deeper into terminal cli development, I decided to start with a simple maze game that could be run in a shell on the Linux command line.&lt;/p&gt;&#xA;&lt;p&gt;As you can see from the screenshot, the graphics could, at best, be describes as very basic. But as a learning project, I’m quite pleased with the result.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Copying JVC Everio HDD camcorder recordings with Linux</title>

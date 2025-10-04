@@ -4,7 +4,7 @@
     <title>Commentry on Kev&#39;s Site</title>
     <link>https://www.kevssite.com/categories/commentry/</link>
     <description>Recent content in Commentry on Kev&#39;s Site</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 10 May 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevssite.com/categories/commentry/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>https://www.kevssite.com/chatting-with-matthew-smith/</link>
       <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/chatting-with-matthew-smith/</guid>
-      <description>Matthew Smith, the author of the classic ZX Spectrum games Manic Miner and Jet Set Willy was at the Play Expo 2019 retro gaming event in Manchester to do a talk marking the 35th anniversary of Jet Set Willy. I was lucky enough to attend this event and had taken some of my old cassette covers with me, just in case Matthew was up for doing some signing after his talk.</description>
+      <description>&lt;p&gt;Matthew Smith, the author of the classic ZX Spectrum games Manic Miner and Jet Set Willy was at the Play Expo 2019 retro gaming event in Manchester to do a talk marking the 35th anniversary of Jet Set Willy. I was lucky enough to attend this event and had taken some of my old cassette covers with me, just in case Matthew was up for doing some signing after his talk. So at the end of the talk I legged it up to the stage, joining the unofficial queue of fans seeking autographs and selfies. Did I ask him to sign my covers of Styx, Manic Miner and JSW? Too right I did!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Acer Aspire S3 UltraBook and Ubuntu 14.04</title>
       <link>https://www.kevssite.com/acer-aspire-s3-ultrabook-and-ubuntu-14-04/</link>
       <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/acer-aspire-s3-ultrabook-and-ubuntu-14-04/</guid>
-      <description>Like most Linux users, I appreciate the power and flexibility of open source and like that my development PC runs the same software as my servers. While building a desktop PC and installing Ubuntu on it is great n&amp;rsquo; all, I wanted my next Linux desktop to be a little more portable. Coding in the garden anyone? yes please!&#xA;Now, I really like the look of Apple&amp;rsquo;s macbook air. But apple&amp;rsquo;s wonder machine is out of my budget and I&amp;rsquo;d also have had to switch from Linux to MacOX.</description>
+      <description>&lt;p&gt;Like most Linux users, I appreciate the power and flexibility of open source and like that my development PC runs the same software as my servers. While building a desktop PC and installing Ubuntu on it is great n&amp;rsquo; all, I wanted my next Linux desktop to be a little more portable. Coding in the garden anyone? yes please!&lt;/p&gt;&#xA;&lt;p&gt;Now, I really like the look of Apple&amp;rsquo;s macbook air. But apple&amp;rsquo;s wonder machine is out of my budget and I&amp;rsquo;d also have had to switch from Linux to MacOX.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Github vs Bitbucket</title>
@@ -41,7 +41,7 @@
       <link>https://www.kevssite.com/matthew-smith-interview/</link>
       <pubDate>Tue, 18 May 2010 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/matthew-smith-interview/</guid>
-      <description>My original website (The Sinclair Archives) was removed from the Internet in 2000, and I thought I&amp;rsquo;d lost the content forever. But while sorting through a load of old cd-roms destined for the bin I stumbled across a 10 year old backup disk that contained a copy of my old website. On the old site was a short interview I&amp;rsquo;d done with Matthew Smith, the programmer of Manic Miner and Jet Set Willy.</description>
+      <description>&lt;p&gt;My original website (The Sinclair Archives) was removed from the Internet in 2000, and I thought I&amp;rsquo;d lost the content forever. But while sorting through a load of old cd-roms destined for the bin I stumbled across a 10 year old backup disk that contained a copy of my old website. On the old site was a short interview I&amp;rsquo;d done with Matthew Smith, the programmer of Manic Miner and Jet Set Willy. So, here is the interview, complete with the back story as presented on my original site back in 1999&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

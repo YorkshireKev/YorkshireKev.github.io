@@ -4,7 +4,7 @@
     <title>Linux on Kev&#39;s Site</title>
     <link>https://www.kevssite.com/categories/linux/</link>
     <description>Recent content in Linux on Kev&#39;s Site</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 26 Feb 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevssite.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
@@ -13,42 +13,42 @@
       <link>https://www.kevssite.com/dvgrab-with-hitfilm-express/</link>
       <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/dvgrab-with-hitfilm-express/</guid>
-      <description>While tidying the loft I came across my old JVC Mini DV Camcorder that I purchased in about 2001. I was looking to recycle an old, unused PC that was also in the loft when it occurred to me that the old PC had a firewire card installed. A quick check confirmed that the firewire card would not fit into my regular PC, so hanging on to this old PC for a while longer was my best chance of getting the footage off the old mini dv tapes.</description>
+      <description>&lt;p&gt;While tidying the loft I came across my old JVC Mini DV Camcorder that I purchased in about 2001. I was looking to recycle an old, unused PC that was also in the loft when it occurred to me that the old PC had a firewire card installed. A quick check confirmed that the firewire card would not fit into my regular PC, so hanging on to this old PC for a while longer was my best chance of getting the footage off the old mini dv tapes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fix file ordering on fat32 sd cards</title>
       <link>https://www.kevssite.com/fix-file-ordering-on-fat32-sd-cards/</link>
       <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/fix-file-ordering-on-fat32-sd-cards/</guid>
-      <description>I recently started using cassette tape emulators to load games on my retro zx Spectrum and C64 (search casduino and tapduino if you’re interested in these). Basically these work by holding the tape images as files on an SD or Micro SD card and the casduino then plays them as audio into the old computers as though a tape deck was connected. They work great but one issue I found was that the files did not list in the expected order when viewing through the casduino menu.</description>
+      <description>&lt;p&gt;I recently started using cassette tape emulators to load games on my retro zx Spectrum and C64 (search casduino and tapduino if you’re interested in these). Basically these work by holding the tape images as files on an SD or Micro SD card and the casduino then plays them as audio into the old computers as though a tape deck was connected. They work great but one issue I found was that the files did not list in the expected order when viewing through the casduino menu.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Console access into a running Docker container</title>
       <link>https://www.kevssite.com/console-access-into-a-running-docker-container/</link>
       <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/console-access-into-a-running-docker-container/</guid>
-      <description>Sometimes, when setting up and debugging a container it is extremely useful to be able to &amp;lsquo;shell into&amp;rsquo; the container to get a closer look at what&amp;rsquo;s going on.&#xA;This is a quick guide on how to get shell console access into a running Docker container.&#xA;UPDATE. If you are running docker version 1.3 or greater then you should use docker exec instead (see docker man pages for more info). The only use case that still requires the use of nsenter is where the user assigned to the container prevents you from doing tasks inside.</description>
+      <description>&lt;p&gt;Sometimes, when setting up and debugging a container it is extremely useful to be able to &amp;lsquo;shell into&amp;rsquo; the container to get a closer look at what&amp;rsquo;s going on.&lt;/p&gt;&#xA;&lt;p&gt;This is a quick guide on how to get shell console access into a running Docker container.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;UPDATE. If you are running docker version 1.3 or greater then you should use docker exec instead (see docker man pages for more info). The only use case that still requires the use of nsenter is where the user assigned to the container prevents you from doing tasks inside. e.g. where root access is needed but the container is not running as root.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Install nsenter from source</title>
       <link>https://www.kevssite.com/install-nsenter-from-source/</link>
       <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/install-nsenter-from-source/</guid>
-      <description>nsenter is a great command line tool for accessing docker containers. Unfortunately it isn’t available in Ubuntu 14.04 at the time of writing. Fortunately building it from source is quite simple.&#xA;Get the latest version of util-linux from kernel.org https://www.kernel.org/pub/linux/utils/util-linux/&#xA;At the time of writing the latest version was v2.25, which is the version used in the examples here.&#xA;Install the build dependencies sudo apt-get install build-essential libncurses5-dev libslang2-dev gettext zlib1g-dev \ libselinux1-dev debhelper lsb-release pkg-config po-debconf autoconf \ automake autopoint libtool python2.</description>
+      <description>&lt;p&gt;nsenter is a great command line tool for accessing docker containers. Unfortunately  it isn’t available in Ubuntu 14.04 at the time of writing. Fortunately building it from source is quite simple.&lt;/p&gt;&#xA;&lt;p&gt;Get the latest version of util-linux from kernel.org&#xA;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;https://www.kernel.org/pub/linux/utils/util-linux/&#34;&gt;https://www.kernel.org/pub/linux/utils/util-linux/&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;At the time of writing the latest version was v2.25, which is the version used in the examples here.&lt;/p&gt;&#xA;&lt;p&gt;Install the build dependencies&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install build-essential libncurses5-dev libslang2-dev gettext zlib1g-dev &lt;span style=&#34;color:#ae81ff&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;libselinux1-dev debhelper lsb-release pkg-config po-debconf autoconf &lt;span style=&#34;color:#ae81ff&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;automake autopoint libtool python2.7-dev&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Acer Aspire S3 UltraBook and Ubuntu 14.04</title>
       <link>https://www.kevssite.com/acer-aspire-s3-ultrabook-and-ubuntu-14-04/</link>
       <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/acer-aspire-s3-ultrabook-and-ubuntu-14-04/</guid>
-      <description>Like most Linux users, I appreciate the power and flexibility of open source and like that my development PC runs the same software as my servers. While building a desktop PC and installing Ubuntu on it is great n&amp;rsquo; all, I wanted my next Linux desktop to be a little more portable. Coding in the garden anyone? yes please!&#xA;Now, I really like the look of Apple&amp;rsquo;s macbook air. But apple&amp;rsquo;s wonder machine is out of my budget and I&amp;rsquo;d also have had to switch from Linux to MacOX.</description>
+      <description>&lt;p&gt;Like most Linux users, I appreciate the power and flexibility of open source and like that my development PC runs the same software as my servers. While building a desktop PC and installing Ubuntu on it is great n&amp;rsquo; all, I wanted my next Linux desktop to be a little more portable. Coding in the garden anyone? yes please!&lt;/p&gt;&#xA;&lt;p&gt;Now, I really like the look of Apple&amp;rsquo;s macbook air. But apple&amp;rsquo;s wonder machine is out of my budget and I&amp;rsquo;d also have had to switch from Linux to MacOX.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Connect to PostgreSQL using an SSH tunnel</title>
       <link>https://www.kevssite.com/connect-to-postgresql-using-an-ssh-tunnel/</link>
       <pubDate>Sat, 04 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/connect-to-postgresql-using-an-ssh-tunnel/</guid>
-      <description>Using an SSH tunnel is a great way to administer remote services without having to directly expose them to the internet. You basically forward a port from your local machine (e.g. your Linux desktop) to a port on the remote server. You can then connect to the port on localhost and the magic of ssh will forward the port securely to the remote machine. To the remote server you&amp;rsquo;ve connected locally on localhost!</description>
+      <description>&lt;p&gt;Using an SSH tunnel is a great way to administer remote services without having to directly expose them to the internet. You basically forward a port from your local machine (e.g. your Linux desktop) to a port on the remote server. You can then connect to the port on localhost and the magic of ssh will forward the port securely to the remote machine. To the remote server you&amp;rsquo;ve connected locally on localhost!&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to stop ssh from adding a server to known_hosts file</title>
@@ -62,21 +62,21 @@
       <link>https://www.kevssite.com/add-a-git-remote-as-https-instead-of-ssh/</link>
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/add-a-git-remote-as-https-instead-of-ssh/</guid>
-      <description>Using Bitbucket from a network that does not allow ssh (port 22) connections means that doing a git push or pull using the standard git ssh remote won&amp;rsquo;t work. git remote add origin https://USERNAME@bitbucket.org/USERNAME/REPOSITORY.git&#xA;Where USERNAME is your user/login name and REPOSITORY is the name of the repository you want to access.&#xA;If you don&amp;rsquo;t want to enter your password every time you connect to the remote you can include the password in the remote url: git remote add origin https://USERNAME:PASSWORD@bitbucket.</description>
+      <description>&lt;p&gt;Using Bitbucket from a network that does not allow ssh (port 22) connections means that doing a git push or pull using the standard git ssh remote won&amp;rsquo;t work.&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add origin https://USERNAME@bitbucket.org/USERNAME/REPOSITORY.git&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;&#xA;&lt;p&gt;Where &lt;code&gt;USERNAME&lt;/code&gt; is your user/login name and &lt;code&gt;REPOSITORY&lt;/code&gt; is the name of the repository you want to access.&lt;/p&gt;&#xA;&lt;p&gt;If you don&amp;rsquo;t want to enter your password every time you connect to the remote you can include the password in the remote url:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add origin https://USERNAME:PASSWORD@bitbucket.org/USERNAME/REPOSITORY.git&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Add a Linux swap file</title>
       <link>https://www.kevssite.com/add-a-linux-swap-file/</link>
       <pubDate>Sun, 13 Oct 2013 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/add-a-linux-swap-file/</guid>
-      <description>I notice that not all cloud hosted Linux servers have a swap enabled. When I spin up a new Centos based server on Digital Ocean for example, there is no swap space.&#xA;Usually you&amp;rsquo;d use a dedicated disk partition for swap, but when you only have the one disk allocated to your cloud server this is not an option. A good alternative is to create and use a file for your swap space.</description>
+      <description>&lt;p&gt;I notice that not all cloud hosted Linux servers have a swap enabled. When I spin up a new Centos based server on Digital Ocean for example, there is no swap space.&lt;/p&gt;&#xA;&lt;p&gt;Usually you&amp;rsquo;d use a dedicated disk partition for swap, but when you only have the one disk allocated to your cloud server this is not an option. A good alternative is to create and use a file for your swap space. Here&amp;rsquo;s a quick guide on how to do it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to set Centos to UK timezone</title>
       <link>https://www.kevssite.com/how-to-set-centos-to-uk-timezone/</link>
       <pubDate>Sat, 12 Oct 2013 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/how-to-set-centos-to-uk-timezone/</guid>
-      <description>A quick&amp;rsquo; cut and paste&amp;rsquo; tip for setting the timezone on Centos / Red Hat Linux.&#xA;To set it for the UK, as the root user, enter the following: ln -sf /usr/share/zoneinfo/Europe/London /etc/localtime All of the different timezones can be found in /usr/share/zoneinfo under various subdirectories, e.g. Europe, Africa etc. To set the appropriate timezone just replace the symbolic link at /etc/localtime to point the the relevant timezone file. In the example above the symbolic link, /etc/localtime is updated to point to the London timezone file.</description>
+      <description>&lt;p&gt;A quick&amp;rsquo; cut and paste&amp;rsquo; tip for setting the timezone on Centos / Red Hat Linux.&lt;/p&gt;&#xA;&lt;p&gt;To set it for the UK, as the &lt;strong&gt;root&lt;/strong&gt; user, enter the following:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ln -sf /usr/share/zoneinfo/Europe/London /etc/localtime&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;All of the different timezones can be found in /usr/share/zoneinfo under various subdirectories, e.g. Europe, Africa etc. To set the appropriate timezone just replace the symbolic link at /etc/localtime to point the the relevant timezone file. In the example above the symbolic link, /etc/localtime is updated to point to the London timezone file.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to speed up a slow SSH login</title>
@@ -181,7 +181,7 @@
       <link>https://www.kevssite.com/how-to-pronounce-linux/</link>
       <pubDate>Tue, 02 Nov 2010 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/how-to-pronounce-linux/</guid>
-      <description>Okay, so I often hear people (mainly at work) pronouncing Linux incorrectly, with an emphasis on the letter ‘I’, as you would in the word ‘light’ for example.&#xA;Although this may sound more professional it really isn&amp;rsquo;t. I don&amp;rsquo;t know why it winds me up, but I do have to bite my tongue to stop myself from correcting people and sounding like the office nerd (which, now I think about it I probably am!</description>
+      <description>&lt;p&gt;Okay, so I often hear people (mainly at work) pronouncing Linux incorrectly, with an emphasis on the letter ‘I’, as you would in the word ‘light’ for example.&lt;/p&gt;&#xA;&lt;p&gt;Although this may &lt;em&gt;sound&lt;/em&gt; more professional it really isn&amp;rsquo;t. I don&amp;rsquo;t know why it winds me up, but I do have to bite my tongue to stop myself from correcting people and sounding like the office nerd (which, now I think about it I probably am!).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Convert video files to DVD format using mencoder</title>
@@ -216,7 +216,7 @@
       <link>https://www.kevssite.com/using-vi-as-a-hex-editor/</link>
       <pubDate>Tue, 21 Apr 2009 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/using-vi-as-a-hex-editor/</guid>
-      <description>Sometimes I find it useful to switch to hex mode when editing a file in vi. The command for switching is not very obvious so thought I&amp;rsquo;d share&amp;hellip;&#xA;So, open a file in vi as usual. To switch into hex mode hit escape and type: :%!xxd&#xA;And when your done and want to exit from hex mode hit escape again and type: :%!xxd -r&#xA;Okay, so this isn&amp;rsquo;t actaully switching to vi&amp;rsquo;s &amp;lsquo;hex mode&amp;rsquo;; vi doesn&amp;rsquo;t have one.</description>
+      <description>&lt;p&gt;Sometimes I find it useful to switch to hex mode when editing a file in vi. The command for switching is not very obvious so thought I&amp;rsquo;d share&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;So, open a file in vi as usual. To switch into hex mode hit escape and type:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:%!xxd&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;&#xA;&lt;p&gt;And when your done and want to exit from hex mode hit escape again and type:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:%!xxd -r&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;&#xA;&lt;p&gt;Okay, so this isn&amp;rsquo;t actaully switching to vi&amp;rsquo;s &amp;lsquo;hex mode&amp;rsquo;; vi doesn&amp;rsquo;t have one. What the above actually does is to stream vi&amp;rsquo;s buffer through the external program &amp;lsquo;xxd&amp;rsquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Manually creating a Xen DOMU instance</title>

@@ -4,7 +4,7 @@
     <title>Retro on Kev&#39;s Site</title>
     <link>https://www.kevssite.com/categories/retro/</link>
     <description>Recent content in Retro on Kev&#39;s Site</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 10 May 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevssite.com/categories/retro/index.xml" rel="self" type="application/rss+xml" />
@@ -13,28 +13,28 @@
       <link>https://www.kevssite.com/chatting-with-matthew-smith/</link>
       <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/chatting-with-matthew-smith/</guid>
-      <description>Matthew Smith, the author of the classic ZX Spectrum games Manic Miner and Jet Set Willy was at the Play Expo 2019 retro gaming event in Manchester to do a talk marking the 35th anniversary of Jet Set Willy. I was lucky enough to attend this event and had taken some of my old cassette covers with me, just in case Matthew was up for doing some signing after his talk.</description>
+      <description>&lt;p&gt;Matthew Smith, the author of the classic ZX Spectrum games Manic Miner and Jet Set Willy was at the Play Expo 2019 retro gaming event in Manchester to do a talk marking the 35th anniversary of Jet Set Willy. I was lucky enough to attend this event and had taken some of my old cassette covers with me, just in case Matthew was up for doing some signing after his talk. So at the end of the talk I legged it up to the stage, joining the unofficial queue of fans seeking autographs and selfies. Did I ask him to sign my covers of Styx, Manic Miner and JSW? Too right I did!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Emulators written in JavaScript</title>
       <link>https://www.kevssite.com/emulators-written-in-javascript/</link>
       <pubDate>Sat, 18 Apr 2015 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/emulators-written-in-javascript/</guid>
-      <description>A list of machine emulators completely written in JavaScript that I find to be both impressive and interesting. Writing an emulator in any language is difficult and requires some serious programming chops. But to do it in JavaScript must surely require a level of programming genius (or maybe madness - I hear it&amp;rsquo;s a fine line!) that us mere mortals can only dream of aspiring to.&#xA;These are my favourites that I’ve stumbled across, catalogued here so I can easily find them again whenever I feel the need for a retro computing fix&amp;hellip;</description>
+      <description>&lt;p&gt;A list of machine emulators completely written in JavaScript that I find to be both impressive and interesting. Writing an emulator in any language is difficult and requires some serious programming chops. But to do it in JavaScript must surely require a level of programming genius (or maybe madness - I hear it&amp;rsquo;s a fine line!) that us mere mortals can only dream of aspiring to.&lt;/p&gt;&#xA;&lt;p&gt;These are my favourites that I’ve stumbled across, catalogued here so I can easily find them again whenever I feel the need for a retro computing fix&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Adventures in JavaScript Canvas</title>
       <link>https://www.kevssite.com/adventures-in-javascript-canvas/</link>
       <pubDate>Wed, 19 Jan 2011 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/adventures-in-javascript-canvas/</guid>
-      <description>I&amp;rsquo;ve been reading a lot about HTML5 recently and it looks like the browser could soon become the dominant application platform. So, I thought I&amp;rsquo;d have a look at the new canvas element and delve into some JavaScript.&#xA;To get me started I&amp;rsquo;ve decided to write a (very) simple version of an old classic zx Spectrum game: Jumping Jack.&#xA;At the time of writing this only works in browsers that support the new canvas html element.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve been reading a lot about HTML5 recently and it looks like the browser could soon become the dominant application platform. So, I thought I&amp;rsquo;d have a look at the new canvas element and delve into some JavaScript.&lt;/p&gt;&#xA;&lt;p&gt;To get me started I&amp;rsquo;ve decided to write a (very) simple version of an old classic zx Spectrum  game: Jumping Jack.&lt;/p&gt;&#xA;&lt;p&gt;At the time of writing this only works in browsers that support the new canvas html element. So yay for Firefox and boo to Internet Explorer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Matthew Smith Interview</title>
       <link>https://www.kevssite.com/matthew-smith-interview/</link>
       <pubDate>Tue, 18 May 2010 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/matthew-smith-interview/</guid>
-      <description>My original website (The Sinclair Archives) was removed from the Internet in 2000, and I thought I&amp;rsquo;d lost the content forever. But while sorting through a load of old cd-roms destined for the bin I stumbled across a 10 year old backup disk that contained a copy of my old website. On the old site was a short interview I&amp;rsquo;d done with Matthew Smith, the programmer of Manic Miner and Jet Set Willy.</description>
+      <description>&lt;p&gt;My original website (The Sinclair Archives) was removed from the Internet in 2000, and I thought I&amp;rsquo;d lost the content forever. But while sorting through a load of old cd-roms destined for the bin I stumbled across a 10 year old backup disk that contained a copy of my old website. On the old site was a short interview I&amp;rsquo;d done with Matthew Smith, the programmer of Manic Miner and Jet Set Willy. So, here is the interview, complete with the back story as presented on my original site back in 1999&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

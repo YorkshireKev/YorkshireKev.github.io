@@ -10,7 +10,8 @@
 <title>Seamless audio looping in html5 JavaScript - Kev&#39;s Site</title>
 <meta name="description" content="For my latest javascript/threejs experiment I created a retro 1980&rsquo;s inspired demo, which renders hundreds of sprites in a pseudo 3D style that was common in the Atari ST and Amiga demos of the late 80&rsquo;s.
 Of course, no retro demo would be complete without a retro soundtrack. For my Retro Particle Demo this would be a short track that loops continuously.
-My initial attempt used the html5 audio tag: &lt;audio id=&#34;demomusic&#34; src=&#34;audio/music.">
+My initial attempt used the html5 audio tag:
+&lt;audio id=&#34;demomusic&#34; src=&#34;audio/music.mp3&#34; type=&#34;audio/mpeg&#34; loop&gt;&lt;/audio&gt;">
 
 <meta name="author" content="Kevin Ellis"><script type="application/ld+json">
 {
@@ -60,7 +61,7 @@ My initial attempt used the html5 audio tag: &lt;audio id=&#34;demomusic&#34; sr
     "name" : "map[name:Kevin Ellis]"
   },
   "headline": "Seamless audio looping in html5 JavaScript",
-  "description" : "For my latest javascript\/threejs experiment I created a retro 1980\u0026rsquo;s inspired demo, which renders hundreds of sprites in a pseudo 3D style that was common in the Atari ST and Amiga demos of the late 80\u0026rsquo;s.\nOf course, no retro demo would be complete without a retro soundtrack. For my Retro Particle Demo this would be a short track that loops continuously.\nMy initial attempt used the html5 audio tag: \u0026lt;audio id=\u0026#34;demomusic\u0026#34; src=\u0026#34;audio\/music.",
+  "description" : "For my latest javascript\/threejs experiment I created a retro 1980\u0026rsquo;s inspired demo, which renders hundreds of sprites in a pseudo 3D style that was common in the Atari ST and Amiga demos of the late 80\u0026rsquo;s.\nOf course, no retro demo would be complete without a retro soundtrack. For my Retro Particle Demo this would be a short track that loops continuously.\nMy initial attempt used the html5 audio tag: \u0026lt;audio id=\u0026#34;demomusic\u0026#34; src=\u0026#34;audio\/music.mp3\u0026#34; type=\u0026#34;audio\/mpeg\u0026#34; loop\u0026gt;\u0026lt;\/audio\u0026gt;\n",
   "inLanguage" : "en",
   "wordCount":  633 ,
   "datePublished" : "2015-11-22T00:00:00",
@@ -84,7 +85,8 @@ My initial attempt used the html5 audio tag: &lt;audio id=&#34;demomusic&#34; sr
 <meta property="og:title" content="Seamless audio looping in html5 JavaScript" />
 <meta property="og:description" content="For my latest javascript/threejs experiment I created a retro 1980&rsquo;s inspired demo, which renders hundreds of sprites in a pseudo 3D style that was common in the Atari ST and Amiga demos of the late 80&rsquo;s.
 Of course, no retro demo would be complete without a retro soundtrack. For my Retro Particle Demo this would be a short track that loops continuously.
-My initial attempt used the html5 audio tag: &lt;audio id=&#34;demomusic&#34; src=&#34;audio/music.">
+My initial attempt used the html5 audio tag:
+&lt;audio id=&#34;demomusic&#34; src=&#34;audio/music.mp3&#34; type=&#34;audio/mpeg&#34; loop&gt;&lt;/audio&gt;">
 <meta property="og:url" content="https://www.kevssite.com/seamless-audio-looping/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Kev&#39;s Site" />
@@ -93,7 +95,7 @@ My initial attempt used the html5 audio tag: &lt;audio id=&#34;demomusic&#34; sr
 <link rel="icon" type="image/png" sizes="16x16" href="https://www.kevssite.com/favicon/favicon-16x16.png">
 
 
-<meta name="generator" content="Hugo 0.123.3">
+<meta name="generator" content="Hugo 0.150.1">
 <link rel="alternate" href="https://www.kevssite.com/index.xml" type="application/rss+xml" title="Kev&#39;s Site">
 <script src="https://www.kevssite.com/js/dark-mode.js"></script><script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli" crossorigin="anonymous"></script><script src="https://www.kevssite.com/js/lunr-search.js" data-index="/search.json"></script><link rel="stylesheet" href="/style.min.css">
 
@@ -101,26 +103,14 @@ My initial attempt used the html5 audio tag: &lt;audio id=&#34;demomusic&#34; sr
 
 
 
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-17896232-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
 
 
  
 
-<link href="/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+ <link href="https://www.kevssite.com/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
 
-<script  src="https://www.kevssite.com/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="https://www.kevssite.com/vendor/glightbox/js/glightbox.min.js"></script>
  
   </head>
   <body>
@@ -288,35 +278,41 @@ if (!doNotTrack) {
 
 <header class="header-section ">
 
-  <div class="intro-header no-img mt-10">
+  <div class="intro-header no-img mt-10 pb-2">
     <div class="container">
       <div class="row justify-content-center">
-        
-        <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
-          
 
+        
           
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="col-sm-12  col-md-12 col-lg-8 col-xl-8 non-tags-sec">
+            
+            
+          </div>
+          <div class="col-sm-12  col-md-12 col-lg-8 col-xl-8 non-tags-sec">
             
 
+
+            
+            
+
+            
             <div class="post-heading">
-              
-
-              
-
-              
-              <h1 class="fw-semibold display-5 lh-1 mb-3"> 
+              <h1 class="fw-medium lh-1 align-items-center">
                 Seamless audio looping in html5 JavaScript
                 
               </h1>
-              
-              
+            </div>
 
-              
 
-              
-              
-              <span class="post-meta">
+            
+
+            
+
+            
+
+            
+            
+            <span class="post-meta">
   <div class="row post-meta text-muted">
     <div class="col-sm-12 col-md-6 px-0">
       
@@ -343,20 +339,14 @@ if (!doNotTrack) {
 </span>
 
 
-              
-              
-            </div>
+            
+            
           </div>
-          
         </div>
-        
-        
       </div>
-      
     </div>
   </div>
 </header>
-
 
 
     
@@ -511,7 +501,7 @@ if (!doNotTrack) {
       
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
     <a href="https://www.kevssite.com/retrocadia/">
-        <div class="card single-post-card h-100 shadow-effect border">
+        <div class="card single-post-card h-100 shadow-effect border rounded-4">
             <div class="card-body">
                 <h3 class="fw-medium post-title">Godot Experiment no. 1, Retrocadia</h3>
                 
@@ -537,22 +527,24 @@ if (!doNotTrack) {
             </div>
 
             
-            <img src="/img/retrocadia_hub167c2b46925ba82c6e21f1e78c238dc_24327_500x0_resize_box_3.png" alt="/img/retrocadia.png" class="img-fluid lazyload">
+            <img src="/img/retrocadia_hu_c8326b51f51a2508.png" alt="/img/retrocadia.png" class="img-fluid lazyload">
             
 
             
 
             <div class="card-body">
                 
-                <div class="post-entry">
+                <div class="post-entry text-secondary">
                     
-                    Most of my recent (and not so recent) programming efforts have been in JavaScript that runs in the browser. I believed that with WebGL, the browser would become more relevant in gaming and graphics applications. Fast forward a few years and it&rsquo;s clear that the vast majority of PC games are still downloaded and installed, just as they were decades ago.
-I decided to return to creating native games for the PC.
+                    
+Most of my recent (and not so recent) programming efforts have been in JavaScript that runs in the browser. I believed that with WebGL, the browser would become more relevant in gaming and graphics applications. Fast forward a few years and it&rsquo;s clear that the vast majority of PC games are still downloaded and installed, just as they were decades ago.
+I decided to return to creating native games for the PC. It&rsquo;s been almost 20 years since I last wrote a native PC game, so I thought I&rsquo;d start with something simple to get my eye in.
+
                     
                 </div>
 
                 <div class="read-more-section">
-                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
+                    <h6 class="text-muted ">Read More <i class="bi bi-arrow-right"></i></h6>
                 </div>
             </div>
         </div>
@@ -565,7 +557,7 @@ I decided to return to creating native games for the PC.
       
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
     <a href="https://www.kevssite.com/a-look-at-pixi-js/">
-        <div class="card single-post-card h-100 shadow-effect border">
+        <div class="card single-post-card h-100 shadow-effect border rounded-4">
             <div class="card-body">
                 <h3 class="fw-medium post-title">A look at Pixi.js</h3>
                 
@@ -589,21 +581,21 @@ I decided to return to creating native games for the PC.
             </div>
 
             
-            <img src="/img/bloxed_hu2ec1720ceb3943341f2670060845cc14_139805_500x0_resize_box_3.png" alt="/img/bloxed.png" class="img-fluid lazyload">
+            <img src="/img/bloxed_hu_2c3f99c18d527a80.png" alt="/img/bloxed.png" class="img-fluid lazyload">
             
 
             
 
             <div class="card-body">
                 
-                <div class="post-entry">
+                <div class="post-entry text-secondary">
                     
                     A simple 2D puzle game written in JavaScript with the Pixi.js framework that runs in the browser.
                     
                 </div>
 
                 <div class="read-more-section">
-                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
+                    <h6 class="text-muted ">Read More <i class="bi bi-arrow-right"></i></h6>
                 </div>
             </div>
         </div>
@@ -616,7 +608,7 @@ I decided to return to creating native games for the PC.
       
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
     <a href="https://www.kevssite.com/javascript-keycodes/">
-        <div class="card single-post-card h-100 shadow-effect border">
+        <div class="card single-post-card h-100 shadow-effect border rounded-4">
             <div class="card-body">
                 <h3 class="fw-medium post-title">JavaScript KeyCodes</h3>
                 
@@ -645,14 +637,14 @@ I decided to return to creating native games for the PC.
 
             <div class="card-body">
                 
-                <div class="post-entry">
+                <div class="post-entry text-secondary">
                     
                     Online JavaScript keycode lookup utility
                     
                 </div>
 
                 <div class="read-more-section">
-                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
+                    <h6 class="text-muted ">Read More <i class="bi bi-arrow-right"></i></h6>
                 </div>
             </div>
         </div>
@@ -682,34 +674,6 @@ I decided to return to creating native games for the PC.
           class="list-inline list-group list-group-horizontal text-center footer-links d-flex justify-content-center flex-row">
 
           
-          <li>
-            <a href="https://github.com/YorkshireKev" title="GitHub" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-github"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/YorkshireKev" title="Twitter" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-twitter-x"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://linkedin.com/in/elliskevin" title="LinkedIn" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-linkedin"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/@kevschannel" title="Youtube" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-youtube"></i>
-              </span>
-            </a>
-          </li>
           
         </ul>
       </div>
@@ -718,6 +682,10 @@ I decided to return to creating native games for the PC.
     <div class="row">
       <div class="col-md-12">
         <p class="credits copyright text-muted">
+          
+          
+          Kevin Ellis
+          
           
           &nbsp;&copy;
           

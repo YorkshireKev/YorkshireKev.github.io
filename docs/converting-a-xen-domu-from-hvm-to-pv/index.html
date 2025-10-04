@@ -93,7 +93,7 @@ This article will start off where my previous “Installing a XEN hvm DOMU” le
 <link rel="icon" type="image/png" sizes="16x16" href="https://www.kevssite.com/favicon/favicon-16x16.png">
 
 
-<meta name="generator" content="Hugo 0.123.3">
+<meta name="generator" content="Hugo 0.150.1">
 <link rel="alternate" href="https://www.kevssite.com/index.xml" type="application/rss+xml" title="Kev&#39;s Site">
 <script src="https://www.kevssite.com/js/dark-mode.js"></script><script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli" crossorigin="anonymous"></script><script src="https://www.kevssite.com/js/lunr-search.js" data-index="/search.json"></script><link rel="stylesheet" href="/style.min.css">
 
@@ -101,26 +101,14 @@ This article will start off where my previous “Installing a XEN hvm DOMU” le
 
 
 
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-17896232-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
 
 
  
 
-<link href="/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+ <link href="https://www.kevssite.com/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
 
-<script  src="https://www.kevssite.com/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="https://www.kevssite.com/vendor/glightbox/js/glightbox.min.js"></script>
  
   </head>
   <body>
@@ -288,35 +276,41 @@ if (!doNotTrack) {
 
 <header class="header-section ">
 
-  <div class="intro-header no-img mt-10">
+  <div class="intro-header no-img mt-10 pb-2">
     <div class="container">
       <div class="row justify-content-center">
-        
-        <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
-          
 
+        
           
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="col-sm-12  col-md-12 col-lg-8 col-xl-8 non-tags-sec">
+            
+            
+          </div>
+          <div class="col-sm-12  col-md-12 col-lg-8 col-xl-8 non-tags-sec">
             
 
+
+            
+            
+
+            
             <div class="post-heading">
-              
-
-              
-
-              
-              <h1 class="fw-semibold display-5 lh-1 mb-3"> 
+              <h1 class="fw-medium lh-1 align-items-center">
                 Converting a XEN DOMU from HVM to PV
                 
               </h1>
-              
-              
+            </div>
 
-              
 
-              
-              
-              <span class="post-meta">
+            
+
+            
+
+            
+
+            
+            
+            <span class="post-meta">
   <div class="row post-meta text-muted">
     <div class="col-sm-12 col-md-6 px-0">
       
@@ -343,20 +337,14 @@ if (!doNotTrack) {
 </span>
 
 
-              
-              
-            </div>
+            
+            
           </div>
-          
         </div>
-        
-        
       </div>
-      
     </div>
   </div>
 </header>
-
 
 
     
@@ -522,7 +510,7 @@ extra = &quot;(hd0,0)/boot/grub/menu.lst&quot;
       
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
     <a href="https://www.kevssite.com/xen-4-1-released/">
-        <div class="card single-post-card h-100 shadow-effect border">
+        <div class="card single-post-card h-100 shadow-effect border rounded-4">
             <div class="card-body">
                 <h3 class="fw-medium post-title">Xen 4.1 released</h3>
                 
@@ -551,15 +539,16 @@ extra = &quot;(hd0,0)/boot/grub/menu.lst&quot;
 
             <div class="card-body">
                 
-                <div class="post-entry">
+                <div class="post-entry text-secondary">
                     
-                    <p>Today saw the release of Xen 4.1. Major changes include support for greater than 255 CPUs, a new credit scheduler and CPU pools.</p>
-<p>However, the most significant change to those that use Xen will be the new XL toolstack which replaces XM/XEND and will ultimately replace xcp’s xapi and libvirt.</p>
+                    Today saw the release of Xen 4.1. Major changes include support for greater than 255 CPUs, a new credit scheduler and CPU pools.
+However, the most significant change to those that use Xen will be the new XL toolstack which replaces XM/XEND and will ultimately replace xcp’s xapi and libvirt.
+
                     
                 </div>
 
                 <div class="read-more-section">
-                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
+                    <h6 class="text-muted ">Read More <i class="bi bi-arrow-right"></i></h6>
                 </div>
             </div>
         </div>
@@ -572,7 +561,7 @@ extra = &quot;(hd0,0)/boot/grub/menu.lst&quot;
       
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
     <a href="https://www.kevssite.com/installing-a-xen-hvm-domu/">
-        <div class="card single-post-card h-100 shadow-effect border">
+        <div class="card single-post-card h-100 shadow-effect border rounded-4">
             <div class="card-body">
                 <h3 class="fw-medium post-title">Installing a XEN hvm DOMU</h3>
                 
@@ -601,17 +590,18 @@ extra = &quot;(hd0,0)/boot/grub/menu.lst&quot;
 
             <div class="card-body">
                 
-                <div class="post-entry">
+                <div class="post-entry text-secondary">
                     
-                    <p>For this to work your CPU and motherboard needs to support vt (intel) or amd-v. You can check this by looking at the flags in /proc/cpuinfo. Your looking for either vmx or svm on the flags line.</p>
-<p>If you’re doing this from your DOM0 then these flags may not actually show up. Instead type <code>xm info</code> and look for ‘hvm’ on the virt_caps line.</p>
-<p>For my hvm install, i’ll be installing Ubuntu 9.04 Desktop Linux.<br>
-I have copied the live CD ISO onto my XEN DOM0 and will be installing directly from the iso rather than burning the CD. I have also created a 10GB LVM logical volume to act as the disk for my new DOMU.</p>
+                    For this to work your CPU and motherboard needs to support vt (intel) or amd-v. You can check this by looking at the flags in /proc/cpuinfo. Your looking for either vmx or svm on the flags line.
+If you’re doing this from your DOM0 then these flags may not actually show up. Instead type xm info and look for ‘hvm’ on the virt_caps line.
+For my hvm install, i’ll be installing Ubuntu 9.04 Desktop Linux.
+I have copied the live CD ISO onto my XEN DOM0 and will be installing directly from the iso rather than burning the CD. I have also created a 10GB LVM logical volume to act as the disk for my new DOMU.
+
                     
                 </div>
 
                 <div class="read-more-section">
-                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
+                    <h6 class="text-muted ">Read More <i class="bi bi-arrow-right"></i></h6>
                 </div>
             </div>
         </div>
@@ -624,7 +614,7 @@ I have copied the live CD ISO onto my XEN DOM0 and will be installing directly f
       
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
     <a href="https://www.kevssite.com/manually-creating-a-xen-domu-instance/">
-        <div class="card single-post-card h-100 shadow-effect border">
+        <div class="card single-post-card h-100 shadow-effect border rounded-4">
             <div class="card-body">
                 <h3 class="fw-medium post-title">Manually creating a Xen DOMU instance</h3>
                 
@@ -653,19 +643,20 @@ I have copied the live CD ISO onto my XEN DOM0 and will be installing directly f
 
             <div class="card-body">
                 
-                <div class="post-entry">
+                <div class="post-entry text-secondary">
                     
-                    <p>If you’ve followed my guide to installing xen from source then you might now be wondering how to create your first VM.<br>
-This guide will show you how to manually create and install a VM (known as a DOMU instance in Xen) without any additional tools such as virt-manager, virt-install or virsh. These tools can help the novice, but are quite limiting when it comes to the advance features of xen.</p>
-<p>For this example I’ll be installing CentOS5, but this should work for any red-hat based distro (please note there is a bug in fedora10 that stops it booting under xen). This example also uses the paravirtual kernel so it will work even if your CPU does not support AMD-V or intel-VT.</p>
-<p>Right, down to business. The first thing we need to do is create a file to user as the hard disk for the DOMU. There are other options for providing hard disks to a DOMU, and I’ll cover some of them in a later guide but for this install I’ll be using a file.</p>
-<p>The command below will create an 8GB file that will be used as an 8GB drive. The whole file will be written to disk in one go so may take a short while to complete.<br>
-<code>dd if=/dev/zero of=/xenimages/test01/disk1.img oflag=direct bs=1M count=8192</code></p>
+                    If you’ve followed my guide to installing xen from source then you might now be wondering how to create your first VM.
+This guide will show you how to manually create and install a VM (known as a DOMU instance in Xen) without any additional tools such as virt-manager, virt-install or virsh. These tools can help the novice, but are quite limiting when it comes to the advance features of xen.
+For this example I’ll be installing CentOS5, but this should work for any red-hat based distro (please note there is a bug in fedora10 that stops it booting under xen). This example also uses the paravirtual kernel so it will work even if your CPU does not support AMD-V or intel-VT.
+Right, down to business. The first thing we need to do is create a file to user as the hard disk for the DOMU. There are other options for providing hard disks to a DOMU, and I’ll cover some of them in a later guide but for this install I’ll be using a file.
+The command below will create an 8GB file that will be used as an 8GB drive. The whole file will be written to disk in one go so may take a short while to complete.
+dd if=/dev/zero of=/xenimages/test01/disk1.img oflag=direct bs=1M count=8192
+
                     
                 </div>
 
                 <div class="read-more-section">
-                    <h6 class="text-muted link-underline">Read More <i class="bi bi-arrow-right"></i></h6>
+                    <h6 class="text-muted ">Read More <i class="bi bi-arrow-right"></i></h6>
                 </div>
             </div>
         </div>
@@ -695,34 +686,6 @@ This guide will show you how to manually create and install a VM (known as a DOM
           class="list-inline list-group list-group-horizontal text-center footer-links d-flex justify-content-center flex-row">
 
           
-          <li>
-            <a href="https://github.com/YorkshireKev" title="GitHub" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-github"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/YorkshireKev" title="Twitter" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-twitter-x"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://linkedin.com/in/elliskevin" title="LinkedIn" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-linkedin"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/@kevschannel" title="Youtube" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-youtube"></i>
-              </span>
-            </a>
-          </li>
           
         </ul>
       </div>
@@ -731,6 +694,10 @@ This guide will show you how to manually create and install a VM (known as a DOM
     <div class="row">
       <div class="col-md-12">
         <p class="credits copyright text-muted">
+          
+          
+          Kevin Ellis
+          
           
           &nbsp;&copy;
           

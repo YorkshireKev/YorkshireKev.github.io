@@ -4,7 +4,7 @@
     <title>Electronics on Kev&#39;s Site</title>
     <link>https://www.kevssite.com/categories/electronics/</link>
     <description>Recent content in Electronics on Kev&#39;s Site</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevssite.com/categories/electronics/index.xml" rel="self" type="application/rss+xml" />
@@ -13,21 +13,21 @@
       <link>https://www.kevssite.com/esp8266-macos-arduino-ide-setup/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/esp8266-macos-arduino-ide-setup/</guid>
-      <description>The ESP8266 isn’t an official Arduino, but the community has created a package so that it can be programmed from the Arduino IDE, and allow it to use the Arduino libraries.&#xA;This blog post describes how I set up my development environment on my Macbook Pro running High Sierra.&#xA;The first thing to do is to download and install the IDE. At the time of writing the latest version was 1.</description>
+      <description>&lt;p&gt;The ESP8266 isn’t an official Arduino, but the community has created a package so that it can be programmed from the Arduino IDE, and allow it to use the Arduino libraries.&lt;/p&gt;&#xA;&lt;p&gt;This blog post describes how I set up my development environment on my Macbook Pro running High Sierra.&lt;/p&gt;&#xA;&lt;p&gt;The first thing to do is to  download  and install the IDE. At the time of writing the latest version was 1.8.6&lt;/p&gt;</description>
     </item>
     <item>
       <title>Arduino power consumption - Delay vs Sleep</title>
       <link>https://www.kevssite.com/arduino-power-consumption-delay-vs-sleep/</link>
       <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/arduino-power-consumption-delay-vs-sleep/</guid>
-      <description>I recently built a remote temperature sender based around an Arduino Nano. The coding is simple enough; read the temperature from the attached sensor, transmit the value over a 433mhz transmitter pause for a bit and repeat.&#xA;My first cut of code used the standard delay() command to pause before looping back for another reading. delay(8000); //Sleep(ish) until next temprature reading is required. Hooking up my multimeter I recorded the current draw at about 37-38 milliamps from 3xAA batteries - 4.</description>
+      <description>&lt;p&gt;I recently built a remote temperature sender based around an Arduino Nano. The coding is simple enough; read the temperature from the attached sensor, transmit the value over a 433mhz transmitter pause for a bit and repeat.&lt;/p&gt;&#xA;&lt;p&gt;My first cut of code used the standard delay() command to pause before looping back for another reading.&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;delay&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;8000&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;//Sleep(ish) until next temprature reading is required.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hooking up my multimeter I recorded the current draw at about 37-38 milliamps from 3xAA batteries - 4.5 volts. The current draw increased slightly to around 45 milliamps when the Arduino was transmitting the data.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using cheap arduino clones with macOS Sierra</title>
       <link>https://www.kevssite.com/macos-sierra-driver-for-arduino-clones-ch340g/</link>
       <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/macos-sierra-driver-for-arduino-clones-ch340g/</guid>
-      <description>Update - Feb 2020 These instructions are no longer required for macOS Mojave 10.14 or later. Updating to the latest macOS version should be enough to make Nanos based on CH340G chipset work. In fact, installing these drivers on macOS Mojave 10.14 or later could cause OS issues!&#xA;Original Post I recently bought some really cheap Arduino Nanos. These were based on the CH340G chipset. Unfortunately, when I loaded the Arduino editor and tried to push code onto one of them, I discovered that there was no USB serial driver available to select.</description>
+      <description>&lt;h3 id=&#34;update---feb-2020&#34;&gt;Update - Feb 2020&lt;/h3&gt;&#xA;&lt;p&gt;These instructions are no longer required for macOS Mojave 10.14 or later. Updating to the latest macOS version should be enough to make Nanos based on CH340G chipset work. &lt;em&gt;&lt;strong&gt;In fact, installing these drivers on macOS Mojave 10.14 or later could cause OS issues!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;original-post&#34;&gt;Original Post&lt;/h3&gt;&#xA;&lt;p&gt;I recently bought some really cheap Arduino Nanos. These were based on the CH340G chipset. Unfortunately, when I loaded the Arduino editor and tried to push code onto one of them, I discovered that there was no USB serial driver available to select.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

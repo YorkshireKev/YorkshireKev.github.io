@@ -4,7 +4,7 @@
     <title>Esp8266 on Kev&#39;s Site</title>
     <link>https://www.kevssite.com/tags/esp8266/</link>
     <description>Recent content in Esp8266 on Kev&#39;s Site</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevssite.com/tags/esp8266/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://www.kevssite.com/esp8266-macos-arduino-ide-setup/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/esp8266-macos-arduino-ide-setup/</guid>
-      <description>The ESP8266 isn’t an official Arduino, but the community has created a package so that it can be programmed from the Arduino IDE, and allow it to use the Arduino libraries.&#xA;This blog post describes how I set up my development environment on my Macbook Pro running High Sierra.&#xA;The first thing to do is to download and install the IDE. At the time of writing the latest version was 1.</description>
+      <description>&lt;p&gt;The ESP8266 isn’t an official Arduino, but the community has created a package so that it can be programmed from the Arduino IDE, and allow it to use the Arduino libraries.&lt;/p&gt;&#xA;&lt;p&gt;This blog post describes how I set up my development environment on my Macbook Pro running High Sierra.&lt;/p&gt;&#xA;&lt;p&gt;The first thing to do is to  download  and install the IDE. At the time of writing the latest version was 1.8.6&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
