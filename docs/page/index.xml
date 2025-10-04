@@ -4,7 +4,7 @@
     <title>Pages on Kev&#39;s Site</title>
     <link>https://www.kevssite.com/page/</link>
     <description>Recent content in Pages on Kev&#39;s Site</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://www.kevssite.com/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,14 +12,14 @@
       <link>https://www.kevssite.com/bloxed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/bloxed/</guid>
-      <description>Placeholder for sitemap generation</description>
+      <description>&lt;p&gt;Placeholder for sitemap generation&lt;/p&gt;</description>
     </item>
     <item>
       <title>bloxed</title>
       <link>https://www.kevssite.com/retrocadia-web/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/retrocadia-web/</guid>
-      <description>Placeholder for sitemap generation</description>
+      <description>&lt;p&gt;Placeholder for sitemap generation&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

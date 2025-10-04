@@ -4,7 +4,7 @@
     <title>Bitbucket on Kev&#39;s Site</title>
     <link>https://www.kevssite.com/tags/bitbucket/</link>
     <description>Recent content in Bitbucket on Kev&#39;s Site</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Nov 2013 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevssite.com/tags/bitbucket/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://www.kevssite.com/add-a-git-remote-as-https-instead-of-ssh/</link>
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/add-a-git-remote-as-https-instead-of-ssh/</guid>
-      <description>Using Bitbucket from a network that does not allow ssh (port 22) connections means that doing a git push or pull using the standard git ssh remote won&amp;rsquo;t work. git remote add origin https://USERNAME@bitbucket.org/USERNAME/REPOSITORY.git&#xA;Where USERNAME is your user/login name and REPOSITORY is the name of the repository you want to access.&#xA;If you don&amp;rsquo;t want to enter your password every time you connect to the remote you can include the password in the remote url: git remote add origin https://USERNAME:PASSWORD@bitbucket.</description>
+      <description>&lt;p&gt;Using Bitbucket from a network that does not allow ssh (port 22) connections means that doing a git push or pull using the standard git ssh remote won&amp;rsquo;t work.&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add origin https://USERNAME@bitbucket.org/USERNAME/REPOSITORY.git&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;&#xA;&lt;p&gt;Where &lt;code&gt;USERNAME&lt;/code&gt; is your user/login name and &lt;code&gt;REPOSITORY&lt;/code&gt; is the name of the repository you want to access.&lt;/p&gt;&#xA;&lt;p&gt;If you don&amp;rsquo;t want to enter your password every time you connect to the remote you can include the password in the remote url:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add origin https://USERNAME:PASSWORD@bitbucket.org/USERNAME/REPOSITORY.git&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Github vs Bitbucket</title>

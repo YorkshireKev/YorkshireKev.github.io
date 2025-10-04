@@ -4,7 +4,7 @@
     <title>Centos on Kev&#39;s Site</title>
     <link>https://www.kevssite.com/tags/centos/</link>
     <description>Recent content in Centos on Kev&#39;s Site</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Oct 2013 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevssite.com/tags/centos/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://www.kevssite.com/how-to-set-centos-to-uk-timezone/</link>
       <pubDate>Sat, 12 Oct 2013 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/how-to-set-centos-to-uk-timezone/</guid>
-      <description>A quick&amp;rsquo; cut and paste&amp;rsquo; tip for setting the timezone on Centos / Red Hat Linux.&#xA;To set it for the UK, as the root user, enter the following: ln -sf /usr/share/zoneinfo/Europe/London /etc/localtime All of the different timezones can be found in /usr/share/zoneinfo under various subdirectories, e.g. Europe, Africa etc. To set the appropriate timezone just replace the symbolic link at /etc/localtime to point the the relevant timezone file. In the example above the symbolic link, /etc/localtime is updated to point to the London timezone file.</description>
+      <description>&lt;p&gt;A quick&amp;rsquo; cut and paste&amp;rsquo; tip for setting the timezone on Centos / Red Hat Linux.&lt;/p&gt;&#xA;&lt;p&gt;To set it for the UK, as the &lt;strong&gt;root&lt;/strong&gt; user, enter the following:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ln -sf /usr/share/zoneinfo/Europe/London /etc/localtime&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;All of the different timezones can be found in /usr/share/zoneinfo under various subdirectories, e.g. Europe, Africa etc. To set the appropriate timezone just replace the symbolic link at /etc/localtime to point the the relevant timezone file. In the example above the symbolic link, /etc/localtime is updated to point to the London timezone file.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Compiling bumptech Stud on Centos 6</title>

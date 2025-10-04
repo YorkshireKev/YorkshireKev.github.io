@@ -4,7 +4,7 @@
     <title>Godot on Kev&#39;s Site</title>
     <link>https://www.kevssite.com/tags/godot/</link>
     <description>Recent content in Godot on Kev&#39;s Site</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevssite.com/tags/godot/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>https://www.kevssite.com/central-cavern/</link>
       <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/central-cavern/</guid>
-      <description>One of my all-time favourite games is Manic Miner on the ZX Spectrum. When Bug-Byte released Matthew Smith&amp;rsquo;s masterpiece in 1983 the bar was raised for quality gaming on the Speccy. Sure there were many, many excellent games released on the Spectrum (I&amp;rsquo;m looking at you Ultimate) but Manic Miner is still my go-to game when I need a retro gaming fix.&#xA;Ever since I saw Mario64 on the N64 I wondered what a 3D version of Manic Miner or Jet Set Willy would look and play like.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.kevssite.com/images/central-cavern/screenshot1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;One of my all-time favourite games is Manic Miner on the ZX Spectrum. When Bug-Byte released Matthew Smith&amp;rsquo;s masterpiece in 1983 the bar was raised for quality gaming on the Speccy. Sure there were many, many excellent games released on the Spectrum (I&amp;rsquo;m looking at you Ultimate) but Manic Miner is still my go-to game when I need a retro gaming fix.&lt;/p&gt;&#xA;&lt;p&gt;Ever since I saw Mario64 on the N64 I wondered what a 3D version of Manic Miner or Jet Set Willy would look and play like. After all, if Mario could make the jump to 3D, why not Willy?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Godot Experiment no. 1, Retrocadia</title>
       <link>https://www.kevssite.com/retrocadia/</link>
       <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/retrocadia/</guid>
-      <description>Most of my recent (and not so recent) programming efforts have been in JavaScript that runs in the browser. I believed that with WebGL, the browser would become more relevant in gaming and graphics applications. Fast forward a few years and it&amp;rsquo;s clear that the vast majority of PC games are still downloaded and installed, just as they were decades ago.&#xA;I decided to return to creating native games for the PC.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.kevssite.com/images/retrocadia/retrocadia-title.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Most of my recent (and not so recent) programming efforts have been in JavaScript that runs in the browser. I believed that with WebGL, the browser would become more relevant in gaming and graphics applications. Fast forward a few years and it&amp;rsquo;s clear that the vast majority of PC games are still downloaded and installed, just as they were decades ago.&lt;/p&gt;&#xA;&lt;p&gt;I decided to return to creating native games for the PC. It&amp;rsquo;s been almost 20 years since I last wrote a native PC game, so I thought I&amp;rsquo;d start with something simple to get my eye in.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

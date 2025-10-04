@@ -4,7 +4,7 @@
     <title>Kev&#39;s Site</title>
     <link>https://www.kevssite.com/</link>
     <description>Recent content on Kev&#39;s Site</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevssite.com/index.xml" rel="self" type="application/rss+xml" />
@@ -13,161 +13,161 @@
       <link>https://www.kevssite.com/cli-labyrinth-game/</link>
       <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/cli-labyrinth-game/</guid>
-      <description>One of the very first games I ever played on a home computer was a maze game called Labyrinth on the Sinclair ZX81. So when I wanted to learn Golang and delve a little deeper into terminal cli development, I decided to start with a simple maze game that could be run in a shell on the Linux command line.&#xA;As you can see from the screenshot, the graphics could, at best, be describes as very basic.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.kevssite.com/images/cli-labyrinth.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;One of the very first games I ever played on a home computer was a maze game called Labyrinth on the Sinclair ZX81. So when I wanted to learn Golang and delve a little deeper into terminal cli development, I decided to start with a simple maze game that could be run in a shell on the Linux command line.&lt;/p&gt;&#xA;&lt;p&gt;As you can see from the screenshot, the graphics could, at best, be describes as very basic. But as a learning project, I’m quite pleased with the result.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Exporting footage with dvgrab to edit with fxhome HitFilm Express</title>
       <link>https://www.kevssite.com/dvgrab-with-hitfilm-express/</link>
       <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/dvgrab-with-hitfilm-express/</guid>
-      <description>While tidying the loft I came across my old JVC Mini DV Camcorder that I purchased in about 2001. I was looking to recycle an old, unused PC that was also in the loft when it occurred to me that the old PC had a firewire card installed. A quick check confirmed that the firewire card would not fit into my regular PC, so hanging on to this old PC for a while longer was my best chance of getting the footage off the old mini dv tapes.</description>
+      <description>&lt;p&gt;While tidying the loft I came across my old JVC Mini DV Camcorder that I purchased in about 2001. I was looking to recycle an old, unused PC that was also in the loft when it occurred to me that the old PC had a firewire card installed. A quick check confirmed that the firewire card would not fit into my regular PC, so hanging on to this old PC for a while longer was my best chance of getting the footage off the old mini dv tapes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Godot Experiment no. 2, Central Cavern</title>
       <link>https://www.kevssite.com/central-cavern/</link>
       <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/central-cavern/</guid>
-      <description>One of my all-time favourite games is Manic Miner on the ZX Spectrum. When Bug-Byte released Matthew Smith&amp;rsquo;s masterpiece in 1983 the bar was raised for quality gaming on the Speccy. Sure there were many, many excellent games released on the Spectrum (I&amp;rsquo;m looking at you Ultimate) but Manic Miner is still my go-to game when I need a retro gaming fix.&#xA;Ever since I saw Mario64 on the N64 I wondered what a 3D version of Manic Miner or Jet Set Willy would look and play like.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.kevssite.com/images/central-cavern/screenshot1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;One of my all-time favourite games is Manic Miner on the ZX Spectrum. When Bug-Byte released Matthew Smith&amp;rsquo;s masterpiece in 1983 the bar was raised for quality gaming on the Speccy. Sure there were many, many excellent games released on the Spectrum (I&amp;rsquo;m looking at you Ultimate) but Manic Miner is still my go-to game when I need a retro gaming fix.&lt;/p&gt;&#xA;&lt;p&gt;Ever since I saw Mario64 on the N64 I wondered what a 3D version of Manic Miner or Jet Set Willy would look and play like. After all, if Mario could make the jump to 3D, why not Willy?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Useful VS Code Keyboard Combinations</title>
       <link>https://www.kevssite.com/useful-vscode-keyboard-combinations/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/useful-vscode-keyboard-combinations/</guid>
-      <description>These are a bunch of VS Code editing keyboard combinations that I find useful, but often struggle to recall. I&amp;rsquo;ll add more as I discover (and need) more editing features&amp;hellip;&#xA;Multi line select and edit. Highlight some text then use the keyboard combination below to select for simultaneous editing.&#xA;MacOS: Shift + Cmd + L&#xA;Windows / Linux: Shift + Ctrl + L&#xA;Select cursor on mutliple lines Select a block of multiple lines.</description>
+      <description>&lt;p&gt;These are a bunch of VS Code editing keyboard combinations that I find useful, but often struggle to recall. I&amp;rsquo;ll add more as I discover (and need) more editing features&amp;hellip;&lt;/p&gt;&#xA;&lt;h3 id=&#34;multi-line-select-and-edit&#34;&gt;Multi line select and edit.&lt;/h3&gt;&#xA;&lt;p&gt;Highlight some text then use the keyboard combination below to select for simultaneous editing.&lt;/p&gt;&#xA;&lt;p&gt;MacOS: &lt;code&gt;Shift&lt;/code&gt; + &lt;code&gt;Cmd&lt;/code&gt; + &lt;code&gt;L&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Windows / Linux: &lt;code&gt;Shift&lt;/code&gt; + &lt;code&gt;Ctrl&lt;/code&gt; + &lt;code&gt;L&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;select-cursor-on-mutliple-lines&#34;&gt;Select cursor on mutliple lines&lt;/h3&gt;&#xA;&lt;p&gt;Select a block of multiple lines. Then use the key combination below to put cursors at the end of every line.&#xA;MacOS: &lt;code&gt;Shift&lt;/code&gt; + &lt;code&gt;Alt&lt;/code&gt; + &lt;code&gt;I&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Godot Experiment no. 1, Retrocadia</title>
       <link>https://www.kevssite.com/retrocadia/</link>
       <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/retrocadia/</guid>
-      <description>Most of my recent (and not so recent) programming efforts have been in JavaScript that runs in the browser. I believed that with WebGL, the browser would become more relevant in gaming and graphics applications. Fast forward a few years and it&amp;rsquo;s clear that the vast majority of PC games are still downloaded and installed, just as they were decades ago.&#xA;I decided to return to creating native games for the PC.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.kevssite.com/images/retrocadia/retrocadia-title.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Most of my recent (and not so recent) programming efforts have been in JavaScript that runs in the browser. I believed that with WebGL, the browser would become more relevant in gaming and graphics applications. Fast forward a few years and it&amp;rsquo;s clear that the vast majority of PC games are still downloaded and installed, just as they were decades ago.&lt;/p&gt;&#xA;&lt;p&gt;I decided to return to creating native games for the PC. It&amp;rsquo;s been almost 20 years since I last wrote a native PC game, so I thought I&amp;rsquo;d start with something simple to get my eye in.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Chatting with Matthew Smith</title>
       <link>https://www.kevssite.com/chatting-with-matthew-smith/</link>
       <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/chatting-with-matthew-smith/</guid>
-      <description>Matthew Smith, the author of the classic ZX Spectrum games Manic Miner and Jet Set Willy was at the Play Expo 2019 retro gaming event in Manchester to do a talk marking the 35th anniversary of Jet Set Willy. I was lucky enough to attend this event and had taken some of my old cassette covers with me, just in case Matthew was up for doing some signing after his talk.</description>
+      <description>&lt;p&gt;Matthew Smith, the author of the classic ZX Spectrum games Manic Miner and Jet Set Willy was at the Play Expo 2019 retro gaming event in Manchester to do a talk marking the 35th anniversary of Jet Set Willy. I was lucky enough to attend this event and had taken some of my old cassette covers with me, just in case Matthew was up for doing some signing after his talk. So at the end of the talk I legged it up to the stage, joining the unofficial queue of fans seeking autographs and selfies. Did I ask him to sign my covers of Styx, Manic Miner and JSW? Too right I did!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fix file ordering on fat32 sd cards</title>
       <link>https://www.kevssite.com/fix-file-ordering-on-fat32-sd-cards/</link>
       <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/fix-file-ordering-on-fat32-sd-cards/</guid>
-      <description>I recently started using cassette tape emulators to load games on my retro zx Spectrum and C64 (search casduino and tapduino if you’re interested in these). Basically these work by holding the tape images as files on an SD or Micro SD card and the casduino then plays them as audio into the old computers as though a tape deck was connected. They work great but one issue I found was that the files did not list in the expected order when viewing through the casduino menu.</description>
+      <description>&lt;p&gt;I recently started using cassette tape emulators to load games on my retro zx Spectrum and C64 (search casduino and tapduino if you’re interested in these). Basically these work by holding the tape images as files on an SD or Micro SD card and the casduino then plays them as audio into the old computers as though a tape deck was connected. They work great but one issue I found was that the files did not list in the expected order when viewing through the casduino menu.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ESP8266 MacOS Arduino IDE Setup</title>
       <link>https://www.kevssite.com/esp8266-macos-arduino-ide-setup/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/esp8266-macos-arduino-ide-setup/</guid>
-      <description>The ESP8266 isn’t an official Arduino, but the community has created a package so that it can be programmed from the Arduino IDE, and allow it to use the Arduino libraries.&#xA;This blog post describes how I set up my development environment on my Macbook Pro running High Sierra.&#xA;The first thing to do is to download and install the IDE. At the time of writing the latest version was 1.</description>
+      <description>&lt;p&gt;The ESP8266 isn’t an official Arduino, but the community has created a package so that it can be programmed from the Arduino IDE, and allow it to use the Arduino libraries.&lt;/p&gt;&#xA;&lt;p&gt;This blog post describes how I set up my development environment on my Macbook Pro running High Sierra.&lt;/p&gt;&#xA;&lt;p&gt;The first thing to do is to  download  and install the IDE. At the time of writing the latest version was 1.8.6&lt;/p&gt;</description>
     </item>
     <item>
       <title>Arduino power consumption - Delay vs Sleep</title>
       <link>https://www.kevssite.com/arduino-power-consumption-delay-vs-sleep/</link>
       <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/arduino-power-consumption-delay-vs-sleep/</guid>
-      <description>I recently built a remote temperature sender based around an Arduino Nano. The coding is simple enough; read the temperature from the attached sensor, transmit the value over a 433mhz transmitter pause for a bit and repeat.&#xA;My first cut of code used the standard delay() command to pause before looping back for another reading. delay(8000); //Sleep(ish) until next temprature reading is required. Hooking up my multimeter I recorded the current draw at about 37-38 milliamps from 3xAA batteries - 4.</description>
+      <description>&lt;p&gt;I recently built a remote temperature sender based around an Arduino Nano. The coding is simple enough; read the temperature from the attached sensor, transmit the value over a 433mhz transmitter pause for a bit and repeat.&lt;/p&gt;&#xA;&lt;p&gt;My first cut of code used the standard delay() command to pause before looping back for another reading.&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;delay&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;8000&lt;/span&gt;); &lt;span style=&#34;color:#75715e&#34;&gt;//Sleep(ish) until next temprature reading is required.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hooking up my multimeter I recorded the current draw at about 37-38 milliamps from 3xAA batteries - 4.5 volts. The current draw increased slightly to around 45 milliamps when the Arduino was transmitting the data.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using cheap arduino clones with macOS Sierra</title>
       <link>https://www.kevssite.com/macos-sierra-driver-for-arduino-clones-ch340g/</link>
       <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/macos-sierra-driver-for-arduino-clones-ch340g/</guid>
-      <description>Update - Feb 2020 These instructions are no longer required for macOS Mojave 10.14 or later. Updating to the latest macOS version should be enough to make Nanos based on CH340G chipset work. In fact, installing these drivers on macOS Mojave 10.14 or later could cause OS issues!&#xA;Original Post I recently bought some really cheap Arduino Nanos. These were based on the CH340G chipset. Unfortunately, when I loaded the Arduino editor and tried to push code onto one of them, I discovered that there was no USB serial driver available to select.</description>
+      <description>&lt;h3 id=&#34;update---feb-2020&#34;&gt;Update - Feb 2020&lt;/h3&gt;&#xA;&lt;p&gt;These instructions are no longer required for macOS Mojave 10.14 or later. Updating to the latest macOS version should be enough to make Nanos based on CH340G chipset work. &lt;em&gt;&lt;strong&gt;In fact, installing these drivers on macOS Mojave 10.14 or later could cause OS issues!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;original-post&#34;&gt;Original Post&lt;/h3&gt;&#xA;&lt;p&gt;I recently bought some really cheap Arduino Nanos. These were based on the CH340G chipset. Unfortunately, when I loaded the Arduino editor and tried to push code onto one of them, I discovered that there was no USB serial driver available to select.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Useful Docker Commands</title>
       <link>https://www.kevssite.com/useful-docker-commands/</link>
       <pubDate>Fri, 02 Dec 2016 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/useful-docker-commands/</guid>
-      <description>These are a bunch of docker commands that I find useful for keeping things tidy.&#xA;Remove all orphaned images. These are the images tagged as &amp;lt;none&amp;gt;. docker images -q --filter &amp;#34;dangling=true&amp;#34; | xargs docker rmi&#xA;Delete/remove all stopped containers. Note that -v option; it will also delete any persistent volumes that belong to the stopped containers. docker ps -aq --filter &amp;#34;status=exited&amp;#34; | xargs docker rm -v &amp;amp;&amp;amp; docker ps -aq --filter &amp;#34;status=created&amp;#34;</description>
+      <description>&lt;p&gt;These are a bunch of docker commands that I find useful for keeping things tidy.&lt;/p&gt;&#xA;&lt;p&gt;Remove all orphaned images. &lt;em&gt;These are the images tagged as &amp;lt;none&amp;gt;.&lt;/em&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker images -q --filter &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;dangling=true&amp;#34;&lt;/span&gt; | xargs docker rmi&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;&#xA;&lt;p&gt;Delete/remove all stopped containers. Note that -v option; it will also delete any persistent volumes that belong to the stopped containers.&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker ps -aq --filter &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;status=exited&amp;#34;&lt;/span&gt; | xargs docker rm -v &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; docker ps -aq --filter &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;status=created&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Maximizing a window on a MacBook</title>
       <link>https://www.kevssite.com/mac-os-maximize-window/</link>
       <pubDate>Sat, 09 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/mac-os-maximize-window/</guid>
-      <description>I have recently switched to a MacBook Pro as my daily driver. One of the first things I noticed was that there was no maximise button on application windows, only a fullscreen option that hides the top status-bar. A quick google search told me that double clicking the title-bar or holing down ALT while clicking in the Green Icon would maximise the window instead of making it go fullscreen. Which is great!</description>
+      <description>&lt;p&gt;I have recently switched to a MacBook Pro as my daily driver. One of the first things I noticed was that there was no maximise button on application windows, only a fullscreen option that hides the top status-bar. A quick google search told me that double clicking the title-bar or holing down ALT while clicking in the Green Icon would maximise the window instead of making it go fullscreen. Which is great! only it isn&amp;rsquo;t :(&lt;br&gt;&#xA;What that actually does is make the window wide enough for it&amp;rsquo;s content, but that does not usually mean full screen width.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Seamless audio looping in html5 JavaScript</title>
       <link>https://www.kevssite.com/seamless-audio-looping/</link>
       <pubDate>Sun, 22 Nov 2015 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/seamless-audio-looping/</guid>
-      <description>For my latest javascript/threejs experiment I created a retro 1980&amp;rsquo;s inspired demo, which renders hundreds of sprites in a pseudo 3D style that was common in the Atari ST and Amiga demos of the late 80&amp;rsquo;s.&#xA;Of course, no retro demo would be complete without a retro soundtrack. For my Retro Particle Demo this would be a short track that loops continuously.&#xA;My initial attempt used the html5 audio tag: &amp;lt;audio id=&amp;#34;demomusic&amp;#34; src=&amp;#34;audio/music.</description>
+      <description>&lt;p&gt;For my latest javascript/threejs experiment I created a retro 1980&amp;rsquo;s inspired demo, which renders hundreds of sprites in a pseudo 3D style that was common in the Atari ST and Amiga demos of the late 80&amp;rsquo;s.&lt;/p&gt;&#xA;&lt;p&gt;Of course, no retro demo would be complete without a retro soundtrack. For my &lt;a href=&#34;https://www.kevssite.com/retro-particle-demo&#34;&gt;Retro Particle Demo&lt;/a&gt; this would be a short track that loops continuously.&lt;/p&gt;&#xA;&lt;p&gt;My initial attempt used the html5 audio tag:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;audio&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;id&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;demomusic&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;audio/music.mp3&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;audio/mpeg&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;loop&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;audio&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Retro Particle Demo</title>
       <link>https://www.kevssite.com/retro-particle-demo/</link>
       <pubDate>Sat, 21 Nov 2015 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/retro-particle-demo/</guid>
-      <description>External page loaded from seperate github pages repo.</description>
+      <description>&lt;p&gt;External page loaded from seperate github pages repo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Virtual Slot Machine</title>
       <link>https://www.kevssite.com/virtual-slot-machine/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/virtual-slot-machine/</guid>
-      <description>External page loaded from seperate github pages repo.</description>
+      <description>&lt;p&gt;External page loaded from seperate github pages repo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A look at Pixi.js</title>
       <link>https://www.kevssite.com/a-look-at-pixi-js/</link>
       <pubDate>Wed, 03 Jun 2015 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/a-look-at-pixi-js/</guid>
-      <description>I&amp;rsquo;ve been experimenting with the html canvas element recently by writing some simple 2D games. One challenge is making a canvas based game fit nicely on the screen given the vast variety in browser resolutions. 2D games tend to be made up of images and I found that scaling these images so that they fill the browser window was both slow and ugly.&#xA;This got me thinking about WebGL. Is it possible to use a 3D WebGL library to render a 2D game and gain the scaling and performance advantages of the GPU?</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve been experimenting with the html canvas element recently by writing some simple 2D games. One challenge is making a canvas based game fit nicely on the screen given the vast variety in browser resolutions. 2D games tend to be made up of images and I found that scaling these images so that they fill the browser window was both slow and ugly.&lt;/p&gt;&#xA;&lt;p&gt;This got me thinking about WebGL. Is it possible to use a 3D WebGL library to render a 2D game and gain the scaling and performance advantages of the GPU? At first I looked at three.js, which is probably the most popular WebGL library. But in doing my research I discovered a dedicated 2D JavaScript WebGL library called &lt;a href=&#34;http://www.pixijs.com/&#34;&gt;Pixi.js&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JavaScript KeyCodes</title>
       <link>https://www.kevssite.com/javascript-keycodes/</link>
       <pubDate>Fri, 29 May 2015 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/javascript-keycodes/</guid>
-      <description>This is a simple JavaScript keycode lookup page. Just press a key and the JavaScript Key Code will be displayed in the box below.&#xA;If you want to stop your browser scrolling when you press space or arrows etc then click in the input field to take the focus away from the whole page.&#xA;The text equivalent of the key being pressed is only displayed in browsers that support event.key. Rather surprisingly this does not include Chrome!</description>
+      <description>&lt;p&gt;This is a simple JavaScript keycode lookup page. Just press a key and the JavaScript Key Code will be displayed in the box below.&lt;/p&gt;&#xA;&lt;p&gt;If you want to stop your browser scrolling when you press space or arrows etc then click in the input field to take the focus away from the whole page.&lt;/p&gt;&#xA;&#xA;&#xA;&lt;input type=&#34;text&#34; maxlength=&#34;0&#34; size=&#34;2&#34;&gt;&#xA;&#xA;&lt;script&gt;&#xA;  window.addEventListener(&#34;keydown&#34;, function (event) {&#xA;    document.getElementById(&#34;code&#34;).innerHTML = event.keyCode;&#xA;    if (event.key) {&#xA;      if (event.keyCode &gt; 47 &amp;&amp; event.keyCode &lt; 91) {&#xA;        document.getElementById(&#34;char&#34;).innerHTML = &#34; - &#34; + event.key&#xA;      } else {&#xA;        document.getElementById(&#34;char&#34;).innerHTML = &#34; - &#34; + event.key;&#xA;      }&#xA;    }&#xA;  }, false);&#xA;&lt;/script&gt;&#xA;&lt;span id=&#34;code&#34; style=&#34;background-color: #faee95; font-size: 100;  border-style: solid; border-width: 5px; border-color: #848789&#34;&gt;&lt;/span&gt;&#xA;&lt;span id=&#34;char&#34; style=&#34;font-size: 70;&#34;&gt;&lt;/span&gt;&#xA;&#xA;&lt;p&gt;The text equivalent of the key being pressed is only displayed in browsers that support event.key. Rather surprisingly this does not include Chrome!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Emulators written in JavaScript</title>
       <link>https://www.kevssite.com/emulators-written-in-javascript/</link>
       <pubDate>Sat, 18 Apr 2015 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/emulators-written-in-javascript/</guid>
-      <description>A list of machine emulators completely written in JavaScript that I find to be both impressive and interesting. Writing an emulator in any language is difficult and requires some serious programming chops. But to do it in JavaScript must surely require a level of programming genius (or maybe madness - I hear it&amp;rsquo;s a fine line!) that us mere mortals can only dream of aspiring to.&#xA;These are my favourites that I’ve stumbled across, catalogued here so I can easily find them again whenever I feel the need for a retro computing fix&amp;hellip;</description>
+      <description>&lt;p&gt;A list of machine emulators completely written in JavaScript that I find to be both impressive and interesting. Writing an emulator in any language is difficult and requires some serious programming chops. But to do it in JavaScript must surely require a level of programming genius (or maybe madness - I hear it&amp;rsquo;s a fine line!) that us mere mortals can only dream of aspiring to.&lt;/p&gt;&#xA;&lt;p&gt;These are my favourites that I’ve stumbled across, catalogued here so I can easily find them again whenever I feel the need for a retro computing fix&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>More adventures in JavaScript</title>
       <link>https://www.kevssite.com/more-adventures-in-javascript/</link>
       <pubDate>Sat, 27 Dec 2014 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/more-adventures-in-javascript/</guid>
-      <description>Having not written much client side JavaScript for at least a couple of years I thought I&amp;rsquo;d re-introduce myself to the language, and to the html5 canvas element.&#xA;I decided to spend a few hours building a html5 version of the old ZX Spectrum Classic, Lightcycles (1983), which itself was based on Tron. This isn&amp;rsquo;t exactly a faithful reproduction, it&amp;rsquo;s more inspired by my memory of the game than it is a conversion of it.</description>
+      <description>&lt;p&gt;Having not written much client side JavaScript for at least a couple of years I thought I&amp;rsquo;d re-introduce myself to the language, and to the html5 canvas element.&lt;/p&gt;&#xA;&lt;p&gt;I decided to spend a few hours building a html5 version of the old ZX Spectrum Classic, Lightcycles (1983), which itself was based on Tron. This isn&amp;rsquo;t exactly a faithful reproduction, it&amp;rsquo;s more inspired by my memory of the game than it is a conversion of it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Console access into a running Docker container</title>
       <link>https://www.kevssite.com/console-access-into-a-running-docker-container/</link>
       <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/console-access-into-a-running-docker-container/</guid>
-      <description>Sometimes, when setting up and debugging a container it is extremely useful to be able to &amp;lsquo;shell into&amp;rsquo; the container to get a closer look at what&amp;rsquo;s going on.&#xA;This is a quick guide on how to get shell console access into a running Docker container.&#xA;UPDATE. If you are running docker version 1.3 or greater then you should use docker exec instead (see docker man pages for more info). The only use case that still requires the use of nsenter is where the user assigned to the container prevents you from doing tasks inside.</description>
+      <description>&lt;p&gt;Sometimes, when setting up and debugging a container it is extremely useful to be able to &amp;lsquo;shell into&amp;rsquo; the container to get a closer look at what&amp;rsquo;s going on.&lt;/p&gt;&#xA;&lt;p&gt;This is a quick guide on how to get shell console access into a running Docker container.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;UPDATE. If you are running docker version 1.3 or greater then you should use docker exec instead (see docker man pages for more info). The only use case that still requires the use of nsenter is where the user assigned to the container prevents you from doing tasks inside. e.g. where root access is needed but the container is not running as root.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Install nsenter from source</title>
       <link>https://www.kevssite.com/install-nsenter-from-source/</link>
       <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/install-nsenter-from-source/</guid>
-      <description>nsenter is a great command line tool for accessing docker containers. Unfortunately it isn’t available in Ubuntu 14.04 at the time of writing. Fortunately building it from source is quite simple.&#xA;Get the latest version of util-linux from kernel.org https://www.kernel.org/pub/linux/utils/util-linux/&#xA;At the time of writing the latest version was v2.25, which is the version used in the examples here.&#xA;Install the build dependencies sudo apt-get install build-essential libncurses5-dev libslang2-dev gettext zlib1g-dev \ libselinux1-dev debhelper lsb-release pkg-config po-debconf autoconf \ automake autopoint libtool python2.</description>
+      <description>&lt;p&gt;nsenter is a great command line tool for accessing docker containers. Unfortunately  it isn’t available in Ubuntu 14.04 at the time of writing. Fortunately building it from source is quite simple.&lt;/p&gt;&#xA;&lt;p&gt;Get the latest version of util-linux from kernel.org&#xA;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;https://www.kernel.org/pub/linux/utils/util-linux/&#34;&gt;https://www.kernel.org/pub/linux/utils/util-linux/&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;At the time of writing the latest version was v2.25, which is the version used in the examples here.&lt;/p&gt;&#xA;&lt;p&gt;Install the build dependencies&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install build-essential libncurses5-dev libslang2-dev gettext zlib1g-dev &lt;span style=&#34;color:#ae81ff&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;libselinux1-dev debhelper lsb-release pkg-config po-debconf autoconf &lt;span style=&#34;color:#ae81ff&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;automake autopoint libtool python2.7-dev&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Acer Aspire S3 UltraBook and Ubuntu 14.04</title>
       <link>https://www.kevssite.com/acer-aspire-s3-ultrabook-and-ubuntu-14-04/</link>
       <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/acer-aspire-s3-ultrabook-and-ubuntu-14-04/</guid>
-      <description>Like most Linux users, I appreciate the power and flexibility of open source and like that my development PC runs the same software as my servers. While building a desktop PC and installing Ubuntu on it is great n&amp;rsquo; all, I wanted my next Linux desktop to be a little more portable. Coding in the garden anyone? yes please!&#xA;Now, I really like the look of Apple&amp;rsquo;s macbook air. But apple&amp;rsquo;s wonder machine is out of my budget and I&amp;rsquo;d also have had to switch from Linux to MacOX.</description>
+      <description>&lt;p&gt;Like most Linux users, I appreciate the power and flexibility of open source and like that my development PC runs the same software as my servers. While building a desktop PC and installing Ubuntu on it is great n&amp;rsquo; all, I wanted my next Linux desktop to be a little more portable. Coding in the garden anyone? yes please!&lt;/p&gt;&#xA;&lt;p&gt;Now, I really like the look of Apple&amp;rsquo;s macbook air. But apple&amp;rsquo;s wonder machine is out of my budget and I&amp;rsquo;d also have had to switch from Linux to MacOX.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Connect to PostgreSQL using an SSH tunnel</title>
       <link>https://www.kevssite.com/connect-to-postgresql-using-an-ssh-tunnel/</link>
       <pubDate>Sat, 04 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/connect-to-postgresql-using-an-ssh-tunnel/</guid>
-      <description>Using an SSH tunnel is a great way to administer remote services without having to directly expose them to the internet. You basically forward a port from your local machine (e.g. your Linux desktop) to a port on the remote server. You can then connect to the port on localhost and the magic of ssh will forward the port securely to the remote machine. To the remote server you&amp;rsquo;ve connected locally on localhost!</description>
+      <description>&lt;p&gt;Using an SSH tunnel is a great way to administer remote services without having to directly expose them to the internet. You basically forward a port from your local machine (e.g. your Linux desktop) to a port on the remote server. You can then connect to the port on localhost and the magic of ssh will forward the port securely to the remote machine. To the remote server you&amp;rsquo;ve connected locally on localhost!&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to stop ssh from adding a server to known_hosts file</title>
@@ -181,21 +181,21 @@
       <link>https://www.kevssite.com/add-a-git-remote-as-https-instead-of-ssh/</link>
       <pubDate>Sun, 24 Nov 2013 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/add-a-git-remote-as-https-instead-of-ssh/</guid>
-      <description>Using Bitbucket from a network that does not allow ssh (port 22) connections means that doing a git push or pull using the standard git ssh remote won&amp;rsquo;t work. git remote add origin https://USERNAME@bitbucket.org/USERNAME/REPOSITORY.git&#xA;Where USERNAME is your user/login name and REPOSITORY is the name of the repository you want to access.&#xA;If you don&amp;rsquo;t want to enter your password every time you connect to the remote you can include the password in the remote url: git remote add origin https://USERNAME:PASSWORD@bitbucket.</description>
+      <description>&lt;p&gt;Using Bitbucket from a network that does not allow ssh (port 22) connections means that doing a git push or pull using the standard git ssh remote won&amp;rsquo;t work.&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add origin https://USERNAME@bitbucket.org/USERNAME/REPOSITORY.git&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;&#xA;&lt;p&gt;Where &lt;code&gt;USERNAME&lt;/code&gt; is your user/login name and &lt;code&gt;REPOSITORY&lt;/code&gt; is the name of the repository you want to access.&lt;/p&gt;&#xA;&lt;p&gt;If you don&amp;rsquo;t want to enter your password every time you connect to the remote you can include the password in the remote url:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add origin https://USERNAME:PASSWORD@bitbucket.org/USERNAME/REPOSITORY.git&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Add a Linux swap file</title>
       <link>https://www.kevssite.com/add-a-linux-swap-file/</link>
       <pubDate>Sun, 13 Oct 2013 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/add-a-linux-swap-file/</guid>
-      <description>I notice that not all cloud hosted Linux servers have a swap enabled. When I spin up a new Centos based server on Digital Ocean for example, there is no swap space.&#xA;Usually you&amp;rsquo;d use a dedicated disk partition for swap, but when you only have the one disk allocated to your cloud server this is not an option. A good alternative is to create and use a file for your swap space.</description>
+      <description>&lt;p&gt;I notice that not all cloud hosted Linux servers have a swap enabled. When I spin up a new Centos based server on Digital Ocean for example, there is no swap space.&lt;/p&gt;&#xA;&lt;p&gt;Usually you&amp;rsquo;d use a dedicated disk partition for swap, but when you only have the one disk allocated to your cloud server this is not an option. A good alternative is to create and use a file for your swap space. Here&amp;rsquo;s a quick guide on how to do it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to set Centos to UK timezone</title>
       <link>https://www.kevssite.com/how-to-set-centos-to-uk-timezone/</link>
       <pubDate>Sat, 12 Oct 2013 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/how-to-set-centos-to-uk-timezone/</guid>
-      <description>A quick&amp;rsquo; cut and paste&amp;rsquo; tip for setting the timezone on Centos / Red Hat Linux.&#xA;To set it for the UK, as the root user, enter the following: ln -sf /usr/share/zoneinfo/Europe/London /etc/localtime All of the different timezones can be found in /usr/share/zoneinfo under various subdirectories, e.g. Europe, Africa etc. To set the appropriate timezone just replace the symbolic link at /etc/localtime to point the the relevant timezone file. In the example above the symbolic link, /etc/localtime is updated to point to the London timezone file.</description>
+      <description>&lt;p&gt;A quick&amp;rsquo; cut and paste&amp;rsquo; tip for setting the timezone on Centos / Red Hat Linux.&lt;/p&gt;&#xA;&lt;p&gt;To set it for the UK, as the &lt;strong&gt;root&lt;/strong&gt; user, enter the following:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ln -sf /usr/share/zoneinfo/Europe/London /etc/localtime&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;All of the different timezones can be found in /usr/share/zoneinfo under various subdirectories, e.g. Europe, Africa etc. To set the appropriate timezone just replace the symbolic link at /etc/localtime to point the the relevant timezone file. In the example above the symbolic link, /etc/localtime is updated to point to the London timezone file.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to speed up a slow SSH login</title>
@@ -300,7 +300,7 @@
       <link>https://www.kevssite.com/adventures-in-javascript-canvas/</link>
       <pubDate>Wed, 19 Jan 2011 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/adventures-in-javascript-canvas/</guid>
-      <description>I&amp;rsquo;ve been reading a lot about HTML5 recently and it looks like the browser could soon become the dominant application platform. So, I thought I&amp;rsquo;d have a look at the new canvas element and delve into some JavaScript.&#xA;To get me started I&amp;rsquo;ve decided to write a (very) simple version of an old classic zx Spectrum game: Jumping Jack.&#xA;At the time of writing this only works in browsers that support the new canvas html element.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve been reading a lot about HTML5 recently and it looks like the browser could soon become the dominant application platform. So, I thought I&amp;rsquo;d have a look at the new canvas element and delve into some JavaScript.&lt;/p&gt;&#xA;&lt;p&gt;To get me started I&amp;rsquo;ve decided to write a (very) simple version of an old classic zx Spectrum  game: Jumping Jack.&lt;/p&gt;&#xA;&lt;p&gt;At the time of writing this only works in browsers that support the new canvas html element. So yay for Firefox and boo to Internet Explorer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Installing Android 2.1 onto T-Mobile Pulse</title>
@@ -321,7 +321,7 @@
       <link>https://www.kevssite.com/how-to-pronounce-linux/</link>
       <pubDate>Tue, 02 Nov 2010 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/how-to-pronounce-linux/</guid>
-      <description>Okay, so I often hear people (mainly at work) pronouncing Linux incorrectly, with an emphasis on the letter ‘I’, as you would in the word ‘light’ for example.&#xA;Although this may sound more professional it really isn&amp;rsquo;t. I don&amp;rsquo;t know why it winds me up, but I do have to bite my tongue to stop myself from correcting people and sounding like the office nerd (which, now I think about it I probably am!</description>
+      <description>&lt;p&gt;Okay, so I often hear people (mainly at work) pronouncing Linux incorrectly, with an emphasis on the letter ‘I’, as you would in the word ‘light’ for example.&lt;/p&gt;&#xA;&lt;p&gt;Although this may &lt;em&gt;sound&lt;/em&gt; more professional it really isn&amp;rsquo;t. I don&amp;rsquo;t know why it winds me up, but I do have to bite my tongue to stop myself from correcting people and sounding like the office nerd (which, now I think about it I probably am!).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mini ITX MythTV Frontend</title>
@@ -342,7 +342,7 @@
       <link>https://www.kevssite.com/matthew-smith-interview/</link>
       <pubDate>Tue, 18 May 2010 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/matthew-smith-interview/</guid>
-      <description>My original website (The Sinclair Archives) was removed from the Internet in 2000, and I thought I&amp;rsquo;d lost the content forever. But while sorting through a load of old cd-roms destined for the bin I stumbled across a 10 year old backup disk that contained a copy of my old website. On the old site was a short interview I&amp;rsquo;d done with Matthew Smith, the programmer of Manic Miner and Jet Set Willy.</description>
+      <description>&lt;p&gt;My original website (The Sinclair Archives) was removed from the Internet in 2000, and I thought I&amp;rsquo;d lost the content forever. But while sorting through a load of old cd-roms destined for the bin I stumbled across a 10 year old backup disk that contained a copy of my old website. On the old site was a short interview I&amp;rsquo;d done with Matthew Smith, the programmer of Manic Miner and Jet Set Willy. So, here is the interview, complete with the back story as presented on my original site back in 1999&lt;/p&gt;</description>
     </item>
     <item>
       <title>Convert video files to DVD format using mencoder</title>
@@ -391,7 +391,7 @@
       <link>https://www.kevssite.com/using-vi-as-a-hex-editor/</link>
       <pubDate>Tue, 21 Apr 2009 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/using-vi-as-a-hex-editor/</guid>
-      <description>Sometimes I find it useful to switch to hex mode when editing a file in vi. The command for switching is not very obvious so thought I&amp;rsquo;d share&amp;hellip;&#xA;So, open a file in vi as usual. To switch into hex mode hit escape and type: :%!xxd&#xA;And when your done and want to exit from hex mode hit escape again and type: :%!xxd -r&#xA;Okay, so this isn&amp;rsquo;t actaully switching to vi&amp;rsquo;s &amp;lsquo;hex mode&amp;rsquo;; vi doesn&amp;rsquo;t have one.</description>
+      <description>&lt;p&gt;Sometimes I find it useful to switch to hex mode when editing a file in vi. The command for switching is not very obvious so thought I&amp;rsquo;d share&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;So, open a file in vi as usual. To switch into hex mode hit escape and type:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:%!xxd&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;&#xA;&lt;p&gt;And when your done and want to exit from hex mode hit escape again and type:&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:%!xxd -r&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;&#xA;&lt;p&gt;Okay, so this isn&amp;rsquo;t actaully switching to vi&amp;rsquo;s &amp;lsquo;hex mode&amp;rsquo;; vi doesn&amp;rsquo;t have one. What the above actually does is to stream vi&amp;rsquo;s buffer through the external program &amp;lsquo;xxd&amp;rsquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Manually creating a Xen DOMU instance</title>
@@ -433,21 +433,21 @@
       <link>https://www.kevssite.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/about/</guid>
-      <description>Welcome to my humble corner of the web. This site originally began as a sort of world readable note pad of my Linux and IT related tinkering. I figured that some of it might be useful to other Linux enthusiasts, so I made the site public.&#xA;I make no apologies for the obvious bias towards Linux and open source software. I believe freedom in software is a truly great thing.</description>
+      <description>&lt;h2 id=&#34;welcome-to-my-humble-corner-of-the-web&#34;&gt;Welcome to my humble corner of the web.&lt;/h2&gt;&#xA;&lt;p&gt;This site originally began as a sort of world readable note pad of my Linux and IT related tinkering. I figured that some of it might be useful to other Linux enthusiasts, so I made the site public.&lt;/p&gt;&#xA;&lt;p&gt;I make no apologies for the obvious bias towards Linux and open source software. I believe freedom in software is a truly great thing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>bloxed</title>
       <link>https://www.kevssite.com/bloxed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/bloxed/</guid>
-      <description>Placeholder for sitemap generation</description>
+      <description>&lt;p&gt;Placeholder for sitemap generation&lt;/p&gt;</description>
     </item>
     <item>
       <title>bloxed</title>
       <link>https://www.kevssite.com/retrocadia-web/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/retrocadia-web/</guid>
-      <description>Placeholder for sitemap generation</description>
+      <description>&lt;p&gt;Placeholder for sitemap generation&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
