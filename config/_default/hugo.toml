@@ -22,13 +22,15 @@ lunrSearch = true
 gcse = false
 lastmod = true
 rss = false
-pagination = "10"
 hideAuthor = false
 #authorInfo = "I'm Kev, From Yorkshire, England."
 description = "Programming experiments, useful snippets and the odd devlog."
 previewCardImagePlacement = "middle"
 author.name = "Kevin Ellis"
 since = "2009"
+
+[pagination]
+pagerSize = 9  # This sets 5 items per page
 
 [author]
 website = "https://www.kevssite.com/"

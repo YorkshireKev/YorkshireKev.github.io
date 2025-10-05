@@ -275,6 +275,56 @@
         
           
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
+    <a href="https://www.kevssite.com/how-to-set-centos-to-uk-timezone/">
+        <div class="card single-post-card h-100 shadow-effect border rounded-4">
+            <div class="card-body">
+                <h3 class="fw-medium post-title">How to set Centos to UK timezone</h3>
+                
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
+  
+  
+
+  October 12, 2013
+
+  
+
+  
+
+  
+
+  
+</span>
+
+                </p>
+            </div>
+
+            
+
+            
+
+            <div class="card-body">
+                
+                <div class="post-entry text-secondary">
+                    
+                    A quick&rsquo; cut and paste&rsquo; tip for setting the timezone on Centos / Red Hat Linux.
+To set it for the UK, as the root user, enter the following: ln -sf /usr/share/zoneinfo/Europe/London /etc/localtime All of the different timezones can be found in /usr/share/zoneinfo under various subdirectories, e.g. Europe, Africa etc. To set the appropriate timezone just replace the symbolic link at /etc/localtime to point the the relevant timezone file. In the example above the symbolic link, /etc/localtime is updated to point to the London timezone file.
+
+                    
+                </div>
+
+                <div class="read-more-section">
+                    <h6 class="text-muted ">Read More <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+        
+          
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
     <a href="https://www.kevssite.com/how-to-speed-up-a-slow-ssh-login/">
         <div class="card single-post-card h-100 shadow-effect border rounded-4">
             <div class="card-body">
@@ -660,105 +710,6 @@ These steps were successfully executed on Centos 6.2 x86 with node 0.6.18
                     
                     Building Node.js on Linux is fairly simple, as there are few dependencies. This is how I did it on Debain 6 (Squeeze). At the time of writing the current release of Node.js was 0.6.15. You’ll need to adjust the intructions below to reflect the version you’re building.
 Update: I have also successfully tested these instructions with node.js 0.6.17 on Ubuntu 12.04.
-
-                    
-                </div>
-
-                <div class="read-more-section">
-                    <h6 class="text-muted ">Read More <i class="bi bi-arrow-right"></i></h6>
-                </div>
-            </div>
-        </div>
-    </a>
-</div>
-
-
-        
-          
-<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
-    <a href="https://www.kevssite.com/extracting-ssh-keys-from-a-java-keystore-jks-file/">
-        <div class="card single-post-card h-100 shadow-effect border rounded-4">
-            <div class="card-body">
-                <h3 class="fw-medium post-title">Extracting SSH keys from a Java keystore (jks) file</h3>
-                
-                <p class="post-meta">
-                    <span class="post-meta text-muted">
-  
-  
-
-  September 23, 2011
-
-  
-
-  
-
-  
-
-  
-</span>
-
-                </p>
-            </div>
-
-            
-
-            
-
-            <div class="card-body">
-                
-                <div class="post-entry text-secondary">
-                    
-                    I needed to extract/generate a public ssh key from a java keystore so that the Java application could SFTP some files using public key authentication.
-The problem was that I couldn’t find any way of converting an ssl public key to an ssh public key. It seems that although ssl and ssh private keys are compatible, the public keys are not.
-
-                    
-                </div>
-
-                <div class="read-more-section">
-                    <h6 class="text-muted ">Read More <i class="bi bi-arrow-right"></i></h6>
-                </div>
-            </div>
-        </div>
-    </a>
-</div>
-
-
-        
-          
-<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
-    <a href="https://www.kevssite.com/deleted-rootlocalhost-account-in-mysql/">
-        <div class="card single-post-card h-100 shadow-effect border rounded-4">
-            <div class="card-body">
-                <h3 class="fw-medium post-title">Deleted root@localhost account in MySQL</h3>
-                
-                <p class="post-meta">
-                    <span class="post-meta text-muted">
-  
-  
-
-  July 2, 2011
-
-  
-
-  
-
-  
-
-  
-</span>
-
-                </p>
-            </div>
-
-            
-
-            
-
-            <div class="card-body">
-                
-                <div class="post-entry text-secondary">
-                    
-                    Like the fool I am, whilst messing about with user privileges in phpMyAdmin I managed to delete the root account. Suddenly I found myself with no access to any of my databases It took a while to figure out how to re-create the root@localhost user, so here’s how I did it.
 
                     
                 </div>
