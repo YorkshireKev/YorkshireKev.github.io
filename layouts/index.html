@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<div class="intro-header no-img">
+</div>
+
+<div class="container" role="main">
+  <div class="row">
+    {{ with .Content }}
+    <div class="well">
+      {{.}}
+    </div>
+    {{ end }}
+
+    {{ $p := site.RegularPages.ByLastmod.Reverse }}
+    {{ range (.Paginate $p).Pages }}
+    {{ partial "post_preview_card" . }}
+    {{ end }}
+
+  </div>
+
+  <div class="row font-sans">
+    <div class="col-md-12 mt-10">
+      <nav aria-label="Page navigation">
+        <div class="pagination justify-content-end">
+          {{ template "_internal/pagination.html" . }}
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+
+{{ end }}
