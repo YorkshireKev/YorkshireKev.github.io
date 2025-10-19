@@ -5,6 +5,7 @@ baseURL = 'https://www.kevssite.com'
 languageCode = 'en-us'
 publishDir = "docs"
 googleAnalytics = "UA-17896232-1"
+ignoreLogs = ['warning-goldmark-raw-html']
 
 [Params]
 #selfHosted = true
@@ -30,9 +31,9 @@ author.name = "Kevin Ellis"
 since = "2009"
 
 [pagination]
-pagerSize = 9  # This sets 5 items per page
+pagerSize = 9  # This sets 9 items per page
 
-[author]
+[Params.Author]
 website = "https://www.kevssite.com/"
 #email = "sample@gmail.com"
 #facebook = "username"
