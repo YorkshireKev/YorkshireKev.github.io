@@ -6,7 +6,7 @@ date: "2020-05-06T00:00:00Z"
 lastmod: "2025-01-27"
 tags:
 - godot
-title: Godot Experiment no. 2, Central Cavern
+title: Central Cavern
 url: /central-cavern/
 image : "/img/central-cavern.png"
 ---
