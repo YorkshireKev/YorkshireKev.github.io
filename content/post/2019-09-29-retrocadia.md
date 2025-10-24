@@ -7,7 +7,7 @@ lastmod: "2025-02-13"
 tags:
 - godot
 - javascript
-title: Godot Experiment no. 1, Retrocadia
+title: Retrocadia
 url: /retrocadia/
 image : "/img/retrocadia.png"
 ---

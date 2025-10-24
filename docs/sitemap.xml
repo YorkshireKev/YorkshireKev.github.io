@@ -47,11 +47,11 @@
     <loc>https://www.kevssite.com/categories/linux/</loc>
     <lastmod>2022-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.kevssite.com/tags/godot/</loc>
-    <lastmod>2025-02-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.kevssite.com/central-cavern/</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.kevssite.com/tags/godot/</loc>
+    <lastmod>2025-02-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.kevssite.com/tags/ide/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
@@ -65,10 +65,10 @@
     <loc>https://www.kevssite.com/tags/vscode/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.kevssite.com/retrocadia/</loc>
+    <loc>https://www.kevssite.com/tags/javascript/</loc>
     <lastmod>2025-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.kevssite.com/tags/javascript/</loc>
+    <loc>https://www.kevssite.com/retrocadia/</loc>
     <lastmod>2025-02-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.kevssite.com/chatting-with-matthew-smith/</loc>
