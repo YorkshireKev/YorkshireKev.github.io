@@ -13,7 +13,7 @@
       <link>https://www.kevssite.com/deleted-rootlocalhost-account-in-mysql/</link>
       <pubDate>Sat, 02 Jul 2011 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/deleted-rootlocalhost-account-in-mysql/</guid>
-      <description>&lt;p&gt;Like the fool I am, whilst messing about with user privileges in phpMyAdmin I managed to delete the root account. Suddenly I found myself with no access to any of my databases &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;It took a while to figure out how to re-create the root@localhost user, so here’s how I did it.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Like the fool I am, whilst messing about with user privileges in phpMyAdmin I managed to delete the root account. Suddenly I found myself with no access to any of my databases 🙁&lt;/p&gt;&#xA;&lt;p&gt;It took a while to figure out how to re-create the root@localhost user, so here’s how I did it.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
