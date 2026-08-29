@@ -25,7 +25,7 @@ ssh -v root@server-ip-address
 
 This shows conversation that the ssh client is having with the server as it negotiates a suitable authentication method.
 
-For me, whenever I see long pauses in the login it's always because ssh hangs whenever it checks for GSSAPI. Apparently GSSAPI stands for <a title="Wikipedia" href="http://en.wikipedia.org/wiki/Generic_Security_Services_Application_Program_Interface" target="_blank">Generic Security Service Application Program Interface</a>.
+For me, whenever I see long pauses in the login it's always because ssh hangs whenever it checks for GSSAPI. Apparently GSSAPI stands for <a title="Wikipedia" href="http://en.wikipedia.org/wiki/Generic_Security_Services_Application_Program_Interface" target="_blank" rel="noopener noreferrer">Generic Security Service Application Program Interface</a>.
 
 So, the ssh debug info generally scrolls by pretty swiftly until it gets to:
 
