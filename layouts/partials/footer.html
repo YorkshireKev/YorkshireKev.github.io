@@ -14,7 +14,7 @@
           {{ range .Site.Data.lightbi.social.social_icons }}
           {{- if isset $.Site.Params.Author .id }}
           <li>
-            <a href="{{ printf .url (index $.Site.Params.Author .id) }}" title="{{ .title }}" target="_blank">
+            <a href="{{ printf .url (index $.Site.Params.Author .id) }}" title="{{ .title }}" target="_blank" rel="noopener noreferrer">
               <span class="mx-2">
                 <i class="{{ .icon }}"></i>
               </span>
@@ -67,6 +67,16 @@
 {{- if .Site.Params.useHLJS }}
 <script src="{{ "js/highlight.min.js" | absURL }}"></script>
 <script> hljs.initHighlightingOnLoad(); </script>
-<script> $(document).ready(function () { $("pre.chroma").css("padding", "0"); }); </script>
+{{- if .Site.Params.useHLJS }}
+<script src="{{ "js/highlight.min.js" | absURL }}"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> 
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("pre.chroma").forEach(function (element) {
+    element.style.padding = "0";
+  });
+});
+</script>
+{{- end -}}
 {{- end -}}
 {{- partial "footer_custom.html" . }}

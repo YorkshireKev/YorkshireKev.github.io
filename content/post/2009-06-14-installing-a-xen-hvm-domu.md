@@ -56,8 +56,7 @@ If this is the first DOMU to use vmc as a framebuffer then you should be able to
 
 If you need to specify the port, then typing `netstat -tap` should let you see which port (probably 5900 ish).
 
-Once you have connected to via VNC you will then be able to run the installer as usual. This should work for installing Windows as well as Linux.  
-<a rel="attachment wp-att-273" href="http://www.linuxinstead.com/blog/2009/06/14/installing-a-xen-hvm-domu/ubuntu_installing/"><img class="size-full wp-image-273 alignnone" title="ubuntu_installing" src="http://www.linuxinstead.com/blog/wp-content/uploads/2009/06/ubuntu_installing.png" alt="" width="400" height="311" /></a>
+Once you have connected to via VNC you will then be able to run the installer as usual. This should work for installing Windows as well as Linux.
 
 After the install has completed, shutdown the new DOMU, because we need to edit the config file to remove the cd iso image and allow it to boot from it&#8217;s hard disk.
 

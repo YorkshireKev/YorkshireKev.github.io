@@ -17,7 +17,7 @@ This is a quick guide to setting up a Linux software RAID mirror (aka RAID 1).
 
 There are a couple of toolsets for managing raid on Linux, raidtools and mdadm. This guide will use mdadm because imho it has better commands and features for monitoring.
 
-Right, first you&#8217;ll need a couple of disk partitions of about the same size. These should be on separate disks or you&#8217;ll be defeating the point of raid mirroring <img src="http://www.kevssite.com/wp-includes/images/smilies/icon_wink.gif" alt=";-)" class="wp-smiley" />  
+Right, first you&#8217;ll need a couple of disk partitions of about the same size. These should be on separate disks or you&#8217;ll be defeating the point of raid mirroring 😉  
 <!--more-->
 
   

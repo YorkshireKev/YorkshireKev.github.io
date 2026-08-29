@@ -15,7 +15,7 @@ This short guide takes you through the steps needed to install a custom Android 
 
 The official T-Mobile Android 2.1 ROM was removed from T-Mobiles website because it had a few bugs, the worst of which meant that you&#8217;d lose the odd text message. However the latest &#8216;custom&#8217; ROMS appear to have fixed these problems.<!--more-->
 
-I upgraded my phone using the FLB 1.7 ROM and various guides over at the Modaco forums (<a href="http://www.modaco.com" target="_blank">www.modaco.com</a>). This is a simple step by step guide of how I upgraded my phone. You might want to also check with the forums for additional information, especially <a href="http://android.modaco.com/content/t-mobile-pulse-pulse-modaco-com/311809/the-ultimate-pulse-owners-guide/" target="_blank">this thread</a>.
+I upgraded my phone using the FLB 1.7 ROM and various guides over at the Modaco forums (<a href="http://www.modaco.com" target="_blank" rel="noopener noreferrer">www.modaco.com</a>). This is a simple step by step guide of how I upgraded my phone. You might want to also check with the forums for additional information, especially <a href="http://android.modaco.com/content/t-mobile-pulse-pulse-modaco-com/311809/the-ultimate-pulse-owners-guide/" target="_blank" rel="noopener noreferrer">this thread</a>.
 
 First off, some background information.
 
@@ -35,7 +35,7 @@ The basic stages we&#8217;re going to perform for upgrading are:
 
 First off, download the software needed onto your PC.  
 [Official T-Mobile Android 2.1 update][1]  
-[Recovery boot image][2]  
+Recovery boot image (Amon RA)  
 [FLB 1.7 Custom ROM (aka custom Android 2.1)][3]  
 [Fixed terminal emulator][4]
 
@@ -92,6 +92,5 @@ After using the above upgrade for a short while I noticed my phone would slow do
 Tip: to check the current value of swappiness type **cat /proc/sys/vm/swappiness**
 
  [1]: http://support.t-mobile.co.uk/library/TMOBILE/handsets/Pulse/Android%202.1/Pulse%20Android21.zip
- [2]: http://www.linuxinstead.com/blog/wp-content/uploads/2010/11/1.5.2-pulse-amonrarecovery.zip
  [3]: http://www.flibblesan.co.uk/android/flbmod/flbmod_v1.7.zip
  [4]: http://flibblesan.co.uk/android/flbmod/flbmod_v1.7_termfix.zip
