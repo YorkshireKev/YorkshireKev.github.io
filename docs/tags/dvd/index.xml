@@ -13,7 +13,7 @@
       <link>https://www.kevssite.com/k9copy-crashing-on-ubuntu-10-10/</link>
       <pubDate>Sun, 27 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/k9copy-crashing-on-ubuntu-10-10/</guid>
-      <description>&lt;p&gt;I recently gave K9COPY a try, it’s supposed to be the Linux equivalent of DVDshrink for Windows. It certainly looked the part, but when I ran it with a disk I wanted to back up it ran for a short while and then crashed &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;Looking at the output of dmesg revealed that the disk was having trouble reading the encrypted disk:&lt;br&gt;&#xA;`[235.097347] sr 5:0:0:0: [sr0] Add. Sense: Read of scrambled sector without authentication&lt;/p&gt;</description>
+      <description>&lt;p&gt;I recently gave K9COPY a try, it’s supposed to be the Linux equivalent of DVDshrink for Windows. It certainly looked the part, but when I ran it with a disk I wanted to back up it ran for a short while and then crashed 🙁&lt;/p&gt;&#xA;&lt;p&gt;Looking at the output of dmesg revealed that the disk was having trouble reading the encrypted disk:&lt;br&gt;&#xA;`[235.097347] sr 5:0:0:0: [sr0] Add. Sense: Read of scrambled sector without authentication&lt;/p&gt;</description>
     </item>
     <item>
       <title>ffmpeg freeview to pal-dvd audio fix</title>
