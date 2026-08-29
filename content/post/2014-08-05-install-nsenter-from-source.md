@@ -16,7 +16,7 @@ url: /install-nsenter-from-source/
 nsenter is a great command line tool for accessing docker containers. Unfortunately  it isn&#8217;t available in Ubuntu 14.04 at the time of writing. Fortunately building it from source is quite simple.
 
 Get the latest version of util-linux from kernel.org
-<a href="https://www.kernel.org/pub/linux/utils/util-linux/" target="_blank">https://www.kernel.org/pub/linux/utils/util-linux/</a>
+<a href="https://www.kernel.org/pub/linux/utils/util-linux/" target="_blank" rel="noopener noreferrer">https://www.kernel.org/pub/linux/utils/util-linux/</a>
 
 At the time of writing the latest version was v2.25, which is the version used in the examples here.
   

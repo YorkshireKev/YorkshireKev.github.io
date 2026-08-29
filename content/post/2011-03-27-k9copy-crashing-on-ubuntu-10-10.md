@@ -13,7 +13,7 @@ tags:
 title: K9COPY crashing on Ubuntu 10.10
 url: /k9copy-crashing-on-ubuntu-10-10/
 ---
-I recently gave K9COPY a try, it&#8217;s supposed to be the Linux equivalent of DVDshrink for Windows. It certainly looked the part, but when I ran it with a disk I wanted to back up it ran for a short while and then crashed <img src="http://www.kevssite.com/wp-includes/images/smilies/icon_sad.gif" alt=":-(" class="wp-smiley" /> 
+I recently gave K9COPY a try, it&#8217;s supposed to be the Linux equivalent of DVDshrink for Windows. It certainly looked the part, but when I ran it with a disk I wanted to back up it ran for a short while and then crashed 🙁 
 
 Looking at the output of dmesg revealed that the disk was having trouble reading the encrypted disk:  
 `[235.097347] sr 5:0:0:0: [sr0] Add. Sense: Read of scrambled sector without authentication<!--more-->`

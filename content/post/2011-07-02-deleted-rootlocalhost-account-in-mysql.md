@@ -15,7 +15,7 @@ tags:
 title: Deleted root@localhost account in MySQL
 url: /deleted-rootlocalhost-account-in-mysql/
 ---
-Like the fool I am, whilst messing about with user privileges in phpMyAdmin I managed to delete the root account. Suddenly I found myself with no access to any of my databases <img src="http://www.kevssite.com/wp-includes/images/smilies/icon_sad.gif" alt=":(" class="wp-smiley" /> 
+Like the fool I am, whilst messing about with user privileges in phpMyAdmin I managed to delete the root account. Suddenly I found myself with no access to any of my databases 🙁 
 
 It took a while to figure out how to re-create the root@localhost user, so here&#8217;s how I did it.<!--more-->
 

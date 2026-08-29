@@ -19,13 +19,13 @@ tags:
 title: Github vs Bitbucket
 url: /github-vs-bitbucket/
 ---
-By far the most popular source control system in use today is <a title="git-scm website" href="http://git-scm.com/" target="_blank">Git</a>. It was only about 6 months ago I made the switch from subversion for my personal code projects, and the only regret I have is that I didn&#8217;t do it earlier!
+By far the most popular source control system in use today is <a title="git-scm website" href="http://git-scm.com/" target="_blank" rel="noopener noreferrer">Git</a>. It was only about 6 months ago I made the switch from subversion for my personal code projects, and the only regret I have is that I didn&#8217;t do it earlier!
 
 I&#8217;m lucky enough to experience code management at both ends of the spectrum. In my spare time I tinker with personal projects (some public but mostly private stuff). At work &#8216;enterprise&#8217; would definitely be an appropriate description of our source code management.
 
-With the advent of cloud computing, source control can no longer be kept neatly behind corporate firewalls.Of course you could stick a Subversion server or Git repository in your DMZ, but really, the correct answer is hosting.![][1]
+With the advent of cloud computing, source control can no longer be kept neatly behind corporate firewalls.Of course you could stick a Subversion server or Git repository in your DMZ, but really, the correct answer is hosting.
 
-There are many source-code hosting providers to choose from, but in this post I&#8217;m going to look at the two most popular Git hosting solutions: <a title="githubs website" href="http://github.com/" target="_blank">Github</a> and <a title="bitbucket website" href="http://bitbucket.org" target="_blank">Bitbucket</a>.<!--more-->
+There are many source-code hosting providers to choose from, but in this post I&#8217;m going to look at the two most popular Git hosting solutions: <a title="githubs website" href="http://github.com/" target="_blank" rel="noopener noreferrer">Github</a> and <a title="bitbucket website" href="http://bitbucket.org" target="_blank" rel="noopener noreferrer">Bitbucket</a>.<!--more-->
 
 Both Github and Bitbucket offer public and private repositories, wiki and issue tracking. So which one is best? Well, like most things in IT (and in life too I guess), it depends&#8230;
 
@@ -56,5 +56,3 @@ Both Github and Bitbucket are excellent Git repository hosting solutions, and re
 Sometimes however, I still use Github for private repositories, but this is mainly when a PAS integrates better with GitHub than with Bitbucket (This is getting much less frequent as the popularity of Bitbucket grows).
 
 One thing is clear though. If you&#8217;re not using Git for source and version control then I urge you to seriously consider switching. As PAS (Platform as a Service) becomes ever more pervasive, Git is becoming a pre-requisite for code deployment to the Cloud. And besides, once you switch you might just discover *why* Git is the most popular version control system on the planet.
-
- [1]: http://www.kevssite.com/wp-includes/js/tinymce/plugins/wordpress/img/trans.gif "More..."
