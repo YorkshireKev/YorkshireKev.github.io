@@ -59,7 +59,7 @@
   "headline": "A look at Pixi.js",
   "description" : "A simple 2D puzle game written in JavaScript with the Pixi.js framework that runs in the browser.",
   "inLanguage" : "en",
-  "wordCount":  344 ,
+  "wordCount":  347 ,
   "datePublished" : "2015-06-03T00:00:00",
   "dateModified" : "2015-06-03T00:00:00",
   "image" : "https:\/\/www.kevssite.com\/",
@@ -92,7 +92,10 @@
 <meta name="generator" content="Hugo 0.150.1">
 <link rel="alternate" href="https://www.kevssite.com/index.xml" type="application/rss+xml" title="Kev&#39;s Site">
 <script src="https://www.kevssite.com/js/dark-mode.js"></script><script src="https://www.kevssite.com/vendor/lunr/lunr.min.js"></script><script src="https://www.kevssite.com/js/lunr-search.js" data-index="/search.json"></script><link rel="stylesheet" href="/style.min.css">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 
+
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
 
 
@@ -349,11 +352,15 @@
     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
       <article role="main" class="blog-post">
         <p>I&rsquo;ve been experimenting with the html canvas element recently by writing some simple 2D games. One challenge is making a canvas based game fit nicely on the screen given the vast variety in browser resolutions. 2D games tend to be made up of images and I found that scaling these images so that they fill the browser window was both slow and ugly.</p>
-<p>This got me thinking about WebGL. Is it possible to use a 3D WebGL library to render a 2D game and gain the scaling and performance advantages of the GPU? At first I looked at three.js, which is probably the most popular WebGL library. But in doing my research I discovered a dedicated 2D JavaScript WebGL library called <a href="http://www.pixijs.com/">Pixi.js</a>.</p>
+<p>This got me thinking about WebGL. Is it possible to use a 3D WebGL library to render a 2D game and gain the scaling and performance advantages of the GPU? At first I looked at three.js, which is probably the most popular WebGL library. But in doing my research I discovered a dedicated 2D JavaScript WebGL library called <a href="http://www.pixijs.com/" target="_blank" rel="noopener noreferrer">Pixi.js</a>
+.</p>
 <p>Pixi.js provides a JavaScript API for 2D rendering, sprites and scaling using WebGL and will automatically fall back to the canvas rendering if WebGL is not available. This sounded ideal so I figured I&rsquo;d give it a closer look.</p>
 <p>After studying some of the examples on the Pixi.js website I created a few dodgy looking demos (these are safely hidden away in a dark corner of my hard drive to save me some embarrassment). Now that I had a basic understanding of how Pixi.js worked I thought I&rsquo;d have a go at writing a simple 2D game.</p>
-<p>You can take a look at the game I created by visiting the <a href="/bloxed">game page</a>. The source code is available on <a href="https://github.com/YorkshireKev/bloxed">my github page</a>.</p>
-<p><a href="/bloxed"><img src="/images/bloxed.png" alt="Bloxed" title="Bloxed! - Click to play!"></a></p>
+<p>You can take a look at the game I created by visiting the <a href="/bloxed">game page</a>
+. The source code is available on <a href="https://github.com/YorkshireKev/bloxed" target="_blank" rel="noopener noreferrer">my github page</a>
+.</p>
+<p><a href="/bloxed"><img src="/images/bloxed.png" alt="Bloxed" title="Bloxed! - Click to play!"></a>
+</p>
 <p>I found the Pixi.js api to be extremely well thought out and predictable to use. Performance seems good, even on my ageing AMDx2 Desktop PC. Scaling the graphics to match the browser window was a little trickier that I expected as I soon realised that I&rsquo;d have to make adjustments to keep the correct aspect ratio of my badly drawn graphics. Just scaling to the browser window size tends to stretch the image.</p>
 <p>Considering that this was my first serious attempt with Pixi.js and that I&rsquo;m still getting to grips with JavaScript, all in all I&rsquo;m quite pleased with the result.</p>
 
@@ -397,7 +404,7 @@
         <ul class="share d-flex list-unstyled mb-0">
           
           <li>
-            <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.kevssite.com%2fa-look-at-pixi-js%2f" target="_blank" title="Share on Facebook">
+            <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.kevssite.com%2fa-look-at-pixi-js%2f" target="_blank" rel="noopener noreferrer" title="Share on Facebook">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-facebook" viewBox="0 0 16 16">
                 <path
                   d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
@@ -406,8 +413,7 @@
           </li>
           
           <li>
-            <a href="//twitter.com/share?url=https%3a%2f%2fwww.kevssite.com%2fa-look-at-pixi-js%2f&amp;text=A%20look%20at%20Pixi.js&amp;via=map%5b%5d"
-              target="_blank" title="Share on Twitter">
+            <a href="//twitter.com/share?url=https%3a%2f%2fwww.kevssite.com%2fa-look-at-pixi-js%2f&amp;text=A%20look%20at%20Pixi.js&amp;via=map%5b%5d" target="_blank" rel="noopener noreferrer" title="Share on Twitter">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-twitter-x"
                 viewBox="0 0 16 16">
                 <path
@@ -419,8 +425,7 @@
 
           
           <li>
-            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.kevssite.com%2fa-look-at-pixi-js%2f&amp;title=A%20look%20at%20Pixi.js"
-              target="_blank" title="Share on LinkedIn">
+            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.kevssite.com%2fa-look-at-pixi-js%2f&amp;title=A%20look%20at%20Pixi.js" target="_blank" rel="noopener noreferrer" title="Share on LinkedIn">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-linkedin" viewBox="0 0 16 16">
                 <path
                   d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
@@ -444,7 +449,7 @@
 
           
           <li>
-            <a href="whatsapp://send?text=https%3a%2f%2fwww.kevssite.com%2fa-look-at-pixi-js%2f&amp;description=A%20look%20at%20Pixi.js" target="_blank" rel="noopener"
+            <a href="whatsapp://send?text=https%3a%2f%2fwww.kevssite.com%2fa-look-at-pixi-js%2f&amp;description=A%20look%20at%20Pixi.js" target="_blank" rel="noopener noreferrer"
               title="Share on WhatsApp">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-whatsapp" viewBox="0 0 16 16">
                 <path
@@ -455,9 +460,7 @@
 
           
           <li>
-          <a class="resp-sharing-button__link"
-            href="https://telegram.me/share/url?text=A%20look%20at%20Pixi.js&amp;url=https%3a%2f%2fwww.kevssite.com%2fa-look-at-pixi-js%2f" target="_blank"
-            rel="noopener" aria-label="Share on Telegram">
+          <a class="resp-sharing-button__link" href="https://telegram.me/share/url?text=A%20look%20at%20Pixi.js&amp;url=https%3a%2f%2fwww.kevssite.com%2fa-look-at-pixi-js%2f" target="_blank" rel="noopener noreferrer" aria-label="Share on Telegram">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-telegram" viewBox="0 0 16 16">
               <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
             </svg>
@@ -467,7 +470,7 @@
 
           
           <li>
-              <a href="mailto:?subject=A%20look%20at%20Pixi.js&amp;body=https%3a%2f%2fwww.kevssite.com%2fa-look-at-pixi-js%2f&amp;description=A%20look%20at%20Pixi.js" target="_self" rel="noopener" aria-label="Share by E-Mail">
+              <a href="mailto:?subject=A%20look%20at%20Pixi.js&amp;body=https%3a%2f%2fwww.kevssite.com%2fa-look-at-pixi-js%2f&amp;description=A%20look%20at%20Pixi.js" target="_self" rel="noopener noreferrer" aria-label="Share by E-Mail">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-envelope-heart" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l3.235 1.94a2.8 2.8 0 0 0-.233 1.027L1 5.384v5.721l3.453-2.124q.219.416.55.835l-3.97 2.443A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741l-3.968-2.442q.33-.421.55-.836L15 11.105V5.383l-3.002 1.801a2.8 2.8 0 0 0-.233-1.026L15 4.217V4a1 1 0 0 0-1-1zm6 2.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
                 </svg>
@@ -479,6 +482,7 @@
     </div>
 
     
+
         </div>
       </section>
       
@@ -732,28 +736,28 @@ My initial attempt used the html5 audio tag: &lt;audio id=&#34;demomusic&#34; sr
 
           
           <li>
-            <a href="https://github.com/YorkshireKev" title="GitHub" target="_blank">
+            <a href="https://github.com/YorkshireKev" title="GitHub" target="_blank" rel="noopener noreferrer">
               <span class="mx-2">
                 <i class="bi bi-github"></i>
               </span>
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/YorkshireKev" title="Twitter" target="_blank">
+            <a href="https://twitter.com/YorkshireKev" title="Twitter" target="_blank" rel="noopener noreferrer">
               <span class="mx-2">
                 <i class="bi bi-twitter-x"></i>
               </span>
             </a>
           </li>
           <li>
-            <a href="https://linkedin.com/in/elliskevin" title="LinkedIn" target="_blank">
+            <a href="https://linkedin.com/in/elliskevin" title="LinkedIn" target="_blank" rel="noopener noreferrer">
               <span class="mx-2">
                 <i class="bi bi-linkedin"></i>
               </span>
             </a>
           </li>
           <li>
-            <a href="https://www.youtube.com/@kevschannel" title="Youtube" target="_blank">
+            <a href="https://www.youtube.com/@kevschannel" title="Youtube" target="_blank" rel="noopener noreferrer">
               <span class="mx-2">
                 <i class="bi bi-youtube"></i>
               </span>
@@ -780,7 +784,15 @@ My initial attempt used the html5 audio tag: &lt;audio id=&#34;demomusic&#34; sr
 </footer><script src="https://www.kevssite.com/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="https://www.kevssite.com/js/highlight.min.js"></script>
 <script> hljs.initHighlightingOnLoad(); </script>
-<script> $(document).ready(function () { $("pre.chroma").css("padding", "0"); }); </script>
+<script src="https://www.kevssite.com/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> 
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("pre.chroma").forEach(function (element) {
+    element.style.padding = "0";
+  });
+});
+</script>
     
   </body>
 </html>

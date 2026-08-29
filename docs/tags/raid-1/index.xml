@@ -13,7 +13,7 @@
       <link>https://www.kevssite.com/how-to-set-up-a-linux-raid-mirror/</link>
       <pubDate>Tue, 28 Apr 2009 00:00:00 +0000</pubDate>
       <guid>https://www.kevssite.com/how-to-set-up-a-linux-raid-mirror/</guid>
-      <description>&lt;p&gt;This is a quick guide to setting up a Linux software RAID mirror (aka RAID 1).&lt;/p&gt;&#xA;&lt;p&gt;There are a couple of toolsets for managing raid on Linux, raidtools and mdadm. This guide will use mdadm because imho it has better commands and features for monitoring.&lt;/p&gt;&#xA;&lt;p&gt;Right, first you’ll need a couple of disk partitions of about the same size. These should be on separate disks or you’ll be defeating the point of raid mirroring &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is a quick guide to setting up a Linux software RAID mirror (aka RAID 1).&lt;/p&gt;&#xA;&lt;p&gt;There are a couple of toolsets for managing raid on Linux, raidtools and mdadm. This guide will use mdadm because imho it has better commands and features for monitoring.&lt;/p&gt;&#xA;&lt;p&gt;Right, first you’ll need a couple of disk partitions of about the same size. These should be on separate disks or you’ll be defeating the point of raid mirroring 😉&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
