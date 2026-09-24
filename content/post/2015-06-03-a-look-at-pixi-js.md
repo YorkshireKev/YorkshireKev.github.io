@@ -15,7 +15,7 @@ image: "/img/bloxed.png"
 ---
 I've been experimenting with the html canvas element recently by writing some simple 2D games. One challenge is making a canvas based game fit nicely on the screen given the vast variety in browser resolutions. 2D games tend to be made up of images and I found that scaling these images so that they fill the browser window was both slow and ugly.
 
-This got me thinking about WebGL. Is it possible to use a 3D WebGL library to render a 2D game and gain the scaling and performance advantages of the GPU? At first I looked at three.js, which is probably the most popular WebGL library. But in doing my research I discovered a dedicated 2D JavaScript WebGL library called [Pixi.js](http://www.pixijs.com/).
+This got me thinking about WebGL. Is it possible to use a 3D WebGL library to render a 2D game and gain the scaling and performance advantages of the GPU? At first I looked at three.js, which is probably the most popular WebGL library. But in doing my research I discovered a dedicated 2D JavaScript WebGL library called [Pixi.js](https://www.pixijs.com/).
 
 Pixi.js provides a JavaScript API for 2D rendering, sprites and scaling using WebGL and will automatically fall back to the canvas rendering if WebGL is not available. This sounded ideal so I figured I'd give it a closer look.
 

@@ -88,4 +88,4 @@ document.getElementById("music").onclick = function () {
   };
 {{< / highlight >}}
 
-There is *so* much more that howler.js can do than seamlessly looping music. Check out the [howler.js website](http://howlerjs.com/) for details.
+There is *so* much more that howler.js can do than seamlessly looping music. Check out the [howler.js website](https://howlerjs.com/) for details.

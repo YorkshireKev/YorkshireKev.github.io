@@ -22,10 +22,10 @@ I had to manually download and install libev/libev-devel because they are not in
 
 The versions I installed can be downloaded from here:
 
-<a href="http://dl.fedoraproject.org/pub/epel/6/x86_64/libev-4.03-3.el6.x86_64.rpm" target="_blank" rel="noopener noreferrer">http://dl.fedoraproject.org/pub/epel/6/x86_64/libev-4.03-3.el6.x86_64.rpm</a><br />
-<a href="http://dl.fedoraproject.org/pub/epel/6/x86_64/libev-devel-4.03-3.el6.x86_64.rpm" target="_blank" rel="noopener noreferrer">http://dl.fedoraproject.org/pub/epel/6/x86_64/libev-devel-4.03-3.el6.x86_64.rpm</a>
+<a href="https://dl.fedoraproject.org/pub/epel/6/x86_64/libev-4.03-3.el6.x86_64.rpm" target="_blank" rel="noopener noreferrer">https://dl.fedoraproject.org/pub/epel/6/x86_64/libev-4.03-3.el6.x86_64.rpm</a><br />
+<a href="https://dl.fedoraproject.org/pub/epel/6/x86_64/libev-devel-4.03-3.el6.x86_64.rpm" target="_blank" rel="noopener noreferrer">https://dl.fedoraproject.org/pub/epel/6/x86_64/libev-devel-4.03-3.el6.x86_64.rpm</a>
 
-The above libs are for Centos 6 64 bit (I&#8217;m running Centos 6.4 64bit). Other versions can be found on the same site, <a href="http://pkgs.org/" target="_blank" rel="noopener noreferrer">http://pkgs.org/</a>
+The above libs are for Centos 6 64 bit (I&#8217;m running Centos 6.4 64bit). Other versions can be found on the same site, <a href="https://pkgs.org/" target="_blank" rel="noopener noreferrer">https://pkgs.org/</a>
 
 I installed tham using the yum command:
 {{< highlight bash >}}

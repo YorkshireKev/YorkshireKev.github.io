@@ -20,6 +20,6 @@ However, the most significant change to those that use Xen will be the new XL to
 There&#8217;s no need to panic just yet though because XM is still included in Xen 4.1 and sits alongside XL.
 
 Further details can be found in the Xen 4.1 release notes:  
-<http://blog.xen.org/index.php/2011/03/25/xen-4-1-releases/>
+<https://blog.xen.org/index.php/2011/03/25/xen-4-1-releases/>
 
 It&#8217;s good to see Xen moving forward and continuing to converge with Linux mainline kernel. What I&#8217;d really like to see though, is a pre-built up to date Xen Distro and a decent web based management front end. Now *that* would cause sleepless nights over at VMware HQ&#8230;

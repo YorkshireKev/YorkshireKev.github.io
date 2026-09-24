@@ -19,13 +19,13 @@ tags:
 title: Github vs Bitbucket
 url: /github-vs-bitbucket/
 ---
-By far the most popular source control system in use today is <a title="git-scm website" href="http://git-scm.com/" target="_blank" rel="noopener noreferrer">Git</a>. It was only about 6 months ago I made the switch from subversion for my personal code projects, and the only regret I have is that I didn&#8217;t do it earlier!
+By far the most popular source control system in use today is <a title="git-scm website" href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">Git</a>. It was only about 6 months ago I made the switch from subversion for my personal code projects, and the only regret I have is that I didn&#8217;t do it earlier!
 
 I&#8217;m lucky enough to experience code management at both ends of the spectrum. In my spare time I tinker with personal projects (some public but mostly private stuff). At work &#8216;enterprise&#8217; would definitely be an appropriate description of our source code management.
 
 With the advent of cloud computing, source control can no longer be kept neatly behind corporate firewalls.Of course you could stick a Subversion server or Git repository in your DMZ, but really, the correct answer is hosting.
 
-There are many source-code hosting providers to choose from, but in this post I&#8217;m going to look at the two most popular Git hosting solutions: <a title="githubs website" href="http://github.com/" target="_blank" rel="noopener noreferrer">Github</a> and <a title="bitbucket website" href="http://bitbucket.org" target="_blank" rel="noopener noreferrer">Bitbucket</a>.<!--more-->
+There are many source-code hosting providers to choose from, but in this post I&#8217;m going to look at the two most popular Git hosting solutions: <a title="githubs website" href="https://github.com/" target="_blank" rel="noopener noreferrer">Github</a> and <a title="bitbucket website" href="https://bitbucket.org" target="_blank" rel="noopener noreferrer">Bitbucket</a>.<!--more-->
 
 Both Github and Bitbucket offer public and private repositories, wiki and issue tracking. So which one is best? Well, like most things in IT (and in life too I guess), it depends&#8230;
 

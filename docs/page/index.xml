@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Kev&#39;s Site</title>
-    <link>https://www.kevssite.com/page/</link>
+    <link>http://localhost:1313/page/</link>
     <description>Recent content in Pages on Kev&#39;s Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://www.kevssite.com/page/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>bloxed</title>
-      <link>https://www.kevssite.com/bloxed/</link>
+      <link>http://localhost:1313/bloxed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.kevssite.com/bloxed/</guid>
+      <guid>http://localhost:1313/bloxed/</guid>
       <description>&lt;p&gt;Placeholder for sitemap generation&lt;/p&gt;</description>
     </item>
     <item>
       <title>bloxed</title>
-      <link>https://www.kevssite.com/retrocadia-web/</link>
+      <link>http://localhost:1313/retrocadia-web/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.kevssite.com/retrocadia-web/</guid>
+      <guid>http://localhost:1313/retrocadia-web/</guid>
       <description>&lt;p&gt;Placeholder for sitemap generation&lt;/p&gt;</description>
     </item>
   </channel>

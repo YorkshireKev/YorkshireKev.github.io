@@ -67,9 +67,6 @@
 {{- if .Site.Params.useHLJS }}
 <script src="{{ "js/highlight.min.js" | absURL }}"></script>
 <script> hljs.initHighlightingOnLoad(); </script>
-{{- if .Site.Params.useHLJS }}
-<script src="{{ "js/highlight.min.js" | absURL }}"></script>
-<script> hljs.initHighlightingOnLoad(); </script>
 <script> 
 document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll("pre.chroma").forEach(function (element) {
@@ -77,6 +74,5 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 </script>
-{{- end -}}
 {{- end -}}
 {{- partial "footer_custom.html" . }}
