@@ -57,5 +57,5 @@ You should now have a shell inside the container, and be able to stop & start pr
 
 When you're done snooping around the container, just type exit or Ctrl-d to exit from the container. The container will continue to run and any changes you made within the container will still be in there. Cool or what?
 
- [1]: http://www.kevssite.com/2014/08/05/install-nsenter-from-source/ "Install nsenter from source"
+ [1]: https://www.kevssite.com/2014/08/05/install-nsenter-from-source/ "Install nsenter from source"
 

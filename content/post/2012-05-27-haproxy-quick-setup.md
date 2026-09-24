@@ -108,4 +108,4 @@ errorfile 503 /etc/haproxy/errors/503.http<br />
 errorfile 504 /etc/haproxy/errors/504.http<br />
 `
 
- [1]: http://www.debuntu.org/how-log-haproxy-messages-only-once
+ [1]: https://www.debuntu.org/how-log-haproxy-messages-only-once

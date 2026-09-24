@@ -23,7 +23,7 @@ Update: I have also successfully tested these instructions with node.js 0.6.17 o
 
 <!--more-->
 
-*   Download the Node.js source, e.g. `wget http://nodejs.org/dist/v0.6.15/node-v0.6.15.tar.gz`
+*   Download the Node.js source, e.g. `wget https://nodejs.org/dist/v0.6.15/node-v0.6.15.tar.gz`
 
 *   Extract the files: `tar -xvf node-v0.6.15.tar.gz`
 

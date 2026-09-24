@@ -28,7 +28,7 @@ Please note that rooting a phone will not, by itself, allow you to install apps 
 
 Getting root access on the phone is fairly simple.
 
-First download <a href="http://android.modaco.com/content/t-mobile-pulse-pulse-modaco-com/294178/11-12-1-4-rooting-the-pulse-introducing-superboot/" target="_blank" rel="noopener noreferrer">superboot</a> and <a href="http://android.modaco.com/content/t-mobile-pulse-pulse-modaco-com/294290/14-12-1-5-2-installing-the-patched-recovery-image-on-your-device/" target="_blank" rel="noopener noreferrer">Amon RA</a> from the [modaco website][1].
+First download <a href="https://android.modaco.com/content/t-mobile-pulse-pulse-modaco-com/294178/11-12-1-4-rooting-the-pulse-introducing-superboot/" target="_blank" rel="noopener noreferrer">superboot</a> and <a href="https://android.modaco.com/content/t-mobile-pulse-pulse-modaco-com/294290/14-12-1-5-2-installing-the-patched-recovery-image-on-your-device/" target="_blank" rel="noopener noreferrer">Amon RA</a> from the [modaco website][1].
 
 Unzip the two files into separate folders and chmod the files install-superboot-linux.sh and install-recovery-linux.sh to make them executable (e.g. chmod u+x filename).
 
@@ -52,4 +52,4 @@ To test that you have root access you need to install a ssh client, such as Conn
 
 If you&#8217;ve also installed the recover image then you use the quickboot icon that should now be in your apps list. This will re-boot your phone into the recovery menu where you can backup and restore images as well as a few other options.
 
- [1]: http://android.modaco.com/
+ [1]: https://android.modaco.com/
