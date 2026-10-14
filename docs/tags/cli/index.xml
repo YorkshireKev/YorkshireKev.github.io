@@ -6,8 +6,15 @@
     <description>Recent content in Cli on Kev&#39;s Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.kevssite.com/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Termzogs</title>
+      <link>https://www.kevssite.com/termzogs-game/</link>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.kevssite.com/termzogs-game/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.kevssite.com/images/termzogs.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Termzogs is the second CLI game I&amp;rsquo;ve made. Yet again, it is based on a classic ZX81 game. This time inspired by the superb game &lt;em&gt;Mazogs&lt;/em&gt; by Don Priestley.&lt;/p&gt;&#xA;&lt;p&gt;For this game, I decided to give AI Vibe Coding a try. I was curious to find out two things. First, I wanted to see if it would make coding easier and faster (I was pretty sure it would manage that much). The second reason was to see if programming would still be enjoyable and rewarding, or if AI would take all the pleasure and satisfaction out of writing code.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>CLI-Labyrinth</title>
       <link>https://www.kevssite.com/cli-labyrinth-game/</link>

@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>Termzogs - Kev&#39;s Site</title>
+<meta name="description" content="
+Termzogs is the second CLI game I&rsquo;ve made. Yet again, it is based on a classic ZX81 game. This time inspired by the superb game Mazogs by Don Priestley.
+For this game, I decided to give AI Vibe Coding a try. I was curious to find out two things. First, I wanted to see if it would make coding easier and faster (I was pretty sure it would manage that much). The second reason was to see if programming would still be enjoyable and rewarding, or if AI would take all the pleasure and satisfaction out of writing code.">
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Kev\u0027s Site",
+    
+    "url": "https:\/\/www.kevssite.com\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/www.kevssite.com\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/www.kevssite.com\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/www.kevssite.com\/termzogs-game\/",
+          "name": "Termzogs"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "map[github:YorkshireKev linkedin:elliskevin twitter:YorkshireKev website:https:\/\/www.kevssite.com\/ youtube:@kevschannel]"
+  },
+  "headline": "Termzogs",
+  "description" : "\nTermzogs is the second CLI game I\u0026rsquo;ve made. Yet again, it is based on a classic ZX81 game. This time inspired by the superb game Mazogs by Don Priestley.\nFor this game, I decided to give AI Vibe Coding a try. I was curious to find out two things. First, I wanted to see if it would make coding easier and faster (I was pretty sure it would manage that much). The second reason was to see if programming would still be enjoyable and rewarding, or if AI would take all the pleasure and satisfaction out of writing code.\n",
+  "inLanguage" : "en",
+  "wordCount":  761 ,
+  "datePublished" : "2026-10-11T00:00:00",
+  "dateModified" : "2026-10-11T00:00:00",
+  "image" : "https:\/\/www.kevssite.com\/",
+  "keywords" : [ "linux, cli, ssh, zx81" ],
+  "mainEntityOfPage" : "https:\/\/www.kevssite.com\/termzogs-game\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/www.kevssite.com\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/www.kevssite.com\/",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Termzogs" />
+<meta property="og:description" content="
+Termzogs is the second CLI game I&rsquo;ve made. Yet again, it is based on a classic ZX81 game. This time inspired by the superb game Mazogs by Don Priestley.
+For this game, I decided to give AI Vibe Coding a try. I was curious to find out two things. First, I wanted to see if it would make coding easier and faster (I was pretty sure it would manage that much). The second reason was to see if programming would still be enjoyable and rewarding, or if AI would take all the pleasure and satisfaction out of writing code.">
+<meta property="og:image" content="https://www.kevssite.com/img/termzogs.png" />
+<meta property="og:url" content="https://www.kevssite.com/termzogs-game/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Kev&#39;s Site" />
+<link rel="apple-touch-icon" sizes="180x180" href=" https://www.kevssite.com/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.kevssite.com/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.kevssite.com/favicon/favicon-16x16.png">
+
+
+<meta name="generator" content="Hugo 0.150.1">
+<link rel="alternate" href="https://www.kevssite.com/index.xml" type="application/rss+xml" title="Kev&#39;s Site">
+<script src="https://www.kevssite.com/js/dark-mode.js"></script><script src="https://www.kevssite.com/vendor/lunr/lunr.min.js"></script><script src="https://www.kevssite.com/js/lunr-search.js" data-index="/search.json"></script><link rel="stylesheet" href="/style.min.css">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+
+
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+
+
+
+
+
+ 
+
+ <link href="https://www.kevssite.com/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+
+<script src="https://www.kevssite.com/vendor/glightbox/js/glightbox.min.js"></script>
+ 
+  </head>
+  <body>
+    
+<div class="container fixed-top mw-100">
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10">
+
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top p-0">
+        <div class="container">
+
+          <a class="navbar-brand fw-bold" href="https://www.kevssite.com/">Kev&#39;s Site</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav mb-2 mb-lg-0 align-items-baseline">
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Home"
+                  href="/"> Home</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Games"
+                  href="/categories/games/"> Games</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Categories"
+                  href="/categories/"> Categories</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Tags"
+                  href="/tags/"> Tags</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="About"
+                  href="/about/"> About</a>
+              </li>
+
+              
+              
+
+              <li class="nav-item nav-link">
+                <a id="dark-mode-toggle" class="bi bi-moon-stars" role="button"></a>
+              </li>
+
+              
+              <li class="nav-item search-item">
+                <form id="search" class="search" role="search">
+                  <label for="search-input" class="bi bi-search search-icon"></label>
+                  <input type="search" id="search-input" class="search-input">
+                </form>
+              </li>
+              
+            </ul>
+
+            
+            <template id="search-heading" hidden
+                data-results-none="No results found for “{}”"
+                data-results-one="Found one result for “{}”"
+                data-results-many="Found 13579 results for “{}”"
+            >
+              <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+                  <h1 id="search-title" class="search-title"></h1>
+                </div>
+              </div>
+            </template>
+
+            <template id="search-result" hidden>
+              <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+                  <article class="content post">
+                    <h2><a class="summary-title-link"></a></h2>
+                    <div class="post-entry"></div>
+                    <div class="read-more-section">
+                      <h6 class="text-muted link-underline">
+                        <a class="read-more-link">
+                          Read More
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </h6>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </template>
+            
+          </div>
+        </div>
+      </nav>
+
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+<header class="header-section ">
+
+  <div class="intro-header no-img mt-10 pb-2">
+    <div class="container">
+      <div class="row justify-content-center">
+
+        
+          
+          <div class="col-sm-12  col-md-12 col-lg-8 col-xl-8 non-tags-sec">
+            
+            
+          </div>
+          <div class="col-sm-12  col-md-12 col-lg-8 col-xl-8 non-tags-sec">
+            
+
+
+            
+            
+
+            
+            <div class="post-heading">
+              <h1 class="fw-medium lh-1 align-items-center">
+                Termzogs
+                
+              </h1>
+            </div>
+
+
+            
+
+            
+
+            
+
+            
+            
+            <span class="post-meta">
+  <div class="row post-meta text-muted">
+    <div class="col-sm-12 col-md-6 px-0">
+      
+      
+  
+      
+      
+      
+  
+      &nbsp; October 11, 2026
+    </div>
+
+  <div class="col-sm-12 col-md-6 text-sm-start text-md-end px-0">
+  
+
+  
+</div>
+
+  
+</div>
+</span>
+
+
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      <article role="main" class="blog-post">
+        <p><img src="/images/termzogs.png" alt=""></p>
+<p>Termzogs is the second CLI game I&rsquo;ve made. Yet again, it is based on a classic ZX81 game. This time inspired by the superb game <em>Mazogs</em> by Don Priestley.</p>
+<p>For this game, I decided to give AI Vibe Coding a try. I was curious to find out two things. First, I wanted to see if it would make coding easier and faster (I was pretty sure it would manage that much). The second reason was to see if programming would still be enjoyable and rewarding, or if AI would take all the pleasure and satisfaction out of writing code.</p>
+<p>Here&rsquo;s how I approached creating this game.</p>
+<p>First, I wanted to create a spec for how the game should be structured and the basic mechanics of how it should work. To help me do this, I used Google Gemini in the browser. After a bit of iteration with Gemini, I had a first draft Markdown file I could use to see if the coding agent could get something running.</p>
+<p>For the coding agent, I used GitHub Copilot in VS Code. I didn&rsquo;t have a strong preference for any particular code assistant. I considered Claude Code, Cursor, and Codex as well, but figuring I&rsquo;d need to take out a subscription, I decided to try Copilot first as it was the cheapest option. Yep, I&rsquo;m that tight!</p>
+<p>Rather than jumping in and subscribing to the Pro version straight away, I decided to start with the free tier and upgrade once the free quota ran out.</p>
+<p>Placing the Markdown file into a new folder and opening VS Code, I asked the AI to read the spec file and create the basic game based on the specifications.</p>
+<p>I was amazed at what a great job it made of it. It created a basic game that actually worked first time! Everything was static, with only one character per game cell, but it all functioned properly. It generated a maze, placed Zogs throughout the corridors (though they didn&rsquo;t move yet), structured the project cleanly, and even wrote test suites. I was very impressed!</p>
+<p>This first version was simple, and the game wasn&rsquo;t complete by any means. For the next iteration, I decided to work with Gemini again to create a second spec file to flesh out the gameplay. I then copied the second spec into the game folder and repeated the process, asking Copilot to update the game based on the new specifications.</p>
+<p>Again, GitHub Copilot did a fantastic job.</p>
+<p>At this point, I wanted to build out the game one step at a time so as not to change too much in one go, so I didn&rsquo;t bother with any further spec files. I used the Copilot chat panel to refine the code directly, making the graphics bigger, adding a map view mode, building menus, and improving the maze generation algorithm. It really felt like pair programming with a senior, insightful coding partner.</p>
+<p>I found the overall experience extremely positive. When I wrote CLI Labyrinth, it took me ages to get the maze generation code working smoothly; it was quite hard work. I think that project took me a couple of weeks&rsquo; worth of evenings to complete. Termzogs took just 4 evenings of effort, and the end game quite a bit is more complex.</p>
+<p>As always, you can download pre-built binaries of the game for Linux and Mac from <a href="https://yorkshirekev.itch.io/termzogs" target="_blank" rel="noopener noreferrer">itch.io</a>
+.</p>
+<p>If you just want to play it without installing anything, I built a WebAssembly (Wasm) compiled version that runs in the web browser. You can <a href="https://www.kevssite.com/termzogs" target="_blank" rel="noopener noreferrer">play Termzogs directly in your web browser</a>
+.</p>
+<p>And finally, if you want to see what kind of code an AI vibe coded game looks like, you can check out my <a href="https://github.com/YorkshireKev/termzogs" target="_blank" rel="noopener noreferrer">GitHub repository</a>
+.</p>
+<p>Perhaps the most impressive thing about GitHub Copilot is its generous free tier. I intended to purchase the Pro subscription once the free quota expired, but amazingly, I finished the entire game development while using less than 70% of my free tier allowance! My next experiment will be a lot more involved than a terminal CLI game, so I expect I&rsquo;ll need to upgrade soon.</p>
+<p>Has AI taken the pleasure out of coding? For me, absolutely not. It has definitely changed the approach to coding. It feels much more like pair programming or directing your own senior developer. AI has given me a renewed spark for creating games and applications by taking away the repetitive, tedious tasks. Time will tell where this technology goes, but I doubt I&rsquo;ll be going back to coding without AI anytime soon.</p>
+
+      </article>
+    </div>
+  </div>
+
+  
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+      <hr class="m-0"/>
+    </div>
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-2">
+      
+      <div class="blog-tags">
+        
+        <a href="https://www.kevssite.com/tags/linux/">linux</a>
+        
+        <a href="https://www.kevssite.com/tags/cli/">cli</a>
+        
+        <a href="https://www.kevssite.com/tags/ssh/">ssh</a>
+        
+        <a href="https://www.kevssite.com/tags/zx81/">zx81</a>
+        
+      </div>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      
+    </div>
+
+    
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 mt-3">
+      <div class="card">
+        <div class="row no-gutters">
+          <div class="col-md-10">
+            <div class="card-body p-1.1">
+              <p class="p-0 m-0"><small class="text-muted">Written By</small></p>
+              <p class="card-text fs-5 m-0">
+
+                
+                Kev
+                
+
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="col-lg-8 offset-lg-2 col-md-12 offset-md-1 pt-4">
+      
+      <ul class="list-group list-group-horizontal" style="flex-direction: row">
+        
+        <li class="list-group-item b-0 p-0">
+
+          <a type="button" class="btn btn-dark" role="button" href="https://www.kevssite.com/cli-labyrinth-game/"
+            data-toggle="tooltip" data-placement="top" title="CLI-Labyrinth">&larr;
+            Previous Post</a>
+        </li>
+        
+
+
+        
+      </ul>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+    </div>
+  </div>
+  
+</div>
+
+<div class="">
+  
+  
+  
+  
+  
+
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 mt-3">
+        <h3>Related Posts</h3>
+        <hr />
+      </div>
+
+      
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
+    <a href="https://www.kevssite.com/cli-labyrinth-game/">
+        <div class="card single-post-card h-100 shadow-effect border rounded-4">
+            <div class="card-body">
+                <h3 class="fw-medium post-title">CLI-Labyrinth</h3>
+                
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
+  
+  
+
+  March 2, 2024
+
+  
+  (Last modified on March 31, 2024)
+  
+
+  
+
+  
+
+  
+</span>
+
+                </p>
+            </div>
+
+            
+            <img src="/img/cli-labyrinth_hu_748ecc925d1f3574.png" alt="/img/cli-labyrinth.png" class="img-fluid lazyload">
+            
+
+            
+
+            <div class="card-body">
+                
+                <div class="post-entry text-secondary">
+                    
+                    
+One of the very first games I ever played on a home computer was a maze game called Labyrinth on the Sinclair ZX81. So when I wanted to learn Golang and delve a little deeper into terminal cli development, I decided to start with a simple maze game that could be run in a shell on the Linux command line.
+As you can see from the screenshot, the graphics could, at best, be describes as very basic. But as a learning project, I’m quite pleased with the result.
+
+                    
+                </div>
+
+                <div class="read-more-section">
+                    <h6 class="text-muted ">Read More <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
+    <a href="https://www.kevssite.com/connect-to-postgresql-using-an-ssh-tunnel/">
+        <div class="card single-post-card h-100 shadow-effect border rounded-4">
+            <div class="card-body">
+                <h3 class="fw-medium post-title">Connect to PostgreSQL using an SSH tunnel</h3>
+                
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
+  
+  
+
+  January 4, 2014
+
+  
+
+  
+
+  
+
+  
+</span>
+
+                </p>
+            </div>
+
+            
+
+            
+
+            <div class="card-body">
+                
+                <div class="post-entry text-secondary">
+                    
+                    Using an SSH tunnel is a great way to administer remote services without having to directly expose them to the internet. You basically forward a port from your local machine (e.g. your Linux desktop) to a port on the remote server. You can then connect to the port on localhost and the magic of ssh will forward the port securely to the remote machine. To the remote server you&rsquo;ve connected locally on localhost!
+
+                    
+                </div>
+
+                <div class="read-more-section">
+                    <h6 class="text-muted ">Read More <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-4">
+    <a href="https://www.kevssite.com/how-to-speed-up-a-slow-ssh-login/">
+        <div class="card single-post-card h-100 shadow-effect border rounded-4">
+            <div class="card-body">
+                <h3 class="fw-medium post-title">How to speed up a slow SSH login</h3>
+                
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
+  
+  
+
+  October 10, 2013
+
+  
+
+  
+
+  
+
+  
+</span>
+
+                </p>
+            </div>
+
+            
+
+            
+
+            <div class="card-body">
+                
+                <div class="post-entry text-secondary">
+                    
+                    I recently started using the excellent digital ocean for some of my cloud server hosting. When logging into my servers there was quite a delay, often a minute or more, before the password prompt appeared. I was getting the same delay when I use SSH keys for authentication too.
+
+                    
+                </div>
+
+                <div class="read-more-section">
+                    <h6 class="text-muted ">Read More <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+      
+    </div>
+  </div>
+  
+  
+
+  
+
+</div>
+
+    
+
+
+<footer>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul
+          class="list-inline list-group list-group-horizontal text-center footer-links d-flex justify-content-center flex-row">
+
+          
+          <li>
+            <a href="https://github.com/YorkshireKev" title="GitHub" target="_blank" rel="noopener noreferrer">
+              <span class="mx-2">
+                <i class="bi bi-github"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/YorkshireKev" title="Twitter" target="_blank" rel="noopener noreferrer">
+              <span class="mx-2">
+                <i class="bi bi-twitter-x"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/elliskevin" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+              <span class="mx-2">
+                <i class="bi bi-linkedin"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@kevschannel" title="Youtube" target="_blank" rel="noopener noreferrer">
+              <span class="mx-2">
+                <i class="bi bi-youtube"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p class="credits copyright text-muted">
+          
+          &nbsp;&copy;
+          
+          2009 - 2026
+          
+          Kevin Ellis
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://www.kevssite.com/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://www.kevssite.com/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> 
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("pre.chroma").forEach(function (element) {
+    element.style.padding = "0";
+  });
+});
+</script>
+    
+  </body>
+</html>
+

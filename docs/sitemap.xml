@@ -3,33 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.kevssite.com/categories/</loc>
-    <lastmod>2025-02-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.kevssite.com/tags/cli/</loc>
-    <lastmod>2024-03-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.kevssite.com/cli-labyrinth-game/</loc>
-    <lastmod>2024-03-31T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.kevssite.com/categories/games/</loc>
-    <lastmod>2025-02-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.kevssite.com/</loc>
-    <lastmod>2025-02-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.kevssite.com/tags/linux/</loc>
-    <lastmod>2024-03-31T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.kevssite.com/post/</loc>
-    <lastmod>2025-02-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.kevssite.com/tags/ssh/</loc>
-    <lastmod>2024-03-31T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.kevssite.com/tags/</loc>
-    <lastmod>2025-02-13T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.kevssite.com/termzogs-game/</loc>
+    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.kevssite.com/tags/zx81/</loc>
+    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.kevssite.com/cli-labyrinth-game/</loc>
     <lastmod>2024-03-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.kevssite.com/tags/dvgrab/</loc>
@@ -480,7 +483,13 @@
   </url><url>
     <loc>https://www.kevssite.com/bloxed/</loc>
   </url><url>
+    <loc>https://www.kevssite.com/central-cavern-web/</loc>
+  </url><url>
+    <loc>https://www.kevssite.com/cli-labyrinth/</loc>
+  </url><url>
     <loc>https://www.kevssite.com/retrocadia-web/</loc>
+  </url><url>
+    <loc>https://www.kevssite.com/termzogs/</loc>
   </url><url>
     <loc>https://www.kevssite.com/page/</loc>
   </url>
